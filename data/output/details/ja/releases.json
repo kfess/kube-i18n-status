@@ -1,17 +1,277 @@
 {
-  "content/en/releases/_index.md": {
-    "target_path": "content/ja/releases/_index.md",
-    "english_path": "content/en/releases/_index.md",
-    "target_latest_date": "2024-01-31T22:07:21+09:00",
-    "english_latest_date": "2024-05-03T05:24:03-07:00",
-    "days_behind": 92,
-    "commits_behind": 1,
-    "total_change_lines": 3,
-    "insertions_behind_lines": 3,
-    "deletions_behind_lines": 0,
+  "content/en/releases/download.md": {
+    "targetPath": "content/ja/releases/download.md",
+    "englishPath": "content/en/releases/download.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2023-11-24T08:59:54+01:00",
+    "daysBehind": 570,
+    "commitsBehind": 12,
+    "totalChangeLines": 306,
+    "insertionsBehindLines": 194,
+    "deletionsBehindLines": 112,
+    "status": "not_translated",
+    "severity": "significant",
+    "missingCommits": [
+      {
+        "hash": "b397a8f882295e987994680867292efdb22698ff",
+        "date": "2023-11-24 08:59:54 +0100",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #44066 from sftim/20231124_revise_download_page",
+        "path": "content/en/releases/download.md",
+        "insertions": 12,
+        "deletions": 19,
+        "operation": "modified"
+      },
+      {
+        "hash": "1e49e384a11536153bb2059547c372dc9e30cb6e",
+        "date": "2023-11-23 19:15:30 +0100",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #44062 from saschagrunert/images",
+        "path": "content/en/releases/download.md",
+        "insertions": 21,
+        "deletions": 6,
+        "operation": "modified"
+      },
+      {
+        "hash": "8e2d82783b9f4b1a4f8f6d850376ce7de0df39fe",
+        "date": "2023-11-14 08:07:47 +0100",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #41687 from dipesh-rawat/integrate-downloadkubernetes",
+        "path": "content/en/releases/download.md",
+        "insertions": 19,
+        "deletions": 22,
+        "operation": "modified"
+      },
+      {
+        "hash": "35b96372233326887f40522f0643c46104718f83",
+        "date": "2023-10-10 04:50:19 +0200",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #42414 from windsonsea/releasey",
+        "path": "content/en/releases/download.md",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "3df20c4573e2aec8e3de31665b4add914267381f",
+        "date": "2023-05-07 06:21:15 +0530",
+        "author": "Rijul Gulati",
+        "message": "Fixed SBOM command and bumped SPDX version to 2.3 (#40982)",
+        "path": "content/en/releases/download.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "6bf15f514bc4570eca73a67029f5b7c85b965e80",
+        "date": "2023-05-03 00:38:12 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #40692 from sftim/20230414_automatically_use_latest_patch_for_minor_version",
+        "path": "content/en/releases/download.md",
+        "insertions": 8,
+        "deletions": 8,
+        "operation": "modified"
+      },
+      {
+        "hash": "e745cad15713bd85cc92301dba65e1884b1590e2",
+        "date": "2023-02-08 04:40:59 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #39342 from reylejano/update-release-downloads",
+        "path": "content/en/releases/download.md",
+        "insertions": 6,
+        "deletions": 37,
+        "operation": "modified"
+      },
+      {
+        "hash": "8233fa28dd95196f214376ee166aa84dc126f154",
+        "date": "2022-12-09 21:31:41 -0300",
+        "author": "Carol Valencia",
+        "message": "Merge pull request #37810 from kubernetes/dev-1.26",
+        "path": "content/en/releases/download.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "ff8b2b4c4ddab12ac61bbc9b4c6ab24efa6e2545",
+        "date": "2022-08-25 07:10:07 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #36270 from rohitg00/main",
+        "path": "content/en/releases/download.md",
+        "insertions": 7,
+        "deletions": 8,
+        "operation": "modified"
+      },
+      {
+        "hash": "a7b70637276b0e2a291ea63ec390de37409ea3c3",
+        "date": "2022-08-09 18:22:28 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #35827 from AevaOnline/patch-1",
+        "path": "content/en/releases/download.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "f6b4fedd70632144f25d661b63af2ff0f251e315",
+        "date": "2022-05-03 15:16:36 -0700",
+        "author": "Nate W",
+        "message": "Merge pull request #31225 from kubernetes/dev-1.24",
+        "path": "content/en/releases/download.md",
+        "insertions": 87,
+        "deletions": 4,
+        "operation": "modified"
+      },
+      {
+        "hash": "6845b647bb64130b0fcdc1f0c6d5429c610bf6d3",
+        "date": "2021-05-12 01:11:38 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #27929 from jimangel/release-page-v2.0",
+        "path": "content/en/releases/download.md",
+        "insertions": 26,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/releases/release.md": {
+    "targetPath": "content/ja/releases/release.md",
+    "englishPath": "content/en/releases/release.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2025-01-09T07:16:32-08:00",
+    "daysBehind": 157,
+    "commitsBehind": 11,
+    "totalChangeLines": 474,
+    "insertionsBehindLines": 421,
+    "deletionsBehindLines": 53,
+    "status": "not_translated",
+    "severity": "significant",
+    "missingCommits": [
+      {
+        "hash": "def662d92dc84d267afcda6dc1077b147f824de6",
+        "date": "2025-01-09 07:16:32 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #48833 from gracenng/patch-1",
+        "path": "content/en/releases/release.md",
+        "insertions": 2,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "7494f778cdfff70661860beba7c2ddefa4a4b7c0",
+        "date": "2024-12-12 00:08:02 +0000",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #48838 from sftim/20241125_release_info_script_tweak",
+        "path": "content/en/releases/release.md",
+        "insertions": 7,
+        "deletions": 6,
+        "operation": "modified"
+      },
+      {
+        "hash": "01ac54510af16face8eb1fc83a73b91dae532f78",
+        "date": "2023-11-14 14:22:29 +0200",
+        "author": "Maksym Vlasov",
+        "message": "[en] Mention kubernetes/websites everywhere in the same way (#40493)",
+        "path": "content/en/releases/release.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "29a4d24abbce54beb93b07153c752cdcb4f07c4b",
+        "date": "2022-07-13 17:52:57 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #34976 from ayatk/migrate-latest-version-doc",
+        "path": "content/en/releases/release.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "d7627ba6979b0e01fdb091f876ee459248c60b66",
+        "date": "2022-07-10 20:25:47 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #34918 from howieyuen/release-en",
+        "path": "content/en/releases/release.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "d787e9e921a1961bfa977a4f1c22a7ae0725c5a7",
+        "date": "2022-07-01 17:57:23 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #34719 from Sea-n/fix-release-links",
+        "path": "content/en/releases/release.md",
+        "insertions": 4,
+        "deletions": 4,
+        "operation": "modified"
+      },
+      {
+        "hash": "a290d0c943bbeef280fd29d6e17b4627c766f9d1",
+        "date": "2022-06-16 06:36:49 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #34049 from howieyuen/release-en",
+        "path": "content/en/releases/release.md",
+        "insertions": 24,
+        "deletions": 24,
+        "operation": "modified"
+      },
+      {
+        "hash": "2d869fc314ee41817120abc35bf1c8d69ab3d24a",
+        "date": "2022-06-13 20:55:49 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #34155 from Sea-n/design-proposals-archive",
+        "path": "content/en/releases/release.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "d9f1f90b783778b78670389c08fa5a10f1eecba6",
+        "date": "2021-06-04 01:47:26 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #28247 from himanshu007-creator/master",
+        "path": "content/en/releases/release.md",
+        "insertions": 13,
+        "deletions": 12,
+        "operation": "modified"
+      },
+      {
+        "hash": "726587e8adcb405665e1af9c7f2401a122e56aad",
+        "date": "2021-05-20 01:43:05 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #27997 from justaugustus/patch-release",
+        "path": "content/en/releases/release.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "6845b647bb64130b0fcdc1f0c6d5429c610bf6d3",
+        "date": "2021-05-12 01:11:38 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #27929 from jimangel/release-page-v2.0",
+        "path": "content/en/releases/release.md",
+        "insertions": 364,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/releases/Index.md": {
+    "targetPath": "content/ja/releases/_index.md",
+    "englishPath": "content/en/releases/_index.md",
+    "targetLatestDate": "2024-01-31T22:07:21+09:00",
+    "englishLatestDate": "2024-05-03T05:24:03-07:00",
+    "daysBehind": 92,
+    "commitsBehind": 1,
+    "totalChangeLines": 3,
+    "insertionsBehindLines": 3,
+    "deletionsBehindLines": 0,
     "status": "outdated",
     "severity": "minor",
-    "missing_commits": [
+    "missingCommits": [
       {
         "hash": "6dd5e893d9e8306c9617cfbbe62c7f51287244d9",
         "date": "2024-05-03 05:24:03 -0700",
@@ -24,19 +284,47 @@
       }
     ]
   },
+  "content/en/releases/notes.md": {
+    "targetPath": "content/ja/releases/notes.md",
+    "englishPath": "content/en/releases/notes.md",
+    "targetLatestDate": "2024-02-27T21:43:42-08:00",
+    "englishLatestDate": "2023-10-10T04:50:19+02:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/releases/version-skew-policy.md": {
+    "targetPath": "content/ja/releases/version-skew-policy.md",
+    "englishPath": "content/en/releases/version-skew-policy.md",
+    "targetLatestDate": "2025-05-27T09:08:19-07:00",
+    "englishLatestDate": "2023-10-10T04:50:19+02:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
   "content/en/releases/release-managers.md": {
-    "target_path": "content/ja/releases/release-managers.md",
-    "english_path": "content/en/releases/release-managers.md",
-    "target_latest_date": null,
-    "english_latest_date": "2025-04-18T21:45:07-07:00",
-    "days_behind": 58,
-    "commits_behind": 22,
-    "total_change_lines": 295,
-    "insertions_behind_lines": 248,
-    "deletions_behind_lines": 47,
+    "targetPath": "content/ja/releases/release-managers.md",
+    "englishPath": "content/en/releases/release-managers.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2025-04-18T21:45:07-07:00",
+    "daysBehind": 58,
+    "commitsBehind": 22,
+    "totalChangeLines": 295,
+    "insertionsBehindLines": 248,
+    "deletionsBehindLines": 47,
     "status": "not_translated",
     "severity": "significant",
-    "missing_commits": [
+    "missingCommits": [
       {
         "hash": "07794108de477f20800cfa245e550226f07bdb59",
         "date": "2025-04-18 21:45:07 -0700",
@@ -259,279 +547,19 @@
       }
     ]
   },
-  "content/en/releases/download.md": {
-    "target_path": "content/ja/releases/download.md",
-    "english_path": "content/en/releases/download.md",
-    "target_latest_date": null,
-    "english_latest_date": "2023-11-24T08:59:54+01:00",
-    "days_behind": 570,
-    "commits_behind": 12,
-    "total_change_lines": 306,
-    "insertions_behind_lines": 194,
-    "deletions_behind_lines": 112,
-    "status": "not_translated",
-    "severity": "significant",
-    "missing_commits": [
-      {
-        "hash": "b397a8f882295e987994680867292efdb22698ff",
-        "date": "2023-11-24 08:59:54 +0100",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #44066 from sftim/20231124_revise_download_page",
-        "path": "content/en/releases/download.md",
-        "insertions": 12,
-        "deletions": 19,
-        "operation": "modified"
-      },
-      {
-        "hash": "1e49e384a11536153bb2059547c372dc9e30cb6e",
-        "date": "2023-11-23 19:15:30 +0100",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #44062 from saschagrunert/images",
-        "path": "content/en/releases/download.md",
-        "insertions": 21,
-        "deletions": 6,
-        "operation": "modified"
-      },
-      {
-        "hash": "8e2d82783b9f4b1a4f8f6d850376ce7de0df39fe",
-        "date": "2023-11-14 08:07:47 +0100",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #41687 from dipesh-rawat/integrate-downloadkubernetes",
-        "path": "content/en/releases/download.md",
-        "insertions": 19,
-        "deletions": 22,
-        "operation": "modified"
-      },
-      {
-        "hash": "35b96372233326887f40522f0643c46104718f83",
-        "date": "2023-10-10 04:50:19 +0200",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #42414 from windsonsea/releasey",
-        "path": "content/en/releases/download.md",
-        "insertions": 3,
-        "deletions": 3,
-        "operation": "modified"
-      },
-      {
-        "hash": "3df20c4573e2aec8e3de31665b4add914267381f",
-        "date": "2023-05-07 06:21:15 +0530",
-        "author": "Rijul Gulati",
-        "message": "Fixed SBOM command and bumped SPDX version to 2.3 (#40982)",
-        "path": "content/en/releases/download.md",
-        "insertions": 2,
-        "deletions": 2,
-        "operation": "modified"
-      },
-      {
-        "hash": "6bf15f514bc4570eca73a67029f5b7c85b965e80",
-        "date": "2023-05-03 00:38:12 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #40692 from sftim/20230414_automatically_use_latest_patch_for_minor_version",
-        "path": "content/en/releases/download.md",
-        "insertions": 8,
-        "deletions": 8,
-        "operation": "modified"
-      },
-      {
-        "hash": "e745cad15713bd85cc92301dba65e1884b1590e2",
-        "date": "2023-02-08 04:40:59 -0800",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #39342 from reylejano/update-release-downloads",
-        "path": "content/en/releases/download.md",
-        "insertions": 6,
-        "deletions": 37,
-        "operation": "modified"
-      },
-      {
-        "hash": "8233fa28dd95196f214376ee166aa84dc126f154",
-        "date": "2022-12-09 21:31:41 -0300",
-        "author": "Carol Valencia",
-        "message": "Merge pull request #37810 from kubernetes/dev-1.26",
-        "path": "content/en/releases/download.md",
-        "insertions": 1,
-        "deletions": 1,
-        "operation": "modified"
-      },
-      {
-        "hash": "ff8b2b4c4ddab12ac61bbc9b4c6ab24efa6e2545",
-        "date": "2022-08-25 07:10:07 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #36270 from rohitg00/main",
-        "path": "content/en/releases/download.md",
-        "insertions": 7,
-        "deletions": 8,
-        "operation": "modified"
-      },
-      {
-        "hash": "a7b70637276b0e2a291ea63ec390de37409ea3c3",
-        "date": "2022-08-09 18:22:28 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #35827 from AevaOnline/patch-1",
-        "path": "content/en/releases/download.md",
-        "insertions": 2,
-        "deletions": 2,
-        "operation": "modified"
-      },
-      {
-        "hash": "f6b4fedd70632144f25d661b63af2ff0f251e315",
-        "date": "2022-05-03 15:16:36 -0700",
-        "author": "Nate W",
-        "message": "Merge pull request #31225 from kubernetes/dev-1.24",
-        "path": "content/en/releases/download.md",
-        "insertions": 87,
-        "deletions": 4,
-        "operation": "modified"
-      },
-      {
-        "hash": "6845b647bb64130b0fcdc1f0c6d5429c610bf6d3",
-        "date": "2021-05-12 01:11:38 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #27929 from jimangel/release-page-v2.0",
-        "path": "content/en/releases/download.md",
-        "insertions": 26,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
-  "content/en/releases/release.md": {
-    "target_path": "content/ja/releases/release.md",
-    "english_path": "content/en/releases/release.md",
-    "target_latest_date": null,
-    "english_latest_date": "2025-01-09T07:16:32-08:00",
-    "days_behind": 157,
-    "commits_behind": 11,
-    "total_change_lines": 474,
-    "insertions_behind_lines": 421,
-    "deletions_behind_lines": 53,
-    "status": "not_translated",
-    "severity": "significant",
-    "missing_commits": [
-      {
-        "hash": "def662d92dc84d267afcda6dc1077b147f824de6",
-        "date": "2025-01-09 07:16:32 -0800",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #48833 from gracenng/patch-1",
-        "path": "content/en/releases/release.md",
-        "insertions": 2,
-        "deletions": 0,
-        "operation": "modified"
-      },
-      {
-        "hash": "7494f778cdfff70661860beba7c2ddefa4a4b7c0",
-        "date": "2024-12-12 00:08:02 +0000",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #48838 from sftim/20241125_release_info_script_tweak",
-        "path": "content/en/releases/release.md",
-        "insertions": 7,
-        "deletions": 6,
-        "operation": "modified"
-      },
-      {
-        "hash": "01ac54510af16face8eb1fc83a73b91dae532f78",
-        "date": "2023-11-14 14:22:29 +0200",
-        "author": "Maksym Vlasov",
-        "message": "[en] Mention kubernetes/websites everywhere in the same way (#40493)",
-        "path": "content/en/releases/release.md",
-        "insertions": 1,
-        "deletions": 1,
-        "operation": "modified"
-      },
-      {
-        "hash": "29a4d24abbce54beb93b07153c752cdcb4f07c4b",
-        "date": "2022-07-13 17:52:57 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #34976 from ayatk/migrate-latest-version-doc",
-        "path": "content/en/releases/release.md",
-        "insertions": 1,
-        "deletions": 1,
-        "operation": "modified"
-      },
-      {
-        "hash": "d7627ba6979b0e01fdb091f876ee459248c60b66",
-        "date": "2022-07-10 20:25:47 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #34918 from howieyuen/release-en",
-        "path": "content/en/releases/release.md",
-        "insertions": 2,
-        "deletions": 2,
-        "operation": "modified"
-      },
-      {
-        "hash": "d787e9e921a1961bfa977a4f1c22a7ae0725c5a7",
-        "date": "2022-07-01 17:57:23 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #34719 from Sea-n/fix-release-links",
-        "path": "content/en/releases/release.md",
-        "insertions": 4,
-        "deletions": 4,
-        "operation": "modified"
-      },
-      {
-        "hash": "a290d0c943bbeef280fd29d6e17b4627c766f9d1",
-        "date": "2022-06-16 06:36:49 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #34049 from howieyuen/release-en",
-        "path": "content/en/releases/release.md",
-        "insertions": 24,
-        "deletions": 24,
-        "operation": "modified"
-      },
-      {
-        "hash": "2d869fc314ee41817120abc35bf1c8d69ab3d24a",
-        "date": "2022-06-13 20:55:49 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #34155 from Sea-n/design-proposals-archive",
-        "path": "content/en/releases/release.md",
-        "insertions": 1,
-        "deletions": 1,
-        "operation": "modified"
-      },
-      {
-        "hash": "d9f1f90b783778b78670389c08fa5a10f1eecba6",
-        "date": "2021-06-04 01:47:26 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #28247 from himanshu007-creator/master",
-        "path": "content/en/releases/release.md",
-        "insertions": 13,
-        "deletions": 12,
-        "operation": "modified"
-      },
-      {
-        "hash": "726587e8adcb405665e1af9c7f2401a122e56aad",
-        "date": "2021-05-20 01:43:05 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #27997 from justaugustus/patch-release",
-        "path": "content/en/releases/release.md",
-        "insertions": 2,
-        "deletions": 2,
-        "operation": "modified"
-      },
-      {
-        "hash": "6845b647bb64130b0fcdc1f0c6d5429c610bf6d3",
-        "date": "2021-05-12 01:11:38 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #27929 from jimangel/release-page-v2.0",
-        "path": "content/en/releases/release.md",
-        "insertions": 364,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
   "content/en/releases/patch-releases.md": {
-    "target_path": "content/ja/releases/patch-releases.md",
-    "english_path": "content/en/releases/patch-releases.md",
-    "target_latest_date": null,
-    "english_latest_date": "2024-10-21T16:42:51+01:00",
-    "days_behind": 237,
-    "commits_behind": 57,
-    "total_change_lines": 945,
-    "insertions_behind_lines": 520,
-    "deletions_behind_lines": 425,
+    "targetPath": "content/ja/releases/patch-releases.md",
+    "englishPath": "content/en/releases/patch-releases.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2024-10-21T16:42:51+01:00",
+    "daysBehind": 237,
+    "commitsBehind": 57,
+    "totalChangeLines": 945,
+    "insertionsBehindLines": 520,
+    "deletionsBehindLines": 425,
     "status": "not_translated",
     "severity": "critical",
-    "missing_commits": [
+    "missingCommits": [
       {
         "hash": "f962ee6ccd088ca1e56318058fe0b7116a22525b",
         "date": "2024-10-21 16:42:51 +0100",
@@ -1103,33 +1131,5 @@
         "operation": "added"
       }
     ]
-  },
-  "content/en/releases/notes.md": {
-    "target_path": "content/ja/releases/notes.md",
-    "english_path": "content/en/releases/notes.md",
-    "target_latest_date": "2024-02-27T21:43:42-08:00",
-    "english_latest_date": "2023-10-10T04:50:19+02:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
-  },
-  "content/en/releases/version-skew-policy.md": {
-    "target_path": "content/ja/releases/version-skew-policy.md",
-    "english_path": "content/en/releases/version-skew-policy.md",
-    "target_latest_date": "2025-05-27T09:08:19-07:00",
-    "english_latest_date": "2023-10-10T04:50:19+02:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
   }
 }

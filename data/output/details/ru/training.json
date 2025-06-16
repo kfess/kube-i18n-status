@@ -1,17 +1,17 @@
 {
-  "content/en/training/_index.html": {
-    "target_path": "content/ru/training/_index.html",
-    "english_path": "content/en/training/_index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2025-05-26T23:02:16-07:00",
-    "days_behind": 20,
-    "commits_behind": 14,
-    "total_change_lines": 359,
-    "insertions_behind_lines": 268,
-    "deletions_behind_lines": 91,
+  "content/en/training/Index.html": {
+    "targetPath": "content/ru/training/_index.html",
+    "englishPath": "content/en/training/_index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2025-05-26T23:02:16-07:00",
+    "daysBehind": 20,
+    "commitsBehind": 14,
+    "totalChangeLines": 359,
+    "insertionsBehindLines": 268,
+    "deletionsBehindLines": 91,
     "status": "not_translated",
     "severity": "significant",
-    "missing_commits": [
+    "missingCommits": [
       {
         "hash": "10b4d1e658d23bb210ad39fbb9387e98aa22301c",
         "date": "2025-05-26 23:02:16 -0700",

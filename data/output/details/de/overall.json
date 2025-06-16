@@ -1,16 +1,16 @@
 {
-  "content/en/_index.html": {
-    "target_path": "content/de/_index.html",
-    "english_path": "content/en/_index.html",
-    "target_latest_date": "2025-05-20T02:41:15-07:00",
-    "english_latest_date": "2025-04-29T17:01:54-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
+  "content/en/Index.html": {
+    "targetPath": "content/de/_index.html",
+    "englishPath": "content/en/_index.html",
+    "targetLatestDate": "2025-05-20T02:41:15-07:00",
+    "englishLatestDate": "2025-04-29T17:01:54-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
     "status": "up_to_date",
     "severity": "current",
-    "missing_commits": []
+    "missingCommits": []
   }
 }

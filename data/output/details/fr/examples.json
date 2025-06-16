@@ -1,17 +1,17 @@
 {
   "content/en/examples/README.md": {
-    "target_path": "content/fr/examples/README.md",
-    "english_path": "content/en/examples/README.md",
-    "target_latest_date": null,
-    "english_latest_date": "2022-04-25T21:42:52-07:00",
-    "days_behind": 1147,
-    "commits_behind": 3,
-    "total_change_lines": 33,
-    "insertions_behind_lines": 22,
-    "deletions_behind_lines": 11,
+    "targetPath": "content/fr/examples/README.md",
+    "englishPath": "content/en/examples/README.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2022-04-25T21:42:52-07:00",
+    "daysBehind": 1147,
+    "commitsBehind": 3,
+    "totalChangeLines": 33,
+    "insertionsBehindLines": 22,
+    "deletionsBehindLines": 11,
     "status": "not_translated",
     "severity": "minor",
-    "missing_commits": [
+    "missingCommits": [
       {
         "hash": "eed5cc1598c6b588a1ab90b800408c77dc016ea0",
         "date": "2022-04-25 21:42:52 -0700",

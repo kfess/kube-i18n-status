@@ -1,70 +1,31 @@
 {
-  "content/en/releases/_index.md": {
-    "target_path": "content/vi/releases/_index.md",
-    "english_path": "content/en/releases/_index.md",
-    "target_latest_date": "2025-03-16T19:23:46-07:00",
-    "english_latest_date": "2024-05-03T05:24:03-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
-  },
-  "content/en/releases/release-managers.md": {
-    "target_path": "content/vi/releases/release-managers.md",
-    "english_path": "content/en/releases/release-managers.md",
-    "target_latest_date": "2025-04-18T10:17:07-07:00",
-    "english_latest_date": "2025-04-18T21:45:07-07:00",
-    "days_behind": 0,
-    "commits_behind": 1,
-    "total_change_lines": 2,
-    "insertions_behind_lines": 1,
-    "deletions_behind_lines": 1,
-    "status": "up_to_date",
-    "severity": "minor",
-    "missing_commits": [
-      {
-        "hash": "07794108de477f20800cfa245e550226f07bdb59",
-        "date": "2025-04-18 21:45:07 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #50150 from khanhtc1202/fix-missing-link",
-        "path": "content/en/releases/release-managers.md",
-        "insertions": 1,
-        "deletions": 1,
-        "operation": "modified"
-      }
-    ]
-  },
   "content/en/releases/download.md": {
-    "target_path": "content/vi/releases/download.md",
-    "english_path": "content/en/releases/download.md",
-    "target_latest_date": "2025-03-17T18:31:50-07:00",
-    "english_latest_date": "2023-11-24T08:59:54+01:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
+    "targetPath": "content/vi/releases/download.md",
+    "englishPath": "content/en/releases/download.md",
+    "targetLatestDate": "2025-03-17T18:31:50-07:00",
+    "englishLatestDate": "2023-11-24T08:59:54+01:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
     "status": "up_to_date",
     "severity": "current",
-    "missing_commits": []
+    "missingCommits": []
   },
   "content/en/releases/release.md": {
-    "target_path": "content/vi/releases/release.md",
-    "english_path": "content/en/releases/release.md",
-    "target_latest_date": null,
-    "english_latest_date": "2025-01-09T07:16:32-08:00",
-    "days_behind": 157,
-    "commits_behind": 11,
-    "total_change_lines": 474,
-    "insertions_behind_lines": 421,
-    "deletions_behind_lines": 53,
+    "targetPath": "content/vi/releases/release.md",
+    "englishPath": "content/en/releases/release.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2025-01-09T07:16:32-08:00",
+    "daysBehind": 157,
+    "commitsBehind": 11,
+    "totalChangeLines": 474,
+    "insertionsBehindLines": 421,
+    "deletionsBehindLines": 53,
     "status": "not_translated",
     "severity": "significant",
-    "missing_commits": [
+    "missingCommits": [
       {
         "hash": "def662d92dc84d267afcda6dc1077b147f824de6",
         "date": "2025-01-09 07:16:32 -0800",
@@ -177,19 +138,86 @@
       }
     ]
   },
+  "content/en/releases/Index.md": {
+    "targetPath": "content/vi/releases/_index.md",
+    "englishPath": "content/en/releases/_index.md",
+    "targetLatestDate": "2025-03-16T19:23:46-07:00",
+    "englishLatestDate": "2024-05-03T05:24:03-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/releases/notes.md": {
+    "targetPath": "content/vi/releases/notes.md",
+    "englishPath": "content/en/releases/notes.md",
+    "targetLatestDate": "2025-03-15T06:27:47-07:00",
+    "englishLatestDate": "2023-10-10T04:50:19+02:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/releases/version-skew-policy.md": {
+    "targetPath": "content/vi/releases/version-skew-policy.md",
+    "englishPath": "content/en/releases/version-skew-policy.md",
+    "targetLatestDate": "2025-03-16T19:23:46-07:00",
+    "englishLatestDate": "2023-10-10T04:50:19+02:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/releases/release-managers.md": {
+    "targetPath": "content/vi/releases/release-managers.md",
+    "englishPath": "content/en/releases/release-managers.md",
+    "targetLatestDate": "2025-04-18T10:17:07-07:00",
+    "englishLatestDate": "2025-04-18T21:45:07-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 1,
+    "totalChangeLines": 2,
+    "insertionsBehindLines": 1,
+    "deletionsBehindLines": 1,
+    "status": "up_to_date",
+    "severity": "minor",
+    "missingCommits": [
+      {
+        "hash": "07794108de477f20800cfa245e550226f07bdb59",
+        "date": "2025-04-18 21:45:07 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #50150 from khanhtc1202/fix-missing-link",
+        "path": "content/en/releases/release-managers.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      }
+    ]
+  },
   "content/en/releases/patch-releases.md": {
-    "target_path": "content/vi/releases/patch-releases.md",
-    "english_path": "content/en/releases/patch-releases.md",
-    "target_latest_date": null,
-    "english_latest_date": "2024-10-21T16:42:51+01:00",
-    "days_behind": 237,
-    "commits_behind": 57,
-    "total_change_lines": 945,
-    "insertions_behind_lines": 520,
-    "deletions_behind_lines": 425,
+    "targetPath": "content/vi/releases/patch-releases.md",
+    "englishPath": "content/en/releases/patch-releases.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2024-10-21T16:42:51+01:00",
+    "daysBehind": 237,
+    "commitsBehind": 57,
+    "totalChangeLines": 945,
+    "insertionsBehindLines": 520,
+    "deletionsBehindLines": 425,
     "status": "not_translated",
     "severity": "critical",
-    "missing_commits": [
+    "missingCommits": [
       {
         "hash": "f962ee6ccd088ca1e56318058fe0b7116a22525b",
         "date": "2024-10-21 16:42:51 +0100",
@@ -761,33 +789,5 @@
         "operation": "added"
       }
     ]
-  },
-  "content/en/releases/notes.md": {
-    "target_path": "content/vi/releases/notes.md",
-    "english_path": "content/en/releases/notes.md",
-    "target_latest_date": "2025-03-15T06:27:47-07:00",
-    "english_latest_date": "2023-10-10T04:50:19+02:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
-  },
-  "content/en/releases/version-skew-policy.md": {
-    "target_path": "content/vi/releases/version-skew-policy.md",
-    "english_path": "content/en/releases/version-skew-policy.md",
-    "target_latest_date": "2025-03-16T19:23:46-07:00",
-    "english_latest_date": "2023-10-10T04:50:19+02:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
   }
 }

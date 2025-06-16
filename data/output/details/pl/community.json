@@ -1,17 +1,17 @@
 {
-  "content/en/community/_index.html": {
-    "target_path": "content/pl/community/_index.html",
-    "english_path": "content/en/community/_index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2025-06-05T05:40:39-07:00",
-    "days_behind": 10,
-    "commits_behind": 21,
-    "total_change_lines": 1019,
-    "insertions_behind_lines": 609,
-    "deletions_behind_lines": 410,
+  "content/en/community/Index.html": {
+    "targetPath": "content/pl/community/_index.html",
+    "englishPath": "content/en/community/_index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2025-06-05T05:40:39-07:00",
+    "daysBehind": 11,
+    "commitsBehind": 21,
+    "totalChangeLines": 1019,
+    "insertionsBehindLines": 609,
+    "deletionsBehindLines": 410,
     "status": "not_translated",
     "severity": "critical",
-    "missing_commits": [
+    "missingCommits": [
       {
         "hash": "d191629db65eb3e3e321eaa153ee4f5b2431f1dc",
         "date": "2025-06-05 05:40:39 -0700",
@@ -224,54 +224,19 @@
       }
     ]
   },
-  "content/en/community/static/README.md": {
-    "target_path": "content/pl/community/static/README.md",
-    "english_path": "content/en/community/static/README.md",
-    "target_latest_date": null,
-    "english_latest_date": "2022-03-24T17:19:50-07:00",
-    "days_behind": 1179,
-    "commits_behind": 2,
-    "total_change_lines": 7,
-    "insertions_behind_lines": 6,
-    "deletions_behind_lines": 1,
-    "status": "not_translated",
-    "severity": "minor",
-    "missing_commits": [
-      {
-        "hash": "e7af510fde0990e32466230013f60e4ff7ec190f",
-        "date": "2022-03-24 17:19:50 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #31658 from sftim/20220207_revise_community_page_and_styles",
-        "path": "content/en/community/static/README.md",
-        "insertions": 4,
-        "deletions": 1,
-        "operation": "modified"
-      },
-      {
-        "hash": "85e3040dfac3ab110290a1abb50d90650e9b0bcd",
-        "date": "2018-07-09 12:12:17 -0700",
-        "author": "Misty Linville",
-        "message": "Use static content for code of conduct (#9355)",
-        "path": "content/en/community/static/README.md",
-        "insertions": 2,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
   "content/en/community/static/cncf-code-of-conduct.md": {
-    "target_path": "content/pl/community/static/cncf-code-of-conduct.md",
-    "english_path": "content/en/community/static/cncf-code-of-conduct.md",
-    "target_latest_date": null,
-    "english_latest_date": "2024-10-29T00:12:54+00:00",
-    "days_behind": 230,
-    "commits_behind": 11,
-    "total_change_lines": 249,
-    "insertions_behind_lines": 167,
-    "deletions_behind_lines": 82,
+    "targetPath": "content/pl/community/static/cncf-code-of-conduct.md",
+    "englishPath": "content/en/community/static/cncf-code-of-conduct.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2024-10-29T00:12:54+00:00",
+    "daysBehind": 230,
+    "commitsBehind": 11,
+    "totalChangeLines": 249,
+    "insertionsBehindLines": 167,
+    "deletionsBehindLines": 82,
     "status": "not_translated",
     "severity": "significant",
-    "missing_commits": [
+    "missingCommits": [
       {
         "hash": "a634c1ae9d9aa759ed6e9d6e654130ab0ff8f023",
         "date": "2024-10-29 00:12:54 +0000",
@@ -384,19 +349,54 @@
       }
     ]
   },
+  "content/en/community/static/README.md": {
+    "targetPath": "content/pl/community/static/README.md",
+    "englishPath": "content/en/community/static/README.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2022-03-24T17:19:50-07:00",
+    "daysBehind": 1179,
+    "commitsBehind": 2,
+    "totalChangeLines": 7,
+    "insertionsBehindLines": 6,
+    "deletionsBehindLines": 1,
+    "status": "not_translated",
+    "severity": "minor",
+    "missingCommits": [
+      {
+        "hash": "e7af510fde0990e32466230013f60e4ff7ec190f",
+        "date": "2022-03-24 17:19:50 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #31658 from sftim/20220207_revise_community_page_and_styles",
+        "path": "content/en/community/static/README.md",
+        "insertions": 4,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "85e3040dfac3ab110290a1abb50d90650e9b0bcd",
+        "date": "2018-07-09 12:12:17 -0700",
+        "author": "Misty Linville",
+        "message": "Use static content for code of conduct (#9355)",
+        "path": "content/en/community/static/README.md",
+        "insertions": 2,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
   "content/en/community/code-of-conduct.md": {
-    "target_path": "content/pl/community/code-of-conduct.md",
-    "english_path": "content/en/community/code-of-conduct.md",
-    "target_latest_date": null,
-    "english_latest_date": "2024-04-29T21:40:35-07:00",
-    "days_behind": 412,
-    "commits_behind": 11,
-    "total_change_lines": 103,
-    "insertions_behind_lines": 64,
-    "deletions_behind_lines": 39,
+    "targetPath": "content/pl/community/code-of-conduct.md",
+    "englishPath": "content/en/community/code-of-conduct.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2024-04-29T21:40:35-07:00",
+    "daysBehind": 412,
+    "commitsBehind": 11,
+    "totalChangeLines": 103,
+    "insertionsBehindLines": 64,
+    "deletionsBehindLines": 39,
     "status": "not_translated",
     "severity": "moderate",
-    "missing_commits": [
+    "missingCommits": [
       {
         "hash": "0463f6955a2ea1eb9ffe0c1fc25c0566153b4380",
         "date": "2024-04-29 21:40:35 -0700",

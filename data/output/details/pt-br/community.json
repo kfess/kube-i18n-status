@@ -1,17 +1,17 @@
 {
-  "content/en/community/_index.html": {
-    "target_path": "content/pt-br/community/_index.html",
-    "english_path": "content/en/community/_index.html",
-    "target_latest_date": "2024-12-06T12:16:00+00:00",
-    "english_latest_date": "2025-06-05T05:40:39-07:00",
-    "days_behind": 181,
-    "commits_behind": 2,
-    "total_change_lines": 22,
-    "insertions_behind_lines": 17,
-    "deletions_behind_lines": 5,
+  "content/en/community/Index.html": {
+    "targetPath": "content/pt-br/community/_index.html",
+    "englishPath": "content/en/community/_index.html",
+    "targetLatestDate": "2024-12-06T12:16:00+00:00",
+    "englishLatestDate": "2025-06-05T05:40:39-07:00",
+    "daysBehind": 181,
+    "commitsBehind": 2,
+    "totalChangeLines": 22,
+    "insertionsBehindLines": 17,
+    "deletionsBehindLines": 5,
     "status": "outdated",
     "severity": "minor",
-    "missing_commits": [
+    "missingCommits": [
       {
         "hash": "d191629db65eb3e3e321eaa153ee4f5b2431f1dc",
         "date": "2025-06-05 05:40:39 -0700",
@@ -34,19 +34,33 @@
       }
     ]
   },
+  "content/en/community/static/cncf-code-of-conduct.md": {
+    "targetPath": "content/pt-br/community/static/cncf-code-of-conduct.md",
+    "englishPath": "content/en/community/static/cncf-code-of-conduct.md",
+    "targetLatestDate": "2024-11-05T20:19:30+00:00",
+    "englishLatestDate": "2024-10-29T00:12:54+00:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
   "content/en/community/static/README.md": {
-    "target_path": "content/pt-br/community/static/README.md",
-    "english_path": "content/en/community/static/README.md",
-    "target_latest_date": "2021-04-19T21:10:33-03:00",
-    "english_latest_date": "2022-03-24T17:19:50-07:00",
-    "days_behind": 339,
-    "commits_behind": 1,
-    "total_change_lines": 5,
-    "insertions_behind_lines": 4,
-    "deletions_behind_lines": 1,
+    "targetPath": "content/pt-br/community/static/README.md",
+    "englishPath": "content/en/community/static/README.md",
+    "targetLatestDate": "2021-04-19T21:10:33-03:00",
+    "englishLatestDate": "2022-03-24T17:19:50-07:00",
+    "daysBehind": 339,
+    "commitsBehind": 1,
+    "totalChangeLines": 5,
+    "insertionsBehindLines": 4,
+    "deletionsBehindLines": 1,
     "status": "outdated",
     "severity": "minor",
-    "missing_commits": [
+    "missingCommits": [
       {
         "hash": "e7af510fde0990e32466230013f60e4ff7ec190f",
         "date": "2022-03-24 17:19:50 -0700",
@@ -59,33 +73,19 @@
       }
     ]
   },
-  "content/en/community/static/cncf-code-of-conduct.md": {
-    "target_path": "content/pt-br/community/static/cncf-code-of-conduct.md",
-    "english_path": "content/en/community/static/cncf-code-of-conduct.md",
-    "target_latest_date": "2024-11-05T20:19:30+00:00",
-    "english_latest_date": "2024-10-29T00:12:54+00:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
-  },
   "content/en/community/code-of-conduct.md": {
-    "target_path": "content/pt-br/community/code-of-conduct.md",
-    "english_path": "content/en/community/code-of-conduct.md",
-    "target_latest_date": "2022-12-17T21:33:42-03:00",
-    "english_latest_date": "2024-04-29T21:40:35-07:00",
-    "days_behind": 499,
-    "commits_behind": 3,
-    "total_change_lines": 37,
-    "insertions_behind_lines": 16,
-    "deletions_behind_lines": 21,
+    "targetPath": "content/pt-br/community/code-of-conduct.md",
+    "englishPath": "content/en/community/code-of-conduct.md",
+    "targetLatestDate": "2022-12-17T21:33:42-03:00",
+    "englishLatestDate": "2024-04-29T21:40:35-07:00",
+    "daysBehind": 499,
+    "commitsBehind": 3,
+    "totalChangeLines": 37,
+    "insertionsBehindLines": 16,
+    "deletionsBehindLines": 21,
     "status": "outdated",
     "severity": "minor",
-    "missing_commits": [
+    "missingCommits": [
       {
         "hash": "0463f6955a2ea1eb9ffe0c1fc25c0566153b4380",
         "date": "2024-04-29 21:40:35 -0700",

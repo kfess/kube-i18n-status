@@ -1,17 +1,17 @@
 {
-  "content/en/community/_index.html": {
-    "target_path": "content/ru/community/_index.html",
-    "english_path": "content/en/community/_index.html",
-    "target_latest_date": "2023-11-16T18:04:45+01:00",
-    "english_latest_date": "2025-06-05T05:40:39-07:00",
-    "days_behind": 566,
-    "commits_behind": 4,
-    "total_change_lines": 30,
-    "insertions_behind_lines": 23,
-    "deletions_behind_lines": 7,
+  "content/en/community/Index.html": {
+    "targetPath": "content/ru/community/_index.html",
+    "englishPath": "content/en/community/_index.html",
+    "targetLatestDate": "2023-11-16T18:04:45+01:00",
+    "englishLatestDate": "2025-06-05T05:40:39-07:00",
+    "daysBehind": 566,
+    "commitsBehind": 4,
+    "totalChangeLines": 30,
+    "insertionsBehindLines": 23,
+    "deletionsBehindLines": 7,
     "status": "outdated",
     "severity": "minor",
-    "missing_commits": [
+    "missingCommits": [
       {
         "hash": "d191629db65eb3e3e321eaa153ee4f5b2431f1dc",
         "date": "2025-06-05 05:40:39 -0700",
@@ -54,33 +54,19 @@
       }
     ]
   },
-  "content/en/community/static/README.md": {
-    "target_path": "content/ru/community/static/README.md",
-    "english_path": "content/en/community/static/README.md",
-    "target_latest_date": "2022-03-26T08:19:20-07:00",
-    "english_latest_date": "2022-03-24T17:19:50-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
-  },
   "content/en/community/static/cncf-code-of-conduct.md": {
-    "target_path": "content/ru/community/static/cncf-code-of-conduct.md",
-    "english_path": "content/en/community/static/cncf-code-of-conduct.md",
-    "target_latest_date": "2020-09-27T08:38:48-07:00",
-    "english_latest_date": "2024-10-29T00:12:54+00:00",
-    "days_behind": 1492,
-    "commits_behind": 8,
-    "total_change_lines": 196,
-    "insertions_behind_lines": 118,
-    "deletions_behind_lines": 78,
+    "targetPath": "content/ru/community/static/cncf-code-of-conduct.md",
+    "englishPath": "content/en/community/static/cncf-code-of-conduct.md",
+    "targetLatestDate": "2020-09-27T08:38:48-07:00",
+    "englishLatestDate": "2024-10-29T00:12:54+00:00",
+    "daysBehind": 1492,
+    "commitsBehind": 8,
+    "totalChangeLines": 196,
+    "insertionsBehindLines": 118,
+    "deletionsBehindLines": 78,
     "status": "outdated",
     "severity": "moderate",
-    "missing_commits": [
+    "missingCommits": [
       {
         "hash": "a634c1ae9d9aa759ed6e9d6e654130ab0ff8f023",
         "date": "2024-10-29 00:12:54 +0000",
@@ -163,19 +149,33 @@
       }
     ]
   },
+  "content/en/community/static/README.md": {
+    "targetPath": "content/ru/community/static/README.md",
+    "englishPath": "content/en/community/static/README.md",
+    "targetLatestDate": "2022-03-26T08:19:20-07:00",
+    "englishLatestDate": "2022-03-24T17:19:50-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
   "content/en/community/code-of-conduct.md": {
-    "target_path": "content/ru/community/code-of-conduct.md",
-    "english_path": "content/en/community/code-of-conduct.md",
-    "target_latest_date": "2020-09-27T08:38:48-07:00",
-    "english_latest_date": "2024-04-29T21:40:35-07:00",
-    "days_behind": 1310,
-    "commits_behind": 7,
-    "total_change_lines": 62,
-    "insertions_behind_lines": 30,
-    "deletions_behind_lines": 32,
+    "targetPath": "content/ru/community/code-of-conduct.md",
+    "englishPath": "content/en/community/code-of-conduct.md",
+    "targetLatestDate": "2020-09-27T08:38:48-07:00",
+    "englishLatestDate": "2024-04-29T21:40:35-07:00",
+    "daysBehind": 1310,
+    "commitsBehind": 7,
+    "totalChangeLines": 62,
+    "insertionsBehindLines": 30,
+    "deletionsBehindLines": 32,
     "status": "outdated",
     "severity": "moderate",
-    "missing_commits": [
+    "missingCommits": [
       {
         "hash": "0463f6955a2ea1eb9ffe0c1fc25c0566153b4380",
         "date": "2024-04-29 21:40:35 -0700",

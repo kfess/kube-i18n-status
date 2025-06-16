@@ -1,17 +1,17 @@
 {
-  "content/en/_index.html": {
-    "target_path": "content/bn/_index.html",
-    "english_path": "content/en/_index.html",
-    "target_latest_date": "2025-03-24T07:02:34-07:00",
-    "english_latest_date": "2025-04-29T17:01:54-07:00",
-    "days_behind": 36,
-    "commits_behind": 1,
-    "total_change_lines": 4,
-    "insertions_behind_lines": 2,
-    "deletions_behind_lines": 2,
+  "content/en/Index.html": {
+    "targetPath": "content/bn/_index.html",
+    "englishPath": "content/en/_index.html",
+    "targetLatestDate": "2025-03-24T07:02:34-07:00",
+    "englishLatestDate": "2025-04-29T17:01:54-07:00",
+    "daysBehind": 36,
+    "commitsBehind": 1,
+    "totalChangeLines": 4,
+    "insertionsBehindLines": 2,
+    "deletionsBehindLines": 2,
     "status": "outdated",
     "severity": "minor",
-    "missing_commits": [
+    "missingCommits": [
       {
         "hash": "0825ae2f1eea024d54147c6b3a2aa9e2e2140475",
         "date": "2025-04-29 17:01:54 -0700",

@@ -1,10 +1,12 @@
 import json
+import re
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path, PurePosixPath
 from typing import Any
 
 from translation_status import TranslationStatusResult
+from utils import convert_keys_to_camel_case, serialize_datetime
 
 
 def should_process(result: TranslationStatusResult) -> bool:
@@ -31,23 +33,25 @@ def should_process(result: TranslationStatusResult) -> bool:
     return is_supported_extension(path) and is_known_category(result["category"])
 
 
-def _serialize_datetime(obj: object) -> str:
-    """JSON serializer for datetime objects.
+def extract_blog_date_from_en_path(en_path: str) -> str:
+    """Extract date from blog post path.
 
     Args:
     ----
-        obj (Any): The object to serialize.
+        en_path (str): The English file path.
 
     Returns:
     -------
-        str: ISO format string if obj is a datetime, otherwise raises TypeError.
+        str: The extracted date in YYYY-MM-DD format.
+
+    Example:
+    -------
+        content/en/blog/_posts/2024-10-02-xxxx.md -> 2024-10-02
+        content/ja/blog/_posts/2025-03-26.md -> 2025-03-26
 
     """
-    if isinstance(obj, datetime):
-        return obj.isoformat()
-
-    msg = f"Object of type {type(obj)} is not JSON serializable"
-    raise TypeError(msg)
+    match = re.search(r"content/en/blog/_posts/(\d{4}-\d{2}-\d{2})", en_path)
+    return match.group(1) if match else "0000-00-00"
 
 
 def create_matrix_data(
@@ -88,6 +92,14 @@ def create_matrix_data(
         article_data = {"english_path": english_path, "translations": translations}
         matrix_data[category]["articles"].append(article_data)
 
+    # Sort blog articles by date
+    for category, data in matrix_data.items():
+        if category == "blog":
+            data["articles"].sort(
+                key=lambda x: extract_blog_date_from_en_path(x["english_path"]),
+                reverse=True,
+            )
+
     return dict(matrix_data)
 
 
@@ -119,7 +131,12 @@ def save_matrix_files(
     for category, data in matrix_data.items():
         file_path = matrix_dir / f"{category}.json"
         with file_path.open("w", encoding="utf-8") as f:
-            json.dump(data, f, indent=2, default=_serialize_datetime)
+            json.dump(
+                convert_keys_to_camel_case(data),
+                f,
+                indent=2,
+                default=serialize_datetime,
+            )
 
 
 def save_detail_files(
@@ -156,7 +173,12 @@ def save_detail_files(
         for category, details in categories.items():
             file_path = lang_dir / f"{category}.json"
             with file_path.open("w", encoding="utf-8") as f:
-                json.dump(details, f, indent=2, default=_serialize_datetime)
+                json.dump(
+                    convert_keys_to_camel_case(details),
+                    f,
+                    indent=2,
+                    default=serialize_datetime,
+                )
 
 
 def process_translation_results(

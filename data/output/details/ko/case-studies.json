@@ -1,185 +1,17 @@
 {
-  "content/en/case-studies/adform/index.html": {
-    "target_path": "content/ko/case-studies/adform/index.html",
-    "english_path": "content/en/case-studies/adform/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
-  },
-  "content/en/case-studies/adidas/index.html": {
-    "target_path": "content/ko/case-studies/adidas/index.html",
-    "english_path": "content/en/case-studies/adidas/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 1699,
-    "commits_behind": 3,
-    "total_change_lines": 284,
-    "insertions_behind_lines": 181,
-    "deletions_behind_lines": 103,
-    "status": "not_translated",
-    "severity": "significant",
-    "missing_commits": [
-      {
-        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
-        "date": "2020-10-20 15:04:19 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
-        "path": "content/en/case-studies/adidas/index.html",
-        "insertions": 70,
-        "deletions": 100,
-        "operation": "modified"
-      },
-      {
-        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
-        "date": "2020-07-22 16:59:40 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
-        "path": "content/en/case-studies/adidas/index.html",
-        "insertions": 3,
-        "deletions": 3,
-        "operation": "modified"
-      },
-      {
-        "hash": "8121d3ea8ce7107a9dc16efebebed331f339adfe",
-        "date": "2020-01-08 18:53:40 -0500",
-        "author": "jkld11",
-        "message": "Add adidas case study (#17569)",
-        "path": "content/en/case-studies/adidas/index.html",
-        "insertions": 108,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
-  "content/en/case-studies/golfnow/index.html": {
-    "target_path": "content/ko/case-studies/golfnow/index.html",
-    "english_path": "content/en/case-studies/golfnow/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
-  },
-  "content/en/case-studies/blablacar/index.html": {
-    "target_path": "content/ko/case-studies/blablacar/index.html",
-    "english_path": "content/en/case-studies/blablacar/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2025-06-01T18:38:36-07:00",
-    "days_behind": 1458,
-    "commits_behind": 1,
-    "total_change_lines": 2,
-    "insertions_behind_lines": 1,
-    "deletions_behind_lines": 1,
-    "status": "outdated",
-    "severity": "minor",
-    "missing_commits": [
-      {
-        "hash": "c27efed5578cbf0e150b7971313c1897d5be3597",
-        "date": "2025-06-01 18:38:36 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #51130 from Arhell/en-kube",
-        "path": "content/en/case-studies/blablacar/index.html",
-        "insertions": 1,
-        "deletions": 1,
-        "operation": "modified"
-      }
-    ]
-  },
-  "content/en/case-studies/huawei/index.html": {
-    "target_path": "content/ko/case-studies/huawei/index.html",
-    "english_path": "content/en/case-studies/huawei/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2025-03-24T03:22:44-07:00",
-    "days_behind": 1388,
-    "commits_behind": 1,
-    "total_change_lines": 12,
-    "insertions_behind_lines": 6,
-    "deletions_behind_lines": 6,
-    "status": "outdated",
-    "severity": "minor",
-    "missing_commits": [
-      {
-        "hash": "a905738db44a3f90f2989e599d7b3c8d0894c641",
-        "date": "2025-03-24 03:22:44 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #50206 from windsonsea/huwcae",
-        "path": "content/en/case-studies/huawei/index.html",
-        "insertions": 6,
-        "deletions": 6,
-        "operation": "modified"
-      }
-    ]
-  },
-  "content/en/case-studies/city-of-montreal/index.html": {
-    "target_path": "content/ko/case-studies/city-of-montreal/index.html",
-    "english_path": "content/en/case-studies/city-of-montreal/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 1699,
-    "commits_behind": 3,
-    "total_change_lines": 259,
-    "insertions_behind_lines": 170,
-    "deletions_behind_lines": 89,
-    "status": "not_translated",
-    "severity": "significant",
-    "missing_commits": [
-      {
-        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
-        "date": "2020-10-20 15:04:19 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
-        "path": "content/en/case-studies/city-of-montreal/index.html",
-        "insertions": 68,
-        "deletions": 86,
-        "operation": "modified"
-      },
-      {
-        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
-        "date": "2020-07-22 16:59:40 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
-        "path": "content/en/case-studies/city-of-montreal/index.html",
-        "insertions": 3,
-        "deletions": 3,
-        "operation": "modified"
-      },
-      {
-        "hash": "82baf65a88a7a0fabe63d320269314a2827c5ced",
-        "date": "2019-06-05 15:08:12 -0400",
-        "author": "Alex Contini",
-        "message": "Add case studies from cncf.io (#14520)",
-        "path": "content/en/case-studies/city-of-montreal/index.html",
-        "insertions": 99,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
   "content/en/case-studies/spotify/index.html": {
-    "target_path": "content/ko/case-studies/spotify/index.html",
-    "english_path": "content/en/case-studies/spotify/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 1699,
-    "commits_behind": 7,
-    "total_change_lines": 271,
-    "insertions_behind_lines": 175,
-    "deletions_behind_lines": 96,
+    "targetPath": "content/ko/case-studies/spotify/index.html",
+    "englishPath": "content/en/case-studies/spotify/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 1699,
+    "commitsBehind": 7,
+    "totalChangeLines": 271,
+    "insertionsBehindLines": 175,
+    "deletionsBehindLines": 96,
     "status": "not_translated",
     "severity": "significant",
-    "missing_commits": [
+    "missingCommits": [
       {
         "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
         "date": "2020-10-20 15:04:19 -0700",
@@ -252,19 +84,202 @@
       }
     ]
   },
-  "content/en/case-studies/pingcap/index.html": {
-    "target_path": "content/ko/case-studies/pingcap/index.html",
-    "english_path": "content/en/case-studies/pingcap/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 1699,
-    "commits_behind": 3,
-    "total_change_lines": 251,
-    "insertions_behind_lines": 165,
-    "deletions_behind_lines": 86,
+  "content/en/case-studies/bose/index.html": {
+    "targetPath": "content/ko/case-studies/bose/index.html",
+    "englishPath": "content/en/case-studies/bose/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 1699,
+    "commitsBehind": 4,
+    "totalChangeLines": 297,
+    "insertionsBehindLines": 192,
+    "deletionsBehindLines": 105,
     "status": "not_translated",
     "severity": "significant",
-    "missing_commits": [
+    "missingCommits": [
+      {
+        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
+        "date": "2020-10-20 15:04:19 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
+        "path": "content/en/case-studies/bose/index.html",
+        "insertions": 71,
+        "deletions": 87,
+        "operation": "modified"
+      },
+      {
+        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
+        "date": "2020-07-22 16:59:40 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
+        "path": "content/en/case-studies/bose/index.html",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "cdd8a3e9d65830121852f209ec218220204c07f5",
+        "date": "2019-05-04 21:23:37 -0400",
+        "author": "Alex Contini",
+        "message": "update Bose case study text (#14138)",
+        "path": "content/en/case-studies/bose/index.html",
+        "insertions": 15,
+        "deletions": 15,
+        "operation": "modified"
+      },
+      {
+        "hash": "363ee424f5f31ed7b5494afba02000b81c5ef250",
+        "date": "2019-04-26 19:00:23 -0400",
+        "author": "Alex Contini",
+        "message": "Add Bose case study (#14046)",
+        "path": "content/en/case-studies/bose/index.html",
+        "insertions": 103,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/case-studies/vsco/index.html": {
+    "targetPath": "content/ko/case-studies/vsco/index.html",
+    "englishPath": "content/en/case-studies/vsco/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2023-12-22T01:39:18+01:00",
+    "daysBehind": 542,
+    "commitsBehind": 4,
+    "totalChangeLines": 263,
+    "insertionsBehindLines": 171,
+    "deletionsBehindLines": 92,
+    "status": "not_translated",
+    "severity": "significant",
+    "missingCommits": [
+      {
+        "hash": "e7f56c7a0c1eb03ec8f214bc11c1a1f406a04916",
+        "date": "2023-12-22 01:39:18 +0100",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #44454 from Arhell/en-case-index",
+        "path": "content/en/case-studies/vsco/index.html",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
+        "date": "2020-10-20 15:04:19 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
+        "path": "content/en/case-studies/vsco/index.html",
+        "insertions": 70,
+        "deletions": 88,
+        "operation": "modified"
+      },
+      {
+        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
+        "date": "2020-07-22 16:59:40 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
+        "path": "content/en/case-studies/vsco/index.html",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "82baf65a88a7a0fabe63d320269314a2827c5ced",
+        "date": "2019-06-05 15:08:12 -0400",
+        "author": "Alex Contini",
+        "message": "Add case studies from cncf.io (#14520)",
+        "path": "content/en/case-studies/vsco/index.html",
+        "insertions": 97,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/case-studies/adform/index.html": {
+    "targetPath": "content/ko/case-studies/adform/index.html",
+    "englishPath": "content/en/case-studies/adform/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/adidas/index.html": {
+    "targetPath": "content/ko/case-studies/adidas/index.html",
+    "englishPath": "content/en/case-studies/adidas/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 1699,
+    "commitsBehind": 3,
+    "totalChangeLines": 284,
+    "insertionsBehindLines": 181,
+    "deletionsBehindLines": 103,
+    "status": "not_translated",
+    "severity": "significant",
+    "missingCommits": [
+      {
+        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
+        "date": "2020-10-20 15:04:19 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
+        "path": "content/en/case-studies/adidas/index.html",
+        "insertions": 70,
+        "deletions": 100,
+        "operation": "modified"
+      },
+      {
+        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
+        "date": "2020-07-22 16:59:40 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
+        "path": "content/en/case-studies/adidas/index.html",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "8121d3ea8ce7107a9dc16efebebed331f339adfe",
+        "date": "2020-01-08 18:53:40 -0500",
+        "author": "jkld11",
+        "message": "Add adidas case study (#17569)",
+        "path": "content/en/case-studies/adidas/index.html",
+        "insertions": 108,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/case-studies/ygrene/index.html": {
+    "targetPath": "content/ko/case-studies/ygrene/index.html",
+    "englishPath": "content/en/case-studies/ygrene/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/pingcap/index.html": {
+    "targetPath": "content/ko/case-studies/pingcap/index.html",
+    "englishPath": "content/en/case-studies/pingcap/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 1699,
+    "commitsBehind": 3,
+    "totalChangeLines": 251,
+    "insertionsBehindLines": 165,
+    "deletionsBehindLines": 86,
+    "status": "not_translated",
+    "severity": "significant",
+    "missingCommits": [
       {
         "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
         "date": "2020-10-20 15:04:19 -0700",
@@ -297,19 +312,148 @@
       }
     ]
   },
-  "content/en/case-studies/appdirect/index.html": {
-    "target_path": "content/ko/case-studies/appdirect/index.html",
-    "english_path": "content/en/case-studies/appdirect/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2025-06-01T18:36:36-07:00",
-    "days_behind": 14,
-    "commits_behind": 6,
-    "total_change_lines": 273,
-    "insertions_behind_lines": 179,
-    "deletions_behind_lines": 94,
+  "content/en/case-studies/cern/index.html": {
+    "targetPath": "content/ko/case-studies/cern/index.html",
+    "englishPath": "content/en/case-studies/cern/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 1699,
+    "commitsBehind": 3,
+    "totalChangeLines": 247,
+    "insertionsBehindLines": 164,
+    "deletionsBehindLines": 83,
     "status": "not_translated",
     "severity": "significant",
-    "missing_commits": [
+    "missingCommits": [
+      {
+        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
+        "date": "2020-10-20 15:04:19 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
+        "path": "content/en/case-studies/cern/index.html",
+        "insertions": 68,
+        "deletions": 80,
+        "operation": "modified"
+      },
+      {
+        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
+        "date": "2020-07-22 16:59:40 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
+        "path": "content/en/case-studies/cern/index.html",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "eeb5b00d44386173e4e71d2c576e5d9a70fed803",
+        "date": "2019-06-17 15:01:50 -0400",
+        "author": "Alex Contini",
+        "message": "add CERN case study (#14873)",
+        "path": "content/en/case-studies/cern/index.html",
+        "insertions": 93,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/case-studies/blablacar/index.html": {
+    "targetPath": "content/ko/case-studies/blablacar/index.html",
+    "englishPath": "content/en/case-studies/blablacar/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2025-06-01T18:38:36-07:00",
+    "daysBehind": 1458,
+    "commitsBehind": 1,
+    "totalChangeLines": 2,
+    "insertionsBehindLines": 1,
+    "deletionsBehindLines": 1,
+    "status": "outdated",
+    "severity": "minor",
+    "missingCommits": [
+      {
+        "hash": "c27efed5578cbf0e150b7971313c1897d5be3597",
+        "date": "2025-06-01 18:38:36 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #51130 from Arhell/en-kube",
+        "path": "content/en/case-studies/blablacar/index.html",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      }
+    ]
+  },
+  "content/en/case-studies/northwestern-mutual/index.html": {
+    "targetPath": "content/ko/case-studies/northwestern-mutual/index.html",
+    "englishPath": "content/en/case-studies/northwestern-mutual/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/thredup/index.html": {
+    "targetPath": "content/ko/case-studies/thredup/index.html",
+    "englishPath": "content/en/case-studies/thredup/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 1699,
+    "commitsBehind": 3,
+    "totalChangeLines": 253,
+    "insertionsBehindLines": 165,
+    "deletionsBehindLines": 88,
+    "status": "not_translated",
+    "severity": "significant",
+    "missingCommits": [
+      {
+        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
+        "date": "2020-10-20 15:04:19 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
+        "path": "content/en/case-studies/thredup/index.html",
+        "insertions": 68,
+        "deletions": 85,
+        "operation": "modified"
+      },
+      {
+        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
+        "date": "2020-07-22 16:59:40 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
+        "path": "content/en/case-studies/thredup/index.html",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "82baf65a88a7a0fabe63d320269314a2827c5ced",
+        "date": "2019-06-05 15:08:12 -0400",
+        "author": "Alex Contini",
+        "message": "Add case studies from cncf.io (#14520)",
+        "path": "content/en/case-studies/thredup/index.html",
+        "insertions": 94,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/case-studies/appdirect/index.html": {
+    "targetPath": "content/ko/case-studies/appdirect/index.html",
+    "englishPath": "content/en/case-studies/appdirect/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2025-06-01T18:36:36-07:00",
+    "daysBehind": 14,
+    "commitsBehind": 6,
+    "totalChangeLines": 273,
+    "insertionsBehindLines": 179,
+    "deletionsBehindLines": 94,
+    "status": "not_translated",
+    "severity": "significant",
+    "missingCommits": [
       {
         "hash": "2f5b5395d27fda53c76b090a6bcae13addbfb016",
         "date": "2025-06-01 18:36:36 -0700",
@@ -372,79 +516,106 @@
       }
     ]
   },
+  "content/en/case-studies/buffer/index.html": {
+    "targetPath": "content/ko/case-studies/buffer/index.html",
+    "englishPath": "content/en/case-studies/buffer/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/ibm/index.html": {
+    "targetPath": "content/ko/case-studies/ibm/index.html",
+    "englishPath": "content/en/case-studies/ibm/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/naic/index.html": {
+    "targetPath": "content/ko/case-studies/naic/index.html",
+    "englishPath": "content/en/case-studies/naic/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
   "content/en/case-studies/newyorktimes/index.html": {
-    "target_path": "content/ko/case-studies/newyorktimes/index.html",
-    "english_path": "content/en/case-studies/newyorktimes/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2020-11-25T07:10:39-08:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
+    "targetPath": "content/ko/case-studies/newyorktimes/index.html",
+    "englishPath": "content/en/case-studies/newyorktimes/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2020-11-25T07:10:39-08:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
     "status": "up_to_date",
     "severity": "current",
-    "missing_commits": []
+    "missingCommits": []
   },
-  "content/en/case-studies/nordstrom/index.html": {
-    "target_path": "content/ko/case-studies/nordstrom/index.html",
-    "english_path": "content/en/case-studies/nordstrom/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
+  "content/en/case-studies/ocado/index.html": {
+    "targetPath": "content/ko/case-studies/ocado/index.html",
+    "englishPath": "content/en/case-studies/ocado/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
     "status": "up_to_date",
     "severity": "current",
-    "missing_commits": []
+    "missingCommits": []
   },
-  "content/en/case-studies/peardeck/index.html": {
-    "target_path": "content/ko/case-studies/peardeck/index.html",
-    "english_path": "content/en/case-studies/peardeck/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2022-01-31T09:10:24-08:00",
-    "days_behind": 241,
-    "commits_behind": 1,
-    "total_change_lines": 4,
-    "insertions_behind_lines": 2,
-    "deletions_behind_lines": 2,
-    "status": "outdated",
-    "severity": "minor",
-    "missing_commits": [
+  "content/en/case-studies/prowise/index.html": {
+    "targetPath": "content/ko/case-studies/prowise/index.html",
+    "englishPath": "content/en/case-studies/prowise/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2022-01-31T09:10:24-08:00",
+    "daysBehind": 1231,
+    "commitsBehind": 4,
+    "totalChangeLines": 263,
+    "insertionsBehindLines": 173,
+    "deletionsBehindLines": 90,
+    "status": "not_translated",
+    "severity": "significant",
+    "missingCommits": [
       {
         "hash": "77a8605f65b173c3f514002abc346a3b04a90202",
         "date": "2022-01-31 09:10:24 -0800",
         "author": "Kubernetes Prow Robot",
         "message": "Merge pull request #31487 from Babapool/update-case-studies",
-        "path": "content/en/case-studies/peardeck/index.html",
-        "insertions": 2,
-        "deletions": 2,
+        "path": "content/en/case-studies/prowise/index.html",
+        "insertions": 1,
+        "deletions": 1,
         "operation": "modified"
-      }
-    ]
-  },
-  "content/en/case-studies/booz-allen/index.html": {
-    "target_path": "content/ko/case-studies/booz-allen/index.html",
-    "english_path": "content/en/case-studies/booz-allen/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 1699,
-    "commits_behind": 5,
-    "total_change_lines": 264,
-    "insertions_behind_lines": 172,
-    "deletions_behind_lines": 92,
-    "status": "not_translated",
-    "severity": "significant",
-    "missing_commits": [
+      },
       {
         "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
         "date": "2020-10-20 15:04:19 -0700",
         "author": "Kubernetes Prow Robot",
         "message": "Merge pull request #23708 from habibrosyad/gh-23660",
-        "path": "content/en/case-studies/booz-allen/index.html",
-        "insertions": 63,
+        "path": "content/en/case-studies/prowise/index.html",
+        "insertions": 70,
         "deletions": 86,
         "operation": "modified"
       },
@@ -453,120 +624,50 @@
         "date": "2020-07-22 16:59:40 -0700",
         "author": "Kubernetes Prow Robot",
         "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
-        "path": "content/en/case-studies/booz-allen/index.html",
+        "path": "content/en/case-studies/prowise/index.html",
         "insertions": 3,
         "deletions": 3,
         "operation": "modified"
       },
       {
-        "hash": "f8451e811d6c789dce2e2ca4723042d5f6a63c60",
-        "date": "2020-05-13 11:02:27 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #20949 from alexcontini/contini-add-denso-case-study-and-fix-logos",
-        "path": "content/en/case-studies/booz-allen/index.html",
-        "insertions": 2,
-        "deletions": 2,
-        "operation": "modified"
-      },
-      {
-        "hash": "b96863ac5fabdb66e4251a04fb01b8b8728b59c9",
-        "date": "2020-05-08 22:29:53 -0400",
-        "author": "jkld11",
-        "message": "Add case study: Booking.com (#20783)",
-        "path": "content/en/case-studies/booz-allen/index.html",
-        "insertions": 5,
-        "deletions": 1,
-        "operation": "modified"
-      },
-      {
-        "hash": "2d1401a4ac53362acfaa86b717a9ff7f9a67cae4",
-        "date": "2020-05-04 13:53:09 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #20689 from alexcontini/contini-add-booz-allen-case-study",
-        "path": "content/en/case-studies/booz-allen/index.html",
+        "hash": "82baf65a88a7a0fabe63d320269314a2827c5ced",
+        "date": "2019-06-05 15:08:12 -0400",
+        "author": "Alex Contini",
+        "message": "Add case studies from cncf.io (#14520)",
+        "path": "content/en/case-studies/prowise/index.html",
         "insertions": 99,
         "deletions": 0,
         "operation": "added"
       }
     ]
   },
-  "content/en/case-studies/squarespace/index.html": {
-    "target_path": "content/ko/case-studies/squarespace/index.html",
-    "english_path": "content/en/case-studies/squarespace/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2022-01-31T09:10:24-08:00",
-    "days_behind": 241,
-    "commits_behind": 1,
-    "total_change_lines": 2,
-    "insertions_behind_lines": 1,
-    "deletions_behind_lines": 1,
-    "status": "outdated",
-    "severity": "minor",
-    "missing_commits": [
-      {
-        "hash": "77a8605f65b173c3f514002abc346a3b04a90202",
-        "date": "2022-01-31 09:10:24 -0800",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #31487 from Babapool/update-case-studies",
-        "path": "content/en/case-studies/squarespace/index.html",
-        "insertions": 1,
-        "deletions": 1,
-        "operation": "modified"
-      }
-    ]
-  },
-  "content/en/case-studies/daocloud/index.html": {
-    "target_path": "content/ko/case-studies/daocloud/index.html",
-    "english_path": "content/en/case-studies/daocloud/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2023-06-12T11:11:58-07:00",
-    "days_behind": 734,
-    "commits_behind": 1,
-    "total_change_lines": 114,
-    "insertions_behind_lines": 114,
-    "deletions_behind_lines": 0,
-    "status": "not_translated",
-    "severity": "moderate",
-    "missing_commits": [
-      {
-        "hash": "9a0d240bb54395ed83cfa4cf434f3912a03a424e",
-        "date": "2023-06-12 11:11:58 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #40461 from Michelle951/michelle01",
-        "path": "content/en/case-studies/daocloud/index.html",
-        "insertions": 114,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
   "content/en/case-studies/slingtv/index.html": {
-    "target_path": "content/ko/case-studies/slingtv/index.html",
-    "english_path": "content/en/case-studies/slingtv/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
+    "targetPath": "content/ko/case-studies/slingtv/index.html",
+    "englishPath": "content/en/case-studies/slingtv/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
     "status": "up_to_date",
     "severity": "current",
-    "missing_commits": []
+    "missingCommits": []
   },
   "content/en/case-studies/slamtec/index.html": {
-    "target_path": "content/ko/case-studies/slamtec/index.html",
-    "english_path": "content/en/case-studies/slamtec/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 1699,
-    "commits_behind": 3,
-    "total_change_lines": 235,
-    "insertions_behind_lines": 153,
-    "deletions_behind_lines": 82,
+    "targetPath": "content/ko/case-studies/slamtec/index.html",
+    "englishPath": "content/en/case-studies/slamtec/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 1699,
+    "commitsBehind": 3,
+    "totalChangeLines": 235,
+    "insertionsBehindLines": 153,
+    "deletionsBehindLines": 82,
     "status": "not_translated",
     "severity": "significant",
-    "missing_commits": [
+    "missingCommits": [
       {
         "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
         "date": "2020-10-20 15:04:19 -0700",
@@ -599,478 +700,58 @@
       }
     ]
   },
-  "content/en/case-studies/ocado/index.html": {
-    "target_path": "content/ko/case-studies/ocado/index.html",
-    "english_path": "content/en/case-studies/ocado/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
-  },
-  "content/en/case-studies/_index.html": {
-    "target_path": "content/ko/case-studies/_index.html",
-    "english_path": "content/en/case-studies/_index.html",
-    "target_latest_date": "2018-12-03T19:21:11-06:00",
-    "english_latest_date": "2024-04-14T18:14:48-07:00",
-    "days_behind": 1958,
-    "commits_behind": 1,
-    "total_change_lines": 4,
-    "insertions_behind_lines": 4,
-    "deletions_behind_lines": 0,
+  "content/en/case-studies/peardeck/index.html": {
+    "targetPath": "content/ko/case-studies/peardeck/index.html",
+    "englishPath": "content/en/case-studies/peardeck/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2022-01-31T09:10:24-08:00",
+    "daysBehind": 241,
+    "commitsBehind": 1,
+    "totalChangeLines": 4,
+    "insertionsBehindLines": 2,
+    "deletionsBehindLines": 2,
     "status": "outdated",
     "severity": "minor",
-    "missing_commits": [
+    "missingCommits": [
       {
-        "hash": "d1fb9d2c42cfe87aae4c8fff80180247170b04b3",
-        "date": "2024-04-14 18:14:48 -0700",
+        "hash": "77a8605f65b173c3f514002abc346a3b04a90202",
+        "date": "2022-01-31 09:10:24 -0800",
         "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #45871 from sftim/20240414_vanillaify_content_case_studies",
-        "path": "content/en/case-studies/_index.html",
-        "insertions": 4,
-        "deletions": 0,
-        "operation": "modified"
-      }
-    ]
-  },
-  "content/en/case-studies/pearson/index.html": {
-    "target_path": "content/ko/case-studies/pearson/index.html",
-    "english_path": "content/en/case-studies/pearson/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
-  },
-  "content/en/case-studies/haufegroup/index.html": {
-    "target_path": "content/ko/case-studies/haufegroup/index.html",
-    "english_path": "content/en/case-studies/haufegroup/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
-  },
-  "content/en/case-studies/buffer/index.html": {
-    "target_path": "content/ko/case-studies/buffer/index.html",
-    "english_path": "content/en/case-studies/buffer/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
-  },
-  "content/en/case-studies/nokia/index.html": {
-    "target_path": "content/ko/case-studies/nokia/index.html",
-    "english_path": "content/en/case-studies/nokia/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2025-03-04T07:13:44-08:00",
-    "days_behind": 103,
-    "commits_behind": 4,
-    "total_change_lines": 247,
-    "insertions_behind_lines": 161,
-    "deletions_behind_lines": 86,
-    "status": "not_translated",
-    "severity": "significant",
-    "missing_commits": [
-      {
-        "hash": "7f0e487fe0e741176999727c9df8b1fa0697cb70",
-        "date": "2025-03-04 07:13:44 -0800",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #49965 from nate-double-u/update-nokia-logo",
-        "path": "content/en/case-studies/nokia/index.html",
+        "message": "Merge pull request #31487 from Babapool/update-case-studies",
+        "path": "content/en/case-studies/peardeck/index.html",
         "insertions": 2,
-        "deletions": 4,
+        "deletions": 2,
         "operation": "modified"
-      },
-      {
-        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
-        "date": "2020-10-20 15:04:19 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
-        "path": "content/en/case-studies/nokia/index.html",
-        "insertions": 63,
-        "deletions": 79,
-        "operation": "modified"
-      },
-      {
-        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
-        "date": "2020-07-22 16:59:40 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
-        "path": "content/en/case-studies/nokia/index.html",
-        "insertions": 3,
-        "deletions": 3,
-        "operation": "modified"
-      },
-      {
-        "hash": "71e9a63d4bbf47d80be7989ed15810f1bcb23072",
-        "date": "2019-04-08 18:14:27 -0400",
-        "author": "Alex Contini",
-        "message": "add Nokia case study (#13676)",
-        "path": "content/en/case-studies/nokia/index.html",
-        "insertions": 93,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
-  "content/en/case-studies/zalando/index.html": {
-    "target_path": "content/ko/case-studies/zalando/index.html",
-    "english_path": "content/en/case-studies/zalando/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
-  },
-  "content/en/case-studies/sos/index.html": {
-    "target_path": "content/ko/case-studies/sos/index.html",
-    "english_path": "content/en/case-studies/sos/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 1699,
-    "commits_behind": 3,
-    "total_change_lines": 257,
-    "insertions_behind_lines": 170,
-    "deletions_behind_lines": 87,
-    "status": "not_translated",
-    "severity": "significant",
-    "missing_commits": [
-      {
-        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
-        "date": "2020-10-20 15:04:19 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
-        "path": "content/en/case-studies/sos/index.html",
-        "insertions": 68,
-        "deletions": 84,
-        "operation": "modified"
-      },
-      {
-        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
-        "date": "2020-07-22 16:59:40 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
-        "path": "content/en/case-studies/sos/index.html",
-        "insertions": 3,
-        "deletions": 3,
-        "operation": "modified"
-      },
-      {
-        "hash": "cd31287f346c14f33ecf78a1e9320550fd3392f0",
-        "date": "2019-05-02 10:34:22 -0400",
-        "author": "Alex Contini",
-        "message": "add sos case study (#14120)",
-        "path": "content/en/case-studies/sos/index.html",
-        "insertions": 99,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
-  "content/en/case-studies/thredup/index.html": {
-    "target_path": "content/ko/case-studies/thredup/index.html",
-    "english_path": "content/en/case-studies/thredup/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 1699,
-    "commits_behind": 3,
-    "total_change_lines": 253,
-    "insertions_behind_lines": 165,
-    "deletions_behind_lines": 88,
-    "status": "not_translated",
-    "severity": "significant",
-    "missing_commits": [
-      {
-        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
-        "date": "2020-10-20 15:04:19 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
-        "path": "content/en/case-studies/thredup/index.html",
-        "insertions": 68,
-        "deletions": 85,
-        "operation": "modified"
-      },
-      {
-        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
-        "date": "2020-07-22 16:59:40 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
-        "path": "content/en/case-studies/thredup/index.html",
-        "insertions": 3,
-        "deletions": 3,
-        "operation": "modified"
-      },
-      {
-        "hash": "82baf65a88a7a0fabe63d320269314a2827c5ced",
-        "date": "2019-06-05 15:08:12 -0400",
-        "author": "Alex Contini",
-        "message": "Add case studies from cncf.io (#14520)",
-        "path": "content/en/case-studies/thredup/index.html",
-        "insertions": 94,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
-  "content/en/case-studies/nerdalize/index.html": {
-    "target_path": "content/ko/case-studies/nerdalize/index.html",
-    "english_path": "content/en/case-studies/nerdalize/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 1699,
-    "commits_behind": 3,
-    "total_change_lines": 255,
-    "insertions_behind_lines": 168,
-    "deletions_behind_lines": 87,
-    "status": "not_translated",
-    "severity": "significant",
-    "missing_commits": [
-      {
-        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
-        "date": "2020-10-20 15:04:19 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
-        "path": "content/en/case-studies/nerdalize/index.html",
-        "insertions": 69,
-        "deletions": 84,
-        "operation": "modified"
-      },
-      {
-        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
-        "date": "2020-07-22 16:59:40 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
-        "path": "content/en/case-studies/nerdalize/index.html",
-        "insertions": 3,
-        "deletions": 3,
-        "operation": "modified"
-      },
-      {
-        "hash": "82baf65a88a7a0fabe63d320269314a2827c5ced",
-        "date": "2019-06-05 15:08:12 -0400",
-        "author": "Alex Contini",
-        "message": "Add case studies from cncf.io (#14520)",
-        "path": "content/en/case-studies/nerdalize/index.html",
-        "insertions": 96,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
-  "content/en/case-studies/ygrene/index.html": {
-    "target_path": "content/ko/case-studies/ygrene/index.html",
-    "english_path": "content/en/case-studies/ygrene/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
-  },
-  "content/en/case-studies/blackrock/index.html": {
-    "target_path": "content/ko/case-studies/blackrock/index.html",
-    "english_path": "content/en/case-studies/blackrock/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
-  },
-  "content/en/case-studies/pinterest/index.html": {
-    "target_path": "content/ko/case-studies/pinterest/index.html",
-    "english_path": "content/en/case-studies/pinterest/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
-  },
-  "content/en/case-studies/openAI/index.html": {
-    "target_path": "content/ko/case-studies/openAI/index.html",
-    "english_path": "content/en/case-studies/openAI/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
-  },
-  "content/en/case-studies/ant-financial/index.html": {
-    "target_path": "content/ko/case-studies/ant-financial/index.html",
-    "english_path": "content/en/case-studies/ant-financial/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 1699,
-    "commits_behind": 3,
-    "total_change_lines": 254,
-    "insertions_behind_lines": 168,
-    "deletions_behind_lines": 86,
-    "status": "not_translated",
-    "severity": "significant",
-    "missing_commits": [
-      {
-        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
-        "date": "2020-10-20 15:04:19 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
-        "path": "content/en/case-studies/ant-financial/index.html",
-        "insertions": 69,
-        "deletions": 83,
-        "operation": "modified"
-      },
-      {
-        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
-        "date": "2020-07-22 16:59:40 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
-        "path": "content/en/case-studies/ant-financial/index.html",
-        "insertions": 3,
-        "deletions": 3,
-        "operation": "modified"
-      },
-      {
-        "hash": "82baf65a88a7a0fabe63d320269314a2827c5ced",
-        "date": "2019-06-05 15:08:12 -0400",
-        "author": "Alex Contini",
-        "message": "Add case studies from cncf.io (#14520)",
-        "path": "content/en/case-studies/ant-financial/index.html",
-        "insertions": 96,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
-  "content/en/case-studies/workiva/index.html": {
-    "target_path": "content/ko/case-studies/workiva/index.html",
-    "english_path": "content/en/case-studies/workiva/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
-  },
-  "content/en/case-studies/woorank/index.html": {
-    "target_path": "content/ko/case-studies/woorank/index.html",
-    "english_path": "content/en/case-studies/woorank/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 1699,
-    "commits_behind": 3,
-    "total_change_lines": 251,
-    "insertions_behind_lines": 165,
-    "deletions_behind_lines": 86,
-    "status": "not_translated",
-    "severity": "significant",
-    "missing_commits": [
-      {
-        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
-        "date": "2020-10-20 15:04:19 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
-        "path": "content/en/case-studies/woorank/index.html",
-        "insertions": 66,
-        "deletions": 83,
-        "operation": "modified"
-      },
-      {
-        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
-        "date": "2020-07-22 16:59:40 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
-        "path": "content/en/case-studies/woorank/index.html",
-        "insertions": 3,
-        "deletions": 3,
-        "operation": "modified"
-      },
-      {
-        "hash": "82baf65a88a7a0fabe63d320269314a2827c5ced",
-        "date": "2019-06-05 15:08:12 -0400",
-        "author": "Alex Contini",
-        "message": "Add case studies from cncf.io (#14520)",
-        "path": "content/en/case-studies/woorank/index.html",
-        "insertions": 96,
-        "deletions": 0,
-        "operation": "added"
       }
     ]
   },
   "content/en/case-studies/crowdfire/index.html": {
-    "target_path": "content/ko/case-studies/crowdfire/index.html",
-    "english_path": "content/en/case-studies/crowdfire/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
+    "targetPath": "content/ko/case-studies/crowdfire/index.html",
+    "englishPath": "content/en/case-studies/crowdfire/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
     "status": "up_to_date",
     "severity": "current",
-    "missing_commits": []
+    "missingCommits": []
   },
   "content/en/case-studies/wink/index.html": {
-    "target_path": "content/ko/case-studies/wink/index.html",
-    "english_path": "content/en/case-studies/wink/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2022-01-31T09:10:24-08:00",
-    "days_behind": 241,
-    "commits_behind": 1,
-    "total_change_lines": 6,
-    "insertions_behind_lines": 3,
-    "deletions_behind_lines": 3,
+    "targetPath": "content/ko/case-studies/wink/index.html",
+    "englishPath": "content/en/case-studies/wink/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2022-01-31T09:10:24-08:00",
+    "daysBehind": 241,
+    "commitsBehind": 1,
+    "totalChangeLines": 6,
+    "insertionsBehindLines": 3,
+    "deletionsBehindLines": 3,
     "status": "outdated",
     "severity": "minor",
-    "missing_commits": [
+    "missingCommits": [
       {
         "hash": "77a8605f65b173c3f514002abc346a3b04a90202",
         "date": "2022-01-31 09:10:24 -0800",
@@ -1083,324 +764,33 @@
       }
     ]
   },
-  "content/en/case-studies/wikimedia/index.html": {
-    "target_path": "content/ko/case-studies/wikimedia/index.html",
-    "english_path": "content/en/case-studies/wikimedia/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
+  "content/en/case-studies/zalando/index.html": {
+    "targetPath": "content/ko/case-studies/zalando/index.html",
+    "englishPath": "content/en/case-studies/zalando/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
     "status": "up_to_date",
     "severity": "current",
-    "missing_commits": []
-  },
-  "content/en/case-studies/ibm/index.html": {
-    "target_path": "content/ko/case-studies/ibm/index.html",
-    "english_path": "content/en/case-studies/ibm/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
-  },
-  "content/en/case-studies/booking-com/index.html": {
-    "target_path": "content/ko/case-studies/booking-com/index.html",
-    "english_path": "content/en/case-studies/booking-com/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 1699,
-    "commits_behind": 3,
-    "total_change_lines": 300,
-    "insertions_behind_lines": 193,
-    "deletions_behind_lines": 107,
-    "status": "not_translated",
-    "severity": "significant",
-    "missing_commits": [
-      {
-        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
-        "date": "2020-10-20 15:04:19 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
-        "path": "content/en/case-studies/booking-com/index.html",
-        "insertions": 73,
-        "deletions": 104,
-        "operation": "modified"
-      },
-      {
-        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
-        "date": "2020-07-22 16:59:40 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
-        "path": "content/en/case-studies/booking-com/index.html",
-        "insertions": 3,
-        "deletions": 3,
-        "operation": "modified"
-      },
-      {
-        "hash": "b96863ac5fabdb66e4251a04fb01b8b8728b59c9",
-        "date": "2020-05-08 22:29:53 -0400",
-        "author": "jkld11",
-        "message": "Add case study: Booking.com (#20783)",
-        "path": "content/en/case-studies/booking-com/index.html",
-        "insertions": 117,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
-  "content/en/case-studies/northwestern-mutual/index.html": {
-    "target_path": "content/ko/case-studies/northwestern-mutual/index.html",
-    "english_path": "content/en/case-studies/northwestern-mutual/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
-  },
-  "content/en/case-studies/denso/index.html": {
-    "target_path": "content/ko/case-studies/denso/index.html",
-    "english_path": "content/en/case-studies/denso/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 1699,
-    "commits_behind": 3,
-    "total_change_lines": 258,
-    "insertions_behind_lines": 170,
-    "deletions_behind_lines": 88,
-    "status": "not_translated",
-    "severity": "significant",
-    "missing_commits": [
-      {
-        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
-        "date": "2020-10-20 15:04:19 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
-        "path": "content/en/case-studies/denso/index.html",
-        "insertions": 57,
-        "deletions": 85,
-        "operation": "modified"
-      },
-      {
-        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
-        "date": "2020-07-22 16:59:40 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
-        "path": "content/en/case-studies/denso/index.html",
-        "insertions": 3,
-        "deletions": 3,
-        "operation": "modified"
-      },
-      {
-        "hash": "f8451e811d6c789dce2e2ca4723042d5f6a63c60",
-        "date": "2020-05-13 11:02:27 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #20949 from alexcontini/contini-add-denso-case-study-and-fix-logos",
-        "path": "content/en/case-studies/denso/index.html",
-        "insertions": 110,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
-  "content/en/case-studies/box/index.html": {
-    "target_path": "content/ko/case-studies/box/index.html",
-    "english_path": "content/en/case-studies/box/index.html",
-    "target_latest_date": "2025-03-13T04:45:47-07:00",
-    "english_latest_date": "2025-01-12T01:20:30-08:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
-  },
-  "content/en/case-studies/naic/index.html": {
-    "target_path": "content/ko/case-studies/naic/index.html",
-    "english_path": "content/en/case-studies/naic/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
-  },
-  "content/en/case-studies/netease/index.html": {
-    "target_path": "content/ko/case-studies/netease/index.html",
-    "english_path": "content/en/case-studies/netease/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2024-01-19T01:49:32+01:00",
-    "days_behind": 514,
-    "commits_behind": 6,
-    "total_change_lines": 244,
-    "insertions_behind_lines": 160,
-    "deletions_behind_lines": 84,
-    "status": "not_translated",
-    "severity": "significant",
-    "missing_commits": [
-      {
-        "hash": "06fb191b99a1a248cc8c697cd5170aea195412cd",
-        "date": "2024-01-19 01:49:32 +0100",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #44792 from cynthia-sg/cynthia-sg/landscape",
-        "path": "content/en/case-studies/netease/index.html",
-        "insertions": 2,
-        "deletions": 2,
-        "operation": "modified"
-      },
-      {
-        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
-        "date": "2020-10-20 15:04:19 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
-        "path": "content/en/case-studies/netease/index.html",
-        "insertions": 61,
-        "deletions": 74,
-        "operation": "modified"
-      },
-      {
-        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
-        "date": "2020-07-22 16:59:40 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
-        "path": "content/en/case-studies/netease/index.html",
-        "insertions": 3,
-        "deletions": 3,
-        "operation": "modified"
-      },
-      {
-        "hash": "363ee424f5f31ed7b5494afba02000b81c5ef250",
-        "date": "2019-04-26 19:00:23 -0400",
-        "author": "Alex Contini",
-        "message": "Add Bose case study (#14046)",
-        "path": "content/en/case-studies/netease/index.html",
-        "insertions": 1,
-        "deletions": 5,
-        "operation": "modified"
-      },
-      {
-        "hash": "0c92b3d1943e0873b5399b28dccadf87e2c9600c",
-        "date": "2019-04-04 17:41:18 -0400",
-        "author": "Alex Contini",
-        "message": "add China Unicom case study and update Case Study homepage with new f\u2026 (#13557)",
-        "path": "content/en/case-studies/netease/index.html",
-        "insertions": 7,
-        "deletions": 0,
-        "operation": "modified"
-      },
-      {
-        "hash": "0212d833c46dcb28936e758bbd74c9bd2e4eb519",
-        "date": "2019-03-12 18:36:38 -0400",
-        "author": "Alex Contini",
-        "message": "add NetEase case study (#13075)",
-        "path": "content/en/case-studies/netease/index.html",
-        "insertions": 86,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
-  "content/en/case-studies/cern/index.html": {
-    "target_path": "content/ko/case-studies/cern/index.html",
-    "english_path": "content/en/case-studies/cern/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 1699,
-    "commits_behind": 3,
-    "total_change_lines": 247,
-    "insertions_behind_lines": 164,
-    "deletions_behind_lines": 83,
-    "status": "not_translated",
-    "severity": "significant",
-    "missing_commits": [
-      {
-        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
-        "date": "2020-10-20 15:04:19 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
-        "path": "content/en/case-studies/cern/index.html",
-        "insertions": 68,
-        "deletions": 80,
-        "operation": "modified"
-      },
-      {
-        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
-        "date": "2020-07-22 16:59:40 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
-        "path": "content/en/case-studies/cern/index.html",
-        "insertions": 3,
-        "deletions": 3,
-        "operation": "modified"
-      },
-      {
-        "hash": "eeb5b00d44386173e4e71d2c576e5d9a70fed803",
-        "date": "2019-06-17 15:01:50 -0400",
-        "author": "Alex Contini",
-        "message": "add CERN case study (#14873)",
-        "path": "content/en/case-studies/cern/index.html",
-        "insertions": 93,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
-  "content/en/case-studies/amadeus/index.html": {
-    "target_path": "content/ko/case-studies/amadeus/index.html",
-    "english_path": "content/en/case-studies/amadeus/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2023-08-20T14:09:21-07:00",
-    "days_behind": 807,
-    "commits_behind": 1,
-    "total_change_lines": 4,
-    "insertions_behind_lines": 2,
-    "deletions_behind_lines": 2,
-    "status": "outdated",
-    "severity": "minor",
-    "missing_commits": [
-      {
-        "hash": "9e13bb909ad0f1ca1c83a116f89191e466e61e2a",
-        "date": "2023-08-20 14:09:21 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #42639 from Arhell/en-amadeus",
-        "path": "content/en/case-studies/amadeus/index.html",
-        "insertions": 2,
-        "deletions": 2,
-        "operation": "modified"
-      }
-    ]
+    "missingCommits": []
   },
   "content/en/case-studies/chinaunicom/index.html": {
-    "target_path": "content/ko/case-studies/chinaunicom/index.html",
-    "english_path": "content/en/case-studies/chinaunicom/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 1699,
-    "commits_behind": 6,
-    "total_change_lines": 261,
-    "insertions_behind_lines": 169,
-    "deletions_behind_lines": 92,
+    "targetPath": "content/ko/case-studies/chinaunicom/index.html",
+    "englishPath": "content/en/case-studies/chinaunicom/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 1699,
+    "commitsBehind": 6,
+    "totalChangeLines": 261,
+    "insertionsBehindLines": 169,
+    "deletionsBehindLines": 92,
     "status": "not_translated",
     "severity": "significant",
-    "missing_commits": [
+    "missingCommits": [
       {
         "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
         "date": "2020-10-20 15:04:19 -0700",
@@ -1463,216 +853,26 @@
       }
     ]
   },
-  "content/en/case-studies/babylon/index.html": {
-    "target_path": "content/ko/case-studies/babylon/index.html",
-    "english_path": "content/en/case-studies/babylon/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 1699,
-    "commits_behind": 4,
-    "total_change_lines": 274,
-    "insertions_behind_lines": 179,
-    "deletions_behind_lines": 95,
+  "content/en/case-studies/city-of-montreal/index.html": {
+    "targetPath": "content/ko/case-studies/city-of-montreal/index.html",
+    "englishPath": "content/en/case-studies/city-of-montreal/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 1699,
+    "commitsBehind": 3,
+    "totalChangeLines": 259,
+    "insertionsBehindLines": 170,
+    "deletionsBehindLines": 89,
     "status": "not_translated",
     "severity": "significant",
-    "missing_commits": [
+    "missingCommits": [
       {
         "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
         "date": "2020-10-20 15:04:19 -0700",
         "author": "Kubernetes Prow Robot",
         "message": "Merge pull request #23708 from habibrosyad/gh-23660",
-        "path": "content/en/case-studies/babylon/index.html",
-        "insertions": 66,
-        "deletions": 91,
-        "operation": "modified"
-      },
-      {
-        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
-        "date": "2020-07-22 16:59:40 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
-        "path": "content/en/case-studies/babylon/index.html",
-        "insertions": 3,
-        "deletions": 3,
-        "operation": "modified"
-      },
-      {
-        "hash": "4466ffb148def045f11ea1a42bcbb01fa2ac1b55",
-        "date": "2020-05-08 18:55:51 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #20843 from alexcontini/contini-remove-old-case-studies",
-        "path": "content/en/case-studies/babylon/index.html",
-        "insertions": 1,
-        "deletions": 1,
-        "operation": "modified"
-      },
-      {
-        "hash": "0890487d52e3b4b527a4cbb78cf90f360c85e61f",
-        "date": "2020-05-04 15:51:08 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #20764 from jkld11/master",
-        "path": "content/en/case-studies/babylon/index.html",
-        "insertions": 109,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
-  "content/en/case-studies/bose/index.html": {
-    "target_path": "content/ko/case-studies/bose/index.html",
-    "english_path": "content/en/case-studies/bose/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 1699,
-    "commits_behind": 4,
-    "total_change_lines": 297,
-    "insertions_behind_lines": 192,
-    "deletions_behind_lines": 105,
-    "status": "not_translated",
-    "severity": "significant",
-    "missing_commits": [
-      {
-        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
-        "date": "2020-10-20 15:04:19 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
-        "path": "content/en/case-studies/bose/index.html",
-        "insertions": 71,
-        "deletions": 87,
-        "operation": "modified"
-      },
-      {
-        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
-        "date": "2020-07-22 16:59:40 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
-        "path": "content/en/case-studies/bose/index.html",
-        "insertions": 3,
-        "deletions": 3,
-        "operation": "modified"
-      },
-      {
-        "hash": "cdd8a3e9d65830121852f209ec218220204c07f5",
-        "date": "2019-05-04 21:23:37 -0400",
-        "author": "Alex Contini",
-        "message": "update Bose case study text (#14138)",
-        "path": "content/en/case-studies/bose/index.html",
-        "insertions": 15,
-        "deletions": 15,
-        "operation": "modified"
-      },
-      {
-        "hash": "363ee424f5f31ed7b5494afba02000b81c5ef250",
-        "date": "2019-04-26 19:00:23 -0400",
-        "author": "Alex Contini",
-        "message": "Add Bose case study (#14046)",
-        "path": "content/en/case-studies/bose/index.html",
-        "insertions": 103,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
-  "content/en/case-studies/ricardo-ch/index.html": {
-    "target_path": "content/ko/case-studies/ricardo-ch/index.html",
-    "english_path": "content/en/case-studies/ricardo-ch/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 1699,
-    "commits_behind": 3,
-    "total_change_lines": 255,
-    "insertions_behind_lines": 167,
-    "deletions_behind_lines": 88,
-    "status": "not_translated",
-    "severity": "significant",
-    "missing_commits": [
-      {
-        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
-        "date": "2020-10-20 15:04:19 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
-        "path": "content/en/case-studies/ricardo-ch/index.html",
-        "insertions": 66,
-        "deletions": 85,
-        "operation": "modified"
-      },
-      {
-        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
-        "date": "2020-07-22 16:59:40 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
-        "path": "content/en/case-studies/ricardo-ch/index.html",
-        "insertions": 3,
-        "deletions": 3,
-        "operation": "modified"
-      },
-      {
-        "hash": "82baf65a88a7a0fabe63d320269314a2827c5ced",
-        "date": "2019-06-05 15:08:12 -0400",
-        "author": "Alex Contini",
-        "message": "Add case studies from cncf.io (#14520)",
-        "path": "content/en/case-studies/ricardo-ch/index.html",
-        "insertions": 98,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
-  "content/en/case-studies/ancestry/index.html": {
-    "target_path": "content/ko/case-studies/ancestry/index.html",
-    "english_path": "content/en/case-studies/ancestry/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2025-05-22T19:20:38-07:00",
-    "days_behind": 1448,
-    "commits_behind": 1,
-    "total_change_lines": 4,
-    "insertions_behind_lines": 2,
-    "deletions_behind_lines": 2,
-    "status": "outdated",
-    "severity": "minor",
-    "missing_commits": [
-      {
-        "hash": "8ba5a338f5b0a89f96135a1b61eebff88676e6a0",
-        "date": "2025-05-22 19:20:38 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #51016 from Arhell/en-link",
-        "path": "content/en/case-studies/ancestry/index.html",
-        "insertions": 2,
-        "deletions": 2,
-        "operation": "modified"
-      }
-    ]
-  },
-  "content/en/case-studies/prowise/index.html": {
-    "target_path": "content/ko/case-studies/prowise/index.html",
-    "english_path": "content/en/case-studies/prowise/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2022-01-31T09:10:24-08:00",
-    "days_behind": 1231,
-    "commits_behind": 4,
-    "total_change_lines": 263,
-    "insertions_behind_lines": 173,
-    "deletions_behind_lines": 90,
-    "status": "not_translated",
-    "severity": "significant",
-    "missing_commits": [
-      {
-        "hash": "77a8605f65b173c3f514002abc346a3b04a90202",
-        "date": "2022-01-31 09:10:24 -0800",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #31487 from Babapool/update-case-studies",
-        "path": "content/en/case-studies/prowise/index.html",
-        "insertions": 1,
-        "deletions": 1,
-        "operation": "modified"
-      },
-      {
-        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
-        "date": "2020-10-20 15:04:19 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
-        "path": "content/en/case-studies/prowise/index.html",
-        "insertions": 70,
+        "path": "content/en/case-studies/city-of-montreal/index.html",
+        "insertions": 68,
         "deletions": 86,
         "operation": "modified"
       },
@@ -1681,7 +881,7 @@
         "date": "2020-07-22 16:59:40 -0700",
         "author": "Kubernetes Prow Robot",
         "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
-        "path": "content/en/case-studies/prowise/index.html",
+        "path": "content/en/case-studies/city-of-montreal/index.html",
         "insertions": 3,
         "deletions": 3,
         "operation": "modified"
@@ -1691,44 +891,98 @@
         "date": "2019-06-05 15:08:12 -0400",
         "author": "Alex Contini",
         "message": "Add case studies from cncf.io (#14520)",
-        "path": "content/en/case-studies/prowise/index.html",
+        "path": "content/en/case-studies/city-of-montreal/index.html",
         "insertions": 99,
         "deletions": 0,
         "operation": "added"
       }
     ]
   },
-  "content/en/case-studies/vsco/index.html": {
-    "target_path": "content/ko/case-studies/vsco/index.html",
-    "english_path": "content/en/case-studies/vsco/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2023-12-22T01:39:18+01:00",
-    "days_behind": 542,
-    "commits_behind": 4,
-    "total_change_lines": 263,
-    "insertions_behind_lines": 171,
-    "deletions_behind_lines": 92,
+  "content/en/case-studies/Index.html": {
+    "targetPath": "content/ko/case-studies/_index.html",
+    "englishPath": "content/en/case-studies/_index.html",
+    "targetLatestDate": "2018-12-03T19:21:11-06:00",
+    "englishLatestDate": "2024-04-14T18:14:48-07:00",
+    "daysBehind": 1958,
+    "commitsBehind": 1,
+    "totalChangeLines": 4,
+    "insertionsBehindLines": 4,
+    "deletionsBehindLines": 0,
+    "status": "outdated",
+    "severity": "minor",
+    "missingCommits": [
+      {
+        "hash": "d1fb9d2c42cfe87aae4c8fff80180247170b04b3",
+        "date": "2024-04-14 18:14:48 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #45871 from sftim/20240414_vanillaify_content_case_studies",
+        "path": "content/en/case-studies/_index.html",
+        "insertions": 4,
+        "deletions": 0,
+        "operation": "modified"
+      }
+    ]
+  },
+  "content/en/case-studies/daocloud/index.html": {
+    "targetPath": "content/ko/case-studies/daocloud/index.html",
+    "englishPath": "content/en/case-studies/daocloud/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2023-06-12T11:11:58-07:00",
+    "daysBehind": 734,
+    "commitsBehind": 1,
+    "totalChangeLines": 114,
+    "insertionsBehindLines": 114,
+    "deletionsBehindLines": 0,
+    "status": "not_translated",
+    "severity": "moderate",
+    "missingCommits": [
+      {
+        "hash": "9a0d240bb54395ed83cfa4cf434f3912a03a424e",
+        "date": "2023-06-12 11:11:58 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #40461 from Michelle951/michelle01",
+        "path": "content/en/case-studies/daocloud/index.html",
+        "insertions": 114,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/case-studies/capital-one/index.html": {
+    "targetPath": "content/ko/case-studies/capital-one/index.html",
+    "englishPath": "content/en/case-studies/capital-one/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/denso/index.html": {
+    "targetPath": "content/ko/case-studies/denso/index.html",
+    "englishPath": "content/en/case-studies/denso/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 1699,
+    "commitsBehind": 3,
+    "totalChangeLines": 258,
+    "insertionsBehindLines": 170,
+    "deletionsBehindLines": 88,
     "status": "not_translated",
     "severity": "significant",
-    "missing_commits": [
-      {
-        "hash": "e7f56c7a0c1eb03ec8f214bc11c1a1f406a04916",
-        "date": "2023-12-22 01:39:18 +0100",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #44454 from Arhell/en-case-index",
-        "path": "content/en/case-studies/vsco/index.html",
-        "insertions": 1,
-        "deletions": 1,
-        "operation": "modified"
-      },
+    "missingCommits": [
       {
         "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
         "date": "2020-10-20 15:04:19 -0700",
         "author": "Kubernetes Prow Robot",
         "message": "Merge pull request #23708 from habibrosyad/gh-23660",
-        "path": "content/en/case-studies/vsco/index.html",
-        "insertions": 70,
-        "deletions": 88,
+        "path": "content/en/case-studies/denso/index.html",
+        "insertions": 57,
+        "deletions": 85,
         "operation": "modified"
       },
       {
@@ -1736,7 +990,52 @@
         "date": "2020-07-22 16:59:40 -0700",
         "author": "Kubernetes Prow Robot",
         "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
-        "path": "content/en/case-studies/vsco/index.html",
+        "path": "content/en/case-studies/denso/index.html",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "f8451e811d6c789dce2e2ca4723042d5f6a63c60",
+        "date": "2020-05-13 11:02:27 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #20949 from alexcontini/contini-add-denso-case-study-and-fix-logos",
+        "path": "content/en/case-studies/denso/index.html",
+        "insertions": 110,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/case-studies/ant-financial/index.html": {
+    "targetPath": "content/ko/case-studies/ant-financial/index.html",
+    "englishPath": "content/en/case-studies/ant-financial/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 1699,
+    "commitsBehind": 3,
+    "totalChangeLines": 254,
+    "insertionsBehindLines": 168,
+    "deletionsBehindLines": 86,
+    "status": "not_translated",
+    "severity": "significant",
+    "missingCommits": [
+      {
+        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
+        "date": "2020-10-20 15:04:19 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
+        "path": "content/en/case-studies/ant-financial/index.html",
+        "insertions": 69,
+        "deletions": 83,
+        "operation": "modified"
+      },
+      {
+        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
+        "date": "2020-07-22 16:59:40 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
+        "path": "content/en/case-studies/ant-financial/index.html",
         "insertions": 3,
         "deletions": 3,
         "operation": "modified"
@@ -1746,33 +1045,33 @@
         "date": "2019-06-05 15:08:12 -0400",
         "author": "Alex Contini",
         "message": "Add case studies from cncf.io (#14520)",
-        "path": "content/en/case-studies/vsco/index.html",
-        "insertions": 97,
+        "path": "content/en/case-studies/ant-financial/index.html",
+        "insertions": 96,
         "deletions": 0,
         "operation": "added"
       }
     ]
   },
-  "content/en/case-studies/jd-com/index.html": {
-    "target_path": "content/ko/case-studies/jd-com/index.html",
-    "english_path": "content/en/case-studies/jd-com/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 1699,
-    "commits_behind": 3,
-    "total_change_lines": 253,
-    "insertions_behind_lines": 166,
-    "deletions_behind_lines": 87,
+  "content/en/case-studies/nerdalize/index.html": {
+    "targetPath": "content/ko/case-studies/nerdalize/index.html",
+    "englishPath": "content/en/case-studies/nerdalize/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 1699,
+    "commitsBehind": 3,
+    "totalChangeLines": 255,
+    "insertionsBehindLines": 168,
+    "deletionsBehindLines": 87,
     "status": "not_translated",
     "severity": "significant",
-    "missing_commits": [
+    "missingCommits": [
       {
         "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
         "date": "2020-10-20 15:04:19 -0700",
         "author": "Kubernetes Prow Robot",
         "message": "Merge pull request #23708 from habibrosyad/gh-23660",
-        "path": "content/en/case-studies/jd-com/index.html",
-        "insertions": 66,
+        "path": "content/en/case-studies/nerdalize/index.html",
+        "insertions": 69,
         "deletions": 84,
         "operation": "modified"
       },
@@ -1781,7 +1080,7 @@
         "date": "2020-07-22 16:59:40 -0700",
         "author": "Kubernetes Prow Robot",
         "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
-        "path": "content/en/case-studies/jd-com/index.html",
+        "path": "content/en/case-studies/nerdalize/index.html",
         "insertions": 3,
         "deletions": 3,
         "operation": "modified"
@@ -1791,54 +1090,439 @@
         "date": "2019-06-05 15:08:12 -0400",
         "author": "Alex Contini",
         "message": "Add case studies from cncf.io (#14520)",
-        "path": "content/en/case-studies/jd-com/index.html",
-        "insertions": 97,
+        "path": "content/en/case-studies/nerdalize/index.html",
+        "insertions": 96,
         "deletions": 0,
         "operation": "added"
       }
     ]
   },
-  "content/en/case-studies/ing/index.html": {
-    "target_path": "content/ko/case-studies/ing/index.html",
-    "english_path": "content/en/case-studies/ing/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
+  "content/en/case-studies/huawei/index.html": {
+    "targetPath": "content/ko/case-studies/huawei/index.html",
+    "englishPath": "content/en/case-studies/huawei/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2025-03-24T03:22:44-07:00",
+    "daysBehind": 1388,
+    "commitsBehind": 1,
+    "totalChangeLines": 12,
+    "insertionsBehindLines": 6,
+    "deletionsBehindLines": 6,
+    "status": "outdated",
+    "severity": "minor",
+    "missingCommits": [
+      {
+        "hash": "a905738db44a3f90f2989e599d7b3c8d0894c641",
+        "date": "2025-03-24 03:22:44 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #50206 from windsonsea/huwcae",
+        "path": "content/en/case-studies/huawei/index.html",
+        "insertions": 6,
+        "deletions": 6,
+        "operation": "modified"
+      }
+    ]
   },
-  "content/en/case-studies/yahoo-japan/index.html": {
-    "target_path": "content/ko/case-studies/yahoo-japan/index.html",
-    "english_path": "content/en/case-studies/yahoo-japan/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2018-08-20T21:07:54+02:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
-  },
-  "content/en/case-studies/nav/index.html": {
-    "target_path": "content/ko/case-studies/nav/index.html",
-    "english_path": "content/en/case-studies/nav/index.html",
-    "target_latest_date": null,
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 1699,
-    "commits_behind": 5,
-    "total_change_lines": 269,
-    "insertions_behind_lines": 175,
-    "deletions_behind_lines": 94,
+  "content/en/case-studies/booking-com/index.html": {
+    "targetPath": "content/ko/case-studies/booking-com/index.html",
+    "englishPath": "content/en/case-studies/booking-com/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 1699,
+    "commitsBehind": 3,
+    "totalChangeLines": 300,
+    "insertionsBehindLines": 193,
+    "deletionsBehindLines": 107,
     "status": "not_translated",
     "severity": "significant",
-    "missing_commits": [
+    "missingCommits": [
+      {
+        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
+        "date": "2020-10-20 15:04:19 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
+        "path": "content/en/case-studies/booking-com/index.html",
+        "insertions": 73,
+        "deletions": 104,
+        "operation": "modified"
+      },
+      {
+        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
+        "date": "2020-07-22 16:59:40 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
+        "path": "content/en/case-studies/booking-com/index.html",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "b96863ac5fabdb66e4251a04fb01b8b8728b59c9",
+        "date": "2020-05-08 22:29:53 -0400",
+        "author": "jkld11",
+        "message": "Add case study: Booking.com (#20783)",
+        "path": "content/en/case-studies/booking-com/index.html",
+        "insertions": 117,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/case-studies/pearson/index.html": {
+    "targetPath": "content/ko/case-studies/pearson/index.html",
+    "englishPath": "content/en/case-studies/pearson/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/yahoo-japan/index.html": {
+    "targetPath": "content/ko/case-studies/yahoo-japan/index.html",
+    "englishPath": "content/en/case-studies/yahoo-japan/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2018-08-20T21:07:54+02:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/ing/index.html": {
+    "targetPath": "content/ko/case-studies/ing/index.html",
+    "englishPath": "content/en/case-studies/ing/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/netease/index.html": {
+    "targetPath": "content/ko/case-studies/netease/index.html",
+    "englishPath": "content/en/case-studies/netease/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2024-01-19T01:49:32+01:00",
+    "daysBehind": 514,
+    "commitsBehind": 6,
+    "totalChangeLines": 244,
+    "insertionsBehindLines": 160,
+    "deletionsBehindLines": 84,
+    "status": "not_translated",
+    "severity": "significant",
+    "missingCommits": [
+      {
+        "hash": "06fb191b99a1a248cc8c697cd5170aea195412cd",
+        "date": "2024-01-19 01:49:32 +0100",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #44792 from cynthia-sg/cynthia-sg/landscape",
+        "path": "content/en/case-studies/netease/index.html",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
+        "date": "2020-10-20 15:04:19 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
+        "path": "content/en/case-studies/netease/index.html",
+        "insertions": 61,
+        "deletions": 74,
+        "operation": "modified"
+      },
+      {
+        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
+        "date": "2020-07-22 16:59:40 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
+        "path": "content/en/case-studies/netease/index.html",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "363ee424f5f31ed7b5494afba02000b81c5ef250",
+        "date": "2019-04-26 19:00:23 -0400",
+        "author": "Alex Contini",
+        "message": "Add Bose case study (#14046)",
+        "path": "content/en/case-studies/netease/index.html",
+        "insertions": 1,
+        "deletions": 5,
+        "operation": "modified"
+      },
+      {
+        "hash": "0c92b3d1943e0873b5399b28dccadf87e2c9600c",
+        "date": "2019-04-04 17:41:18 -0400",
+        "author": "Alex Contini",
+        "message": "add China Unicom case study and update Case Study homepage with new f\u2026 (#13557)",
+        "path": "content/en/case-studies/netease/index.html",
+        "insertions": 7,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "0212d833c46dcb28936e758bbd74c9bd2e4eb519",
+        "date": "2019-03-12 18:36:38 -0400",
+        "author": "Alex Contini",
+        "message": "add NetEase case study (#13075)",
+        "path": "content/en/case-studies/netease/index.html",
+        "insertions": 86,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/case-studies/sos/index.html": {
+    "targetPath": "content/ko/case-studies/sos/index.html",
+    "englishPath": "content/en/case-studies/sos/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 1699,
+    "commitsBehind": 3,
+    "totalChangeLines": 257,
+    "insertionsBehindLines": 170,
+    "deletionsBehindLines": 87,
+    "status": "not_translated",
+    "severity": "significant",
+    "missingCommits": [
+      {
+        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
+        "date": "2020-10-20 15:04:19 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
+        "path": "content/en/case-studies/sos/index.html",
+        "insertions": 68,
+        "deletions": 84,
+        "operation": "modified"
+      },
+      {
+        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
+        "date": "2020-07-22 16:59:40 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
+        "path": "content/en/case-studies/sos/index.html",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "cd31287f346c14f33ecf78a1e9320550fd3392f0",
+        "date": "2019-05-02 10:34:22 -0400",
+        "author": "Alex Contini",
+        "message": "add sos case study (#14120)",
+        "path": "content/en/case-studies/sos/index.html",
+        "insertions": 99,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/case-studies/nokia/index.html": {
+    "targetPath": "content/ko/case-studies/nokia/index.html",
+    "englishPath": "content/en/case-studies/nokia/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2025-03-04T07:13:44-08:00",
+    "daysBehind": 104,
+    "commitsBehind": 4,
+    "totalChangeLines": 247,
+    "insertionsBehindLines": 161,
+    "deletionsBehindLines": 86,
+    "status": "not_translated",
+    "severity": "significant",
+    "missingCommits": [
+      {
+        "hash": "7f0e487fe0e741176999727c9df8b1fa0697cb70",
+        "date": "2025-03-04 07:13:44 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #49965 from nate-double-u/update-nokia-logo",
+        "path": "content/en/case-studies/nokia/index.html",
+        "insertions": 2,
+        "deletions": 4,
+        "operation": "modified"
+      },
+      {
+        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
+        "date": "2020-10-20 15:04:19 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
+        "path": "content/en/case-studies/nokia/index.html",
+        "insertions": 63,
+        "deletions": 79,
+        "operation": "modified"
+      },
+      {
+        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
+        "date": "2020-07-22 16:59:40 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
+        "path": "content/en/case-studies/nokia/index.html",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "71e9a63d4bbf47d80be7989ed15810f1bcb23072",
+        "date": "2019-04-08 18:14:27 -0400",
+        "author": "Alex Contini",
+        "message": "add Nokia case study (#13676)",
+        "path": "content/en/case-studies/nokia/index.html",
+        "insertions": 93,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/case-studies/workiva/index.html": {
+    "targetPath": "content/ko/case-studies/workiva/index.html",
+    "englishPath": "content/en/case-studies/workiva/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/woorank/index.html": {
+    "targetPath": "content/ko/case-studies/woorank/index.html",
+    "englishPath": "content/en/case-studies/woorank/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 1699,
+    "commitsBehind": 3,
+    "totalChangeLines": 251,
+    "insertionsBehindLines": 165,
+    "deletionsBehindLines": 86,
+    "status": "not_translated",
+    "severity": "significant",
+    "missingCommits": [
+      {
+        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
+        "date": "2020-10-20 15:04:19 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
+        "path": "content/en/case-studies/woorank/index.html",
+        "insertions": 66,
+        "deletions": 83,
+        "operation": "modified"
+      },
+      {
+        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
+        "date": "2020-07-22 16:59:40 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
+        "path": "content/en/case-studies/woorank/index.html",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "82baf65a88a7a0fabe63d320269314a2827c5ced",
+        "date": "2019-06-05 15:08:12 -0400",
+        "author": "Alex Contini",
+        "message": "Add case studies from cncf.io (#14520)",
+        "path": "content/en/case-studies/woorank/index.html",
+        "insertions": 96,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/case-studies/pinterest/index.html": {
+    "targetPath": "content/ko/case-studies/pinterest/index.html",
+    "englishPath": "content/en/case-studies/pinterest/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/amadeus/index.html": {
+    "targetPath": "content/ko/case-studies/amadeus/index.html",
+    "englishPath": "content/en/case-studies/amadeus/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2023-08-20T14:09:21-07:00",
+    "daysBehind": 807,
+    "commitsBehind": 1,
+    "totalChangeLines": 4,
+    "insertionsBehindLines": 2,
+    "deletionsBehindLines": 2,
+    "status": "outdated",
+    "severity": "minor",
+    "missingCommits": [
+      {
+        "hash": "9e13bb909ad0f1ca1c83a116f89191e466e61e2a",
+        "date": "2023-08-20 14:09:21 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #42639 from Arhell/en-amadeus",
+        "path": "content/en/case-studies/amadeus/index.html",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      }
+    ]
+  },
+  "content/en/case-studies/box/index.html": {
+    "targetPath": "content/ko/case-studies/box/index.html",
+    "englishPath": "content/en/case-studies/box/index.html",
+    "targetLatestDate": "2025-03-13T04:45:47-07:00",
+    "englishLatestDate": "2025-01-12T01:20:30-08:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/openAI/index.html": {
+    "targetPath": "content/ko/case-studies/openAI/index.html",
+    "englishPath": "content/en/case-studies/openAI/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/nav/index.html": {
+    "targetPath": "content/ko/case-studies/nav/index.html",
+    "englishPath": "content/en/case-studies/nav/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 1699,
+    "commitsBehind": 5,
+    "totalChangeLines": 269,
+    "insertionsBehindLines": 175,
+    "deletionsBehindLines": 94,
+    "status": "not_translated",
+    "severity": "significant",
+    "missingCommits": [
       {
         "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
         "date": "2020-10-20 15:04:19 -0700",
@@ -1891,18 +1575,334 @@
       }
     ]
   },
-  "content/en/case-studies/capital-one/index.html": {
-    "target_path": "content/ko/case-studies/capital-one/index.html",
-    "english_path": "content/en/case-studies/capital-one/index.html",
-    "target_latest_date": "2021-06-04T07:47:26-07:00",
-    "english_latest_date": "2020-10-20T15:04:19-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
+  "content/en/case-studies/wikimedia/index.html": {
+    "targetPath": "content/ko/case-studies/wikimedia/index.html",
+    "englishPath": "content/en/case-studies/wikimedia/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
     "status": "up_to_date",
     "severity": "current",
-    "missing_commits": []
+    "missingCommits": []
+  },
+  "content/en/case-studies/haufegroup/index.html": {
+    "targetPath": "content/ko/case-studies/haufegroup/index.html",
+    "englishPath": "content/en/case-studies/haufegroup/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/booz-allen/index.html": {
+    "targetPath": "content/ko/case-studies/booz-allen/index.html",
+    "englishPath": "content/en/case-studies/booz-allen/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 1699,
+    "commitsBehind": 5,
+    "totalChangeLines": 264,
+    "insertionsBehindLines": 172,
+    "deletionsBehindLines": 92,
+    "status": "not_translated",
+    "severity": "significant",
+    "missingCommits": [
+      {
+        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
+        "date": "2020-10-20 15:04:19 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
+        "path": "content/en/case-studies/booz-allen/index.html",
+        "insertions": 63,
+        "deletions": 86,
+        "operation": "modified"
+      },
+      {
+        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
+        "date": "2020-07-22 16:59:40 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
+        "path": "content/en/case-studies/booz-allen/index.html",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "f8451e811d6c789dce2e2ca4723042d5f6a63c60",
+        "date": "2020-05-13 11:02:27 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #20949 from alexcontini/contini-add-denso-case-study-and-fix-logos",
+        "path": "content/en/case-studies/booz-allen/index.html",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "b96863ac5fabdb66e4251a04fb01b8b8728b59c9",
+        "date": "2020-05-08 22:29:53 -0400",
+        "author": "jkld11",
+        "message": "Add case study: Booking.com (#20783)",
+        "path": "content/en/case-studies/booz-allen/index.html",
+        "insertions": 5,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "2d1401a4ac53362acfaa86b717a9ff7f9a67cae4",
+        "date": "2020-05-04 13:53:09 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #20689 from alexcontini/contini-add-booz-allen-case-study",
+        "path": "content/en/case-studies/booz-allen/index.html",
+        "insertions": 99,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/case-studies/blackrock/index.html": {
+    "targetPath": "content/ko/case-studies/blackrock/index.html",
+    "englishPath": "content/en/case-studies/blackrock/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/babylon/index.html": {
+    "targetPath": "content/ko/case-studies/babylon/index.html",
+    "englishPath": "content/en/case-studies/babylon/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 1699,
+    "commitsBehind": 4,
+    "totalChangeLines": 274,
+    "insertionsBehindLines": 179,
+    "deletionsBehindLines": 95,
+    "status": "not_translated",
+    "severity": "significant",
+    "missingCommits": [
+      {
+        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
+        "date": "2020-10-20 15:04:19 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
+        "path": "content/en/case-studies/babylon/index.html",
+        "insertions": 66,
+        "deletions": 91,
+        "operation": "modified"
+      },
+      {
+        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
+        "date": "2020-07-22 16:59:40 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
+        "path": "content/en/case-studies/babylon/index.html",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "4466ffb148def045f11ea1a42bcbb01fa2ac1b55",
+        "date": "2020-05-08 18:55:51 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #20843 from alexcontini/contini-remove-old-case-studies",
+        "path": "content/en/case-studies/babylon/index.html",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "0890487d52e3b4b527a4cbb78cf90f360c85e61f",
+        "date": "2020-05-04 15:51:08 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #20764 from jkld11/master",
+        "path": "content/en/case-studies/babylon/index.html",
+        "insertions": 109,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/case-studies/nordstrom/index.html": {
+    "targetPath": "content/ko/case-studies/nordstrom/index.html",
+    "englishPath": "content/en/case-studies/nordstrom/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/squarespace/index.html": {
+    "targetPath": "content/ko/case-studies/squarespace/index.html",
+    "englishPath": "content/en/case-studies/squarespace/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2022-01-31T09:10:24-08:00",
+    "daysBehind": 241,
+    "commitsBehind": 1,
+    "totalChangeLines": 2,
+    "insertionsBehindLines": 1,
+    "deletionsBehindLines": 1,
+    "status": "outdated",
+    "severity": "minor",
+    "missingCommits": [
+      {
+        "hash": "77a8605f65b173c3f514002abc346a3b04a90202",
+        "date": "2022-01-31 09:10:24 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #31487 from Babapool/update-case-studies",
+        "path": "content/en/case-studies/squarespace/index.html",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      }
+    ]
+  },
+  "content/en/case-studies/ancestry/index.html": {
+    "targetPath": "content/ko/case-studies/ancestry/index.html",
+    "englishPath": "content/en/case-studies/ancestry/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2025-05-22T19:20:38-07:00",
+    "daysBehind": 1448,
+    "commitsBehind": 1,
+    "totalChangeLines": 4,
+    "insertionsBehindLines": 2,
+    "deletionsBehindLines": 2,
+    "status": "outdated",
+    "severity": "minor",
+    "missingCommits": [
+      {
+        "hash": "8ba5a338f5b0a89f96135a1b61eebff88676e6a0",
+        "date": "2025-05-22 19:20:38 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #51016 from Arhell/en-link",
+        "path": "content/en/case-studies/ancestry/index.html",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      }
+    ]
+  },
+  "content/en/case-studies/jd-com/index.html": {
+    "targetPath": "content/ko/case-studies/jd-com/index.html",
+    "englishPath": "content/en/case-studies/jd-com/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 1699,
+    "commitsBehind": 3,
+    "totalChangeLines": 253,
+    "insertionsBehindLines": 166,
+    "deletionsBehindLines": 87,
+    "status": "not_translated",
+    "severity": "significant",
+    "missingCommits": [
+      {
+        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
+        "date": "2020-10-20 15:04:19 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
+        "path": "content/en/case-studies/jd-com/index.html",
+        "insertions": 66,
+        "deletions": 84,
+        "operation": "modified"
+      },
+      {
+        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
+        "date": "2020-07-22 16:59:40 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
+        "path": "content/en/case-studies/jd-com/index.html",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "82baf65a88a7a0fabe63d320269314a2827c5ced",
+        "date": "2019-06-05 15:08:12 -0400",
+        "author": "Alex Contini",
+        "message": "Add case studies from cncf.io (#14520)",
+        "path": "content/en/case-studies/jd-com/index.html",
+        "insertions": 97,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/case-studies/golfnow/index.html": {
+    "targetPath": "content/ko/case-studies/golfnow/index.html",
+    "englishPath": "content/en/case-studies/golfnow/index.html",
+    "targetLatestDate": "2021-06-04T07:47:26-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/ricardo-ch/index.html": {
+    "targetPath": "content/ko/case-studies/ricardo-ch/index.html",
+    "englishPath": "content/en/case-studies/ricardo-ch/index.html",
+    "targetLatestDate": null,
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 1699,
+    "commitsBehind": 3,
+    "totalChangeLines": 255,
+    "insertionsBehindLines": 167,
+    "deletionsBehindLines": 88,
+    "status": "not_translated",
+    "severity": "significant",
+    "missingCommits": [
+      {
+        "hash": "216f9569bb330264c446717e61eeeb95f9fffaf8",
+        "date": "2020-10-20 15:04:19 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #23708 from habibrosyad/gh-23660",
+        "path": "content/en/case-studies/ricardo-ch/index.html",
+        "insertions": 66,
+        "deletions": 85,
+        "operation": "modified"
+      },
+      {
+        "hash": "898ab28ba67b25f8694ce74fe3da116212a8161f",
+        "date": "2020-07-22 16:59:40 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22636 from shuuji3/en/22086-clean-up-casestudy-image",
+        "path": "content/en/case-studies/ricardo-ch/index.html",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "82baf65a88a7a0fabe63d320269314a2827c5ced",
+        "date": "2019-06-05 15:08:12 -0400",
+        "author": "Alex Contini",
+        "message": "Add case studies from cncf.io (#14520)",
+        "path": "content/en/case-studies/ricardo-ch/index.html",
+        "insertions": 98,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
   }
 }
