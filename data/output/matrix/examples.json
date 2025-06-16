@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-06-15T15:32:31.417154+00:00",
+  "last_updated": "2025-06-16T10:01:16.945223+00:00",
   "articles": [
     {
       "english_path": "content/en/examples/README.md",
@@ -16,7 +16,7 @@
         "de": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 1146,
+          "days_behind": 1147,
           "commits_behind": 3,
           "total_change_lines": 33,
           "target_latest_date": null,
@@ -34,7 +34,7 @@
         "es": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 1146,
+          "days_behind": 1147,
           "commits_behind": 3,
           "total_change_lines": 33,
           "target_latest_date": null,
@@ -43,7 +43,7 @@
         "fr": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 1146,
+          "days_behind": 1147,
           "commits_behind": 3,
           "total_change_lines": 33,
           "target_latest_date": null,
@@ -52,7 +52,7 @@
         "hi": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 1146,
+          "days_behind": 1147,
           "commits_behind": 3,
           "total_change_lines": 33,
           "target_latest_date": null,
@@ -61,7 +61,7 @@
         "id": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 1146,
+          "days_behind": 1147,
           "commits_behind": 3,
           "total_change_lines": 33,
           "target_latest_date": null,
@@ -70,7 +70,7 @@
         "it": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 1146,
+          "days_behind": 1147,
           "commits_behind": 3,
           "total_change_lines": 33,
           "target_latest_date": null,
@@ -88,7 +88,7 @@
         "ko": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 1146,
+          "days_behind": 1147,
           "commits_behind": 3,
           "total_change_lines": 33,
           "target_latest_date": null,
@@ -97,7 +97,7 @@
         "pl": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 1146,
+          "days_behind": 1147,
           "commits_behind": 3,
           "total_change_lines": 33,
           "target_latest_date": null,
@@ -106,7 +106,7 @@
         "pt-br": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 1146,
+          "days_behind": 1147,
           "commits_behind": 3,
           "total_change_lines": 33,
           "target_latest_date": null,
@@ -115,7 +115,7 @@
         "ru": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 1146,
+          "days_behind": 1147,
           "commits_behind": 3,
           "total_change_lines": 33,
           "target_latest_date": null,
@@ -124,7 +124,7 @@
         "uk": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 1146,
+          "days_behind": 1147,
           "commits_behind": 3,
           "total_change_lines": 33,
           "target_latest_date": null,
@@ -133,7 +133,7 @@
         "vi": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 1146,
+          "days_behind": 1147,
           "commits_behind": 3,
           "total_change_lines": 33,
           "target_latest_date": null,

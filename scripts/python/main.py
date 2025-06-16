@@ -15,7 +15,7 @@ OUTPUT_DIR = ROOT_DIR / "data" / "output"
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[logging.StreamHandler(), logging.FileHandler("json_loader.log")],
+    handlers=[logging.StreamHandler()],
 )
 logger = logging.getLogger(__name__)
 

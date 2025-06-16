@@ -1,4 +1,64 @@
 {
+  "content/en/community/_index.html": {
+    "target_path": "content/es/community/_index.html",
+    "english_path": "content/en/community/_index.html",
+    "target_latest_date": "2024-06-11T08:58:25-07:00",
+    "english_latest_date": "2025-06-05T05:40:39-07:00",
+    "days_behind": 358,
+    "commits_behind": 2,
+    "total_change_lines": 22,
+    "insertions_behind_lines": 17,
+    "deletions_behind_lines": 5,
+    "status": "outdated",
+    "severity": "minor",
+    "missing_commits": [
+      {
+        "hash": "d191629db65eb3e3e321eaa153ee4f5b2431f1dc",
+        "date": "2025-06-05 05:40:39 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #50925 from jeefy/careers-page",
+        "path": "content/en/community/_index.html",
+        "insertions": 3,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "d8aeb707c53d03c63f97ebb6185ad6bac55ca936",
+        "date": "2025-05-01 12:19:55 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #49606 from shurup/migrate-to-bluesky",
+        "path": "content/en/community/_index.html",
+        "insertions": 14,
+        "deletions": 5,
+        "operation": "modified"
+      }
+    ]
+  },
+  "content/en/community/static/README.md": {
+    "target_path": "content/es/community/static/README.md",
+    "english_path": "content/en/community/static/README.md",
+    "target_latest_date": "2019-04-04T21:11:20+01:00",
+    "english_latest_date": "2022-03-24T17:19:50-07:00",
+    "days_behind": 1085,
+    "commits_behind": 1,
+    "total_change_lines": 5,
+    "insertions_behind_lines": 4,
+    "deletions_behind_lines": 1,
+    "status": "outdated",
+    "severity": "minor",
+    "missing_commits": [
+      {
+        "hash": "e7af510fde0990e32466230013f60e4ff7ec190f",
+        "date": "2022-03-24 17:19:50 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #31658 from sftim/20220207_revise_community_page_and_styles",
+        "path": "content/en/community/static/README.md",
+        "insertions": 4,
+        "deletions": 1,
+        "operation": "modified"
+      }
+    ]
+  },
   "content/en/community/static/cncf-code-of-conduct.md": {
     "target_path": "content/es/community/static/cncf-code-of-conduct.md",
     "english_path": "content/en/community/static/cncf-code-of-conduct.md",
@@ -165,66 +225,6 @@
         "path": "content/en/community/code-of-conduct.md",
         "insertions": 9,
         "deletions": 7,
-        "operation": "modified"
-      }
-    ]
-  },
-  "content/en/community/static/README.md": {
-    "target_path": "content/es/community/static/README.md",
-    "english_path": "content/en/community/static/README.md",
-    "target_latest_date": "2019-04-04T21:11:20+01:00",
-    "english_latest_date": "2022-03-24T17:19:50-07:00",
-    "days_behind": 1085,
-    "commits_behind": 1,
-    "total_change_lines": 5,
-    "insertions_behind_lines": 4,
-    "deletions_behind_lines": 1,
-    "status": "outdated",
-    "severity": "minor",
-    "missing_commits": [
-      {
-        "hash": "e7af510fde0990e32466230013f60e4ff7ec190f",
-        "date": "2022-03-24 17:19:50 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #31658 from sftim/20220207_revise_community_page_and_styles",
-        "path": "content/en/community/static/README.md",
-        "insertions": 4,
-        "deletions": 1,
-        "operation": "modified"
-      }
-    ]
-  },
-  "content/en/community/_index.html": {
-    "target_path": "content/es/community/_index.html",
-    "english_path": "content/en/community/_index.html",
-    "target_latest_date": "2024-06-11T08:58:25-07:00",
-    "english_latest_date": "2025-06-05T05:40:39-07:00",
-    "days_behind": 358,
-    "commits_behind": 2,
-    "total_change_lines": 22,
-    "insertions_behind_lines": 17,
-    "deletions_behind_lines": 5,
-    "status": "outdated",
-    "severity": "minor",
-    "missing_commits": [
-      {
-        "hash": "d191629db65eb3e3e321eaa153ee4f5b2431f1dc",
-        "date": "2025-06-05 05:40:39 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #50925 from jeefy/careers-page",
-        "path": "content/en/community/_index.html",
-        "insertions": 3,
-        "deletions": 0,
-        "operation": "modified"
-      },
-      {
-        "hash": "d8aeb707c53d03c63f97ebb6185ad6bac55ca936",
-        "date": "2025-05-01 12:19:55 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #49606 from shurup/migrate-to-bluesky",
-        "path": "content/en/community/_index.html",
-        "insertions": 14,
-        "deletions": 5,
         "operation": "modified"
       }
     ]

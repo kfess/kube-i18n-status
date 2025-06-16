@@ -1,289 +1,4 @@
 {
-  "content/en/community/static/cncf-code-of-conduct.md": {
-    "target_path": "content/hi/community/static/cncf-code-of-conduct.md",
-    "english_path": "content/en/community/static/cncf-code-of-conduct.md",
-    "target_latest_date": null,
-    "english_latest_date": "2024-10-29T00:12:54+00:00",
-    "days_behind": 229,
-    "commits_behind": 11,
-    "total_change_lines": 249,
-    "insertions_behind_lines": 167,
-    "deletions_behind_lines": 82,
-    "status": "not_translated",
-    "severity": "significant",
-    "missing_commits": [
-      {
-        "hash": "a634c1ae9d9aa759ed6e9d6e654130ab0ff8f023",
-        "date": "2024-10-29 00:12:54 +0000",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #48580 from Arhell/en-con",
-        "path": "content/en/community/static/cncf-code-of-conduct.md",
-        "insertions": 2,
-        "deletions": 2,
-        "operation": "modified"
-      },
-      {
-        "hash": "0463f6955a2ea1eb9ffe0c1fc25c0566153b4380",
-        "date": "2024-04-29 21:40:35 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #46038 from tuesdayinsighter/patch-1",
-        "path": "content/en/community/static/cncf-code-of-conduct.md",
-        "insertions": 13,
-        "deletions": 13,
-        "operation": "modified"
-      },
-      {
-        "hash": "3726556e11d85c86d6782728d697f0c0db9ddb03",
-        "date": "2023-09-03 10:17:46 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #42398 from ydFu/cncf-coc",
-        "path": "content/en/community/static/cncf-code-of-conduct.md",
-        "insertions": 36,
-        "deletions": 22,
-        "operation": "modified"
-      },
-      {
-        "hash": "017d7ff8eb74f23aa4a802cc21df37aac5d9cfa4",
-        "date": "2022-09-19 04:19:22 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #36893 from ydFu/20220919-code-of-conduct",
-        "path": "content/en/community/static/cncf-code-of-conduct.md",
-        "insertions": 1,
-        "deletions": 1,
-        "operation": "modified"
-      },
-      {
-        "hash": "93c2c0e0227bac595524f25e7320724b30b59811",
-        "date": "2022-08-25 06:56:07 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #36272 from ydFu/20220825-code-of-conduct",
-        "path": "content/en/community/static/cncf-code-of-conduct.md",
-        "insertions": 10,
-        "deletions": 11,
-        "operation": "modified"
-      },
-      {
-        "hash": "5cbe4c9ecf19a3876f8b58f8f48f2296bfb25214",
-        "date": "2022-06-20 23:39:43 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #34435 from fenggw-fnst/typo",
-        "path": "content/en/community/static/cncf-code-of-conduct.md",
-        "insertions": 1,
-        "deletions": 1,
-        "operation": "modified"
-      },
-      {
-        "hash": "e4282f722adb1c76c61f95d0fc0582dae917efc8",
-        "date": "2022-06-20 03:28:06 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #34310 from Sea-n/sync-coc",
-        "path": "content/en/community/static/cncf-code-of-conduct.md",
-        "insertions": 53,
-        "deletions": 26,
-        "operation": "modified"
-      },
-      {
-        "hash": "8f9e08b8777b003c1f690081b7c17fcc5bd90396",
-        "date": "2020-12-28 10:24:28 -0800",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #25836 from Arhell/upd",
-        "path": "content/en/community/static/cncf-code-of-conduct.md",
-        "insertions": 2,
-        "deletions": 2,
-        "operation": "modified"
-      },
-      {
-        "hash": "92760f80dc79e8750e88f221b4776f798cd3c7c0",
-        "date": "2019-05-30 03:32:20 +0100",
-        "author": "Tim Bannister",
-        "message": "Update code of conduct based on upstream changes (#14612)",
-        "path": "content/en/community/static/cncf-code-of-conduct.md",
-        "insertions": 2,
-        "deletions": 3,
-        "operation": "modified"
-      },
-      {
-        "hash": "612f9c2aa42ee0e1ce6c29e403c3863d05552486",
-        "date": "2018-10-15 16:33:34 -0700",
-        "author": "Carolyn Van Slyck",
-        "message": "Use CoCC email for reporting CoC violations (#10621)",
-        "path": "content/en/community/static/cncf-code-of-conduct.md",
-        "insertions": 2,
-        "deletions": 1,
-        "operation": "modified"
-      },
-      {
-        "hash": "85e3040dfac3ab110290a1abb50d90650e9b0bcd",
-        "date": "2018-07-09 12:12:17 -0700",
-        "author": "Misty Linville",
-        "message": "Use static content for code of conduct (#9355)",
-        "path": "content/en/community/static/cncf-code-of-conduct.md",
-        "insertions": 45,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
-  "content/en/community/code-of-conduct.md": {
-    "target_path": "content/hi/community/code-of-conduct.md",
-    "english_path": "content/en/community/code-of-conduct.md",
-    "target_latest_date": null,
-    "english_latest_date": "2024-04-29T21:40:35-07:00",
-    "days_behind": 411,
-    "commits_behind": 11,
-    "total_change_lines": 103,
-    "insertions_behind_lines": 64,
-    "deletions_behind_lines": 39,
-    "status": "not_translated",
-    "severity": "moderate",
-    "missing_commits": [
-      {
-        "hash": "0463f6955a2ea1eb9ffe0c1fc25c0566153b4380",
-        "date": "2024-04-29 21:40:35 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #46038 from tuesdayinsighter/patch-1",
-        "path": "content/en/community/code-of-conduct.md",
-        "insertions": 1,
-        "deletions": 1,
-        "operation": "modified"
-      },
-      {
-        "hash": "7200e457cb1a25438a5d0fbb2566d50cb1c49fa7",
-        "date": "2024-04-25 18:12:05 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #45872 from sftim/20240414_vanillaify_content_community",
-        "path": "content/en/community/code-of-conduct.md",
-        "insertions": 14,
-        "deletions": 19,
-        "operation": "modified"
-      },
-      {
-        "hash": "3726556e11d85c86d6782728d697f0c0db9ddb03",
-        "date": "2023-09-03 10:17:46 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #42398 from ydFu/cncf-coc",
-        "path": "content/en/community/code-of-conduct.md",
-        "insertions": 1,
-        "deletions": 1,
-        "operation": "modified"
-      },
-      {
-        "hash": "017d7ff8eb74f23aa4a802cc21df37aac5d9cfa4",
-        "date": "2022-09-19 04:19:22 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #36893 from ydFu/20220919-code-of-conduct",
-        "path": "content/en/community/code-of-conduct.md",
-        "insertions": 1,
-        "deletions": 1,
-        "operation": "modified"
-      },
-      {
-        "hash": "93c2c0e0227bac595524f25e7320724b30b59811",
-        "date": "2022-08-25 06:56:07 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #36272 from ydFu/20220825-code-of-conduct",
-        "path": "content/en/community/code-of-conduct.md",
-        "insertions": 2,
-        "deletions": 1,
-        "operation": "modified"
-      },
-      {
-        "hash": "e4282f722adb1c76c61f95d0fc0582dae917efc8",
-        "date": "2022-06-20 03:28:06 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #34310 from Sea-n/sync-coc",
-        "path": "content/en/community/code-of-conduct.md",
-        "insertions": 2,
-        "deletions": 2,
-        "operation": "modified"
-      },
-      {
-        "hash": "e7af510fde0990e32466230013f60e4ff7ec190f",
-        "date": "2022-03-24 17:19:50 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #31658 from sftim/20220207_revise_community_page_and_styles",
-        "path": "content/en/community/code-of-conduct.md",
-        "insertions": 9,
-        "deletions": 7,
-        "operation": "modified"
-      },
-      {
-        "hash": "92760f80dc79e8750e88f221b4776f798cd3c7c0",
-        "date": "2019-05-30 03:32:20 +0100",
-        "author": "Tim Bannister",
-        "message": "Update code of conduct based on upstream changes (#14612)",
-        "path": "content/en/community/code-of-conduct.md",
-        "insertions": 1,
-        "deletions": 1,
-        "operation": "modified"
-      },
-      {
-        "hash": "d0861dc7ab360ed7f8eddd231264cb79c14c8c7c",
-        "date": "2018-12-05 17:35:21 -0600",
-        "author": "Carolyn Van Slyck",
-        "message": "Fix link to k8s CoCC (#11548)",
-        "path": "content/en/community/code-of-conduct.md",
-        "insertions": 2,
-        "deletions": 3,
-        "operation": "modified"
-      },
-      {
-        "hash": "612f9c2aa42ee0e1ce6c29e403c3863d05552486",
-        "date": "2018-10-15 16:33:34 -0700",
-        "author": "Carolyn Van Slyck",
-        "message": "Use CoCC email for reporting CoC violations (#10621)",
-        "path": "content/en/community/code-of-conduct.md",
-        "insertions": 3,
-        "deletions": 3,
-        "operation": "modified"
-      },
-      {
-        "hash": "85e3040dfac3ab110290a1abb50d90650e9b0bcd",
-        "date": "2018-07-09 12:12:17 -0700",
-        "author": "Misty Linville",
-        "message": "Use static content for code of conduct (#9355)",
-        "path": "content/en/community/code-of-conduct.md",
-        "insertions": 28,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
-  "content/en/community/static/README.md": {
-    "target_path": "content/hi/community/static/README.md",
-    "english_path": "content/en/community/static/README.md",
-    "target_latest_date": null,
-    "english_latest_date": "2022-03-24T17:19:50-07:00",
-    "days_behind": 1178,
-    "commits_behind": 2,
-    "total_change_lines": 7,
-    "insertions_behind_lines": 6,
-    "deletions_behind_lines": 1,
-    "status": "not_translated",
-    "severity": "minor",
-    "missing_commits": [
-      {
-        "hash": "e7af510fde0990e32466230013f60e4ff7ec190f",
-        "date": "2022-03-24 17:19:50 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #31658 from sftim/20220207_revise_community_page_and_styles",
-        "path": "content/en/community/static/README.md",
-        "insertions": 4,
-        "deletions": 1,
-        "operation": "modified"
-      },
-      {
-        "hash": "85e3040dfac3ab110290a1abb50d90650e9b0bcd",
-        "date": "2018-07-09 12:12:17 -0700",
-        "author": "Misty Linville",
-        "message": "Use static content for code of conduct (#9355)",
-        "path": "content/en/community/static/README.md",
-        "insertions": 2,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
   "content/en/community/_index.html": {
     "target_path": "content/hi/community/_index.html",
     "english_path": "content/en/community/_index.html",
@@ -504,6 +219,291 @@
         "message": "Convert site to Hugo (#8316)",
         "path": "content/en/community/_index.html",
         "insertions": 67,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/community/static/README.md": {
+    "target_path": "content/hi/community/static/README.md",
+    "english_path": "content/en/community/static/README.md",
+    "target_latest_date": null,
+    "english_latest_date": "2022-03-24T17:19:50-07:00",
+    "days_behind": 1179,
+    "commits_behind": 2,
+    "total_change_lines": 7,
+    "insertions_behind_lines": 6,
+    "deletions_behind_lines": 1,
+    "status": "not_translated",
+    "severity": "minor",
+    "missing_commits": [
+      {
+        "hash": "e7af510fde0990e32466230013f60e4ff7ec190f",
+        "date": "2022-03-24 17:19:50 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #31658 from sftim/20220207_revise_community_page_and_styles",
+        "path": "content/en/community/static/README.md",
+        "insertions": 4,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "85e3040dfac3ab110290a1abb50d90650e9b0bcd",
+        "date": "2018-07-09 12:12:17 -0700",
+        "author": "Misty Linville",
+        "message": "Use static content for code of conduct (#9355)",
+        "path": "content/en/community/static/README.md",
+        "insertions": 2,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/community/static/cncf-code-of-conduct.md": {
+    "target_path": "content/hi/community/static/cncf-code-of-conduct.md",
+    "english_path": "content/en/community/static/cncf-code-of-conduct.md",
+    "target_latest_date": null,
+    "english_latest_date": "2024-10-29T00:12:54+00:00",
+    "days_behind": 230,
+    "commits_behind": 11,
+    "total_change_lines": 249,
+    "insertions_behind_lines": 167,
+    "deletions_behind_lines": 82,
+    "status": "not_translated",
+    "severity": "significant",
+    "missing_commits": [
+      {
+        "hash": "a634c1ae9d9aa759ed6e9d6e654130ab0ff8f023",
+        "date": "2024-10-29 00:12:54 +0000",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #48580 from Arhell/en-con",
+        "path": "content/en/community/static/cncf-code-of-conduct.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "0463f6955a2ea1eb9ffe0c1fc25c0566153b4380",
+        "date": "2024-04-29 21:40:35 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #46038 from tuesdayinsighter/patch-1",
+        "path": "content/en/community/static/cncf-code-of-conduct.md",
+        "insertions": 13,
+        "deletions": 13,
+        "operation": "modified"
+      },
+      {
+        "hash": "3726556e11d85c86d6782728d697f0c0db9ddb03",
+        "date": "2023-09-03 10:17:46 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #42398 from ydFu/cncf-coc",
+        "path": "content/en/community/static/cncf-code-of-conduct.md",
+        "insertions": 36,
+        "deletions": 22,
+        "operation": "modified"
+      },
+      {
+        "hash": "017d7ff8eb74f23aa4a802cc21df37aac5d9cfa4",
+        "date": "2022-09-19 04:19:22 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #36893 from ydFu/20220919-code-of-conduct",
+        "path": "content/en/community/static/cncf-code-of-conduct.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "93c2c0e0227bac595524f25e7320724b30b59811",
+        "date": "2022-08-25 06:56:07 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #36272 from ydFu/20220825-code-of-conduct",
+        "path": "content/en/community/static/cncf-code-of-conduct.md",
+        "insertions": 10,
+        "deletions": 11,
+        "operation": "modified"
+      },
+      {
+        "hash": "5cbe4c9ecf19a3876f8b58f8f48f2296bfb25214",
+        "date": "2022-06-20 23:39:43 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #34435 from fenggw-fnst/typo",
+        "path": "content/en/community/static/cncf-code-of-conduct.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "e4282f722adb1c76c61f95d0fc0582dae917efc8",
+        "date": "2022-06-20 03:28:06 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #34310 from Sea-n/sync-coc",
+        "path": "content/en/community/static/cncf-code-of-conduct.md",
+        "insertions": 53,
+        "deletions": 26,
+        "operation": "modified"
+      },
+      {
+        "hash": "8f9e08b8777b003c1f690081b7c17fcc5bd90396",
+        "date": "2020-12-28 10:24:28 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #25836 from Arhell/upd",
+        "path": "content/en/community/static/cncf-code-of-conduct.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "92760f80dc79e8750e88f221b4776f798cd3c7c0",
+        "date": "2019-05-30 03:32:20 +0100",
+        "author": "Tim Bannister",
+        "message": "Update code of conduct based on upstream changes (#14612)",
+        "path": "content/en/community/static/cncf-code-of-conduct.md",
+        "insertions": 2,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "612f9c2aa42ee0e1ce6c29e403c3863d05552486",
+        "date": "2018-10-15 16:33:34 -0700",
+        "author": "Carolyn Van Slyck",
+        "message": "Use CoCC email for reporting CoC violations (#10621)",
+        "path": "content/en/community/static/cncf-code-of-conduct.md",
+        "insertions": 2,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "85e3040dfac3ab110290a1abb50d90650e9b0bcd",
+        "date": "2018-07-09 12:12:17 -0700",
+        "author": "Misty Linville",
+        "message": "Use static content for code of conduct (#9355)",
+        "path": "content/en/community/static/cncf-code-of-conduct.md",
+        "insertions": 45,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/community/code-of-conduct.md": {
+    "target_path": "content/hi/community/code-of-conduct.md",
+    "english_path": "content/en/community/code-of-conduct.md",
+    "target_latest_date": null,
+    "english_latest_date": "2024-04-29T21:40:35-07:00",
+    "days_behind": 412,
+    "commits_behind": 11,
+    "total_change_lines": 103,
+    "insertions_behind_lines": 64,
+    "deletions_behind_lines": 39,
+    "status": "not_translated",
+    "severity": "moderate",
+    "missing_commits": [
+      {
+        "hash": "0463f6955a2ea1eb9ffe0c1fc25c0566153b4380",
+        "date": "2024-04-29 21:40:35 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #46038 from tuesdayinsighter/patch-1",
+        "path": "content/en/community/code-of-conduct.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "7200e457cb1a25438a5d0fbb2566d50cb1c49fa7",
+        "date": "2024-04-25 18:12:05 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #45872 from sftim/20240414_vanillaify_content_community",
+        "path": "content/en/community/code-of-conduct.md",
+        "insertions": 14,
+        "deletions": 19,
+        "operation": "modified"
+      },
+      {
+        "hash": "3726556e11d85c86d6782728d697f0c0db9ddb03",
+        "date": "2023-09-03 10:17:46 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #42398 from ydFu/cncf-coc",
+        "path": "content/en/community/code-of-conduct.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "017d7ff8eb74f23aa4a802cc21df37aac5d9cfa4",
+        "date": "2022-09-19 04:19:22 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #36893 from ydFu/20220919-code-of-conduct",
+        "path": "content/en/community/code-of-conduct.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "93c2c0e0227bac595524f25e7320724b30b59811",
+        "date": "2022-08-25 06:56:07 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #36272 from ydFu/20220825-code-of-conduct",
+        "path": "content/en/community/code-of-conduct.md",
+        "insertions": 2,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "e4282f722adb1c76c61f95d0fc0582dae917efc8",
+        "date": "2022-06-20 03:28:06 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #34310 from Sea-n/sync-coc",
+        "path": "content/en/community/code-of-conduct.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "e7af510fde0990e32466230013f60e4ff7ec190f",
+        "date": "2022-03-24 17:19:50 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #31658 from sftim/20220207_revise_community_page_and_styles",
+        "path": "content/en/community/code-of-conduct.md",
+        "insertions": 9,
+        "deletions": 7,
+        "operation": "modified"
+      },
+      {
+        "hash": "92760f80dc79e8750e88f221b4776f798cd3c7c0",
+        "date": "2019-05-30 03:32:20 +0100",
+        "author": "Tim Bannister",
+        "message": "Update code of conduct based on upstream changes (#14612)",
+        "path": "content/en/community/code-of-conduct.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "d0861dc7ab360ed7f8eddd231264cb79c14c8c7c",
+        "date": "2018-12-05 17:35:21 -0600",
+        "author": "Carolyn Van Slyck",
+        "message": "Fix link to k8s CoCC (#11548)",
+        "path": "content/en/community/code-of-conduct.md",
+        "insertions": 2,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "612f9c2aa42ee0e1ce6c29e403c3863d05552486",
+        "date": "2018-10-15 16:33:34 -0700",
+        "author": "Carolyn Van Slyck",
+        "message": "Use CoCC email for reporting CoC violations (#10621)",
+        "path": "content/en/community/code-of-conduct.md",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "85e3040dfac3ab110290a1abb50d90650e9b0bcd",
+        "date": "2018-07-09 12:12:17 -0700",
+        "author": "Misty Linville",
+        "message": "Use static content for code of conduct (#9355)",
+        "path": "content/en/community/code-of-conduct.md",
+        "insertions": 28,
         "deletions": 0,
         "operation": "added"
       }
