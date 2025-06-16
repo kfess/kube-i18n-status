@@ -44,7 +44,7 @@ jobs:
       - name: Format data
         working-directory: ./scripts/python
         run: |
-          python format.py
+          python main.py
         shell: bash
 
       - name: Upload data artifacts
