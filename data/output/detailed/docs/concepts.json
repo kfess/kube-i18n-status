@@ -9943,6 +9943,12 @@
           "date": "Fri Mar 8 03:17:41 2019 +0900",
           "message": "First Japanese l10n work for release-1.13 (#12998)",
           "author": "Takuya Tokuda"
+        },
+        {
+          "hash": "53f7e8c0523963990b6b4431d1e56a58597b24d6",
+          "date": "Sun Jun 15 00:34:56 2025 -0700",
+          "message": "Merge pull request #50946 from kfess/issue-50894",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -12614,6 +12620,17 @@
           "date": "Tue Apr 15 17:54:30 2025 +0100",
           "message": "Move where landing page self-healing refers to",
           "author": "Tim Bannister"
+        }
+      ]
+    },
+    "ja": {
+      "path": "content/ja/docs/concepts/architecture/self-healing.md",
+      "commits": [
+        {
+          "hash": "61446f85db3e13b7a4de5b433bb2622de88166f1",
+          "date": "Sun Jun 1 15:46:46 2025 +0900",
+          "message": "[ja] Translated /content/en/docs/concepts/architecture/self-healing.md into Japanese",
+          "author": "kita456"
         }
       ]
     }
@@ -62967,6 +62984,12 @@
           "date": "Tue Jan 24 22:55:42 2023 +0900",
           "message": "[ja] add doc for cgroup",
           "author": "FeLvi-zzz"
+        },
+        {
+          "hash": "b656a0a25676e06e64f73ad9ee31fd7bfdf08327",
+          "date": "Sun Jun 15 14:05:05 2025 +0900",
+          "message": "Update cgroups.md",
+          "author": "shmza"
         }
       ]
     },
@@ -68588,6 +68611,17 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "ja": {
+      "path": "content/ja/docs/concepts/security/api-server-bypass-risks.md",
+      "commits": [
+        {
+          "hash": "5a8d4d03a224edec7e32fdf90364cac4d98adf09",
+          "date": "Sun Jun 15 13:24:56 2025 +0900",
+          "message": "[ja] Translate docs/concepts/security/api-server-bypass-risks.md into… (#50801)",
+          "author": "Kohei Sugimoto"
+        }
+      ]
     }
   },
   "content/en/docs/concepts/cluster-administration/proxies.md": {
@@ -71334,6 +71368,17 @@
           "date": "Mon Jan 10 23:25:34 2022 +0000",
           "message": "Move PSP into Security concepts section",
           "author": "Tim Bannister"
+        }
+      ]
+    },
+    "ja": {
+      "path": "content/ja/docs/concepts/security/pod-security-policy.md",
+      "commits": [
+        {
+          "hash": "0844f5cb34e75548d9dec1bb1b1590de2556d8d3",
+          "date": "Sun Jun 1 16:01:24 2025 +0900",
+          "message": "[ja] Translated /content/en/docs/concepts/security/pod-security-policy.md into Japanese",
+          "author": "kita456"
         }
       ]
     }

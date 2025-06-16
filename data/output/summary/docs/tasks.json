@@ -1704,7 +1704,8 @@
       "zh-cn",
       "pt-br",
       "en",
-      "ko"
+      "ko",
+      "ja"
     ]
   },
   "content/en/docs/tasks/extend-kubernetes/setup-extension-api-server.md": {

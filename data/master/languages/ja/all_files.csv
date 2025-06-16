@@ -63,6 +63,8 @@ content/ja/blog/_posts/2025-04-22-multicontainer-patterns/index.md
 content/ja/blog/_posts/2025-04-23-Kubernetes-v1-33-Release/index.md
 content/ja/blog/_posts/2025-04-24-endpoints-deprecation.md
 content/ja/blog/_posts/2025-04-28-hpa-configurable-tolerance.md
+content/ja/blog/_posts/2025-05-12-ensure-secret-pulled-images/ensure_secret_image_pulls.svg
+content/ja/blog/_posts/2025-05-12-ensure-secret-pulled-images/index.md
 content/ja/case-studies/_index.html
 content/ja/case-studies/appdirect/appdirect_featured_logo.png
 content/ja/case-studies/appdirect/index.html
@@ -92,6 +94,7 @@ content/ja/docs/concepts/architecture/cri.md
 content/ja/docs/concepts/architecture/garbage-collection.md
 content/ja/docs/concepts/architecture/leases.md
 content/ja/docs/concepts/architecture/nodes.md
+content/ja/docs/concepts/architecture/self-healing.md
 content/ja/docs/concepts/cluster-administration/_index.md
 content/ja/docs/concepts/cluster-administration/addons.md
 content/ja/docs/concepts/cluster-administration/certificates.md
@@ -155,11 +158,13 @@ content/ja/docs/concepts/scheduling-eviction/scheduling-framework.md
 content/ja/docs/concepts/scheduling-eviction/taint-and-toleration.md
 content/ja/docs/concepts/scheduling-eviction/topology-spread-constraints.md
 content/ja/docs/concepts/security/_index.md
+content/ja/docs/concepts/security/api-server-bypass-risks.md
 content/ja/docs/concepts/security/cloud-native-security.md
 content/ja/docs/concepts/security/controlling-access.md
 content/ja/docs/concepts/security/hardening-guide/authentication-mechanisms.md
 content/ja/docs/concepts/security/overview.md
 content/ja/docs/concepts/security/pod-security-admission.md
+content/ja/docs/concepts/security/pod-security-policy.md
 content/ja/docs/concepts/security/pod-security-standards.md
 content/ja/docs/concepts/security/rbac-good-practices.md
 content/ja/docs/concepts/security/secrets-good-practices.md
@@ -384,7 +389,6 @@ content/ja/docs/setup/learning-environment/_index.md
 content/ja/docs/setup/production-environment/_index.md
 content/ja/docs/setup/production-environment/container-runtimes.md
 content/ja/docs/setup/production-environment/tools/_index.md
-content/ja/docs/setup/production-environment/tools/kops.md
 content/ja/docs/setup/production-environment/tools/kubeadm/_index.md
 content/ja/docs/setup/production-environment/tools/kubeadm/control-plane-flags.md
 content/ja/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md
@@ -396,7 +400,6 @@ content/ja/docs/setup/production-environment/tools/kubeadm/kubelet-integration.m
 content/ja/docs/setup/production-environment/tools/kubeadm/self-hosting.md
 content/ja/docs/setup/production-environment/tools/kubeadm/setup-ha-etcd-with-kubeadm.md
 content/ja/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md
-content/ja/docs/setup/production-environment/tools/kubespray.md
 content/ja/docs/setup/production-environment/turnkey-solutions.md
 content/ja/docs/setup/production-environment/windows/_index.md
 content/ja/docs/setup/production-environment/windows/intro-windows-in-kubernetes.md
@@ -405,6 +408,7 @@ content/ja/docs/tasks/_index.md
 content/ja/docs/tasks/access-application-cluster/_index.md
 content/ja/docs/tasks/access-application-cluster/communicate-containers-same-pod-shared-volume.md
 content/ja/docs/tasks/access-application-cluster/configure-access-multiple-clusters.md
+content/ja/docs/tasks/access-application-cluster/configure-dns-cluster.md
 content/ja/docs/tasks/access-application-cluster/connecting-frontend-backend.md
 content/ja/docs/tasks/access-application-cluster/ingress-minikube.md
 content/ja/docs/tasks/access-application-cluster/list-all-running-container-images.md

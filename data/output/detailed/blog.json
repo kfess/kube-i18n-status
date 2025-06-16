@@ -241,6 +241,17 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "ja": {
+      "path": "content/ja/blog/_posts/2025-05-12-ensure-secret-pulled-images/index.md",
+      "commits": [
+        {
+          "hash": "7ea7b81367ef31bcb74ef7b616870f04c6de357b",
+          "date": "Sat May 17 19:30:09 2025 +0900",
+          "message": "[ja] Translate Kubernetes v1.33: Image Pull Policy the way you always thought it worked! into Japanese",
+          "author": "kita456"
+        }
+      ]
     }
   },
   "content/en/blog/_posts/2025-05-09-streaming-list-responses/index.md": {

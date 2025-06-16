@@ -3306,6 +3306,12 @@
           "date": "Thu Mar 13 10:41:00 2025 +0000",
           "message": "Add guide to blog contributions",
           "author": "Tim Bannister"
+        },
+        {
+          "hash": "138955c91680fe784ecc4bd6b2791d3a20d9b611",
+          "date": "Sun Jun 15 01:08:24 2025 +0000",
+          "message": "Fix link to /docs/contribute/blog/writing-buddy page, fix typo in /docs/contribute/blog/writing-buddy page",
+          "author": "Agustina Barbetta"
         }
       ]
     },
@@ -3438,6 +3444,12 @@
           "date": "Thu Mar 13 10:41:00 2025 +0000",
           "message": "Add guide to blog contributions",
           "author": "Tim Bannister"
+        },
+        {
+          "hash": "138955c91680fe784ecc4bd6b2791d3a20d9b611",
+          "date": "Sun Jun 15 01:08:24 2025 +0000",
+          "message": "Fix link to /docs/contribute/blog/writing-buddy page, fix typo in /docs/contribute/blog/writing-buddy page",
+          "author": "Agustina Barbetta"
         }
       ]
     },

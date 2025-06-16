@@ -10153,6 +10153,12 @@
           "date": "Thu Feb 13 14:10:20 2025 +0900",
           "message": "[ja] Translate content/en/docs/tasks/extend-kubernetes/configure-multiple-schedulers.md into Japanese (#49584)",
           "author": "Shunsuke Ise"
+        },
+        {
+          "hash": "368fb99571d754b85553269e38b879c1c12c0980",
+          "date": "Sun Jun 15 17:42:00 2025 +0900",
+          "message": "[ja] remove `/ja` in URL: configure-multiple-schedulers.md",
+          "author": "Shunsuke Ise"
         }
       ]
     },
@@ -15773,6 +15779,12 @@
           "date": "Fri Apr 12 07:14:26 2024 -0700",
           "message": "Merge pull request #45831 from EigoOda/issue-45502",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "9e0b840358268921786af55fa63af709db8f9eb1",
+          "date": "Sun Jun 15 17:14:48 2025 +0900",
+          "message": "Update content/ja/docs/tasks/tools/install-kubectl-linux.md",
+          "author": "Tatsuya Hayashino"
         }
       ]
     },
@@ -50595,6 +50607,17 @@
           "date": "Sat Jun 15 21:16:10 2019 -0700",
           "message": "Fifth Korean localization work for release-1.14 (#14578) (#14874)",
           "author": "June Yi"
+        }
+      ]
+    },
+    "ja": {
+      "path": "content/ja/docs/tasks/access-application-cluster/configure-dns-cluster.md",
+      "commits": [
+        {
+          "hash": "54a3cacef7b100da38a0cd9b7a904d92858ebd0b",
+          "date": "Sat May 31 16:45:38 2025 +0900",
+          "message": "[ja] Translated /content/en/docs/tasks/access-application-cluster/configure-dns-cluster.md into Japanese",
+          "author": "kita456"
         }
       ]
     }

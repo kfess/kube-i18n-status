@@ -875,6 +875,12 @@
           "date": "Wed Apr 2 23:44:37 2025 +0900",
           "message": "[ja] Update `tutorials/hello-minikube.md` to follow the upstream (#50063)",
           "author": "Yuto KIMURA"
+        },
+        {
+          "hash": "c10d7eb487f19893b031ed2afcac059b7a27344e",
+          "date": "Sun Jun 15 14:09:12 2025 +0900",
+          "message": "Remove /ja prefix from links",
+          "author": "Sanghyuk Lee"
         }
       ]
     },
