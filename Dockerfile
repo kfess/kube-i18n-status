@@ -5,7 +5,7 @@
 # USER node
 
 
-FROM mcr.microsoft.com/devcontainers/typescript-node:22 as builder
+FROM mcr.microsoft.com/devcontainers/typescript-node:22 AS builder
 
 WORKDIR /opt
 

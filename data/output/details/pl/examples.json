@@ -1,0 +1,47 @@
+{
+  "content/en/examples/README.md": {
+    "target_path": "content/pl/examples/README.md",
+    "english_path": "content/en/examples/README.md",
+    "target_latest_date": null,
+    "english_latest_date": "2022-04-25T21:42:52-07:00",
+    "days_behind": 1147,
+    "commits_behind": 3,
+    "total_change_lines": 33,
+    "insertions_behind_lines": 22,
+    "deletions_behind_lines": 11,
+    "status": "not_translated",
+    "severity": "minor",
+    "missing_commits": [
+      {
+        "hash": "eed5cc1598c6b588a1ab90b800408c77dc016ea0",
+        "date": "2022-04-25 21:42:52 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #33196 from kinzhi/kinzhi34",
+        "path": "content/en/examples/README.md",
+        "insertions": 0,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "e0bf0b2699bbe682441bd44ed6a51da63bc1a4eb",
+        "date": "2020-07-04 05:38:48 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22011 from tengqm/fix-examples-test",
+        "path": "content/en/examples/README.md",
+        "insertions": 9,
+        "deletions": 10,
+        "operation": "modified"
+      },
+      {
+        "hash": "6c80860a75137c225f7d94a56e4987967048f7c3",
+        "date": "2018-07-11 23:43:25 +0800",
+        "author": "Qiming",
+        "message": "Improve examples test (#9467)",
+        "path": "content/en/examples/README.md",
+        "insertions": 13,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  }
+}

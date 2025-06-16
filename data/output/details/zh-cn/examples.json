@@ -1,0 +1,16 @@
+{
+  "content/en/examples/README.md": {
+    "target_path": "content/zh-cn/examples/README.md",
+    "english_path": "content/en/examples/README.md",
+    "target_latest_date": "2022-06-10T07:43:46-07:00",
+    "english_latest_date": "2022-04-25T21:42:52-07:00",
+    "days_behind": 0,
+    "commits_behind": 0,
+    "total_change_lines": 0,
+    "insertions_behind_lines": 0,
+    "deletions_behind_lines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missing_commits": []
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "content/en/training/_index.html": {
+    "target_path": "content/vi/training/_index.html",
+    "english_path": "content/en/training/_index.html",
+    "target_latest_date": null,
+    "english_latest_date": "2025-05-26T23:02:16-07:00",
+    "days_behind": 20,
+    "commits_behind": 14,
+    "total_change_lines": 359,
+    "insertions_behind_lines": 268,
+    "deletions_behind_lines": 91,
+    "status": "not_translated",
+    "severity": "significant",
+    "missing_commits": [
+      {
+        "hash": "10b4d1e658d23bb210ad39fbb9387e98aa22301c",
+        "date": "2025-05-26 23:02:16 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #51035 from dkarczmarski/fix-html-traning-_index.html",
+        "path": "content/en/training/_index.html",
+        "insertions": 31,
+        "deletions": 30,
+        "operation": "modified"
+      },
+      {
+        "hash": "3e517558fc0e77c417c97571f11b98bdbc6172aa",
+        "date": "2025-03-10 02:35:47 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #50056 from pedrotchang/issue-50010",
+        "path": "content/en/training/_index.html",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "edda362e85fb2f2b975459a6a692a6b4ccbfebe9",
+        "date": "2025-03-05 00:39:50 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #49959 from vishalbidwe/kubestronaut_program_dev",
+        "path": "content/en/training/_index.html",
+        "insertions": 18,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "823fc97f1e71302c0b73bcbdae4c83a5c053ec03",
+        "date": "2024-04-14 18:10:18 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #45870 from sftim/20240414_vanillaify_content_training",
+        "path": "content/en/training/_index.html",
+        "insertions": 4,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "06fb191b99a1a248cc8c697cd5170aea195412cd",
+        "date": "2024-01-19 01:49:32 +0100",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #44792 from cynthia-sg/cynthia-sg/landscape",
+        "path": "content/en/training/_index.html",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "6f4039bcef85945533f1ffc8209597962f038709",
+        "date": "2023-10-08 01:24:51 -0700",
+        "author": "Sarthak Patel",
+        "message": "Add KCSA Certification to Training page (#43318)",
+        "path": "content/en/training/_index.html",
+        "insertions": 28,
+        "deletions": 11,
+        "operation": "modified"
+      },
+      {
+        "hash": "d2f2b293949c8f4a6662c6516e5ce2841050e0bc",
+        "date": "2021-10-14 09:57:18 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #30078 from shannonxtreme/training-kcnf",
+        "path": "content/en/training/_index.html",
+        "insertions": 12,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "17f418f6d04d92fb1795543ee3b14771f6f97007",
+        "date": "2020-11-18 09:50:07 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #25087 from sftim/20201117_add_cks_training",
+        "path": "content/en/training/_index.html",
+        "insertions": 21,
+        "deletions": 13,
+        "operation": "modified"
+      },
+      {
+        "hash": "a31ed022c104b15957270e5940767594bab4b44d",
+        "date": "2020-11-03 12:38:04 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #24014 from Arhell/upd-training",
+        "path": "content/en/training/_index.html",
+        "insertions": 1,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "486d8f530494c1474cf41ae0db831368dbe2f826",
+        "date": "2020-05-22 10:29:10 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #21127 from divyabhushan/master",
+        "path": "content/en/training/_index.html",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "38093ea51150e1b3f8020648107862b0c6579e3a",
+        "date": "2020-04-03 10:37:45 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #19692 from celestehorgan/add-logos-training",
+        "path": "content/en/training/_index.html",
+        "insertions": 37,
+        "deletions": 27,
+        "operation": "modified"
+      },
+      {
+        "hash": "8c869b766f3f79a2a89f7bb791bfb07daa97456f",
+        "date": "2020-03-27 03:14:22 +0100",
+        "author": "Maciej Filocha",
+        "message": "Add missing quote in Training index page (#19867)",
+        "path": "content/en/training/_index.html",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "ee7f79b8846f2e6ffbc5dc76cdd519289a265386",
+        "date": "2020-03-04 15:16:39 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Typo: Kuberenetes -> Kubernetes (#19481)",
+        "path": "content/en/training/_index.html",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "67c0fb987eb5d48602cda1cf666452425f16bcc5",
+        "date": "2020-03-04 11:01:48 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Training page in the top nav (#19214)",
+        "path": "content/en/training/_index.html",
+        "insertions": 108,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  }
+}

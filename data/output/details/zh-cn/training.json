@@ -1,0 +1,16 @@
+{
+  "content/en/training/_index.html": {
+    "target_path": "content/zh-cn/training/_index.html",
+    "english_path": "content/en/training/_index.html",
+    "target_latest_date": "2025-05-27T15:24:25-07:00",
+    "english_latest_date": "2025-05-26T23:02:16-07:00",
+    "days_behind": 0,
+    "commits_behind": 0,
+    "total_change_lines": 0,
+    "insertions_behind_lines": 0,
+    "deletions_behind_lines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missing_commits": []
+  }
+}

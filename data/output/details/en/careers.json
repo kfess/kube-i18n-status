@@ -1,0 +1,16 @@
+{
+  "content/en/careers/_index.html": {
+    "target_path": "content/en/careers/_index.html",
+    "english_path": "content/en/careers/_index.html",
+    "target_latest_date": "2025-06-05T05:40:39-07:00",
+    "english_latest_date": "2025-06-05T05:40:39-07:00",
+    "days_behind": 0,
+    "commits_behind": 0,
+    "total_change_lines": 0,
+    "insertions_behind_lines": 0,
+    "deletions_behind_lines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missing_commits": []
+  }
+}

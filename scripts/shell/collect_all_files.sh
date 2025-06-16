@@ -27,13 +27,17 @@ log_success() {
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 REPO_PATH="${ROOT_DIR}/k8s-repo/website"
 REPO_CONTENT_PATH="${REPO_PATH}/content"
-OUTPUT_DIR="${ROOT_DIR}/data/master/languages"
+OUTPUT_DIR="${ROOT_DIR}/data/master"
 
 mkdir -p "${OUTPUT_DIR}"
 
 LANGUAGES=("bn" "de" "en" "es" "fr" "hi" "it" "ja" "ko" "pl" "pt-br" "ru" "uk" "vi" "zh-cn")
 
 log_info "Starting to collect files for each language..."
+
+# 一時ファイルを作成
+temp_file="${OUTPUT_DIR}/all_files.csv.tmp"
+> "$temp_file"  # ファイルを空にする
 
 for lang in "${LANGUAGES[@]}"; do
   lang_dir="${REPO_CONTENT_PATH}/${lang}"
@@ -43,19 +47,22 @@ for lang in "${LANGUAGES[@]}"; do
     continue
   fi
   
-  lang_output_dir="${OUTPUT_DIR}/${lang}"
-  mkdir -p "$lang_output_dir"
-  
   log_info "Processing language: $lang"
 
   cd "${REPO_PATH}"
   
-  find "content/${lang}" -type f | sort > "${lang_output_dir}/all_files.csv"
+  # 各言語のファイルを一時ファイルに追記
+  find "content/${lang}" -type f | sort >> "$temp_file"
   
   cd - > /dev/null
   
-  file_count=$(wc -l < "${lang_output_dir}/all_files.csv")
-  log_success "Found $file_count files for $lang"
+  lang_file_count=$(find "${REPO_CONTENT_PATH}/${lang}" -type f | wc -l)
+  log_success "Found $lang_file_count files for $lang"
 done
 
-log_success "File collection complete. Results saved to language-specific directories in ${OUTPUT_DIR}"
+# 一時ファイルを最終ファイルに移動
+mv "$temp_file" "${OUTPUT_DIR}/all_files.csv"
+
+total_file_count=$(wc -l < "${OUTPUT_DIR}/all_files.csv")
+
+log_success "File collection complete. Total $total_file_count files saved to ${OUTPUT_DIR}/all_files.csv"

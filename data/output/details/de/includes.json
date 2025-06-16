@@ -1,0 +1,108 @@
+{
+  "content/en/includes/federation-deprecation-warning-note.md": {
+    "target_path": "content/de/includes/federation-deprecation-warning-note.md",
+    "english_path": "content/en/includes/federation-deprecation-warning-note.md",
+    "target_latest_date": "2019-04-17T20:00:06+02:00",
+    "english_latest_date": "2019-03-12T20:38:39+00:00",
+    "days_behind": 0,
+    "commits_behind": 0,
+    "total_change_lines": 0,
+    "insertions_behind_lines": 0,
+    "deletions_behind_lines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missing_commits": []
+  },
+  "content/en/includes/default-storage-class-prereqs.md": {
+    "target_path": "content/de/includes/default-storage-class-prereqs.md",
+    "english_path": "content/en/includes/default-storage-class-prereqs.md",
+    "target_latest_date": "2022-05-27T13:31:07+03:00",
+    "english_latest_date": "2022-04-11T03:16:06-07:00",
+    "days_behind": 0,
+    "commits_behind": 0,
+    "total_change_lines": 0,
+    "insertions_behind_lines": 0,
+    "deletions_behind_lines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missing_commits": []
+  },
+  "content/en/includes/index.md": {
+    "target_path": "content/de/includes/index.md",
+    "english_path": "content/en/includes/index.md",
+    "target_latest_date": "2019-04-17T20:00:06+02:00",
+    "english_latest_date": "2018-05-05T18:00:51+02:00",
+    "days_behind": 0,
+    "commits_behind": 0,
+    "total_change_lines": 0,
+    "insertions_behind_lines": 0,
+    "deletions_behind_lines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missing_commits": []
+  },
+  "content/en/includes/user-guide-content-moved.md": {
+    "target_path": "content/de/includes/user-guide-content-moved.md",
+    "english_path": "content/en/includes/user-guide-content-moved.md",
+    "target_latest_date": "2019-03-26T21:37:19+01:00",
+    "english_latest_date": "2018-05-05T18:00:51+02:00",
+    "days_behind": 0,
+    "commits_behind": 0,
+    "total_change_lines": 0,
+    "insertions_behind_lines": 0,
+    "deletions_behind_lines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missing_commits": []
+  },
+  "content/en/includes/task-tutorial-prereqs.md": {
+    "target_path": "content/de/includes/task-tutorial-prereqs.md",
+    "english_path": "content/en/includes/task-tutorial-prereqs.md",
+    "target_latest_date": "2023-06-25T23:35:10-07:00",
+    "english_latest_date": "2025-03-13T02:37:48-07:00",
+    "days_behind": 626,
+    "commits_behind": 1,
+    "total_change_lines": 1,
+    "insertions_behind_lines": 1,
+    "deletions_behind_lines": 0,
+    "status": "outdated",
+    "severity": "minor",
+    "missing_commits": [
+      {
+        "hash": "70c8f20d03fa131d5ae22d04c3b99a9ab6863681",
+        "date": "2025-03-13 02:37:48 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #49932 from abhi-bhatra/feature-add-new-playground",
+        "path": "content/en/includes/task-tutorial-prereqs.md",
+        "insertions": 1,
+        "deletions": 0,
+        "operation": "modified"
+      }
+    ]
+  },
+  "content/en/includes/task-tutorial-prereqs-node-upgrade.md": {
+    "target_path": "content/de/includes/task-tutorial-prereqs-node-upgrade.md",
+    "english_path": "content/en/includes/task-tutorial-prereqs-node-upgrade.md",
+    "target_latest_date": null,
+    "english_latest_date": "2024-04-22T15:34:40-07:00",
+    "days_behind": 419,
+    "commits_behind": 1,
+    "total_change_lines": 3,
+    "insertions_behind_lines": 3,
+    "deletions_behind_lines": 0,
+    "status": "not_translated",
+    "severity": "minor",
+    "missing_commits": [
+      {
+        "hash": "305078d22edf10204c8607fe388ed41a7bd09bee",
+        "date": "2024-04-22 15:34:40 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #45778 from mrgiles/45539_shell_access_to_node_before_upgrade",
+        "path": "content/en/includes/task-tutorial-prereqs-node-upgrade.md",
+        "insertions": 3,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  }
+}

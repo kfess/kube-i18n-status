@@ -1,0 +1,79 @@
+{
+  "content/en/community/_index.html": {
+    "target_path": "content/bn/community/_index.html",
+    "english_path": "content/en/community/_index.html",
+    "target_latest_date": "2024-05-10T03:29:30-07:00",
+    "english_latest_date": "2025-06-05T05:40:39-07:00",
+    "days_behind": 391,
+    "commits_behind": 2,
+    "total_change_lines": 22,
+    "insertions_behind_lines": 17,
+    "deletions_behind_lines": 5,
+    "status": "outdated",
+    "severity": "minor",
+    "missing_commits": [
+      {
+        "hash": "d191629db65eb3e3e321eaa153ee4f5b2431f1dc",
+        "date": "2025-06-05 05:40:39 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #50925 from jeefy/careers-page",
+        "path": "content/en/community/_index.html",
+        "insertions": 3,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "d8aeb707c53d03c63f97ebb6185ad6bac55ca936",
+        "date": "2025-05-01 12:19:55 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #49606 from shurup/migrate-to-bluesky",
+        "path": "content/en/community/_index.html",
+        "insertions": 14,
+        "deletions": 5,
+        "operation": "modified"
+      }
+    ]
+  },
+  "content/en/community/static/README.md": {
+    "target_path": "content/bn/community/static/README.md",
+    "english_path": "content/en/community/static/README.md",
+    "target_latest_date": "2024-05-10T03:29:30-07:00",
+    "english_latest_date": "2022-03-24T17:19:50-07:00",
+    "days_behind": 0,
+    "commits_behind": 0,
+    "total_change_lines": 0,
+    "insertions_behind_lines": 0,
+    "deletions_behind_lines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missing_commits": []
+  },
+  "content/en/community/static/cncf-code-of-conduct.md": {
+    "target_path": "content/bn/community/static/cncf-code-of-conduct.md",
+    "english_path": "content/en/community/static/cncf-code-of-conduct.md",
+    "target_latest_date": "2024-10-31T15:47:30+00:00",
+    "english_latest_date": "2024-10-29T00:12:54+00:00",
+    "days_behind": 0,
+    "commits_behind": 0,
+    "total_change_lines": 0,
+    "insertions_behind_lines": 0,
+    "deletions_behind_lines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missing_commits": []
+  },
+  "content/en/community/code-of-conduct.md": {
+    "target_path": "content/bn/community/code-of-conduct.md",
+    "english_path": "content/en/community/code-of-conduct.md",
+    "target_latest_date": "2024-05-10T03:29:30-07:00",
+    "english_latest_date": "2024-04-29T21:40:35-07:00",
+    "days_behind": 0,
+    "commits_behind": 0,
+    "total_change_lines": 0,
+    "insertions_behind_lines": 0,
+    "deletions_behind_lines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missing_commits": []
+  }
+}

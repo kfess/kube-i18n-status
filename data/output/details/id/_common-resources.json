@@ -1,0 +1,16 @@
+{
+  "content/en/_common-resources/index.md": {
+    "target_path": "content/id/_common-resources/index.md",
+    "english_path": "content/en/_common-resources/index.md",
+    "target_latest_date": "2019-04-16T15:13:08+05:30",
+    "english_latest_date": "2018-09-14T23:47:24+02:00",
+    "days_behind": 0,
+    "commits_behind": 0,
+    "total_change_lines": 0,
+    "insertions_behind_lines": 0,
+    "deletions_behind_lines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missing_commits": []
+  }
+}

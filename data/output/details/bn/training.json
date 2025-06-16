@@ -1,0 +1,47 @@
+{
+  "content/en/training/_index.html": {
+    "target_path": "content/bn/training/_index.html",
+    "english_path": "content/en/training/_index.html",
+    "target_latest_date": "2024-05-10T03:29:30-07:00",
+    "english_latest_date": "2025-05-26T23:02:16-07:00",
+    "days_behind": 381,
+    "commits_behind": 3,
+    "total_change_lines": 83,
+    "insertions_behind_lines": 51,
+    "deletions_behind_lines": 32,
+    "status": "outdated",
+    "severity": "moderate",
+    "missing_commits": [
+      {
+        "hash": "10b4d1e658d23bb210ad39fbb9387e98aa22301c",
+        "date": "2025-05-26 23:02:16 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #51035 from dkarczmarski/fix-html-traning-_index.html",
+        "path": "content/en/training/_index.html",
+        "insertions": 31,
+        "deletions": 30,
+        "operation": "modified"
+      },
+      {
+        "hash": "3e517558fc0e77c417c97571f11b98bdbc6172aa",
+        "date": "2025-03-10 02:35:47 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #50056 from pedrotchang/issue-50010",
+        "path": "content/en/training/_index.html",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "edda362e85fb2f2b975459a6a692a6b4ccbfebe9",
+        "date": "2025-03-05 00:39:50 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #49959 from vishalbidwe/kubestronaut_program_dev",
+        "path": "content/en/training/_index.html",
+        "insertions": 18,
+        "deletions": 0,
+        "operation": "modified"
+      }
+    ]
+  }
+}

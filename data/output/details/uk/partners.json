@@ -1,0 +1,187 @@
+{
+  "content/en/partners/_index.html": {
+    "target_path": "content/uk/partners/_index.html",
+    "english_path": "content/en/partners/_index.html",
+    "target_latest_date": null,
+    "english_latest_date": "2024-04-17T23:31:53-07:00",
+    "days_behind": 424,
+    "commits_behind": 17,
+    "total_change_lines": 469,
+    "insertions_behind_lines": 258,
+    "deletions_behind_lines": 211,
+    "status": "not_translated",
+    "severity": "significant",
+    "missing_commits": [
+      {
+        "hash": "bddad1a2f657dc82f94f9c95eb4fc4e4ff90d8cf",
+        "date": "2024-04-17 23:31:53 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #45869 from sftim/20240414_vanillaify_content_partners",
+        "path": "content/en/partners/_index.html",
+        "insertions": 5,
+        "deletions": 11,
+        "operation": "modified"
+      },
+      {
+        "hash": "06fb191b99a1a248cc8c697cd5170aea195412cd",
+        "date": "2024-01-19 01:49:32 +0100",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #44792 from cynthia-sg/cynthia-sg/landscape",
+        "path": "content/en/partners/_index.html",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "c7dbfdd31749e72220b5217acf3c302a0df137b7",
+        "date": "2020-09-15 10:52:08 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #23210 from sftim/20200816_add_cncf_landscape_shortcode",
+        "path": "content/en/partners/_index.html",
+        "insertions": 4,
+        "deletions": 49,
+        "operation": "modified"
+      },
+      {
+        "hash": "7f070f45ec9435a6d8f844d6e559e50758ec786f",
+        "date": "2020-07-05 19:40:50 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22305 from Arhell/remove-images",
+        "path": "content/en/partners/_index.html",
+        "insertions": 1,
+        "deletions": 5,
+        "operation": "modified"
+      },
+      {
+        "hash": "0625ced4668b819eb9789570d8b9f2c5f9fef4b9",
+        "date": "2020-06-15 12:09:57 -0700",
+        "author": "Aidan Ranney",
+        "message": "Revise the Kubernetes website to use Docsy (#20874)",
+        "path": "content/en/partners/_index.html",
+        "insertions": 67,
+        "deletions": 56,
+        "operation": "modified"
+      },
+      {
+        "hash": "6a4238aa718e3f3fb466821bfcd8fbe55c6fb572",
+        "date": "2019-10-27 17:13:24 +0530",
+        "author": "Chaitanya",
+        "message": "Accessibility updates - main landmark roles (#17106)",
+        "path": "content/en/partners/_index.html",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "920d14f4fcd4eb5d76665477d88d0ebdfc475a24",
+        "date": "2019-10-06 10:53:09 +0530",
+        "author": "Chaitanya",
+        "message": "Accessibility Updates (#16633)",
+        "path": "content/en/partners/_index.html",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "21b7d126c87e07c36eec60c6178d40294889b25c",
+        "date": "2019-05-16 17:35:46 +0530",
+        "author": "Yashu Mittal",
+        "message": "Fix sentence format (#14311)",
+        "path": "content/en/partners/_index.html",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "ff80f66959d39a6012db7c9c7bab77ce5b39137e",
+        "date": "2019-02-06 11:35:02 -0500",
+        "author": "Dan Kohn",
+        "message": "Simplify JavaScript used for embedded landscapes (#12522)",
+        "path": "content/en/partners/_index.html",
+        "insertions": 1,
+        "deletions": 16,
+        "operation": "modified"
+      },
+      {
+        "hash": "935e50da22d25cde48675bdf4acd3d2f64ffc716",
+        "date": "2019-01-28 17:53:19 -0500",
+        "author": "Dan Kohn",
+        "message": "Update interactive landscape URLs (#12414)",
+        "path": "content/en/partners/_index.html",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "fb7f32dd8dcc915592cb91196de6512d21034bd6",
+        "date": "2018-12-26 19:12:27 -0500",
+        "author": "Dan Kohn",
+        "message": "Fix Interactive Landscape references (#11905)",
+        "path": "content/en/partners/_index.html",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "47d8c9a9fd21faadf1ce13bbf3a0f6a0ca6bc10f",
+        "date": "2018-11-29 21:28:01 +0800",
+        "author": "chenrui",
+        "message": "Remove redundant close tags and little bit formatting (#11389)",
+        "path": "content/en/partners/_index.html",
+        "insertions": 30,
+        "deletions": 4,
+        "operation": "modified"
+      },
+      {
+        "hash": "8d74d997cbeb8b1210fae411c1ab1fee3d8477ac",
+        "date": "2018-08-06 16:29:50 -0700",
+        "author": "Kaitlyn Barnard",
+        "message": "Adding Learn More Links to Partner Page (#9707)",
+        "path": "content/en/partners/_index.html",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "34fb7339e094a38580b89b3ced5bfaf068c448f5",
+        "date": "2018-07-18 16:35:43 -0700",
+        "author": "Kaitlyn Barnard",
+        "message": "Adding anchor links to partner page (#9411)",
+        "path": "content/en/partners/_index.html",
+        "insertions": 33,
+        "deletions": 18,
+        "operation": "modified"
+      },
+      {
+        "hash": "6f0cf009bf39fd1cb0f3ddfa65a6b1ff57f978ae",
+        "date": "2018-06-15 10:12:28 -0700",
+        "author": "Kaitlyn Barnard",
+        "message": "Updated Partner Page Design (#8959)",
+        "path": "content/en/partners/_index.html",
+        "insertions": 42,
+        "deletions": 33,
+        "operation": "modified"
+      },
+      {
+        "hash": "2b71a0e8b46c873dedea6aea56b07f886883d9a2",
+        "date": "2018-05-18 10:45:51 -0700",
+        "author": "Kaitlyn Barnard",
+        "message": "Adding KTPs and new KCSP partners (#8423)",
+        "path": "content/en/partners/_index.html",
+        "insertions": 9,
+        "deletions": 4,
+        "operation": "modified"
+      },
+      {
+        "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+        "date": "2018-05-05 18:00:51 +0200",
+        "author": "Bj\u00f8rn Erik Pedersen",
+        "message": "Convert site to Hugo (#8316)",
+        "path": "content/en/partners/_index.html",
+        "insertions": 51,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  }
+}

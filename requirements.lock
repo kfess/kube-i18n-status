@@ -76,6 +76,8 @@ stack-data==0.6.3
 tornado==6.4.2
     # via ipykernel
     # via jupyter-client
+tqdm==4.67.1
+    # via default
 traitlets==5.14.3
     # via comm
     # via ipykernel
