@@ -34,45 +34,6 @@
       }
     ]
   },
-  "content/en/community/static/cncf-code-of-conduct.md": {
-    "targetPath": "content/pt-br/community/static/cncf-code-of-conduct.md",
-    "englishPath": "content/en/community/static/cncf-code-of-conduct.md",
-    "targetLatestDate": "2024-11-05T20:19:30+00:00",
-    "englishLatestDate": "2024-10-29T00:12:54+00:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/community/static/README.md": {
-    "targetPath": "content/pt-br/community/static/README.md",
-    "englishPath": "content/en/community/static/README.md",
-    "targetLatestDate": "2021-04-19T21:10:33-03:00",
-    "englishLatestDate": "2022-03-24T17:19:50-07:00",
-    "daysBehind": 339,
-    "commitsBehind": 1,
-    "totalChangeLines": 5,
-    "insertionsBehindLines": 4,
-    "deletionsBehindLines": 1,
-    "status": "outdated",
-    "severity": "minor",
-    "missingCommits": [
-      {
-        "hash": "e7af510fde0990e32466230013f60e4ff7ec190f",
-        "date": "2022-03-24 17:19:50 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #31658 from sftim/20220207_revise_community_page_and_styles",
-        "path": "content/en/community/static/README.md",
-        "insertions": 4,
-        "deletions": 1,
-        "operation": "modified"
-      }
-    ]
-  },
   "content/en/community/code-of-conduct.md": {
     "targetPath": "content/pt-br/community/code-of-conduct.md",
     "englishPath": "content/en/community/code-of-conduct.md",
@@ -113,6 +74,45 @@
         "message": "Merge pull request #42398 from ydFu/cncf-coc",
         "path": "content/en/community/code-of-conduct.md",
         "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      }
+    ]
+  },
+  "content/en/community/static/cncf-code-of-conduct.md": {
+    "targetPath": "content/pt-br/community/static/cncf-code-of-conduct.md",
+    "englishPath": "content/en/community/static/cncf-code-of-conduct.md",
+    "targetLatestDate": "2024-11-05T20:19:30+00:00",
+    "englishLatestDate": "2024-10-29T00:12:54+00:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/community/static/README.md": {
+    "targetPath": "content/pt-br/community/static/README.md",
+    "englishPath": "content/en/community/static/README.md",
+    "targetLatestDate": "2021-04-19T21:10:33-03:00",
+    "englishLatestDate": "2022-03-24T17:19:50-07:00",
+    "daysBehind": 339,
+    "commitsBehind": 1,
+    "totalChangeLines": 5,
+    "insertionsBehindLines": 4,
+    "deletionsBehindLines": 1,
+    "status": "outdated",
+    "severity": "minor",
+    "missingCommits": [
+      {
+        "hash": "e7af510fde0990e32466230013f60e4ff7ec190f",
+        "date": "2022-03-24 17:19:50 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #31658 from sftim/20220207_revise_community_page_and_styles",
+        "path": "content/en/community/static/README.md",
+        "insertions": 4,
         "deletions": 1,
         "operation": "modified"
       }

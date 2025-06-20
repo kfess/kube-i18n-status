@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-16T15:14:52.991768+00:00",
+  "lastUpdated": "2025-06-19T15:09:01.712133+00:00",
   "articles": [
     {
       "englishPath": "content/en/partners/_index.html",
@@ -52,7 +52,7 @@
         "hi": {
           "status": "not_translated",
           "severity": "significant",
-          "daysBehind": 424,
+          "daysBehind": 427,
           "commitsBehind": 17,
           "totalChangeLines": 469,
           "targetLatestDate": null,
@@ -61,7 +61,7 @@
         "id": {
           "status": "not_translated",
           "severity": "significant",
-          "daysBehind": 424,
+          "daysBehind": 427,
           "commitsBehind": 17,
           "totalChangeLines": 469,
           "targetLatestDate": null,
@@ -97,7 +97,7 @@
         "pl": {
           "status": "not_translated",
           "severity": "significant",
-          "daysBehind": 424,
+          "daysBehind": 427,
           "commitsBehind": 17,
           "totalChangeLines": 469,
           "targetLatestDate": null,
@@ -115,7 +115,7 @@
         "ru": {
           "status": "not_translated",
           "severity": "significant",
-          "daysBehind": 424,
+          "daysBehind": 427,
           "commitsBehind": 17,
           "totalChangeLines": 469,
           "targetLatestDate": null,
@@ -124,7 +124,7 @@
         "uk": {
           "status": "not_translated",
           "severity": "significant",
-          "daysBehind": 424,
+          "daysBehind": 427,
           "commitsBehind": 17,
           "totalChangeLines": 469,
           "targetLatestDate": null,

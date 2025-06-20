@@ -1,37 +1,9 @@
 {
-  "content/en/case-studies/spotify/index.html": {
-    "targetPath": "content/bn/case-studies/spotify/index.html",
-    "englishPath": "content/en/case-studies/spotify/index.html",
+  "content/en/case-studies/Index.html": {
+    "targetPath": "content/bn/case-studies/_index.html",
+    "englishPath": "content/en/case-studies/_index.html",
     "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2020-10-20T15:04:19-07:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/case-studies/bose/index.html": {
-    "targetPath": "content/bn/case-studies/bose/index.html",
-    "englishPath": "content/en/case-studies/bose/index.html",
-    "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2020-10-20T15:04:19-07:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/case-studies/vsco/index.html": {
-    "targetPath": "content/bn/case-studies/vsco/index.html",
-    "englishPath": "content/en/case-studies/vsco/index.html",
-    "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2023-12-22T01:39:18+01:00",
+    "englishLatestDate": "2024-04-14T18:14:48-07:00",
     "daysBehind": 0,
     "commitsBehind": 0,
     "totalChangeLines": 0,
@@ -69,11 +41,11 @@
     "severity": "current",
     "missingCommits": []
   },
-  "content/en/case-studies/ygrene/index.html": {
-    "targetPath": "content/bn/case-studies/ygrene/index.html",
-    "englishPath": "content/en/case-studies/ygrene/index.html",
+  "content/en/case-studies/amadeus/index.html": {
+    "targetPath": "content/bn/case-studies/amadeus/index.html",
+    "englishPath": "content/en/case-studies/amadeus/index.html",
     "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "englishLatestDate": "2023-08-20T14:09:21-07:00",
     "daysBehind": 0,
     "commitsBehind": 0,
     "totalChangeLines": 0,
@@ -83,76 +55,34 @@
     "severity": "current",
     "missingCommits": []
   },
-  "content/en/case-studies/pingcap/index.html": {
-    "targetPath": "content/bn/case-studies/pingcap/index.html",
-    "englishPath": "content/en/case-studies/pingcap/index.html",
+  "content/en/case-studies/ancestry/index.html": {
+    "targetPath": "content/bn/case-studies/ancestry/index.html",
+    "englishPath": "content/en/case-studies/ancestry/index.html",
     "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2020-10-20T15:04:19-07:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/case-studies/cern/index.html": {
-    "targetPath": "content/bn/case-studies/cern/index.html",
-    "englishPath": "content/en/case-studies/cern/index.html",
-    "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2020-10-20T15:04:19-07:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/case-studies/blablacar/index.html": {
-    "targetPath": "content/bn/case-studies/blablacar/index.html",
-    "englishPath": "content/en/case-studies/blablacar/index.html",
-    "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2025-06-01T18:38:36-07:00",
-    "daysBehind": 387,
+    "englishLatestDate": "2025-05-22T19:20:38-07:00",
+    "daysBehind": 377,
     "commitsBehind": 1,
-    "totalChangeLines": 2,
-    "insertionsBehindLines": 1,
-    "deletionsBehindLines": 1,
+    "totalChangeLines": 4,
+    "insertionsBehindLines": 2,
+    "deletionsBehindLines": 2,
     "status": "outdated",
     "severity": "minor",
     "missingCommits": [
       {
-        "hash": "c27efed5578cbf0e150b7971313c1897d5be3597",
-        "date": "2025-06-01 18:38:36 -0700",
+        "hash": "8ba5a338f5b0a89f96135a1b61eebff88676e6a0",
+        "date": "2025-05-22 19:20:38 -0700",
         "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #51130 from Arhell/en-kube",
-        "path": "content/en/case-studies/blablacar/index.html",
-        "insertions": 1,
-        "deletions": 1,
+        "message": "Merge pull request #51016 from Arhell/en-link",
+        "path": "content/en/case-studies/ancestry/index.html",
+        "insertions": 2,
+        "deletions": 2,
         "operation": "modified"
       }
     ]
   },
-  "content/en/case-studies/northwestern-mutual/index.html": {
-    "targetPath": "content/bn/case-studies/northwestern-mutual/index.html",
-    "englishPath": "content/en/case-studies/northwestern-mutual/index.html",
-    "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2020-10-20T15:04:19-07:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/case-studies/thredup/index.html": {
-    "targetPath": "content/bn/case-studies/thredup/index.html",
-    "englishPath": "content/en/case-studies/thredup/index.html",
+  "content/en/case-studies/ant-financial/index.html": {
+    "targetPath": "content/bn/case-studies/ant-financial/index.html",
+    "englishPath": "content/en/case-studies/ant-financial/index.html",
     "targetLatestDate": "2024-05-10T03:29:30-07:00",
     "englishLatestDate": "2020-10-20T15:04:19-07:00",
     "daysBehind": 0,
@@ -189,6 +119,115 @@
       }
     ]
   },
+  "content/en/case-studies/babylon/index.html": {
+    "targetPath": "content/bn/case-studies/babylon/index.html",
+    "englishPath": "content/en/case-studies/babylon/index.html",
+    "targetLatestDate": "2024-05-10T03:29:30-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/blablacar/index.html": {
+    "targetPath": "content/bn/case-studies/blablacar/index.html",
+    "englishPath": "content/en/case-studies/blablacar/index.html",
+    "targetLatestDate": "2024-05-10T03:29:30-07:00",
+    "englishLatestDate": "2025-06-01T18:38:36-07:00",
+    "daysBehind": 387,
+    "commitsBehind": 1,
+    "totalChangeLines": 2,
+    "insertionsBehindLines": 1,
+    "deletionsBehindLines": 1,
+    "status": "outdated",
+    "severity": "minor",
+    "missingCommits": [
+      {
+        "hash": "c27efed5578cbf0e150b7971313c1897d5be3597",
+        "date": "2025-06-01 18:38:36 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #51130 from Arhell/en-kube",
+        "path": "content/en/case-studies/blablacar/index.html",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      }
+    ]
+  },
+  "content/en/case-studies/blackrock/index.html": {
+    "targetPath": "content/bn/case-studies/blackrock/index.html",
+    "englishPath": "content/en/case-studies/blackrock/index.html",
+    "targetLatestDate": "2024-05-10T03:29:30-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/booking-com/index.html": {
+    "targetPath": "content/bn/case-studies/booking-com/index.html",
+    "englishPath": "content/en/case-studies/booking-com/index.html",
+    "targetLatestDate": "2024-05-10T03:29:30-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/booz-allen/index.html": {
+    "targetPath": "content/bn/case-studies/booz-allen/index.html",
+    "englishPath": "content/en/case-studies/booz-allen/index.html",
+    "targetLatestDate": "2024-05-10T03:29:30-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/bose/index.html": {
+    "targetPath": "content/bn/case-studies/bose/index.html",
+    "englishPath": "content/en/case-studies/bose/index.html",
+    "targetLatestDate": "2024-05-10T03:29:30-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/box/index.html": {
+    "targetPath": "content/bn/case-studies/box/index.html",
+    "englishPath": "content/en/case-studies/box/index.html",
+    "targetLatestDate": "2025-01-15T06:08:33-08:00",
+    "englishLatestDate": "2025-01-12T01:20:30-08:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
   "content/en/case-studies/buffer/index.html": {
     "targetPath": "content/bn/case-studies/buffer/index.html",
     "englishPath": "content/en/case-studies/buffer/index.html",
@@ -203,9 +242,9 @@
     "severity": "current",
     "missingCommits": []
   },
-  "content/en/case-studies/ibm/index.html": {
-    "targetPath": "content/bn/case-studies/ibm/index.html",
-    "englishPath": "content/en/case-studies/ibm/index.html",
+  "content/en/case-studies/capital-one/index.html": {
+    "targetPath": "content/bn/case-studies/capital-one/index.html",
+    "englishPath": "content/en/case-studies/capital-one/index.html",
     "targetLatestDate": "2024-05-10T03:29:30-07:00",
     "englishLatestDate": "2020-10-20T15:04:19-07:00",
     "daysBehind": 0,
@@ -217,135 +256,9 @@
     "severity": "current",
     "missingCommits": []
   },
-  "content/en/case-studies/naic/index.html": {
-    "targetPath": "content/bn/case-studies/naic/index.html",
-    "englishPath": "content/en/case-studies/naic/index.html",
-    "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2020-10-20T15:04:19-07:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/case-studies/newyorktimes/index.html": {
-    "targetPath": "content/bn/case-studies/newyorktimes/index.html",
-    "englishPath": "content/en/case-studies/newyorktimes/index.html",
-    "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2020-11-25T07:10:39-08:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/case-studies/ocado/index.html": {
-    "targetPath": "content/bn/case-studies/ocado/index.html",
-    "englishPath": "content/en/case-studies/ocado/index.html",
-    "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2020-10-20T15:04:19-07:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/case-studies/prowise/index.html": {
-    "targetPath": "content/bn/case-studies/prowise/index.html",
-    "englishPath": "content/en/case-studies/prowise/index.html",
-    "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2022-01-31T09:10:24-08:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/case-studies/slingtv/index.html": {
-    "targetPath": "content/bn/case-studies/slingtv/index.html",
-    "englishPath": "content/en/case-studies/slingtv/index.html",
-    "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2020-10-20T15:04:19-07:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/case-studies/slamtec/index.html": {
-    "targetPath": "content/bn/case-studies/slamtec/index.html",
-    "englishPath": "content/en/case-studies/slamtec/index.html",
-    "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2020-10-20T15:04:19-07:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/case-studies/peardeck/index.html": {
-    "targetPath": "content/bn/case-studies/peardeck/index.html",
-    "englishPath": "content/en/case-studies/peardeck/index.html",
-    "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2022-01-31T09:10:24-08:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/case-studies/crowdfire/index.html": {
-    "targetPath": "content/bn/case-studies/crowdfire/index.html",
-    "englishPath": "content/en/case-studies/crowdfire/index.html",
-    "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2020-10-20T15:04:19-07:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/case-studies/wink/index.html": {
-    "targetPath": "content/bn/case-studies/wink/index.html",
-    "englishPath": "content/en/case-studies/wink/index.html",
-    "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2022-01-31T09:10:24-08:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/case-studies/zalando/index.html": {
-    "targetPath": "content/bn/case-studies/zalando/index.html",
-    "englishPath": "content/en/case-studies/zalando/index.html",
+  "content/en/case-studies/cern/index.html": {
+    "targetPath": "content/bn/case-studies/cern/index.html",
+    "englishPath": "content/en/case-studies/cern/index.html",
     "targetLatestDate": "2024-05-10T03:29:30-07:00",
     "englishLatestDate": "2020-10-20T15:04:19-07:00",
     "daysBehind": 0,
@@ -385,11 +298,11 @@
     "severity": "current",
     "missingCommits": []
   },
-  "content/en/case-studies/Index.html": {
-    "targetPath": "content/bn/case-studies/_index.html",
-    "englishPath": "content/en/case-studies/_index.html",
+  "content/en/case-studies/crowdfire/index.html": {
+    "targetPath": "content/bn/case-studies/crowdfire/index.html",
+    "englishPath": "content/en/case-studies/crowdfire/index.html",
     "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2024-04-14T18:14:48-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
     "daysBehind": 0,
     "commitsBehind": 0,
     "totalChangeLines": 0,
@@ -413,20 +326,6 @@
     "severity": "current",
     "missingCommits": []
   },
-  "content/en/case-studies/capital-one/index.html": {
-    "targetPath": "content/bn/case-studies/capital-one/index.html",
-    "englishPath": "content/en/case-studies/capital-one/index.html",
-    "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2020-10-20T15:04:19-07:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
   "content/en/case-studies/denso/index.html": {
     "targetPath": "content/bn/case-studies/denso/index.html",
     "englishPath": "content/en/case-studies/denso/index.html",
@@ -441,9 +340,9 @@
     "severity": "current",
     "missingCommits": []
   },
-  "content/en/case-studies/ant-financial/index.html": {
-    "targetPath": "content/bn/case-studies/ant-financial/index.html",
-    "englishPath": "content/en/case-studies/ant-financial/index.html",
+  "content/en/case-studies/golfnow/index.html": {
+    "targetPath": "content/bn/case-studies/golfnow/index.html",
+    "englishPath": "content/en/case-studies/golfnow/index.html",
     "targetLatestDate": "2024-05-10T03:29:30-07:00",
     "englishLatestDate": "2020-10-20T15:04:19-07:00",
     "daysBehind": 0,
@@ -455,9 +354,9 @@
     "severity": "current",
     "missingCommits": []
   },
-  "content/en/case-studies/nerdalize/index.html": {
-    "targetPath": "content/bn/case-studies/nerdalize/index.html",
-    "englishPath": "content/en/case-studies/nerdalize/index.html",
+  "content/en/case-studies/haufegroup/index.html": {
+    "targetPath": "content/bn/case-studies/haufegroup/index.html",
+    "englishPath": "content/en/case-studies/haufegroup/index.html",
     "targetLatestDate": "2024-05-10T03:29:30-07:00",
     "englishLatestDate": "2020-10-20T15:04:19-07:00",
     "daysBehind": 0,
@@ -494,39 +393,11 @@
       }
     ]
   },
-  "content/en/case-studies/booking-com/index.html": {
-    "targetPath": "content/bn/case-studies/booking-com/index.html",
-    "englishPath": "content/en/case-studies/booking-com/index.html",
+  "content/en/case-studies/ibm/index.html": {
+    "targetPath": "content/bn/case-studies/ibm/index.html",
+    "englishPath": "content/en/case-studies/ibm/index.html",
     "targetLatestDate": "2024-05-10T03:29:30-07:00",
     "englishLatestDate": "2020-10-20T15:04:19-07:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/case-studies/pearson/index.html": {
-    "targetPath": "content/bn/case-studies/pearson/index.html",
-    "englishPath": "content/en/case-studies/pearson/index.html",
-    "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2020-10-20T15:04:19-07:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/case-studies/yahoo-japan/index.html": {
-    "targetPath": "content/bn/case-studies/yahoo-japan/index.html",
-    "englishPath": "content/en/case-studies/yahoo-japan/index.html",
-    "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2018-08-20T21:07:54+02:00",
     "daysBehind": 0,
     "commitsBehind": 0,
     "totalChangeLines": 0,
@@ -539,6 +410,62 @@
   "content/en/case-studies/ing/index.html": {
     "targetPath": "content/bn/case-studies/ing/index.html",
     "englishPath": "content/en/case-studies/ing/index.html",
+    "targetLatestDate": "2024-05-10T03:29:30-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/jd-com/index.html": {
+    "targetPath": "content/bn/case-studies/jd-com/index.html",
+    "englishPath": "content/en/case-studies/jd-com/index.html",
+    "targetLatestDate": "2024-05-10T03:29:30-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/naic/index.html": {
+    "targetPath": "content/bn/case-studies/naic/index.html",
+    "englishPath": "content/en/case-studies/naic/index.html",
+    "targetLatestDate": "2024-05-10T03:29:30-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/nav/index.html": {
+    "targetPath": "content/bn/case-studies/nav/index.html",
+    "englishPath": "content/en/case-studies/nav/index.html",
+    "targetLatestDate": "2024-05-10T03:29:30-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/nerdalize/index.html": {
+    "targetPath": "content/bn/case-studies/nerdalize/index.html",
+    "englishPath": "content/en/case-studies/nerdalize/index.html",
     "targetLatestDate": "2024-05-10T03:29:30-07:00",
     "englishLatestDate": "2020-10-20T15:04:19-07:00",
     "daysBehind": 0,
@@ -564,11 +491,11 @@
     "severity": "current",
     "missingCommits": []
   },
-  "content/en/case-studies/sos/index.html": {
-    "targetPath": "content/bn/case-studies/sos/index.html",
-    "englishPath": "content/en/case-studies/sos/index.html",
+  "content/en/case-studies/newyorktimes/index.html": {
+    "targetPath": "content/bn/case-studies/newyorktimes/index.html",
+    "englishPath": "content/en/case-studies/newyorktimes/index.html",
     "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "englishLatestDate": "2020-11-25T07:10:39-08:00",
     "daysBehind": 0,
     "commitsBehind": 0,
     "totalChangeLines": 0,
@@ -603,9 +530,9 @@
       }
     ]
   },
-  "content/en/case-studies/workiva/index.html": {
-    "targetPath": "content/bn/case-studies/workiva/index.html",
-    "englishPath": "content/en/case-studies/workiva/index.html",
+  "content/en/case-studies/nordstrom/index.html": {
+    "targetPath": "content/bn/case-studies/nordstrom/index.html",
+    "englishPath": "content/en/case-studies/nordstrom/index.html",
     "targetLatestDate": "2024-05-10T03:29:30-07:00",
     "englishLatestDate": "2020-10-20T15:04:19-07:00",
     "daysBehind": 0,
@@ -617,9 +544,79 @@
     "severity": "current",
     "missingCommits": []
   },
-  "content/en/case-studies/woorank/index.html": {
-    "targetPath": "content/bn/case-studies/woorank/index.html",
-    "englishPath": "content/en/case-studies/woorank/index.html",
+  "content/en/case-studies/northwestern-mutual/index.html": {
+    "targetPath": "content/bn/case-studies/northwestern-mutual/index.html",
+    "englishPath": "content/en/case-studies/northwestern-mutual/index.html",
+    "targetLatestDate": "2024-05-10T03:29:30-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/ocado/index.html": {
+    "targetPath": "content/bn/case-studies/ocado/index.html",
+    "englishPath": "content/en/case-studies/ocado/index.html",
+    "targetLatestDate": "2024-05-10T03:29:30-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/openAI/index.html": {
+    "targetPath": "content/bn/case-studies/openAI/index.html",
+    "englishPath": "content/en/case-studies/openAI/index.html",
+    "targetLatestDate": "2024-05-10T03:29:30-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/peardeck/index.html": {
+    "targetPath": "content/bn/case-studies/peardeck/index.html",
+    "englishPath": "content/en/case-studies/peardeck/index.html",
+    "targetLatestDate": "2024-05-10T03:29:30-07:00",
+    "englishLatestDate": "2022-01-31T09:10:24-08:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/pearson/index.html": {
+    "targetPath": "content/bn/case-studies/pearson/index.html",
+    "englishPath": "content/en/case-studies/pearson/index.html",
+    "targetLatestDate": "2024-05-10T03:29:30-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/pingcap/index.html": {
+    "targetPath": "content/bn/case-studies/pingcap/index.html",
+    "englishPath": "content/en/case-studies/pingcap/index.html",
     "targetLatestDate": "2024-05-10T03:29:30-07:00",
     "englishLatestDate": "2020-10-20T15:04:19-07:00",
     "daysBehind": 0,
@@ -645,11 +642,11 @@
     "severity": "current",
     "missingCommits": []
   },
-  "content/en/case-studies/amadeus/index.html": {
-    "targetPath": "content/bn/case-studies/amadeus/index.html",
-    "englishPath": "content/en/case-studies/amadeus/index.html",
+  "content/en/case-studies/prowise/index.html": {
+    "targetPath": "content/bn/case-studies/prowise/index.html",
+    "englishPath": "content/en/case-studies/prowise/index.html",
     "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2023-08-20T14:09:21-07:00",
+    "englishLatestDate": "2022-01-31T09:10:24-08:00",
     "daysBehind": 0,
     "commitsBehind": 0,
     "totalChangeLines": 0,
@@ -659,23 +656,9 @@
     "severity": "current",
     "missingCommits": []
   },
-  "content/en/case-studies/box/index.html": {
-    "targetPath": "content/bn/case-studies/box/index.html",
-    "englishPath": "content/en/case-studies/box/index.html",
-    "targetLatestDate": "2025-01-15T06:08:33-08:00",
-    "englishLatestDate": "2025-01-12T01:20:30-08:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/case-studies/openAI/index.html": {
-    "targetPath": "content/bn/case-studies/openAI/index.html",
-    "englishPath": "content/en/case-studies/openAI/index.html",
+  "content/en/case-studies/ricardo-ch/index.html": {
+    "targetPath": "content/bn/case-studies/ricardo-ch/index.html",
+    "englishPath": "content/en/case-studies/ricardo-ch/index.html",
     "targetLatestDate": "2024-05-10T03:29:30-07:00",
     "englishLatestDate": "2020-10-20T15:04:19-07:00",
     "daysBehind": 0,
@@ -687,9 +670,9 @@
     "severity": "current",
     "missingCommits": []
   },
-  "content/en/case-studies/nav/index.html": {
-    "targetPath": "content/bn/case-studies/nav/index.html",
-    "englishPath": "content/en/case-studies/nav/index.html",
+  "content/en/case-studies/slamtec/index.html": {
+    "targetPath": "content/bn/case-studies/slamtec/index.html",
+    "englishPath": "content/en/case-studies/slamtec/index.html",
     "targetLatestDate": "2024-05-10T03:29:30-07:00",
     "englishLatestDate": "2020-10-20T15:04:19-07:00",
     "daysBehind": 0,
@@ -701,9 +684,9 @@
     "severity": "current",
     "missingCommits": []
   },
-  "content/en/case-studies/wikimedia/index.html": {
-    "targetPath": "content/bn/case-studies/wikimedia/index.html",
-    "englishPath": "content/en/case-studies/wikimedia/index.html",
+  "content/en/case-studies/slingtv/index.html": {
+    "targetPath": "content/bn/case-studies/slingtv/index.html",
+    "englishPath": "content/en/case-studies/slingtv/index.html",
     "targetLatestDate": "2024-05-10T03:29:30-07:00",
     "englishLatestDate": "2020-10-20T15:04:19-07:00",
     "daysBehind": 0,
@@ -715,9 +698,9 @@
     "severity": "current",
     "missingCommits": []
   },
-  "content/en/case-studies/haufegroup/index.html": {
-    "targetPath": "content/bn/case-studies/haufegroup/index.html",
-    "englishPath": "content/en/case-studies/haufegroup/index.html",
+  "content/en/case-studies/sos/index.html": {
+    "targetPath": "content/bn/case-studies/sos/index.html",
+    "englishPath": "content/en/case-studies/sos/index.html",
     "targetLatestDate": "2024-05-10T03:29:30-07:00",
     "englishLatestDate": "2020-10-20T15:04:19-07:00",
     "daysBehind": 0,
@@ -729,51 +712,9 @@
     "severity": "current",
     "missingCommits": []
   },
-  "content/en/case-studies/booz-allen/index.html": {
-    "targetPath": "content/bn/case-studies/booz-allen/index.html",
-    "englishPath": "content/en/case-studies/booz-allen/index.html",
-    "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2020-10-20T15:04:19-07:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/case-studies/blackrock/index.html": {
-    "targetPath": "content/bn/case-studies/blackrock/index.html",
-    "englishPath": "content/en/case-studies/blackrock/index.html",
-    "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2020-10-20T15:04:19-07:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/case-studies/babylon/index.html": {
-    "targetPath": "content/bn/case-studies/babylon/index.html",
-    "englishPath": "content/en/case-studies/babylon/index.html",
-    "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2020-10-20T15:04:19-07:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/case-studies/nordstrom/index.html": {
-    "targetPath": "content/bn/case-studies/nordstrom/index.html",
-    "englishPath": "content/en/case-studies/nordstrom/index.html",
+  "content/en/case-studies/spotify/index.html": {
+    "targetPath": "content/bn/case-studies/spotify/index.html",
+    "englishPath": "content/en/case-studies/spotify/index.html",
     "targetLatestDate": "2024-05-10T03:29:30-07:00",
     "englishLatestDate": "2020-10-20T15:04:19-07:00",
     "daysBehind": 0,
@@ -799,34 +740,9 @@
     "severity": "current",
     "missingCommits": []
   },
-  "content/en/case-studies/ancestry/index.html": {
-    "targetPath": "content/bn/case-studies/ancestry/index.html",
-    "englishPath": "content/en/case-studies/ancestry/index.html",
-    "targetLatestDate": "2024-05-10T03:29:30-07:00",
-    "englishLatestDate": "2025-05-22T19:20:38-07:00",
-    "daysBehind": 377,
-    "commitsBehind": 1,
-    "totalChangeLines": 4,
-    "insertionsBehindLines": 2,
-    "deletionsBehindLines": 2,
-    "status": "outdated",
-    "severity": "minor",
-    "missingCommits": [
-      {
-        "hash": "8ba5a338f5b0a89f96135a1b61eebff88676e6a0",
-        "date": "2025-05-22 19:20:38 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #51016 from Arhell/en-link",
-        "path": "content/en/case-studies/ancestry/index.html",
-        "insertions": 2,
-        "deletions": 2,
-        "operation": "modified"
-      }
-    ]
-  },
-  "content/en/case-studies/jd-com/index.html": {
-    "targetPath": "content/bn/case-studies/jd-com/index.html",
-    "englishPath": "content/en/case-studies/jd-com/index.html",
+  "content/en/case-studies/thredup/index.html": {
+    "targetPath": "content/bn/case-studies/thredup/index.html",
+    "englishPath": "content/en/case-studies/thredup/index.html",
     "targetLatestDate": "2024-05-10T03:29:30-07:00",
     "englishLatestDate": "2020-10-20T15:04:19-07:00",
     "daysBehind": 0,
@@ -838,9 +754,23 @@
     "severity": "current",
     "missingCommits": []
   },
-  "content/en/case-studies/golfnow/index.html": {
-    "targetPath": "content/bn/case-studies/golfnow/index.html",
-    "englishPath": "content/en/case-studies/golfnow/index.html",
+  "content/en/case-studies/vsco/index.html": {
+    "targetPath": "content/bn/case-studies/vsco/index.html",
+    "englishPath": "content/en/case-studies/vsco/index.html",
+    "targetLatestDate": "2024-05-10T03:29:30-07:00",
+    "englishLatestDate": "2023-12-22T01:39:18+01:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/wikimedia/index.html": {
+    "targetPath": "content/bn/case-studies/wikimedia/index.html",
+    "englishPath": "content/en/case-studies/wikimedia/index.html",
     "targetLatestDate": "2024-05-10T03:29:30-07:00",
     "englishLatestDate": "2020-10-20T15:04:19-07:00",
     "daysBehind": 0,
@@ -852,9 +782,79 @@
     "severity": "current",
     "missingCommits": []
   },
-  "content/en/case-studies/ricardo-ch/index.html": {
-    "targetPath": "content/bn/case-studies/ricardo-ch/index.html",
-    "englishPath": "content/en/case-studies/ricardo-ch/index.html",
+  "content/en/case-studies/wink/index.html": {
+    "targetPath": "content/bn/case-studies/wink/index.html",
+    "englishPath": "content/en/case-studies/wink/index.html",
+    "targetLatestDate": "2024-05-10T03:29:30-07:00",
+    "englishLatestDate": "2022-01-31T09:10:24-08:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/woorank/index.html": {
+    "targetPath": "content/bn/case-studies/woorank/index.html",
+    "englishPath": "content/en/case-studies/woorank/index.html",
+    "targetLatestDate": "2024-05-10T03:29:30-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/workiva/index.html": {
+    "targetPath": "content/bn/case-studies/workiva/index.html",
+    "englishPath": "content/en/case-studies/workiva/index.html",
+    "targetLatestDate": "2024-05-10T03:29:30-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/yahoo-japan/index.html": {
+    "targetPath": "content/bn/case-studies/yahoo-japan/index.html",
+    "englishPath": "content/en/case-studies/yahoo-japan/index.html",
+    "targetLatestDate": "2024-05-10T03:29:30-07:00",
+    "englishLatestDate": "2018-08-20T21:07:54+02:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/ygrene/index.html": {
+    "targetPath": "content/bn/case-studies/ygrene/index.html",
+    "englishPath": "content/en/case-studies/ygrene/index.html",
+    "targetLatestDate": "2024-05-10T03:29:30-07:00",
+    "englishLatestDate": "2020-10-20T15:04:19-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/case-studies/zalando/index.html": {
+    "targetPath": "content/bn/case-studies/zalando/index.html",
+    "englishPath": "content/en/case-studies/zalando/index.html",
     "targetLatestDate": "2024-05-10T03:29:30-07:00",
     "englishLatestDate": "2020-10-20T15:04:19-07:00",
     "daysBehind": 0,

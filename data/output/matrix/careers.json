@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-16T15:14:52.532892+00:00",
+  "lastUpdated": "2025-06-19T15:09:01.581631+00:00",
   "articles": [
     {
       "englishPath": "content/en/careers/_index.html",
@@ -7,7 +7,7 @@
         "bn": {
           "status": "not_translated",
           "severity": "minor",
-          "daysBehind": 11,
+          "daysBehind": 14,
           "commitsBehind": 1,
           "totalChangeLines": 22,
           "targetLatestDate": null,
@@ -16,7 +16,7 @@
         "de": {
           "status": "not_translated",
           "severity": "minor",
-          "daysBehind": 11,
+          "daysBehind": 14,
           "commitsBehind": 1,
           "totalChangeLines": 22,
           "targetLatestDate": null,
@@ -34,7 +34,7 @@
         "es": {
           "status": "not_translated",
           "severity": "minor",
-          "daysBehind": 11,
+          "daysBehind": 14,
           "commitsBehind": 1,
           "totalChangeLines": 22,
           "targetLatestDate": null,
@@ -43,7 +43,7 @@
         "fr": {
           "status": "not_translated",
           "severity": "minor",
-          "daysBehind": 11,
+          "daysBehind": 14,
           "commitsBehind": 1,
           "totalChangeLines": 22,
           "targetLatestDate": null,
@@ -52,7 +52,7 @@
         "hi": {
           "status": "not_translated",
           "severity": "minor",
-          "daysBehind": 11,
+          "daysBehind": 14,
           "commitsBehind": 1,
           "totalChangeLines": 22,
           "targetLatestDate": null,
@@ -61,7 +61,7 @@
         "id": {
           "status": "not_translated",
           "severity": "minor",
-          "daysBehind": 11,
+          "daysBehind": 14,
           "commitsBehind": 1,
           "totalChangeLines": 22,
           "targetLatestDate": null,
@@ -70,7 +70,7 @@
         "it": {
           "status": "not_translated",
           "severity": "minor",
-          "daysBehind": 11,
+          "daysBehind": 14,
           "commitsBehind": 1,
           "totalChangeLines": 22,
           "targetLatestDate": null,
@@ -79,7 +79,7 @@
         "ja": {
           "status": "not_translated",
           "severity": "minor",
-          "daysBehind": 11,
+          "daysBehind": 14,
           "commitsBehind": 1,
           "totalChangeLines": 22,
           "targetLatestDate": null,
@@ -88,7 +88,7 @@
         "ko": {
           "status": "not_translated",
           "severity": "minor",
-          "daysBehind": 11,
+          "daysBehind": 14,
           "commitsBehind": 1,
           "totalChangeLines": 22,
           "targetLatestDate": null,
@@ -97,7 +97,7 @@
         "pl": {
           "status": "not_translated",
           "severity": "minor",
-          "daysBehind": 11,
+          "daysBehind": 14,
           "commitsBehind": 1,
           "totalChangeLines": 22,
           "targetLatestDate": null,
@@ -106,7 +106,7 @@
         "pt-br": {
           "status": "not_translated",
           "severity": "minor",
-          "daysBehind": 11,
+          "daysBehind": 14,
           "commitsBehind": 1,
           "totalChangeLines": 22,
           "targetLatestDate": null,
@@ -115,7 +115,7 @@
         "ru": {
           "status": "not_translated",
           "severity": "minor",
-          "daysBehind": 11,
+          "daysBehind": 14,
           "commitsBehind": 1,
           "totalChangeLines": 22,
           "targetLatestDate": null,
@@ -124,7 +124,7 @@
         "uk": {
           "status": "not_translated",
           "severity": "minor",
-          "daysBehind": 11,
+          "daysBehind": 14,
           "commitsBehind": 1,
           "totalChangeLines": 22,
           "targetLatestDate": null,
@@ -133,7 +133,7 @@
         "vi": {
           "status": "not_translated",
           "severity": "minor",
-          "daysBehind": 11,
+          "daysBehind": 14,
           "commitsBehind": 1,
           "totalChangeLines": 22,
           "targetLatestDate": null,
@@ -142,7 +142,7 @@
         "zh-cn": {
           "status": "not_translated",
           "severity": "minor",
-          "daysBehind": 11,
+          "daysBehind": 14,
           "commitsBehind": 1,
           "totalChangeLines": 22,
           "targetLatestDate": null,

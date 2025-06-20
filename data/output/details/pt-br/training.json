@@ -4,7 +4,7 @@
     "englishPath": "content/en/training/_index.html",
     "targetLatestDate": null,
     "englishLatestDate": "2025-05-26T23:02:16-07:00",
-    "daysBehind": 20,
+    "daysBehind": 23,
     "commitsBehind": 14,
     "totalChangeLines": 359,
     "insertionsBehindLines": 268,

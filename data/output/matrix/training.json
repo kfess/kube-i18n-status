@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-16T15:14:53.386544+00:00",
+  "lastUpdated": "2025-06-19T15:09:01.713210+00:00",
   "articles": [
     {
       "englishPath": "content/en/training/_index.html",
@@ -34,7 +34,7 @@
         "es": {
           "status": "not_translated",
           "severity": "significant",
-          "daysBehind": 20,
+          "daysBehind": 23,
           "commitsBehind": 14,
           "totalChangeLines": 359,
           "targetLatestDate": null,
@@ -43,7 +43,7 @@
         "fr": {
           "status": "not_translated",
           "severity": "significant",
-          "daysBehind": 20,
+          "daysBehind": 23,
           "commitsBehind": 14,
           "totalChangeLines": 359,
           "targetLatestDate": null,
@@ -61,7 +61,7 @@
         "id": {
           "status": "not_translated",
           "severity": "significant",
-          "daysBehind": 20,
+          "daysBehind": 23,
           "commitsBehind": 14,
           "totalChangeLines": 359,
           "targetLatestDate": null,
@@ -106,7 +106,7 @@
         "pt-br": {
           "status": "not_translated",
           "severity": "significant",
-          "daysBehind": 20,
+          "daysBehind": 23,
           "commitsBehind": 14,
           "totalChangeLines": 359,
           "targetLatestDate": null,
@@ -115,7 +115,7 @@
         "ru": {
           "status": "not_translated",
           "severity": "significant",
-          "daysBehind": 20,
+          "daysBehind": 23,
           "commitsBehind": 14,
           "totalChangeLines": 359,
           "targetLatestDate": null,
@@ -124,7 +124,7 @@
         "uk": {
           "status": "not_translated",
           "severity": "significant",
-          "daysBehind": 20,
+          "daysBehind": 23,
           "commitsBehind": 14,
           "totalChangeLines": 359,
           "targetLatestDate": null,
@@ -133,7 +133,7 @@
         "vi": {
           "status": "not_translated",
           "severity": "significant",
-          "daysBehind": 20,
+          "daysBehind": 23,
           "commitsBehind": 14,
           "totalChangeLines": 359,
           "targetLatestDate": null,

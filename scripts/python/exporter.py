@@ -54,6 +54,50 @@ def extract_blog_date_from_en_path(en_path: str) -> str:
     return match.group(1) if match else "0000-00-00"
 
 
+def extract_docs_subcategory(en_path: str) -> str:
+    """Extract subcategory from docs path.
+
+    Args:
+    ----
+        en_path (str): The English file path.
+
+    Returns:
+    -------
+        str: The extracted subcategory, or empty string if not found.
+
+    Example:
+    -------
+        content/en/docs/getting-started/installation.md -> getting-started
+        content/en/docs/api/reference.md -> api
+        content/en/docs/tutorial/basic.md -> tutorial
+
+    """
+    match = re.search(r"content/[^/]+/docs/([^/]+)", en_path)
+    return match.group(1) if match else ""
+
+
+def build_category_name(original_category: str, english_path: str) -> str:
+    """Build the final category name, expanding docs with subcategories.
+
+    Args:
+    ----
+        original_category (str): The original category name.
+        english_path (str): The English file path.
+
+    Returns:
+    -------
+        str: The final category name (e.g., 'docs_getting-started' for docs).
+
+    """
+    if original_category == "docs":
+        subcategory = extract_docs_subcategory(english_path)
+        if subcategory:
+            return f"docs_{subcategory}"
+        else:
+            return "docs_misc"  # fallback for docs without clear subcategory
+    return original_category
+
+
 def create_matrix_data(
     results: dict[str, dict[str, TranslationStatusResult]],
 ) -> dict[str, dict[str, Any]]:
@@ -83,14 +127,16 @@ def create_matrix_data(
         articles_by_english_path[english_path][language] = translation_data
 
     for english_path, translations in articles_by_english_path.items():
-        category = next(
+        original_category = next(
             result["category"]
             for result in results.values()
             if result["english_path"] == english_path
         )
 
+        category_name = build_category_name(original_category, english_path)
+
         article_data = {"english_path": english_path, "translations": translations}
-        matrix_data[category]["articles"].append(article_data)
+        matrix_data[category_name]["articles"].append(article_data)
 
     # Sort blog articles by date
     for category, data in matrix_data.items():
@@ -162,9 +208,15 @@ def save_detail_files(
     for result in results.values():
         language = result["language"]
         english_path = result["english_path"]
-        category = result["category"]
+        original_category = result["category"]
+
+        # Get effective category (handles docs subcategories)
+        category_name = build_category_name(original_category, english_path)
+
         detail_data = create_detail_data(result)
-        details_by_language_category[language][category][english_path] = detail_data
+        details_by_language_category[language][category_name][english_path] = (
+            detail_data
+        )
 
     for language, categories in details_by_language_category.items():
         lang_dir = details_dir / language
@@ -196,6 +248,8 @@ def process_translation_results(
         None: The function saves JSON files to the specified output directory.
 
     """
+    results = dict(sorted(results.items(), key=lambda item: item[0].lower()))
+
     filtered_results = {
         target_path: result
         for target_path, result in results.items()

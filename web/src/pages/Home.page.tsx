@@ -1,31 +1,33 @@
 import { useState } from 'react';
-import { Container, Divider } from '@mantine/core';
-import { Welcome } from '@/components/Welcome/Welcome';
+import { Container } from '@mantine/core';
+import { ArticleCategorySelector } from '@/features/ArticleCategorySelector';
+import { useFetchTranslationArticles } from '@/features/hooks/useFetchTranslationArticles';
+import { ArticleCategory } from '@/features/translations';
+import { TranslationStatusMatrix } from '@/features/TranslationStatusMatrix';
 
 export function HomePage() {
-  // const [selectedContentType, setSelectedContentType] = useState<ContentType>('docs');
-  // const [selectedDocsSubType, setSelectedDocsSubType] = useState<DocsSubContentType>('concept');
+  const [selectedArticleCategory, setSelectedArticleCategory] =
+    useState<ArticleCategory>('docsConcept');
+  const translationArticles = useFetchTranslationArticles(selectedArticleCategory);
 
-  // const translationData = useFetchTranslationData(
-  //   selectedContentType,
-  //   selectedContentType === 'docs' ? selectedDocsSubType : undefined
-  // );
+  const [activePage, setActivePage] = useState(1);
 
-  // const [activePage, setActivePage] = useState(1);
-
-  // const handleContentTypeChange = (newType: ContentType) => {
-  //   setSelectedContentType(newType);
-  //   setActivePage(1);
-  // };
-
-  // const handleDocsSubTypeChange = (newSubType: DocsSubContentType) => {
-  //   setSelectedDocsSubType(newSubType);
-  //   setActivePage(1);
-  // };
+  const onArticleCategoryChange = (category: ArticleCategory) => {
+    setSelectedArticleCategory(category);
+    setActivePage(1);
+  };
 
   return (
-    <>
-      <Welcome />
-    </>
+    <Container size="xl" mt="md">
+      <ArticleCategorySelector
+        articleCategory={selectedArticleCategory}
+        onArticleCategoryChange={onArticleCategoryChange}
+      />
+      <TranslationStatusMatrix
+        activePage={activePage}
+        setActivePage={setActivePage}
+        articles={translationArticles}
+      />
+    </Container>
   );
 }

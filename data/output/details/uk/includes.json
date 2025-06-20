@@ -1,63 +1,10 @@
 {
-  "content/en/includes/task-tutorial-prereqs.md": {
-    "targetPath": "content/uk/includes/task-tutorial-prereqs.md",
-    "englishPath": "content/en/includes/task-tutorial-prereqs.md",
-    "targetLatestDate": "2025-04-16T11:33:07-07:00",
-    "englishLatestDate": "2025-03-13T02:37:48-07:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/includes/task-tutorial-prereqs-node-upgrade.md": {
-    "targetPath": "content/uk/includes/task-tutorial-prereqs-node-upgrade.md",
-    "englishPath": "content/en/includes/task-tutorial-prereqs-node-upgrade.md",
-    "targetLatestDate": null,
-    "englishLatestDate": "2024-04-22T15:34:40-07:00",
-    "daysBehind": 419,
-    "commitsBehind": 1,
-    "totalChangeLines": 3,
-    "insertionsBehindLines": 3,
-    "deletionsBehindLines": 0,
-    "status": "not_translated",
-    "severity": "minor",
-    "missingCommits": [
-      {
-        "hash": "305078d22edf10204c8607fe388ed41a7bd09bee",
-        "date": "2024-04-22 15:34:40 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #45778 from mrgiles/45539_shell_access_to_node_before_upgrade",
-        "path": "content/en/includes/task-tutorial-prereqs-node-upgrade.md",
-        "insertions": 3,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
-  "content/en/includes/index.md": {
-    "targetPath": "content/uk/includes/index.md",
-    "englishPath": "content/en/includes/index.md",
-    "targetLatestDate": "2025-06-05T17:30:48-07:00",
-    "englishLatestDate": "2018-05-05T18:00:51+02:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
   "content/en/includes/default-storage-class-prereqs.md": {
     "targetPath": "content/uk/includes/default-storage-class-prereqs.md",
     "englishPath": "content/en/includes/default-storage-class-prereqs.md",
     "targetLatestDate": null,
     "englishLatestDate": "2022-04-11T03:16:06-07:00",
-    "daysBehind": 1162,
+    "daysBehind": 1165,
     "commitsBehind": 3,
     "totalChangeLines": 12,
     "insertionsBehindLines": 9,
@@ -97,37 +44,12 @@
       }
     ]
   },
-  "content/en/includes/user-guide-content-moved.md": {
-    "targetPath": "content/uk/includes/user-guide-content-moved.md",
-    "englishPath": "content/en/includes/user-guide-content-moved.md",
-    "targetLatestDate": null,
-    "englishLatestDate": "2018-05-05T18:00:51+02:00",
-    "daysBehind": 2598,
-    "commitsBehind": 1,
-    "totalChangeLines": 3,
-    "insertionsBehindLines": 3,
-    "deletionsBehindLines": 0,
-    "status": "not_translated",
-    "severity": "minor",
-    "missingCommits": [
-      {
-        "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
-        "date": "2018-05-05 18:00:51 +0200",
-        "author": "Bj\u00f8rn Erik Pedersen",
-        "message": "Convert site to Hugo (#8316)",
-        "path": "content/en/includes/user-guide-content-moved.md",
-        "insertions": 3,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
   "content/en/includes/federation-deprecation-warning-note.md": {
     "targetPath": "content/uk/includes/federation-deprecation-warning-note.md",
     "englishPath": "content/en/includes/federation-deprecation-warning-note.md",
     "targetLatestDate": null,
     "englishLatestDate": "2019-03-12T20:38:39+00:00",
-    "daysBehind": 2287,
+    "daysBehind": 2290,
     "commitsBehind": 1,
     "totalChangeLines": 3,
     "insertionsBehindLines": 3,
@@ -141,6 +63,84 @@
         "author": "Dani Comnea",
         "message": "Reorganize Federation tasks so we have it group and under one topic (#12900)",
         "path": "content/en/includes/federation-deprecation-warning-note.md",
+        "insertions": 3,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/includes/index.md": {
+    "targetPath": "content/uk/includes/index.md",
+    "englishPath": "content/en/includes/index.md",
+    "targetLatestDate": "2025-06-05T17:30:48-07:00",
+    "englishLatestDate": "2018-05-05T18:00:51+02:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/includes/task-tutorial-prereqs-node-upgrade.md": {
+    "targetPath": "content/uk/includes/task-tutorial-prereqs-node-upgrade.md",
+    "englishPath": "content/en/includes/task-tutorial-prereqs-node-upgrade.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2024-04-22T15:34:40-07:00",
+    "daysBehind": 422,
+    "commitsBehind": 1,
+    "totalChangeLines": 3,
+    "insertionsBehindLines": 3,
+    "deletionsBehindLines": 0,
+    "status": "not_translated",
+    "severity": "minor",
+    "missingCommits": [
+      {
+        "hash": "305078d22edf10204c8607fe388ed41a7bd09bee",
+        "date": "2024-04-22 15:34:40 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #45778 from mrgiles/45539_shell_access_to_node_before_upgrade",
+        "path": "content/en/includes/task-tutorial-prereqs-node-upgrade.md",
+        "insertions": 3,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/includes/task-tutorial-prereqs.md": {
+    "targetPath": "content/uk/includes/task-tutorial-prereqs.md",
+    "englishPath": "content/en/includes/task-tutorial-prereqs.md",
+    "targetLatestDate": "2025-04-16T11:33:07-07:00",
+    "englishLatestDate": "2025-03-13T02:37:48-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/includes/user-guide-content-moved.md": {
+    "targetPath": "content/uk/includes/user-guide-content-moved.md",
+    "englishPath": "content/en/includes/user-guide-content-moved.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2018-05-05T18:00:51+02:00",
+    "daysBehind": 2601,
+    "commitsBehind": 1,
+    "totalChangeLines": 3,
+    "insertionsBehindLines": 3,
+    "deletionsBehindLines": 0,
+    "status": "not_translated",
+    "severity": "minor",
+    "missingCommits": [
+      {
+        "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+        "date": "2018-05-05 18:00:51 +0200",
+        "author": "Bj\u00f8rn Erik Pedersen",
+        "message": "Convert site to Hugo (#8316)",
+        "path": "content/en/includes/user-guide-content-moved.md",
         "insertions": 3,
         "deletions": 0,
         "operation": "added"

@@ -1,0 +1,154 @@
+{
+  "lastUpdated": "2025-06-19T15:09:01.589709+00:00",
+  "articles": [
+    {
+      "englishPath": "content/en/docs/doc-contributor-tools/linkchecker/README.md",
+      "translations": {
+        "bn": {
+          "status": "not_translated",
+          "severity": "moderate",
+          "daysBehind": 261,
+          "commitsBehind": 3,
+          "totalChangeLines": 123,
+          "targetLatestDate": null,
+          "englishLatestDate": "2024-10-01T11:01:49+01:00"
+        },
+        "de": {
+          "status": "not_translated",
+          "severity": "moderate",
+          "daysBehind": 261,
+          "commitsBehind": 3,
+          "totalChangeLines": 123,
+          "targetLatestDate": null,
+          "englishLatestDate": "2024-10-01T11:01:49+01:00"
+        },
+        "en": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2024-10-01T11:01:49+01:00",
+          "englishLatestDate": "2024-10-01T11:01:49+01:00"
+        },
+        "es": {
+          "status": "not_translated",
+          "severity": "moderate",
+          "daysBehind": 261,
+          "commitsBehind": 3,
+          "totalChangeLines": 123,
+          "targetLatestDate": null,
+          "englishLatestDate": "2024-10-01T11:01:49+01:00"
+        },
+        "fr": {
+          "status": "not_translated",
+          "severity": "moderate",
+          "daysBehind": 261,
+          "commitsBehind": 3,
+          "totalChangeLines": 123,
+          "targetLatestDate": null,
+          "englishLatestDate": "2024-10-01T11:01:49+01:00"
+        },
+        "hi": {
+          "status": "not_translated",
+          "severity": "moderate",
+          "daysBehind": 261,
+          "commitsBehind": 3,
+          "totalChangeLines": 123,
+          "targetLatestDate": null,
+          "englishLatestDate": "2024-10-01T11:01:49+01:00"
+        },
+        "id": {
+          "status": "not_translated",
+          "severity": "moderate",
+          "daysBehind": 261,
+          "commitsBehind": 3,
+          "totalChangeLines": 123,
+          "targetLatestDate": null,
+          "englishLatestDate": "2024-10-01T11:01:49+01:00"
+        },
+        "it": {
+          "status": "not_translated",
+          "severity": "moderate",
+          "daysBehind": 261,
+          "commitsBehind": 3,
+          "totalChangeLines": 123,
+          "targetLatestDate": null,
+          "englishLatestDate": "2024-10-01T11:01:49+01:00"
+        },
+        "ja": {
+          "status": "not_translated",
+          "severity": "moderate",
+          "daysBehind": 261,
+          "commitsBehind": 3,
+          "totalChangeLines": 123,
+          "targetLatestDate": null,
+          "englishLatestDate": "2024-10-01T11:01:49+01:00"
+        },
+        "ko": {
+          "status": "not_translated",
+          "severity": "moderate",
+          "daysBehind": 261,
+          "commitsBehind": 3,
+          "totalChangeLines": 123,
+          "targetLatestDate": null,
+          "englishLatestDate": "2024-10-01T11:01:49+01:00"
+        },
+        "pl": {
+          "status": "not_translated",
+          "severity": "moderate",
+          "daysBehind": 261,
+          "commitsBehind": 3,
+          "totalChangeLines": 123,
+          "targetLatestDate": null,
+          "englishLatestDate": "2024-10-01T11:01:49+01:00"
+        },
+        "pt-br": {
+          "status": "not_translated",
+          "severity": "moderate",
+          "daysBehind": 261,
+          "commitsBehind": 3,
+          "totalChangeLines": 123,
+          "targetLatestDate": null,
+          "englishLatestDate": "2024-10-01T11:01:49+01:00"
+        },
+        "ru": {
+          "status": "not_translated",
+          "severity": "moderate",
+          "daysBehind": 261,
+          "commitsBehind": 3,
+          "totalChangeLines": 123,
+          "targetLatestDate": null,
+          "englishLatestDate": "2024-10-01T11:01:49+01:00"
+        },
+        "uk": {
+          "status": "not_translated",
+          "severity": "moderate",
+          "daysBehind": 261,
+          "commitsBehind": 3,
+          "totalChangeLines": 123,
+          "targetLatestDate": null,
+          "englishLatestDate": "2024-10-01T11:01:49+01:00"
+        },
+        "vi": {
+          "status": "not_translated",
+          "severity": "moderate",
+          "daysBehind": 261,
+          "commitsBehind": 3,
+          "totalChangeLines": 123,
+          "targetLatestDate": null,
+          "englishLatestDate": "2024-10-01T11:01:49+01:00"
+        },
+        "zh-cn": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2024-10-04T11:58:27+01:00",
+          "englishLatestDate": "2024-10-01T11:01:49+01:00"
+        }
+      }
+    }
+  ]
+}

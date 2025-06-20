@@ -54,34 +54,6 @@
       }
     ]
   },
-  "content/en/community/static/cncf-code-of-conduct.md": {
-    "targetPath": "content/ko/community/static/cncf-code-of-conduct.md",
-    "englishPath": "content/en/community/static/cncf-code-of-conduct.md",
-    "targetLatestDate": "2024-11-14T02:28:47+00:00",
-    "englishLatestDate": "2024-10-29T00:12:54+00:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/community/static/README.md": {
-    "targetPath": "content/ko/community/static/README.md",
-    "englishPath": "content/en/community/static/README.md",
-    "targetLatestDate": "2022-07-07T18:29:46-07:00",
-    "englishLatestDate": "2022-03-24T17:19:50-07:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
   "content/en/community/code-of-conduct.md": {
     "targetPath": "content/ko/community/code-of-conduct.md",
     "englishPath": "content/en/community/code-of-conduct.md",
@@ -126,5 +98,33 @@
         "operation": "modified"
       }
     ]
+  },
+  "content/en/community/static/cncf-code-of-conduct.md": {
+    "targetPath": "content/ko/community/static/cncf-code-of-conduct.md",
+    "englishPath": "content/en/community/static/cncf-code-of-conduct.md",
+    "targetLatestDate": "2024-11-14T02:28:47+00:00",
+    "englishLatestDate": "2024-10-29T00:12:54+00:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/community/static/README.md": {
+    "targetPath": "content/ko/community/static/README.md",
+    "englishPath": "content/en/community/static/README.md",
+    "targetLatestDate": "2022-07-07T18:29:46-07:00",
+    "englishLatestDate": "2022-03-24T17:19:50-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
   }
 }

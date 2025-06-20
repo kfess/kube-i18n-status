@@ -1,4 +1,71 @@
 {
+  "content/en/includes/default-storage-class-prereqs.md": {
+    "targetPath": "content/de/includes/default-storage-class-prereqs.md",
+    "englishPath": "content/en/includes/default-storage-class-prereqs.md",
+    "targetLatestDate": "2022-05-27T13:31:07+03:00",
+    "englishLatestDate": "2022-04-11T03:16:06-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/includes/federation-deprecation-warning-note.md": {
+    "targetPath": "content/de/includes/federation-deprecation-warning-note.md",
+    "englishPath": "content/en/includes/federation-deprecation-warning-note.md",
+    "targetLatestDate": "2019-04-17T20:00:06+02:00",
+    "englishLatestDate": "2019-03-12T20:38:39+00:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/includes/index.md": {
+    "targetPath": "content/de/includes/index.md",
+    "englishPath": "content/en/includes/index.md",
+    "targetLatestDate": "2019-04-17T20:00:06+02:00",
+    "englishLatestDate": "2018-05-05T18:00:51+02:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/includes/task-tutorial-prereqs-node-upgrade.md": {
+    "targetPath": "content/de/includes/task-tutorial-prereqs-node-upgrade.md",
+    "englishPath": "content/en/includes/task-tutorial-prereqs-node-upgrade.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2024-04-22T15:34:40-07:00",
+    "daysBehind": 422,
+    "commitsBehind": 1,
+    "totalChangeLines": 3,
+    "insertionsBehindLines": 3,
+    "deletionsBehindLines": 0,
+    "status": "not_translated",
+    "severity": "minor",
+    "missingCommits": [
+      {
+        "hash": "305078d22edf10204c8607fe388ed41a7bd09bee",
+        "date": "2024-04-22 15:34:40 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #45778 from mrgiles/45539_shell_access_to_node_before_upgrade",
+        "path": "content/en/includes/task-tutorial-prereqs-node-upgrade.md",
+        "insertions": 3,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
   "content/en/includes/task-tutorial-prereqs.md": {
     "targetPath": "content/de/includes/task-tutorial-prereqs.md",
     "englishPath": "content/en/includes/task-tutorial-prereqs.md",
@@ -24,78 +91,11 @@
       }
     ]
   },
-  "content/en/includes/task-tutorial-prereqs-node-upgrade.md": {
-    "targetPath": "content/de/includes/task-tutorial-prereqs-node-upgrade.md",
-    "englishPath": "content/en/includes/task-tutorial-prereqs-node-upgrade.md",
-    "targetLatestDate": null,
-    "englishLatestDate": "2024-04-22T15:34:40-07:00",
-    "daysBehind": 419,
-    "commitsBehind": 1,
-    "totalChangeLines": 3,
-    "insertionsBehindLines": 3,
-    "deletionsBehindLines": 0,
-    "status": "not_translated",
-    "severity": "minor",
-    "missingCommits": [
-      {
-        "hash": "305078d22edf10204c8607fe388ed41a7bd09bee",
-        "date": "2024-04-22 15:34:40 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #45778 from mrgiles/45539_shell_access_to_node_before_upgrade",
-        "path": "content/en/includes/task-tutorial-prereqs-node-upgrade.md",
-        "insertions": 3,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
-  "content/en/includes/index.md": {
-    "targetPath": "content/de/includes/index.md",
-    "englishPath": "content/en/includes/index.md",
-    "targetLatestDate": "2019-04-17T20:00:06+02:00",
-    "englishLatestDate": "2018-05-05T18:00:51+02:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/includes/default-storage-class-prereqs.md": {
-    "targetPath": "content/de/includes/default-storage-class-prereqs.md",
-    "englishPath": "content/en/includes/default-storage-class-prereqs.md",
-    "targetLatestDate": "2022-05-27T13:31:07+03:00",
-    "englishLatestDate": "2022-04-11T03:16:06-07:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
   "content/en/includes/user-guide-content-moved.md": {
     "targetPath": "content/de/includes/user-guide-content-moved.md",
     "englishPath": "content/en/includes/user-guide-content-moved.md",
     "targetLatestDate": "2019-03-26T21:37:19+01:00",
     "englishLatestDate": "2018-05-05T18:00:51+02:00",
-    "daysBehind": 0,
-    "commitsBehind": 0,
-    "totalChangeLines": 0,
-    "insertionsBehindLines": 0,
-    "deletionsBehindLines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missingCommits": []
-  },
-  "content/en/includes/federation-deprecation-warning-note.md": {
-    "targetPath": "content/de/includes/federation-deprecation-warning-note.md",
-    "englishPath": "content/en/includes/federation-deprecation-warning-note.md",
-    "targetLatestDate": "2019-04-17T20:00:06+02:00",
-    "englishLatestDate": "2019-03-12T20:38:39+00:00",
     "daysBehind": 0,
     "commitsBehind": 0,
     "totalChangeLines": 0,

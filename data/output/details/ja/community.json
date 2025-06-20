@@ -54,6 +54,41 @@
       }
     ]
   },
+  "content/en/community/code-of-conduct.md": {
+    "targetPath": "content/ja/community/code-of-conduct.md",
+    "englishPath": "content/en/community/code-of-conduct.md",
+    "targetLatestDate": "2024-04-12T22:57:43+09:00",
+    "englishLatestDate": "2024-04-29T21:40:35-07:00",
+    "daysBehind": 17,
+    "commitsBehind": 2,
+    "totalChangeLines": 35,
+    "insertionsBehindLines": 15,
+    "deletionsBehindLines": 20,
+    "status": "outdated",
+    "severity": "minor",
+    "missingCommits": [
+      {
+        "hash": "0463f6955a2ea1eb9ffe0c1fc25c0566153b4380",
+        "date": "2024-04-29 21:40:35 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #46038 from tuesdayinsighter/patch-1",
+        "path": "content/en/community/code-of-conduct.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "7200e457cb1a25438a5d0fbb2566d50cb1c49fa7",
+        "date": "2024-04-25 18:12:05 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #45872 from sftim/20240414_vanillaify_content_community",
+        "path": "content/en/community/code-of-conduct.md",
+        "insertions": 14,
+        "deletions": 19,
+        "operation": "modified"
+      }
+    ]
+  },
   "content/en/community/static/cncf-code-of-conduct.md": {
     "targetPath": "content/ja/community/static/cncf-code-of-conduct.md",
     "englishPath": "content/en/community/static/cncf-code-of-conduct.md",
@@ -89,41 +124,6 @@
         "path": "content/en/community/static/README.md",
         "insertions": 4,
         "deletions": 1,
-        "operation": "modified"
-      }
-    ]
-  },
-  "content/en/community/code-of-conduct.md": {
-    "targetPath": "content/ja/community/code-of-conduct.md",
-    "englishPath": "content/en/community/code-of-conduct.md",
-    "targetLatestDate": "2024-04-12T22:57:43+09:00",
-    "englishLatestDate": "2024-04-29T21:40:35-07:00",
-    "daysBehind": 17,
-    "commitsBehind": 2,
-    "totalChangeLines": 35,
-    "insertionsBehindLines": 15,
-    "deletionsBehindLines": 20,
-    "status": "outdated",
-    "severity": "minor",
-    "missingCommits": [
-      {
-        "hash": "0463f6955a2ea1eb9ffe0c1fc25c0566153b4380",
-        "date": "2024-04-29 21:40:35 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #46038 from tuesdayinsighter/patch-1",
-        "path": "content/en/community/code-of-conduct.md",
-        "insertions": 1,
-        "deletions": 1,
-        "operation": "modified"
-      },
-      {
-        "hash": "7200e457cb1a25438a5d0fbb2566d50cb1c49fa7",
-        "date": "2024-04-25 18:12:05 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #45872 from sftim/20240414_vanillaify_content_community",
-        "path": "content/en/community/code-of-conduct.md",
-        "insertions": 14,
-        "deletions": 19,
         "operation": "modified"
       }
     ]

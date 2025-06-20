@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-16T15:14:52.654180+00:00",
+  "lastUpdated": "2025-06-19T15:09:01.583075+00:00",
   "articles": [
     {
       "englishPath": "content/en/community/_index.html",
@@ -52,7 +52,7 @@
         "hi": {
           "status": "not_translated",
           "severity": "critical",
-          "daysBehind": 11,
+          "daysBehind": 14,
           "commitsBehind": 21,
           "totalChangeLines": 1019,
           "targetLatestDate": null,
@@ -97,7 +97,7 @@
         "pl": {
           "status": "not_translated",
           "severity": "critical",
-          "daysBehind": 11,
+          "daysBehind": 14,
           "commitsBehind": 21,
           "totalChangeLines": 1019,
           "targetLatestDate": null,
@@ -147,6 +147,155 @@
           "totalChangeLines": 22,
           "targetLatestDate": "2024-12-24T03:32:10+01:00",
           "englishLatestDate": "2025-06-05T05:40:39-07:00"
+        }
+      }
+    },
+    {
+      "englishPath": "content/en/community/code-of-conduct.md",
+      "translations": {
+        "bn": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2024-05-10T03:29:30-07:00",
+          "englishLatestDate": "2024-04-29T21:40:35-07:00"
+        },
+        "de": {
+          "status": "outdated",
+          "severity": "moderate",
+          "daysBehind": 1546,
+          "commitsBehind": 7,
+          "totalChangeLines": 62,
+          "targetLatestDate": "2020-02-04T22:40:35+01:00",
+          "englishLatestDate": "2024-04-29T21:40:35-07:00"
+        },
+        "en": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2024-04-29T21:40:35-07:00",
+          "englishLatestDate": "2024-04-29T21:40:35-07:00"
+        },
+        "es": {
+          "status": "outdated",
+          "severity": "moderate",
+          "daysBehind": 1789,
+          "commitsBehind": 7,
+          "totalChangeLines": 62,
+          "targetLatestDate": "2019-06-06T07:20:13+01:00",
+          "englishLatestDate": "2024-04-29T21:40:35-07:00"
+        },
+        "fr": {
+          "status": "outdated",
+          "severity": "moderate",
+          "daysBehind": 1663,
+          "commitsBehind": 7,
+          "totalChangeLines": 62,
+          "targetLatestDate": "2019-10-10T18:02:53+09:00",
+          "englishLatestDate": "2024-04-29T21:40:35-07:00"
+        },
+        "hi": {
+          "status": "not_translated",
+          "severity": "moderate",
+          "daysBehind": 415,
+          "commitsBehind": 11,
+          "totalChangeLines": 103,
+          "targetLatestDate": null,
+          "englishLatestDate": "2024-04-29T21:40:35-07:00"
+        },
+        "id": {
+          "status": "outdated",
+          "severity": "moderate",
+          "daysBehind": 1557,
+          "commitsBehind": 7,
+          "totalChangeLines": 62,
+          "targetLatestDate": "2020-01-24T14:06:31+07:00",
+          "englishLatestDate": "2024-04-29T21:40:35-07:00"
+        },
+        "it": {
+          "status": "outdated",
+          "severity": "moderate",
+          "daysBehind": 1456,
+          "commitsBehind": 7,
+          "totalChangeLines": 62,
+          "targetLatestDate": "2020-05-04T08:19:28-07:00",
+          "englishLatestDate": "2024-04-29T21:40:35-07:00"
+        },
+        "ja": {
+          "status": "outdated",
+          "severity": "minor",
+          "daysBehind": 17,
+          "commitsBehind": 2,
+          "totalChangeLines": 35,
+          "targetLatestDate": "2024-04-12T22:57:43+09:00",
+          "englishLatestDate": "2024-04-29T21:40:35-07:00"
+        },
+        "ko": {
+          "status": "outdated",
+          "severity": "minor",
+          "daysBehind": 322,
+          "commitsBehind": 3,
+          "totalChangeLines": 37,
+          "targetLatestDate": "2023-06-12T05:37:48-07:00",
+          "englishLatestDate": "2024-04-29T21:40:35-07:00"
+        },
+        "pl": {
+          "status": "not_translated",
+          "severity": "moderate",
+          "daysBehind": 415,
+          "commitsBehind": 11,
+          "totalChangeLines": 103,
+          "targetLatestDate": null,
+          "englishLatestDate": "2024-04-29T21:40:35-07:00"
+        },
+        "pt-br": {
+          "status": "outdated",
+          "severity": "minor",
+          "daysBehind": 499,
+          "commitsBehind": 3,
+          "totalChangeLines": 37,
+          "targetLatestDate": "2022-12-17T21:33:42-03:00",
+          "englishLatestDate": "2024-04-29T21:40:35-07:00"
+        },
+        "ru": {
+          "status": "outdated",
+          "severity": "moderate",
+          "daysBehind": 1310,
+          "commitsBehind": 7,
+          "totalChangeLines": 62,
+          "targetLatestDate": "2020-09-27T08:38:48-07:00",
+          "englishLatestDate": "2024-04-29T21:40:35-07:00"
+        },
+        "uk": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2025-06-05T17:30:48-07:00",
+          "englishLatestDate": "2024-04-29T21:40:35-07:00"
+        },
+        "vi": {
+          "status": "outdated",
+          "severity": "moderate",
+          "daysBehind": 1505,
+          "commitsBehind": 7,
+          "totalChangeLines": 62,
+          "targetLatestDate": "2020-03-16T13:22:35+07:00",
+          "englishLatestDate": "2024-04-29T21:40:35-07:00"
+        },
+        "zh-cn": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2024-12-24T03:32:10+01:00",
+          "englishLatestDate": "2024-04-29T21:40:35-07:00"
         }
       }
     },
@@ -201,7 +350,7 @@
         "hi": {
           "status": "not_translated",
           "severity": "significant",
-          "daysBehind": 230,
+          "daysBehind": 233,
           "commitsBehind": 11,
           "totalChangeLines": 249,
           "targetLatestDate": null,
@@ -246,7 +395,7 @@
         "pl": {
           "status": "not_translated",
           "severity": "significant",
-          "daysBehind": 230,
+          "daysBehind": 233,
           "commitsBehind": 11,
           "totalChangeLines": 249,
           "targetLatestDate": null,
@@ -350,7 +499,7 @@
         "hi": {
           "status": "not_translated",
           "severity": "minor",
-          "daysBehind": 1179,
+          "daysBehind": 1182,
           "commitsBehind": 2,
           "totalChangeLines": 7,
           "targetLatestDate": null,
@@ -359,7 +508,7 @@
         "id": {
           "status": "not_translated",
           "severity": "minor",
-          "daysBehind": 1179,
+          "daysBehind": 1182,
           "commitsBehind": 2,
           "totalChangeLines": 7,
           "targetLatestDate": null,
@@ -395,7 +544,7 @@
         "pl": {
           "status": "not_translated",
           "severity": "minor",
-          "daysBehind": 1179,
+          "daysBehind": 1182,
           "commitsBehind": 2,
           "totalChangeLines": 7,
           "targetLatestDate": null,
@@ -422,7 +571,7 @@
         "uk": {
           "status": "not_translated",
           "severity": "minor",
-          "daysBehind": 1179,
+          "daysBehind": 1182,
           "commitsBehind": 2,
           "totalChangeLines": 7,
           "targetLatestDate": null,
@@ -445,155 +594,6 @@
           "totalChangeLines": 0,
           "targetLatestDate": "2022-06-10T07:43:46-07:00",
           "englishLatestDate": "2022-03-24T17:19:50-07:00"
-        }
-      }
-    },
-    {
-      "englishPath": "content/en/community/code-of-conduct.md",
-      "translations": {
-        "bn": {
-          "status": "up_to_date",
-          "severity": "current",
-          "daysBehind": 0,
-          "commitsBehind": 0,
-          "totalChangeLines": 0,
-          "targetLatestDate": "2024-05-10T03:29:30-07:00",
-          "englishLatestDate": "2024-04-29T21:40:35-07:00"
-        },
-        "de": {
-          "status": "outdated",
-          "severity": "moderate",
-          "daysBehind": 1546,
-          "commitsBehind": 7,
-          "totalChangeLines": 62,
-          "targetLatestDate": "2020-02-04T22:40:35+01:00",
-          "englishLatestDate": "2024-04-29T21:40:35-07:00"
-        },
-        "en": {
-          "status": "up_to_date",
-          "severity": "current",
-          "daysBehind": 0,
-          "commitsBehind": 0,
-          "totalChangeLines": 0,
-          "targetLatestDate": "2024-04-29T21:40:35-07:00",
-          "englishLatestDate": "2024-04-29T21:40:35-07:00"
-        },
-        "es": {
-          "status": "outdated",
-          "severity": "moderate",
-          "daysBehind": 1789,
-          "commitsBehind": 7,
-          "totalChangeLines": 62,
-          "targetLatestDate": "2019-06-06T07:20:13+01:00",
-          "englishLatestDate": "2024-04-29T21:40:35-07:00"
-        },
-        "fr": {
-          "status": "outdated",
-          "severity": "moderate",
-          "daysBehind": 1663,
-          "commitsBehind": 7,
-          "totalChangeLines": 62,
-          "targetLatestDate": "2019-10-10T18:02:53+09:00",
-          "englishLatestDate": "2024-04-29T21:40:35-07:00"
-        },
-        "hi": {
-          "status": "not_translated",
-          "severity": "moderate",
-          "daysBehind": 412,
-          "commitsBehind": 11,
-          "totalChangeLines": 103,
-          "targetLatestDate": null,
-          "englishLatestDate": "2024-04-29T21:40:35-07:00"
-        },
-        "id": {
-          "status": "outdated",
-          "severity": "moderate",
-          "daysBehind": 1557,
-          "commitsBehind": 7,
-          "totalChangeLines": 62,
-          "targetLatestDate": "2020-01-24T14:06:31+07:00",
-          "englishLatestDate": "2024-04-29T21:40:35-07:00"
-        },
-        "it": {
-          "status": "outdated",
-          "severity": "moderate",
-          "daysBehind": 1456,
-          "commitsBehind": 7,
-          "totalChangeLines": 62,
-          "targetLatestDate": "2020-05-04T08:19:28-07:00",
-          "englishLatestDate": "2024-04-29T21:40:35-07:00"
-        },
-        "ja": {
-          "status": "outdated",
-          "severity": "minor",
-          "daysBehind": 17,
-          "commitsBehind": 2,
-          "totalChangeLines": 35,
-          "targetLatestDate": "2024-04-12T22:57:43+09:00",
-          "englishLatestDate": "2024-04-29T21:40:35-07:00"
-        },
-        "ko": {
-          "status": "outdated",
-          "severity": "minor",
-          "daysBehind": 322,
-          "commitsBehind": 3,
-          "totalChangeLines": 37,
-          "targetLatestDate": "2023-06-12T05:37:48-07:00",
-          "englishLatestDate": "2024-04-29T21:40:35-07:00"
-        },
-        "pl": {
-          "status": "not_translated",
-          "severity": "moderate",
-          "daysBehind": 412,
-          "commitsBehind": 11,
-          "totalChangeLines": 103,
-          "targetLatestDate": null,
-          "englishLatestDate": "2024-04-29T21:40:35-07:00"
-        },
-        "pt-br": {
-          "status": "outdated",
-          "severity": "minor",
-          "daysBehind": 499,
-          "commitsBehind": 3,
-          "totalChangeLines": 37,
-          "targetLatestDate": "2022-12-17T21:33:42-03:00",
-          "englishLatestDate": "2024-04-29T21:40:35-07:00"
-        },
-        "ru": {
-          "status": "outdated",
-          "severity": "moderate",
-          "daysBehind": 1310,
-          "commitsBehind": 7,
-          "totalChangeLines": 62,
-          "targetLatestDate": "2020-09-27T08:38:48-07:00",
-          "englishLatestDate": "2024-04-29T21:40:35-07:00"
-        },
-        "uk": {
-          "status": "up_to_date",
-          "severity": "current",
-          "daysBehind": 0,
-          "commitsBehind": 0,
-          "totalChangeLines": 0,
-          "targetLatestDate": "2025-06-05T17:30:48-07:00",
-          "englishLatestDate": "2024-04-29T21:40:35-07:00"
-        },
-        "vi": {
-          "status": "outdated",
-          "severity": "moderate",
-          "daysBehind": 1505,
-          "commitsBehind": 7,
-          "totalChangeLines": 62,
-          "targetLatestDate": "2020-03-16T13:22:35+07:00",
-          "englishLatestDate": "2024-04-29T21:40:35-07:00"
-        },
-        "zh-cn": {
-          "status": "up_to_date",
-          "severity": "current",
-          "daysBehind": 0,
-          "commitsBehind": 0,
-          "totalChangeLines": 0,
-          "targetLatestDate": "2024-12-24T03:32:10+01:00",
-          "englishLatestDate": "2024-04-29T21:40:35-07:00"
         }
       }
     }
