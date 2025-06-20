@@ -76,7 +76,8 @@ jobs:
           rm -rf gh-pages/*
 
           # Copy build and data to gh-pages directory
-          cp -r web/dist/* gh-pages/
+          rm -rf gh-pages/*
+          cp -a web/dist/. gh-pages/
           mkdir -p gh-pages/data
           cp -r data/output/* gh-pages/data/
 
