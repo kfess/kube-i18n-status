@@ -27,7 +27,7 @@ export const NavigationBar = ({ children }: { children: React.ReactNode }) => {
                 <Flex direction="row" gap={8}>
                   <Image src={kubernetesLogo} h={30} w="auto" alt="Kubernetes logo" />
                   <Text fw={700} size="lg">
-                    Kubernetes i18n Status
+                    Kubernetes i18n Tracker
                   </Text>
                 </Flex>
               </Anchor>

@@ -100,7 +100,7 @@ const TranslationCell = ({
           {daysBehind !== 1 ? 's' : ''} behind
         </Text>
       )}
-      {status === 'outdated' && targetLatestDate && (
+      {(status === 'outdated' || status === 'up_to_date') && targetLatestDate && (
         <Text size="xs" c="dimmed">
           Last updated at {new Date(targetLatestDate).toLocaleDateString()}
         </Text>
