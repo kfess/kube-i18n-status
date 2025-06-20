@@ -1,0 +1,303 @@
+{
+  "lastUpdated": "2025-06-19T15:09:01.589752+00:00",
+  "articles": [
+    {
+      "englishPath": "content/en/docs/home/_index.md",
+      "translations": {
+        "bn": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2024-05-10T03:29:30-07:00",
+          "englishLatestDate": "2024-04-20T16:59:34-07:00"
+        },
+        "de": {
+          "status": "outdated",
+          "severity": "minor",
+          "daysBehind": 150,
+          "commitsBehind": 3,
+          "totalChangeLines": 12,
+          "targetLatestDate": "2023-11-22T17:49:51+01:00",
+          "englishLatestDate": "2024-04-20T16:59:34-07:00"
+        },
+        "en": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2024-04-20T16:59:34-07:00",
+          "englishLatestDate": "2024-04-20T16:59:34-07:00"
+        },
+        "es": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2024-06-11T08:58:25-07:00",
+          "englishLatestDate": "2024-04-20T16:59:34-07:00"
+        },
+        "fr": {
+          "status": "outdated",
+          "severity": "minor",
+          "daysBehind": 160,
+          "commitsBehind": 3,
+          "totalChangeLines": 12,
+          "targetLatestDate": "2023-11-12T12:44:39+01:00",
+          "englishLatestDate": "2024-04-20T16:59:34-07:00"
+        },
+        "hi": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2025-04-20T15:38:59+05:30",
+          "englishLatestDate": "2024-04-20T16:59:34-07:00"
+        },
+        "id": {
+          "status": "outdated",
+          "severity": "minor",
+          "daysBehind": 54,
+          "commitsBehind": 2,
+          "totalChangeLines": 6,
+          "targetLatestDate": "2024-02-26T00:47:27-08:00",
+          "englishLatestDate": "2024-04-20T16:59:34-07:00"
+        },
+        "it": {
+          "status": "outdated",
+          "severity": "minor",
+          "daysBehind": 159,
+          "commitsBehind": 3,
+          "totalChangeLines": 12,
+          "targetLatestDate": "2023-11-13T13:43:18+01:00",
+          "englishLatestDate": "2024-04-20T16:59:34-07:00"
+        },
+        "ja": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2024-05-04T18:40:04-07:00",
+          "englishLatestDate": "2024-04-20T16:59:34-07:00"
+        },
+        "ko": {
+          "status": "outdated",
+          "severity": "minor",
+          "daysBehind": 122,
+          "commitsBehind": 3,
+          "totalChangeLines": 12,
+          "targetLatestDate": "2023-12-20T07:19:21+01:00",
+          "englishLatestDate": "2024-04-20T16:59:34-07:00"
+        },
+        "pl": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2025-02-11T02:45:58-08:00",
+          "englishLatestDate": "2024-04-20T16:59:34-07:00"
+        },
+        "pt-br": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2024-05-21T17:11:57-07:00",
+          "englishLatestDate": "2024-04-20T16:59:34-07:00"
+        },
+        "ru": {
+          "status": "outdated",
+          "severity": "minor",
+          "daysBehind": 159,
+          "commitsBehind": 3,
+          "totalChangeLines": 12,
+          "targetLatestDate": "2023-11-13T05:57:37+01:00",
+          "englishLatestDate": "2024-04-20T16:59:34-07:00"
+        },
+        "uk": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2024-10-27T09:00:55+00:00",
+          "englishLatestDate": "2024-04-20T16:59:34-07:00"
+        },
+        "vi": {
+          "status": "outdated",
+          "severity": "minor",
+          "daysBehind": 159,
+          "commitsBehind": 3,
+          "totalChangeLines": 12,
+          "targetLatestDate": "2023-11-13T03:55:45+01:00",
+          "englishLatestDate": "2024-04-20T16:59:34-07:00"
+        },
+        "zh-cn": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2025-05-29T18:56:20-07:00",
+          "englishLatestDate": "2024-04-20T16:59:34-07:00"
+        }
+      }
+    },
+    {
+      "englishPath": "content/en/docs/home/supported-doc-versions.md",
+      "translations": {
+        "bn": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2024-05-10T03:29:30-07:00",
+          "englishLatestDate": "2024-04-12T10:34:54+01:00"
+        },
+        "de": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2024-08-12T00:32:17-07:00",
+          "englishLatestDate": "2024-04-12T10:34:54+01:00"
+        },
+        "en": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2024-04-12T10:34:54+01:00",
+          "englishLatestDate": "2024-04-12T10:34:54+01:00"
+        },
+        "es": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2024-05-14T10:01:11-07:00",
+          "englishLatestDate": "2024-04-12T10:34:54+01:00"
+        },
+        "fr": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2024-05-13T02:28:13-07:00",
+          "englishLatestDate": "2024-04-12T10:34:54+01:00"
+        },
+        "hi": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2025-04-20T15:38:59+05:30",
+          "englishLatestDate": "2024-04-12T10:34:54+01:00"
+        },
+        "id": {
+          "status": "outdated",
+          "severity": "minor",
+          "daysBehind": 1108,
+          "commitsBehind": 2,
+          "totalChangeLines": 12,
+          "targetLatestDate": "2021-03-30T09:19:56-07:00",
+          "englishLatestDate": "2024-04-12T10:34:54+01:00"
+        },
+        "it": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2024-05-13T08:26:25-07:00",
+          "englishLatestDate": "2024-04-12T10:34:54+01:00"
+        },
+        "ja": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2024-05-15T02:10:31-07:00",
+          "englishLatestDate": "2024-04-12T10:34:54+01:00"
+        },
+        "ko": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2024-05-16T09:31:36-07:00",
+          "englishLatestDate": "2024-04-12T10:34:54+01:00"
+        },
+        "pl": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2025-05-20T00:51:17-07:00",
+          "englishLatestDate": "2024-04-12T10:34:54+01:00"
+        },
+        "pt-br": {
+          "status": "outdated",
+          "severity": "minor",
+          "daysBehind": 273,
+          "commitsBehind": 1,
+          "totalChangeLines": 7,
+          "targetLatestDate": "2023-07-13T06:58:05-07:00",
+          "englishLatestDate": "2024-04-12T10:34:54+01:00"
+        },
+        "ru": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2024-05-15T00:32:32-07:00",
+          "englishLatestDate": "2024-04-12T10:34:54+01:00"
+        },
+        "uk": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2024-10-27T09:00:55+00:00",
+          "englishLatestDate": "2024-04-12T10:34:54+01:00"
+        },
+        "vi": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2024-05-15T18:19:05-07:00",
+          "englishLatestDate": "2024-04-12T10:34:54+01:00"
+        },
+        "zh-cn": {
+          "status": "up_to_date",
+          "severity": "current",
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2024-04-22T18:04:45-07:00",
+          "englishLatestDate": "2024-04-12T10:34:54+01:00"
+        }
+      }
+    }
+  ]
+}

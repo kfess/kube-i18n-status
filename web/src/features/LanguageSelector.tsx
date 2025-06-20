@@ -1,15 +1,15 @@
-import { IconCheck, IconWorld } from '@tabler/icons-react';
-import { ActionIcon, Group, Menu, Text, Tooltip } from '@mantine/core';
+import { IconCheck, IconTrash, IconWorld } from '@tabler/icons-react';
+import { ActionIcon, Divider, Group, Menu, Text, Tooltip } from '@mantine/core';
 import { useLocalStorage } from '@mantine/hooks';
-import { Language, LANGUAGES } from './languages';
+import { languageCodes, type LanguageCode } from './translations';
 
 export function LanguageSelector() {
-  const [preferredLanguage, setPreferredLanguage] = useLocalStorage<Language | null>({
+  const [preferredLanguage, setPreferredLanguage] = useLocalStorage<LanguageCode | null>({
     key: 'preferred-language',
     defaultValue: 'en',
   });
 
-  const handleLanguageSelect = (lang: Language) => {
+  const handleLanguageSelect = (lang: LanguageCode) => {
     setPreferredLanguage(lang === preferredLanguage ? 'en' : lang);
   };
 
@@ -24,27 +24,35 @@ export function LanguageSelector() {
       </Menu.Target>
       <Menu.Dropdown>
         <Menu.Label>Select Preferred Language</Menu.Label>
-        {Object.entries(LANGUAGES).map(([code, name]) => (
-          <Menu.Item
-            key={code}
-            onClick={() => handleLanguageSelect(code as Language)}
-            rightSection={preferredLanguage === code ? <IconCheck size={16} /> : null}
-          >
-            <Group>
-              <Text size="sm" fw={600}>
-                {name}
-              </Text>
-              {code === 'en' && (
-                <Text size="xs" c="dimmed">
-                  (Default)
+        {languageCodes.map((lang: { value: string; label: string }) => {
+          return (
+            <Menu.Item
+              key={lang.value}
+              onClick={() => handleLanguageSelect(lang.value as LanguageCode)}
+              rightSection={preferredLanguage === lang.value ? <IconCheck size={16} /> : null}
+            >
+              <Group>
+                <Text size="sm" fw={600}>
+                  {lang.label}
                 </Text>
-              )}
-            </Group>
-          </Menu.Item>
-        ))}
+                {lang.value === 'en' && (
+                  <Text size="xs" c="dimmed">
+                    (Default)
+                  </Text>
+                )}
+              </Group>
+            </Menu.Item>
+          );
+        })}
+        <Divider my="xs" />
         {preferredLanguage && (
-          <Menu.Item color="red" onClick={() => setPreferredLanguage(null)}>
-            Clear Preferred Language
+          <Menu.Item
+            fw={700}
+            color="red"
+            leftSection={<IconTrash size={14} />}
+            onClick={() => setPreferredLanguage(null)}
+          >
+            Clear Language
           </Menu.Item>
         )}
       </Menu.Dropdown>

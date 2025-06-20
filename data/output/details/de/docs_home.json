@@ -1,0 +1,61 @@
+{
+  "content/en/docs/home/Index.md": {
+    "targetPath": "content/de/docs/home/_index.md",
+    "englishPath": "content/en/docs/home/_index.md",
+    "targetLatestDate": "2023-11-22T17:49:51+01:00",
+    "englishLatestDate": "2024-04-20T16:59:34-07:00",
+    "daysBehind": 150,
+    "commitsBehind": 3,
+    "totalChangeLines": 12,
+    "insertionsBehindLines": 6,
+    "deletionsBehindLines": 6,
+    "status": "outdated",
+    "severity": "minor",
+    "missingCommits": [
+      {
+        "hash": "d57c99b79b28e254d6092b728ed3222a7f5d14fb",
+        "date": "2024-04-20 16:59:34 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #45939 from sftim/20240414_vanillaify_docs",
+        "path": "content/en/docs/home/_index.md",
+        "insertions": 1,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "84cb81aca1e384547042806f4c6b3b5e6713bcef",
+        "date": "2024-04-12 10:34:54 +0100",
+        "author": "steve-hardman",
+        "message": "Update button label to 'See available versions' in docs homepage (#45571)",
+        "path": "content/en/docs/home/_index.md",
+        "insertions": 2,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "a818f22e0597a4735ea134f78a1fefea47c1c18e",
+        "date": "2024-01-02 18:21:45 +0100",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #44559 from sftim/20231228_emphasize_non_docs_contributions",
+        "path": "content/en/docs/home/_index.md",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      }
+    ]
+  },
+  "content/en/docs/home/supported-doc-versions.md": {
+    "targetPath": "content/de/docs/home/supported-doc-versions.md",
+    "englishPath": "content/en/docs/home/supported-doc-versions.md",
+    "targetLatestDate": "2024-08-12T00:32:17-07:00",
+    "englishLatestDate": "2024-04-12T10:34:54+01:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  }
+}

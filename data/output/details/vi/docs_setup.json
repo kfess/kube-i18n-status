@@ -1,0 +1,4612 @@
+{
+  "content/en/docs/setup/Index.md": {
+    "targetPath": "content/vi/docs/setup/_index.md",
+    "englishPath": "content/en/docs/setup/_index.md",
+    "targetLatestDate": "2025-04-18T09:03:07-07:00",
+    "englishLatestDate": "2022-11-24T01:50:03-08:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/docs/setup/best-practices/Index.md": {
+    "targetPath": "content/vi/docs/setup/best-practices/_index.md",
+    "englishPath": "content/en/docs/setup/best-practices/_index.md",
+    "targetLatestDate": "2024-12-14T19:07:12+07:00",
+    "englishLatestDate": "2019-06-12T17:27:29+05:30",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/docs/setup/best-practices/certificates.md": {
+    "targetPath": "content/vi/docs/setup/best-practices/certificates.md",
+    "englishPath": "content/en/docs/setup/best-practices/certificates.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2024-11-01T03:03:26+00:00",
+    "daysBehind": 230,
+    "commitsBehind": 22,
+    "totalChangeLines": 434,
+    "insertionsBehindLines": 284,
+    "deletionsBehindLines": 150,
+    "status": "not_translated",
+    "severity": "significant",
+    "missingCommits": [
+      {
+        "hash": "17119b9b6a19ff10d5e544403a5a8ce34fd3c850",
+        "date": "2024-11-01 03:03:26 +0000",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #48401 from windsonsea/nodefor",
+        "path": "content/en/docs/setup/best-practices/certificates.md",
+        "insertions": 42,
+        "deletions": 36,
+        "operation": "modified"
+      },
+      {
+        "hash": "2c62e0ff1e77d46ec0a025b4d8ff69411a9f116f",
+        "date": "2024-09-11 00:18:48 -0600",
+        "author": "Armando Alexis Herra Cortez",
+        "message": "Update docs/setup/best-practices/certificates.md (#44617)",
+        "path": "content/en/docs/setup/best-practices/certificates.md",
+        "insertions": 29,
+        "deletions": 9,
+        "operation": "modified"
+      },
+      {
+        "hash": "fd224a167fd41ef23303de20516813f7e4e77185",
+        "date": "2023-12-13 10:52:55 -0600",
+        "author": "Kat Cosgrove",
+        "message": "Merge pull request #43082 from kubernetes/dev-1.29",
+        "path": "content/en/docs/setup/best-practices/certificates.md",
+        "insertions": 31,
+        "deletions": 6,
+        "operation": "modified"
+      },
+      {
+        "hash": "e7975c84ec7bc52706af936003eca7aa5fa1e587",
+        "date": "2023-09-08 09:34:14 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #42942 from nnlkcncff/patch-2",
+        "path": "content/en/docs/setup/best-practices/certificates.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "7402d17c350c551fca51b0b0f231817e6e2786ed",
+        "date": "2022-12-17 07:41:42 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #38524 from tengqm/improve-certificates",
+        "path": "content/en/docs/setup/best-practices/certificates.md",
+        "insertions": 69,
+        "deletions": 53,
+        "operation": "modified"
+      },
+      {
+        "hash": "0af0de04f260b2d8d6f864759e07386f2df46834",
+        "date": "2022-11-01 10:54:44 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #37482 from cailynse/update-weight-setup",
+        "path": "content/en/docs/setup/best-practices/certificates.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "090803440d4518c0a00c828a67acf5ff16b18174",
+        "date": "2022-06-07 19:11:49 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #33130 from tengqm/move-kubelet-authn-authz",
+        "path": "content/en/docs/setup/best-practices/certificates.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "9169cc8ebc37bb9ef2aa7f5cedff7bb123f93119",
+        "date": "2022-04-08 16:06:04 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #32791 from jihoon-seo/220407_Replace_Go_Doc_URL_with_pkg.go.dev",
+        "path": "content/en/docs/setup/best-practices/certificates.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "75ce0b8cfba8acef4e233771d32a7986e2224d56",
+        "date": "2022-04-08 03:44:42 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #32814 from ktsakalozos/patch-1",
+        "path": "content/en/docs/setup/best-practices/certificates.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "f5e8071030c7655d0e78ae87a06178955c0df358",
+        "date": "2022-03-24 23:23:50 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #30588 from dialogbox/patch-2",
+        "path": "content/en/docs/setup/best-practices/certificates.md",
+        "insertions": 2,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "8577231a246130601e29d679621eeac268bd7d91",
+        "date": "2021-12-13 16:16:02 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #30716 from dgengtek/main",
+        "path": "content/en/docs/setup/best-practices/certificates.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "2a84b55424c511aec75e7839420490754dbc0fa4",
+        "date": "2021-10-07 20:41:50 -0400",
+        "author": "Chris Negus",
+        "message": "Add file paths to keys and certificates (#28367)",
+        "path": "content/en/docs/setup/best-practices/certificates.md",
+        "insertions": 47,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "6dd50320cb01bb8dbfc80ba362edc0666c49b579",
+        "date": "2021-03-09 17:55:14 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #26919 from oomichi/redirect-kubeadm",
+        "path": "content/en/docs/setup/best-practices/certificates.md",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "a9e92583cbd2ea3431078485f510ff6dde9b8a61",
+        "date": "2020-08-31 09:10:21 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #23530 from tallaxes/patch-1",
+        "path": "content/en/docs/setup/best-practices/certificates.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "2c4bc30b92c04b5d9144bb24b233a8f3deaecf23",
+        "date": "2020-07-15 17:02:34 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22528 from tengqm/use-inlin-links",
+        "path": "content/en/docs/setup/best-practices/certificates.md",
+        "insertions": 7,
+        "deletions": 9,
+        "operation": "modified"
+      },
+      {
+        "hash": "75c7b7c62a3c4b1099ceec1c00eb7abca71279de",
+        "date": "2020-06-11 06:12:57 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #20768 from kbhawkey/konn-svc-move-kb",
+        "path": "content/en/docs/setup/best-practices/certificates.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "15f44cc421720cd14cc5b0e779a3c84e482e1733",
+        "date": "2020-06-10 02:30:09 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #21359 from kbhawkey/kb-migrate-capture-stmts",
+        "path": "content/en/docs/setup/best-practices/certificates.md",
+        "insertions": 5,
+        "deletions": 5,
+        "operation": "modified"
+      },
+      {
+        "hash": "c1eb3eab0ebc40f78070b2ffedb53ff9e07281b8",
+        "date": "2020-02-04 09:53:26 +0100",
+        "author": "Ray76",
+        "message": "Update certificates.md (#18970)",
+        "path": "content/en/docs/setup/best-practices/certificates.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "cd3020bca2823bf57962eff0f968c9955c602fb2",
+        "date": "2020-01-15 22:13:32 +0800",
+        "author": "camper42",
+        "message": "Fix typo: default-manager -> default-scheduler (#18649)",
+        "path": "content/en/docs/setup/best-practices/certificates.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "68e836b267a1ff3df330ed3b60ff55597145dd81",
+        "date": "2019-11-28 13:17:03 +0800",
+        "author": "bogard1203",
+        "message": "Fixed the incorrect parameter of specifying the CRI endpoint for kubelet and corrected Default CNs (#17839)",
+        "path": "content/en/docs/setup/best-practices/certificates.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "f88c8e31917f6c8b8db887317bd6c656f97a27d5",
+        "date": "2019-10-23 17:56:15 +0200",
+        "author": "Fabrizio Pandini",
+        "message": "Improve PKI certificates and requirements page (#16399)",
+        "path": "content/en/docs/setup/best-practices/certificates.md",
+        "insertions": 29,
+        "deletions": 7,
+        "operation": "modified"
+      },
+      {
+        "hash": "55ac801bc447ae185b6d0dd22ac5793e91f329fe",
+        "date": "2019-06-12 17:27:29 +0530",
+        "author": "Rajakavitha1",
+        "message": "Restructure the left navigation pane of setup (#14826)",
+        "path": "content/en/docs/setup/best-practices/certificates.md",
+        "insertions": 6,
+        "deletions": 5,
+        "operation": "renamed",
+        "oldPath": "content/en/docs/setup//certificates.md"
+      }
+    ]
+  },
+  "content/en/docs/setup/best-practices/cluster-large.md": {
+    "targetPath": "content/vi/docs/setup/best-practices/cluster-large.md",
+    "englishPath": "content/en/docs/setup/best-practices/cluster-large.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2025-02-12T16:08:21-08:00",
+    "daysBehind": 126,
+    "commitsBehind": 15,
+    "totalChangeLines": 260,
+    "insertionsBehindLines": 128,
+    "deletionsBehindLines": 132,
+    "status": "not_translated",
+    "severity": "significant",
+    "missingCommits": [
+      {
+        "hash": "b417e36255abfec73ed5372cd3643ba32dfbb589",
+        "date": "2025-02-12 16:08:21 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #45802 from towca/jtuznik/node-autoscaling-docs",
+        "path": "content/en/docs/setup/best-practices/cluster-large.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "5e7e462a32d083de0960983f3e2ac446b131e840",
+        "date": "2024-08-13 16:38:43 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #46997 from williamtrelawny/patch-1",
+        "path": "content/en/docs/setup/best-practices/cluster-large.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "7ee320764ab3378b889d935a80d3a92999099ae2",
+        "date": "2024-03-25 07:37:02 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #45197 from sftim/20240218_document_cluster_autoscaling",
+        "path": "content/en/docs/setup/best-practices/cluster-large.md",
+        "insertions": 1,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "19795d957efa9a6303312d693134e16371146b88",
+        "date": "2023-01-12 04:42:54 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #38900 from pacoxu/patch-13",
+        "path": "content/en/docs/setup/best-practices/cluster-large.md",
+        "insertions": 4,
+        "deletions": 4,
+        "operation": "modified"
+      },
+      {
+        "hash": "e559351d61e3464f28c6ebe272cf7900af15e7f2",
+        "date": "2023-01-03 17:09:59 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #38194 from T-Lakshmi/doc-cluster-large",
+        "path": "content/en/docs/setup/best-practices/cluster-large.md",
+        "insertions": 6,
+        "deletions": 6,
+        "operation": "modified"
+      },
+      {
+        "hash": "0af0de04f260b2d8d6f864759e07386f2df46834",
+        "date": "2022-11-01 10:54:44 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #37482 from cailynse/update-weight-setup",
+        "path": "content/en/docs/setup/best-practices/cluster-large.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "a30ecd33e2f0799f6a93dcced407833e706f4793",
+        "date": "2021-07-27 10:55:09 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #28458 from vaibhav2107/cluster-large",
+        "path": "content/en/docs/setup/best-practices/cluster-large.md",
+        "insertions": 3,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "3540214344f959440d45c3468fc0eb9f5812a2c2",
+        "date": "2021-06-12 09:17:00 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #28152 from JayKayy/master",
+        "path": "content/en/docs/setup/best-practices/cluster-large.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "13349883d1e640c4fad5e19cb315027f51dbd60b",
+        "date": "2021-06-03 18:59:26 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #28234 from jihoon-seo/210603_Nit_Fix_hrefs",
+        "path": "content/en/docs/setup/best-practices/cluster-large.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "4219d77e90d1477bfaaaf39c6b0c494633b64ac1",
+        "date": "2021-05-18 03:35:30 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #28007 from chrisnegus/large-cluster-fixes",
+        "path": "content/en/docs/setup/best-practices/cluster-large.md",
+        "insertions": 6,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "ec4840824dc2b1905964767d166513affa762516",
+        "date": "2021-03-26 04:34:43 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #26472 from kbhawkey/cleanup-usage-just",
+        "path": "content/en/docs/setup/best-practices/cluster-large.md",
+        "insertions": 3,
+        "deletions": 4,
+        "operation": "modified"
+      },
+      {
+        "hash": "56cf8f59f04cc26d94a892fb0a07f07fd7a125b0",
+        "date": "2020-11-10 18:37:48 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #24424 from sftim/20201007_large_cluster_guidance",
+        "path": "content/en/docs/setup/best-practices/cluster-large.md",
+        "insertions": 85,
+        "deletions": 89,
+        "operation": "modified"
+      },
+      {
+        "hash": "995e37a0fc1e3856c29ae8aeb5643eac71bfa80b",
+        "date": "2020-07-26 19:34:17 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22598 from tengqm/fix-setup-links",
+        "path": "content/en/docs/setup/best-practices/cluster-large.md",
+        "insertions": 12,
+        "deletions": 13,
+        "operation": "modified"
+      },
+      {
+        "hash": "9f4f076aeab4ca06dc0be40b6f89294dbb6e35e4",
+        "date": "2020-06-15 12:35:56 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #21779 from kbhawkey/kb-cleanup-toc-pages",
+        "path": "content/en/docs/setup/best-practices/cluster-large.md",
+        "insertions": 0,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "55ac801bc447ae185b6d0dd22ac5793e91f329fe",
+        "date": "2019-06-12 17:27:29 +0530",
+        "author": "Rajakavitha1",
+        "message": "Restructure the left navigation pane of setup (#14826)",
+        "path": "content/en/docs/setup/best-practices/cluster-large.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "renamed",
+        "oldPath": "content/en/docs/setup//cluster-large.md"
+      }
+    ]
+  },
+  "content/en/docs/setup/best-practices/enforcing-pod-security-standards.md": {
+    "targetPath": "content/vi/docs/setup/best-practices/enforcing-pod-security-standards.md",
+    "englishPath": "content/en/docs/setup/best-practices/enforcing-pod-security-standards.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2022-09-23T11:04:25-07:00",
+    "daysBehind": 999,
+    "commitsBehind": 5,
+    "totalChangeLines": 86,
+    "insertionsBehindLines": 83,
+    "deletionsBehindLines": 3,
+    "status": "not_translated",
+    "severity": "moderate",
+    "missingCommits": [
+      {
+        "hash": "d1006d01e491e4f8cabc6c2d4276e96e442235e8",
+        "date": "2022-09-23 11:04:25 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #36966 from mtardy/bump-pod-security-stable",
+        "path": "content/en/docs/setup/best-practices/enforcing-pod-security-standards.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "b4cd08fcb8e55e9fa349f5b346dc5150d01d0b84",
+        "date": "2022-09-21 17:23:10 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #36930 from kadtendulkar/kad38",
+        "path": "content/en/docs/setup/best-practices/enforcing-pod-security-standards.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "6c5fd95659e8478eba5edac8daa8d2df85ff503d",
+        "date": "2022-02-24 02:05:34 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #31879 from JimBugwadia/add_projects",
+        "path": "content/en/docs/setup/best-practices/enforcing-pod-security-standards.md",
+        "insertions": 2,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "7d54e1e5c637e6bb0d2ade7ad3c1ad06baf55af5",
+        "date": "2022-01-19 09:04:06 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #31405 from Shubham82/Update-Feature_Gate",
+        "path": "content/en/docs/setup/best-practices/enforcing-pod-security-standards.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "082116588c191f52de2003deb71ce7a304cc357d",
+        "date": "2021-08-05 00:01:50 +0200",
+        "author": "PI-Victor",
+        "message": "Merge pull request #27866 from kubernetes/dev-1.22",
+        "path": "content/en/docs/setup/best-practices/enforcing-pod-security-standards.md",
+        "insertions": 78,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/docs/setup/best-practices/multiple-zones.md": {
+    "targetPath": "content/vi/docs/setup/best-practices/multiple-zones.md",
+    "englishPath": "content/en/docs/setup/best-practices/multiple-zones.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2024-09-01T01:54:45+03:00",
+    "daysBehind": 291,
+    "commitsBehind": 12,
+    "totalChangeLines": 523,
+    "insertionsBehindLines": 133,
+    "deletionsBehindLines": 390,
+    "status": "not_translated",
+    "severity": "critical",
+    "missingCommits": [
+      {
+        "hash": "7e64c2db8236a6b7325cf82ec050783a1b0a3850",
+        "date": "2024-09-01 01:54:45 +0300",
+        "author": "Alexander Stefurishin",
+        "message": "Fix broken links from \"overview/components/#...\" to \"architecture/#...\" (#47724)",
+        "path": "content/en/docs/setup/best-practices/multiple-zones.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "3e4c64da74809c43bc71d55bf45913b895b47c42",
+        "date": "2024-02-25 19:42:52 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #44910 from hassanbenhzaine/main",
+        "path": "content/en/docs/setup/best-practices/multiple-zones.md",
+        "insertions": 7,
+        "deletions": 4,
+        "operation": "modified"
+      },
+      {
+        "hash": "7078c38d3bb4231a10cb4406e8dd70d71a86aa03",
+        "date": "2022-07-24 03:38:57 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #33792 from sftim/20220510_assign_pod_node_affinity_updates",
+        "path": "content/en/docs/setup/best-practices/multiple-zones.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "81bc52d878b56b5cd6c08483834760fe4467291b",
+        "date": "2021-03-10 17:04:24 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #26982 from YuikoTakada/redirect-kubernetes-api",
+        "path": "content/en/docs/setup/best-practices/multiple-zones.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "b1f370dd13a6b9e12ca12394393497c5528c7c8d",
+        "date": "2021-01-27 09:51:40 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #26229 from rikatz/spell-correction",
+        "path": "content/en/docs/setup/best-practices/multiple-zones.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "29801cc8e4f03520605fb1395dfd429eaf656299",
+        "date": "2020-12-02 15:15:00 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #25340 from gavinfish/zone-revise",
+        "path": "content/en/docs/setup/best-practices/multiple-zones.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "4c5cb52237a860ce6ec2f94024c69d331c5c0426",
+        "date": "2020-11-27 09:36:47 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #25263 from saintmalik/fix-url-bug",
+        "path": "content/en/docs/setup/best-practices/multiple-zones.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "56b0a2fb865fbb8fb884704d716e0b693bd6ee85",
+        "date": "2020-10-07 23:12:15 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #23498 from sftim/20200827_revise_multiple_zones_setup",
+        "path": "content/en/docs/setup/best-practices/multiple-zones.md",
+        "insertions": 110,
+        "deletions": 370,
+        "operation": "modified"
+      },
+      {
+        "hash": "995e37a0fc1e3856c29ae8aeb5643eac71bfa80b",
+        "date": "2020-07-26 19:34:17 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22598 from tengqm/fix-setup-links",
+        "path": "content/en/docs/setup/best-practices/multiple-zones.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "15f44cc421720cd14cc5b0e779a3c84e482e1733",
+        "date": "2020-06-10 02:30:09 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #21359 from kbhawkey/kb-migrate-capture-stmts",
+        "path": "content/en/docs/setup/best-practices/multiple-zones.md",
+        "insertions": 5,
+        "deletions": 5,
+        "operation": "modified"
+      },
+      {
+        "hash": "26d8e0c539a327f086c1840ef31c3b90335ad814",
+        "date": "2020-03-16 13:54:35 +0800",
+        "author": "Jie Shen",
+        "message": "Change languge type for sample in multiple-zones.md (#19436)",
+        "path": "content/en/docs/setup/best-practices/multiple-zones.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "55ac801bc447ae185b6d0dd22ac5793e91f329fe",
+        "date": "2019-06-12 17:27:29 +0530",
+        "author": "Rajakavitha1",
+        "message": "Restructure the left navigation pane of setup (#14826)",
+        "path": "content/en/docs/setup/best-practices/multiple-zones.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "renamed",
+        "oldPath": "content/en/docs/setup//multiple-zones.md"
+      }
+    ]
+  },
+  "content/en/docs/setup/best-practices/node-conformance.md": {
+    "targetPath": "content/vi/docs/setup/best-practices/node-conformance.md",
+    "englishPath": "content/en/docs/setup/best-practices/node-conformance.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2024-11-01T03:03:26+00:00",
+    "daysBehind": 230,
+    "commitsBehind": 10,
+    "totalChangeLines": 73,
+    "insertionsBehindLines": 34,
+    "deletionsBehindLines": 39,
+    "status": "not_translated",
+    "severity": "moderate",
+    "missingCommits": [
+      {
+        "hash": "17119b9b6a19ff10d5e544403a5a8ce34fd3c850",
+        "date": "2024-11-01 03:03:26 +0000",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #48401 from windsonsea/nodefor",
+        "path": "content/en/docs/setup/best-practices/node-conformance.md",
+        "insertions": 21,
+        "deletions": 19,
+        "operation": "modified"
+      },
+      {
+        "hash": "3a3a82c22d8e74a1f8d194448aa28715dc683982",
+        "date": "2023-09-13 23:32:13 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #43011 from niranjandarshann/updated/validate_node_setup",
+        "path": "content/en/docs/setup/best-practices/node-conformance.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "b79539d0d35927eb51976d1115db500419a6c6b9",
+        "date": "2022-08-23 14:53:20 -0700",
+        "author": "Kristin Martin",
+        "message": "Merge pull request #34290 from kubernetes/dev-1.25",
+        "path": "content/en/docs/setup/best-practices/node-conformance.md",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "f6b4fedd70632144f25d661b63af2ff0f251e315",
+        "date": "2022-05-03 15:16:36 -0700",
+        "author": "Nate W",
+        "message": "Merge pull request #31225 from kubernetes/dev-1.24",
+        "path": "content/en/docs/setup/best-practices/node-conformance.md",
+        "insertions": 0,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "ce40d8da830e058cd3ad69f7464596a477dca266",
+        "date": "2020-11-16 18:46:04 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #24538 from Cweiping/feature/fix_node-conformance_apiserver_adress_error",
+        "path": "content/en/docs/setup/best-practices/node-conformance.md",
+        "insertions": 5,
+        "deletions": 4,
+        "operation": "modified"
+      },
+      {
+        "hash": "c638774c2322072fa31e7be6209d520cb92f05ee",
+        "date": "2020-09-16 04:35:20 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #23916 from tengqm/fix-18207",
+        "path": "content/en/docs/setup/best-practices/node-conformance.md",
+        "insertions": 0,
+        "deletions": 6,
+        "operation": "modified"
+      },
+      {
+        "hash": "9f4f076aeab4ca06dc0be40b6f89294dbb6e35e4",
+        "date": "2020-06-15 12:35:56 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #21779 from kbhawkey/kb-cleanup-toc-pages",
+        "path": "content/en/docs/setup/best-practices/node-conformance.md",
+        "insertions": 0,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "6dcda9ef58440dfe5bee375668621621c4d4716e",
+        "date": "2020-01-15 03:11:20 +0800",
+        "author": "ares",
+        "message": "fix-up 404 urls (#18008)",
+        "path": "content/en/docs/setup/best-practices/node-conformance.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "54d222f75ca96fe0264a61fce2f5658082283f0d",
+        "date": "2019-10-15 04:11:50 +0530",
+        "author": "shub-asa1",
+        "message": "fix for issue #16851 (#16852)",
+        "path": "content/en/docs/setup/best-practices/node-conformance.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "55ac801bc447ae185b6d0dd22ac5793e91f329fe",
+        "date": "2019-06-12 17:27:29 +0530",
+        "author": "Rajakavitha1",
+        "message": "Restructure the left navigation pane of setup (#14826)",
+        "path": "content/en/docs/setup/best-practices/node-conformance.md",
+        "insertions": 2,
+        "deletions": 1,
+        "operation": "renamed",
+        "oldPath": "content/en/docs/setup//node-conformance.md"
+      }
+    ]
+  },
+  "content/en/docs/setup/learning-environment/Index.md": {
+    "targetPath": "content/vi/docs/setup/learning-environment/_index.md",
+    "englishPath": "content/en/docs/setup/learning-environment/_index.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2021-08-24T10:43:15-07:00",
+    "daysBehind": 1394,
+    "commitsBehind": 3,
+    "totalChangeLines": 37,
+    "insertionsBehindLines": 36,
+    "deletionsBehindLines": 1,
+    "status": "not_translated",
+    "severity": "minor",
+    "missingCommits": [
+      {
+        "hash": "9b17097b45e9fa3b1c65f14382a7c10f555bf761",
+        "date": "2021-08-24 10:43:15 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #28451 from vaibhav2107/learning-env",
+        "path": "content/en/docs/setup/learning-environment/_index.md",
+        "insertions": 3,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "55582e1f70fc2034b6395470545c18a3b694f977",
+        "date": "2020-10-17 10:52:13 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #24533 from sftim/20201012_learning_environment_redirect",
+        "path": "content/en/docs/setup/learning-environment/_index.md",
+        "insertions": 29,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "55ac801bc447ae185b6d0dd22ac5793e91f329fe",
+        "date": "2019-06-12 17:27:29 +0530",
+        "author": "Rajakavitha1",
+        "message": "Restructure the left navigation pane of setup (#14826)",
+        "path": "content/en/docs/setup/learning-environment/_index.md",
+        "insertions": 4,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/docs/setup/production-environment/Index.md": {
+    "targetPath": "content/vi/docs/setup/production-environment/_index.md",
+    "englishPath": "content/en/docs/setup/production-environment/_index.md",
+    "targetLatestDate": "2025-04-23T11:50:33-07:00",
+    "englishLatestDate": "2025-04-18T14:55:07-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/docs/setup/production-environment/container-runtimes.md": {
+    "targetPath": "content/vi/docs/setup/production-environment/container-runtimes.md",
+    "englishPath": "content/en/docs/setup/production-environment/container-runtimes.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2025-01-06T18:14:07+01:00",
+    "daysBehind": 163,
+    "commitsBehind": 102,
+    "totalChangeLines": 2982,
+    "insertionsBehindLines": 1661,
+    "deletionsBehindLines": 1321,
+    "status": "not_translated",
+    "severity": "critical",
+    "missingCommits": [
+      {
+        "hash": "9490ec432c2245f15694e7c08282ec21c8ed6155",
+        "date": "2025-01-06 18:14:07 +0100",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #49297 from afbjorklund/runtime-sandbox-image-version",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "a3ac6070b8381e256a449481441389b2ced4c4b0",
+        "date": "2024-08-30 11:57:31 +0100",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #47721 from steve-hardman/remove-old-issues",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 0,
+        "deletions": 5,
+        "operation": "modified"
+      },
+      {
+        "hash": "20d164c7a7d092ebc65eed06c855d2ec4f0f0e12",
+        "date": "2024-08-13 08:20:24 -0700",
+        "author": "Rey Lejano",
+        "message": "Merge pull request #47469 from kubernetes/dev-1.31",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 6,
+        "deletions": 6,
+        "operation": "modified"
+      },
+      {
+        "hash": "37c062c574a91bc56f5fd7a7f7529774433f993d",
+        "date": "2024-07-08 01:41:53 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #47110 from saschagrunert/cri-o-install",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "0471ca12572f26cd6f553dafddbe1de22c4abf7f",
+        "date": "2024-04-17 15:42:56 -0500",
+        "author": "Drew Hagen",
+        "message": "Merge pull request #44710 from kubernetes/dev-1.30",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 12,
+        "deletions": 29,
+        "operation": "modified"
+      },
+      {
+        "hash": "991529ef8b1ebdf22072621606b27771c174a20c",
+        "date": "2024-03-09 04:05:04 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #45480 from nwneisen/update-cri-dockerd-links",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 3,
+        "deletions": 4,
+        "operation": "modified"
+      },
+      {
+        "hash": "cca14eff625b6f3b909d8ac49f35bed383898184",
+        "date": "2024-01-07 23:15:35 +0100",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #44571 from hunshcn/fix/link",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "0180cc4bf06b4253f3bdf0b66d49b6c1b5feb105",
+        "date": "2023-08-15 12:11:28 -0700",
+        "author": "Rey Lejano",
+        "message": "Merge pull request #41165 from kubernetes/dev-1.28",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 14,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "7ff4609db79b6c3d4cb0e563de722bb7cb583f3a",
+        "date": "2023-05-28 07:33:41 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #41347 from compi-migui/fixup-links-leading-slash",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "ac717e95e31926b92cdcd8c000ac3a60f40eb1ed",
+        "date": "2023-05-22 01:14:21 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #41226 from mrgiles/37108_container_runtime_cgroupdriver_refs",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 26,
+        "deletions": 17,
+        "operation": "modified"
+      },
+      {
+        "hash": "e7676f2eacf571a5b2b1a063a1a22cffff56c195",
+        "date": "2023-03-25 08:27:53 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #35177 from NitishKumar06/Nitish/ContainerdInstall",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "a5ec2187bd7ad9f4bb0119b2547922e93dc7c96d",
+        "date": "2023-03-24 02:38:32 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #40192 from SergeyKanzhelev/dockershim",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 8,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "c988b6fa44f8ce12a6426748948f6ee59498e8ab",
+        "date": "2022-12-22 05:15:28 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #38397 from ramobis/patch-1",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 7,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "de35fa6c5d99bca91788a314b0855d54eaea037f",
+        "date": "2022-12-21 05:17:24 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #37870 from Ashik008/patch-1",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 13,
+        "deletions": 5,
+        "operation": "modified"
+      },
+      {
+        "hash": "493d2447c9739d8eda7e18e11d903d24b90afdee",
+        "date": "2022-09-07 06:20:37 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #36569 from yanrongshi/en]r-removed-duplicated-section-on-container-runtimes.md",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 0,
+        "deletions": 6,
+        "operation": "modified"
+      },
+      {
+        "hash": "b79539d0d35927eb51976d1115db500419a6c6b9",
+        "date": "2022-08-23 14:53:20 -0700",
+        "author": "Kristin Martin",
+        "message": "Merge pull request #34290 from kubernetes/dev-1.25",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 60,
+        "deletions": 47,
+        "operation": "modified"
+      },
+      {
+        "hash": "8e5c92ca80132670e633fe12d7d1f6df9be6f8e4",
+        "date": "2022-07-21 20:47:38 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #35216 from oradwell/patch-1",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "4e1461d97ab0e35cd51298ef75cd73e43d97cfd9",
+        "date": "2022-07-12 02:34:51 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #34950 from s-kawamura-w664/update_tabshortcode",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "78249f3ec9893165e94ec5dbf3d5344119997728",
+        "date": "2022-06-24 00:37:20 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #34378 from tengqm/fix-links-2",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "1145cab87b4c2dcfa9d90957159807bd9ff4c8c7",
+        "date": "2022-06-17 05:52:33 +0100",
+        "author": "Dom Goodwin",
+        "message": "Document changing the sandbox image in CR (#33660)",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 37,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "2bafc19fed4b69d1288ba82cfce992927a9470d5",
+        "date": "2022-05-30 01:34:51 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #34024 from bobcode99/patch-1",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "ba275d1181928e4e4513a89cb56a6a83df1905d5",
+        "date": "2022-05-24 16:11:24 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #33924 from chris-short/install-containerd-from-containerd",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 0,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "8b29e8229be8d6cb2a4c723d98e8e42009c3acf8",
+        "date": "2022-05-21 16:56:00 +0530",
+        "author": "Manish Kumar",
+        "message": "Update container-runtimes.md (#33851)",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 8,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "994555c46b1085406d5a9d46a4dda81d1a0c3daa",
+        "date": "2022-05-11 11:53:01 -0400",
+        "author": "John Kwiatkoski",
+        "message": "Moving ip forwarding and prereqs to container runtime page (#32946)",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 44,
+        "deletions": 29,
+        "operation": "modified"
+      },
+      {
+        "hash": "9fba9212144393526e01a837aabad9ef403df9a4",
+        "date": "2022-04-29 11:04:15 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #33321 from marosset/win-containerd-install-fixes",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 6,
+        "deletions": 10,
+        "operation": "modified"
+      },
+      {
+        "hash": "6541860e6345af3e23e70eca963cda47c10e2019",
+        "date": "2022-04-18 17:17:50 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #32941 from chrisnegus/dockershim-shortcode-pages",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 0,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "22d86412bf72c4bf0272bb404d6f6ce00f57749f",
+        "date": "2022-04-18 16:09:50 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #32826 from chrisnegus/dockershim-shortcode",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 2,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "89cf5eb7ce042945084a57dbd307b70b1996dd0d",
+        "date": "2022-04-12 07:55:23 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #32738 from sftim/20220401_update_container_runtimes_dockershim_removal",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 84,
+        "deletions": 265,
+        "operation": "modified"
+      },
+      {
+        "hash": "3aed543250e12121a70a4e1e02a097c81ac68c95",
+        "date": "2022-02-01 01:14:18 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #31581 from jeremy-morren/jeremy-morren-doc-updates",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "dec940e53755ade329994507fd110d782e1a7b13",
+        "date": "2022-01-31 16:59:53 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #31328 from sftim/20220113_clarify_example_linux_command_line_cgroup_v2",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 6,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "ebceaf134360d560ea0434245833d850c7a2bc3d",
+        "date": "2022-01-18 14:13:03 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #30862 from sftim/20211211_marke_dockershim_deprecated_add_mcr",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 35,
+        "deletions": 35,
+        "operation": "modified"
+      },
+      {
+        "hash": "85d4742e751a00459defc98c2f27d8309e3dd3ba",
+        "date": "2021-11-22 17:34:16 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #30543 from fossilet/patch-1",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "082116588c191f52de2003deb71ce7a304cc357d",
+        "date": "2021-08-05 00:01:50 +0200",
+        "author": "PI-Victor",
+        "message": "Merge pull request #27866 from kubernetes/dev-1.22",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 32,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "6145b61f00a493161344b42ae9ec2bbd7f8a03c5",
+        "date": "2021-05-23 17:21:38 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #27658 from jihoon-seo/210422_Add_line_breaks_in_Markdown_code",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 16,
+        "deletions": 6,
+        "operation": "modified"
+      },
+      {
+        "hash": "6f617aa64913038bf95361fb0ffaf148aa796114",
+        "date": "2021-04-20 18:30:10 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #27554 from jihoon-seo/210414_Fix_some_errors",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "0ad04c6f8e61d3cfe5557c6b7edc86e8240a39c7",
+        "date": "2021-04-19 16:02:33 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #27619 from neolit123/1.22-fix-cgroup-migration-link",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "66e7ce1e03ea127224d4c9329da2d875726c0a9b",
+        "date": "2021-04-12 14:42:15 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #27518 from wangyysde/patch-3",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "969a3db92326746a94e2eb4449fd60f25d9151b8",
+        "date": "2021-04-08 11:02:03 -0700",
+        "author": "Rey Lejano",
+        "message": "Merge pull request #26153 from kubernetes/dev-1.21",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 6,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "9a9c2f3f7431205a826177e18e448399878a4742",
+        "date": "2021-03-17 12:19:18 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #26966 from enyinna1234/fix-docker-version",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "8513a4d041dc10ebbdc5669d5390c1e4402f7672",
+        "date": "2021-03-16 22:36:56 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #27073 from neolit123/1.21-update-containerd-restart-order",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 7,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "0a196b364336ac09ec6f97e7600d42f9690d25c8",
+        "date": "2021-03-10 08:07:15 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #26952 from tmoschou/update-apt-repo-setup-install-steps",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 65,
+        "deletions": 273,
+        "operation": "modified"
+      },
+      {
+        "hash": "f562c53cecd0d71baefbce6c2db11c1ac3fb491d",
+        "date": "2021-03-07 21:13:44 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #26941 from jihoon-seo/patch-1",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "c5e52425ab1deb489bd6435b495c3c6bede42eba",
+        "date": "2021-02-28 13:26:39 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #26600 from marosset/windows-containerd-install-disable-defender",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 16,
+        "deletions": 7,
+        "operation": "modified"
+      },
+      {
+        "hash": "632bd32bb5fd240779999d9e0fcda9fd8706eaf7",
+        "date": "2021-02-11 04:00:16 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #26456 from eTimS/patch-2",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "d10ad920b0d802566f5cababb121b95a36784b80",
+        "date": "2021-01-28 13:05:40 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #26093 from bart0sh/PR0003-run-containerd-config-without-sudo",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "4776608f4b2f3ca4be2f2ae3227d849ac733a929",
+        "date": "2021-01-14 06:05:03 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #26088 from saschagrunert/cri-o-docs",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 25,
+        "deletions": 10,
+        "operation": "modified"
+      },
+      {
+        "hash": "c15e5675078678cdc49c9b2a5d20b9c76afa3fb5",
+        "date": "2021-01-13 17:27:03 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #26038 from outofmem0ry/fix-containerd-all",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "d70d1f68068e3072afe8fde4f1a1b8885925288b",
+        "date": "2021-01-12 09:56:36 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #25242 from stefanpetter/patch-1",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 5,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "3a5d246bcf514dd32eb06e22a0ea6821b02294c8",
+        "date": "2021-01-09 07:01:05 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #25822 from peymanslh/cotainerd_deb",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 38,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "cfe5edfd3112bc4e94160dc09fedd4900ea14608",
+        "date": "2021-01-04 17:13:57 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #25895 from kylejep/patch-1",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 7,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "c21a7ca829dd6463c62ffca2d8bfb72ce18611c5",
+        "date": "2020-12-28 13:18:28 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #25838 from outofmem0ry/fix-containerd-1804",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "458e55658d526654ec9b3091fcdcf127709598f0",
+        "date": "2020-12-22 12:30:26 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #24776 from karras/docs_update_ubuntu_containerd_instructions",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 18,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "391eef6bda33f1b5721d4b80140016b5f025575b",
+        "date": "2020-12-08 15:11:00 -0600",
+        "author": "Anna",
+        "message": "Merge pull request #24138 from kubernetes/dev-1.20",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "b6f9c2c5811a20539b792bee5c304792a5d3eee3",
+        "date": "2020-12-07 06:59:26 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #25146 from serewicz/patch-1",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "5199878fb216fd4fa965be5094f1c5ed33c330a2",
+        "date": "2020-11-04 00:46:04 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #24768 from kbhawkey/kb-content-third-party-cleanup-1",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "6a887a3204d2bb5d3126cdc1daedf2acd6a1a34f",
+        "date": "2020-11-02 06:48:53 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #24841 from sftim/20201101_fix_container_runtime_apt_pgp_key_instructions",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 5,
+        "deletions": 5,
+        "operation": "modified"
+      },
+      {
+        "hash": "fe76436ebac3acf846052162c2970b1eec394273",
+        "date": "2020-10-30 13:12:52 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #24780 from anwesh-b/patch-1",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 3,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "7da692f67ec4f147677f682ee640f91a5036937e",
+        "date": "2020-10-29 02:04:59 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #24770 from clearbjli/patch-1",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "b0bf75ccadf51b869d28453c770f36d081196019",
+        "date": "2020-10-22 19:39:35 +0200",
+        "author": "Michael Hofer",
+        "message": "Docs: Restore PR24605, update containerd systemd configuration (#24687)",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 5,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "dca2fe651a97f22dd66592772a9f34c2cc77e3a8",
+        "date": "2020-10-20 15:28:19 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #24530 from sftim/20201012_revise_getting_started_container_runtimes",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 214,
+        "deletions": 212,
+        "operation": "modified"
+      },
+      {
+        "hash": "110cf67256a4440b25679e4429c0d59f011e774d",
+        "date": "2020-10-20 15:10:20 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #24644 from userravs/patch-1",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 8,
+        "deletions": 4,
+        "operation": "modified"
+      },
+      {
+        "hash": "907696da61e7422a58aa01afd16c6bdc0b6c95d6",
+        "date": "2020-10-17 10:48:12 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #24605 from mythi/containerd-systemd",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 5,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "32c243938761764eaa2ff663f127e33960e02f60",
+        "date": "2020-09-28 06:04:49 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #24145 from Rajpratik71/patch-2",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 62,
+        "deletions": 61,
+        "operation": "modified"
+      },
+      {
+        "hash": "71e55e48e5750f6db3b744cea721046a13cec194",
+        "date": "2020-09-08 02:23:43 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #23269 from RA489/containerd_config",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 6,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "46bd27df8f1d8dc6578b9394ea80c5796ccd6e4e",
+        "date": "2020-08-26 19:13:03 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #23438 from wangxy518/patch-7",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "70b75e16f06feb2af65276aaa1a6f4cc8ad5b087",
+        "date": "2020-08-26 14:55:02 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22981 from shuuji3/en/replace-special-quote-with-normal-ones",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "f0490e52e2e5dbb87c36c26d41a8054a55a8e37e",
+        "date": "2020-08-26 14:47:58 -0500",
+        "author": "Jim Angel",
+        "message": "Merge pull request #20785 from kubernetes/dev-1.19",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 26,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "46ba0021a15e0fbac775111b9ca0fe2f402c31d0",
+        "date": "2020-08-17 13:33:30 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #23000 from haircommander/fix-crio-docs",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 82,
+        "deletions": 40,
+        "operation": "modified"
+      },
+      {
+        "hash": "8e2c2040a06c8a675ab3a08257a17c74660b8346",
+        "date": "2020-06-23 10:18:38 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22004 from makocchi-git/en/container_runtime",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 3,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "5c6a870b3d656c10edd48b1de72e89019f63140e",
+        "date": "2020-06-15 06:31:56 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #21761 from tengqm/fix-21740",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "c035bfae8b37190f66722b3a5d7e751adce8b999",
+        "date": "2020-06-13 11:33:55 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #21705 from tengqm/docker-auto-start",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 6,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "9aca67c4a169c0b7dd7d3957dea4447acb157eba",
+        "date": "2020-06-12 21:53:56 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #21569 from tao12345666333/bump-docker-version",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 6,
+        "deletions": 6,
+        "operation": "modified"
+      },
+      {
+        "hash": "71190208355cc3451436b632668e2049417d33e9",
+        "date": "2020-06-10 06:14:51 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #21631 from tnqn/cri-install-markdown",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 16,
+        "deletions": 16,
+        "operation": "modified"
+      },
+      {
+        "hash": "15f44cc421720cd14cc5b0e779a3c84e482e1733",
+        "date": "2020-06-10 02:30:09 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #21359 from kbhawkey/kb-migrate-capture-stmts",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 5,
+        "deletions": 5,
+        "operation": "modified"
+      },
+      {
+        "hash": "c6ee1bb6427c4711b9fcfb8daaf0bb9f61eb9f37",
+        "date": "2020-05-13 07:32:28 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #20926 from sftim/20200512_work_around_formatting_tabs_shortcode_container_runtimes",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 106,
+        "deletions": 32,
+        "operation": "modified"
+      },
+      {
+        "hash": "9b2254ee034510cddb8717839e4e39d896034acd",
+        "date": "2020-05-12 06:58:21 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #20544 from geragio/patch-1",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 3,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "f4d76b8071455f32ddf83c3308993b8c2766d2e6",
+        "date": "2020-04-17 05:47:06 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #20358 from gpetrousov/patch-1",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "998fba98d72069a70a8ce5fc2980def92654218d",
+        "date": "2020-03-26 00:30:25 +0530",
+        "author": "Vineeth Pothulapati",
+        "message": "Official 1.18 Release Docs (#19116)",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 7,
+        "deletions": 7,
+        "operation": "modified"
+      },
+      {
+        "hash": "06029f5a1b897b6be721abf81d715cf26f42f705",
+        "date": "2020-03-22 22:10:45 +0100",
+        "author": "Sascha Grunert",
+        "message": "Update CRI-O installation guide (#19568)",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 29,
+        "deletions": 8,
+        "operation": "modified"
+      },
+      {
+        "hash": "a00f65d84ca19ed7ef5c71179e2ccfb05dd64bbe",
+        "date": "2020-02-12 13:56:51 -0500",
+        "author": "larntz-tbc",
+        "message": "cri-o version must match the k8 version (#19092)",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 5,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "d1c81147c1e8a396a7bb1cca0353a594aa991a41",
+        "date": "2020-02-03 10:29:21 +0100",
+        "author": "Rene Luria",
+        "message": "Update container-runtimes.md (#18608)",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "2529bc642cfb25ec5595242b9f3e6e3326eca823",
+        "date": "2020-01-29 23:40:15 +0530",
+        "author": "Venkata Harshavardhan Reddy Allu",
+        "message": "install container runtimes without prompts (#18893)",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 9,
+        "deletions": 9,
+        "operation": "modified"
+      },
+      {
+        "hash": "dff2f7b9601470dc8383d883b23188ed450d89c2",
+        "date": "2019-12-10 05:41:29 +0530",
+        "author": "Damini Satya",
+        "message": "Official 1.17 Release Docs (#18011)",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 13,
+        "deletions": 7,
+        "operation": "modified"
+      },
+      {
+        "hash": "832371281dd7b4f6e4035cf238ee8e3ff242a454",
+        "date": "2019-12-03 09:00:57 -0500",
+        "author": "Matt McNaughton",
+        "message": "Add missing `systemctl` step for running `cri-o` (#17926)",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "c3444e39a7dbaeecf81f04847ca5957b514c4e66",
+        "date": "2019-10-30 09:28:52 +0800",
+        "author": "Luzhenxing",
+        "message": "fix error link (#17253)",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "b55f80f67f2501809e1d6525ada45e64861deecf",
+        "date": "2019-10-09 02:01:52 +0200",
+        "author": "Sascha Grunert",
+        "message": "Update CRI-O version to 1.15 (#16720)",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "b9cf29b7b3aa9b79059b61896f7fd3b003c8c21e",
+        "date": "2019-08-15 08:54:33 +0100",
+        "author": "mohamed chiheb ben jemaa",
+        "message": "Issue with k8s.io/docs/setup/production-environment/container-runtimes/ (#15476)",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 5,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "0fc8aa746a9fe63202a306285c43302db6ffd2bc",
+        "date": "2019-08-07 16:51:19 -0500",
+        "author": "codyc",
+        "message": "CentOS Repo for 1.15 (#15708)",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "a0aa15ec7f48d8a110709cfd437037ab8ff5675d",
+        "date": "2019-06-19 21:20:34 +0200",
+        "author": "mhamdi semah",
+        "message": "Issue with k8s.io/docs/setup/production-environment/container-runtimes/ (#14945)",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "55ac801bc447ae185b6d0dd22ac5793e91f329fe",
+        "date": "2019-06-12 17:27:29 +0530",
+        "author": "Rajakavitha1",
+        "message": "Restructure the left navigation pane of setup (#14826)",
+        "path": "content/en/docs/setup/production-environment/container-runtimes.md",
+        "insertions": 3,
+        "deletions": 4,
+        "operation": "renamed",
+        "oldPath": "content/en/docs/setup/cri.md"
+      },
+      {
+        "hash": "0311519fd25320386877b3cd635de74d587bc357",
+        "date": "2019-04-22 03:35:43 +0300",
+        "author": "Lubomir I. Ivanov",
+        "message": "cri: add notes about changing cgroup driver (#13899)",
+        "path": "content/en/docs/setup/cri.md",
+        "insertions": 8,
+        "deletions": 0,
+        "operation": "deleted"
+      },
+      {
+        "hash": "a60b1425ad730a24a74a22f8f68db80d95a8d0b2",
+        "date": "2019-03-26 23:04:16 +0100",
+        "author": "Mark Janssen",
+        "message": "Update containerd installation instructions (#13052)",
+        "path": "content/en/docs/setup/cri.md",
+        "insertions": 65,
+        "deletions": 41,
+        "operation": "deleted"
+      },
+      {
+        "hash": "e176143ab1c1e3d8d96074a0d43076724d8b19e1",
+        "date": "2019-02-25 16:37:39 +0000",
+        "author": "Tim Bannister",
+        "message": "Tidy install guide for container runtimes (#12704)",
+        "path": "content/en/docs/setup/cri.md",
+        "insertions": 19,
+        "deletions": 10,
+        "operation": "deleted"
+      },
+      {
+        "hash": "43764bd6fba6e6a4004a47e65ce0223942766f33",
+        "date": "2019-02-18 03:20:21 +0200",
+        "author": "Lubomir I. Ivanov",
+        "message": "setup/cri: add a section about cgroup drivers (#12638)",
+        "path": "content/en/docs/setup/cri.md",
+        "insertions": 19,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "f3aa7856f6f780e719b97c632a0231ebded3db07",
+        "date": "2019-02-13 17:36:38 +0800",
+        "author": "ethan",
+        "message": "change docker cgroupdriver to its default cgroupfs (#12360)",
+        "path": "content/en/docs/setup/cri.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "be4bee1d1db5ece9314d202e2e35401fcd0f0c0b",
+        "date": "2019-02-11 18:08:44 -0800",
+        "author": "Himanshu Pandey",
+        "message": "Updated Recommended docker version (#12591)",
+        "path": "content/en/docs/setup/cri.md",
+        "insertions": 12,
+        "deletions": 3,
+        "operation": "deleted"
+      },
+      {
+        "hash": "3daf746bca577b8afe45f2ce55bd30c9ac5df94d",
+        "date": "2019-02-01 23:49:07 +0530",
+        "author": "Harshagarwal19",
+        "message": "Updated 18.09 as available (#12464)",
+        "path": "content/en/docs/setup/cri.md",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "deleted"
+      },
+      {
+        "hash": "6e995612a92c465fb9dda7fee5bc12c540855d97",
+        "date": "2019-01-31 01:53:19 +0530",
+        "author": "Harshagarwal19",
+        "message": "New slack icon (#12438)",
+        "path": "content/en/docs/setup/cri.md",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "deleted"
+      },
+      {
+        "hash": "3907af5a1b05a828972135f496fe74bf94ba4618",
+        "date": "2019-01-29 06:53:10 +0530",
+        "author": "Anuj Sharma",
+        "message": "'removed rktlet from cri installation docs (#12408)",
+        "path": "content/en/docs/setup/cri.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "deleted"
+      },
+      {
+        "hash": "6b083d5339306027736fae579c5f993444e5cb33",
+        "date": "2018-12-25 15:02:20 +0530",
+        "author": "Rajakavitha1",
+        "message": "Update cri.md (#11853)",
+        "path": "content/en/docs/setup/cri.md",
+        "insertions": 20,
+        "deletions": 24,
+        "operation": "deleted"
+      },
+      {
+        "hash": "46c75bcf197b61d8e0de09cece3b4b5a77bcc3f7",
+        "date": "2018-10-31 00:57:47 +0800",
+        "author": "KevinTHU",
+        "message": "need create /etc/docker directory first for adding /etc/docker/daemon.json (#10769)",
+        "path": "content/en/docs/setup/cri.md",
+        "insertions": 3,
+        "deletions": 0,
+        "operation": "deleted"
+      },
+      {
+        "hash": "786d314da5351a0f18aebf5f65814dec321ead3f",
+        "date": "2018-09-27 18:41:39 -0500",
+        "author": "Jim Angel",
+        "message": "[Do Not Merge] Release 1.12 (#10292)",
+        "path": "content/en/docs/setup/cri.md",
+        "insertions": 226,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/docs/setup/production-environment/tools/Index.md": {
+    "targetPath": "content/vi/docs/setup/production-environment/tools/_index.md",
+    "englishPath": "content/en/docs/setup/production-environment/tools/_index.md",
+    "targetLatestDate": "2025-04-18T09:03:07-07:00",
+    "englishLatestDate": "2024-12-10T00:20:02+00:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/docs/setup/production-environment/tools/kubeadm/Index.md": {
+    "targetPath": "content/vi/docs/setup/production-environment/tools/kubeadm/_index.md",
+    "englishPath": "content/en/docs/setup/production-environment/tools/kubeadm/_index.md",
+    "targetLatestDate": "2025-04-18T09:03:07-07:00",
+    "englishLatestDate": "2019-06-12T17:27:29+05:30",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/docs/setup/production-environment/tools/kubeadm/control-plane-flags.md": {
+    "targetPath": "content/vi/docs/setup/production-environment/tools/kubeadm/control-plane-flags.md",
+    "englishPath": "content/en/docs/setup/production-environment/tools/kubeadm/control-plane-flags.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2024-08-13T08:20:24-07:00",
+    "daysBehind": 309,
+    "commitsBehind": 24,
+    "totalChangeLines": 495,
+    "insertionsBehindLines": 357,
+    "deletionsBehindLines": 138,
+    "status": "not_translated",
+    "severity": "significant",
+    "missingCommits": [
+      {
+        "hash": "20d164c7a7d092ebc65eed06c855d2ec4f0f0e12",
+        "date": "2024-08-13 08:20:24 -0700",
+        "author": "Rey Lejano",
+        "message": "Merge pull request #47469 from kubernetes/dev-1.31",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/control-plane-flags.md",
+        "insertions": 21,
+        "deletions": 16,
+        "operation": "modified"
+      },
+      {
+        "hash": "71a7b3f6a725610e359d4d37ac933b3d03adb99e",
+        "date": "2024-05-03 18:41:20 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #45530 from tuladhar/suffix-patch-format",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/control-plane-flags.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "b79539d0d35927eb51976d1115db500419a6c6b9",
+        "date": "2022-08-23 14:53:20 -0700",
+        "author": "Kristin Martin",
+        "message": "Merge pull request #34290 from kubernetes/dev-1.25",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/control-plane-flags.md",
+        "insertions": 18,
+        "deletions": 15,
+        "operation": "modified"
+      },
+      {
+        "hash": "3b19dbf22fcf0ecd306fc40681bc3cb1b663419b",
+        "date": "2022-04-08 03:28:42 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #32764 from neolit123/1.24-add-steps-for-reconf",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/control-plane-flags.md",
+        "insertions": 5,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "632bafa331bd9e45ef0af21312b15825a3210849",
+        "date": "2021-12-12 14:29:57 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #30836 from neolit123/1.24-fix-bug-kubeadm-patches-config",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/control-plane-flags.md",
+        "insertions": 4,
+        "deletions": 6,
+        "operation": "modified"
+      },
+      {
+        "hash": "82fbc21e0dd6579760ca584a70cfd8d0d9b5d7a5",
+        "date": "2021-09-23 17:13:23 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #29777 from jimmymccrory/fix-typo",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/control-plane-flags.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "b125d095ea5694bb975bd85d5c039ff042e3510c",
+        "date": "2021-09-06 18:23:15 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #29621 from tengqm/fix-kubeadm-api-pointer",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/control-plane-flags.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "082116588c191f52de2003deb71ce7a304cc357d",
+        "date": "2021-08-05 00:01:50 +0200",
+        "author": "PI-Victor",
+        "message": "Merge pull request #27866 from kubernetes/dev-1.22",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/control-plane-flags.md",
+        "insertions": 140,
+        "deletions": 20,
+        "operation": "modified"
+      },
+      {
+        "hash": "506ee6ff68a6ed18e4035156bdc919eb6512a137",
+        "date": "2021-07-14 18:12:48 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #28876 from tengqm/kubeadm-config-ref",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/control-plane-flags.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "36f5cd1a3830a3994c819811941c28854bdfee4f",
+        "date": "2021-05-11 15:57:38 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #27900 from wangyysde/fix-27816",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/control-plane-flags.md",
+        "insertions": 7,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "2955360c8e560a94885d13a2d8be1b6808a750d3",
+        "date": "2021-02-14 16:29:05 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #26500 from n0rad/patch-1",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/control-plane-flags.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "15f44cc421720cd14cc5b0e779a3c84e482e1733",
+        "date": "2020-06-10 02:30:09 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #21359 from kbhawkey/kb-migrate-capture-stmts",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/control-plane-flags.md",
+        "insertions": 5,
+        "deletions": 5,
+        "operation": "modified"
+      },
+      {
+        "hash": "9654c61aba5f49875ab888c82bc06f18e827e6ab",
+        "date": "2020-04-09 10:29:44 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #20200 from liggitt/feature-state-typo",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/control-plane-flags.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "edd2dd0dc20d4e681916fccc5f7bc40572f9191b",
+        "date": "2019-09-18 18:07:41 -0500",
+        "author": "simplytunde",
+        "message": "Merge pull request #15337 from kubernetes/dev-1.16",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/control-plane-flags.md",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "9c1af4ddb87b1d3cff76228d9574464534e5842c",
+        "date": "2019-07-03 10:52:29 +0800",
+        "author": "Hypo",
+        "message": "add kubeadm ClusterConfiguration  usage (#15175)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/control-plane-flags.md",
+        "insertions": 7,
+        "deletions": 8,
+        "operation": "modified"
+      },
+      {
+        "hash": "b7aa1ac0c1690b9855d559dc2a8ef27a7e1492c1",
+        "date": "2019-06-20 01:20:12 +0300",
+        "author": "Barnabas Makonda",
+        "message": "Merge pull request #14984 from kubernetes/dev-1.15",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/control-plane-flags.md",
+        "insertions": 4,
+        "deletions": 4,
+        "operation": "modified"
+      },
+      {
+        "hash": "55ac801bc447ae185b6d0dd22ac5793e91f329fe",
+        "date": "2019-06-12 17:27:29 +0530",
+        "author": "Rajakavitha1",
+        "message": "Restructure the left navigation pane of setup (#14826)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/control-plane-flags.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "renamed",
+        "oldPath": "content/en/docs/setup/independent/control-plane-flags.md"
+      },
+      {
+        "hash": "04f568d3a04845ae639d7757e678fa252ab87f3e",
+        "date": "2019-06-11 10:16:16 +0900",
+        "author": "Weiliang Li",
+        "message": "Update control-plane-flags.md (#14729)",
+        "path": "content/en/docs/setup/independent/control-plane-flags.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "396a1a6b8b8224a51f1e82723ffc5625fe3d9870",
+        "date": "2019-01-08 21:30:13 -0600",
+        "author": "Jim Angel",
+        "message": "adding feature state snip (#12134)",
+        "path": "content/en/docs/setup/independent/control-plane-flags.md",
+        "insertions": 2,
+        "deletions": 0,
+        "operation": "deleted"
+      },
+      {
+        "hash": "27b7b453a9871bb3f1432cff0db365accafcbfbb",
+        "date": "2018-12-03 19:21:11 -0600",
+        "author": "Jim Angel",
+        "message": "Official 1.13 Release Docs (#11401)",
+        "path": "content/en/docs/setup/independent/control-plane-flags.md",
+        "insertions": 32,
+        "deletions": 28,
+        "operation": "deleted"
+      },
+      {
+        "hash": "7ff942576805f2b14bf9f6854f8e2050e8a5c3b5",
+        "date": "2018-11-25 10:51:52 +0800",
+        "author": "Hongzhi",
+        "message": "The link should refer to the current website (#11171)",
+        "path": "content/en/docs/setup/independent/control-plane-flags.md",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "deleted"
+      },
+      {
+        "hash": "786d314da5351a0f18aebf5f65814dec321ead3f",
+        "date": "2018-09-27 18:41:39 -0500",
+        "author": "Jim Angel",
+        "message": "[Do Not Merge] Release 1.12 (#10292)",
+        "path": "content/en/docs/setup/independent/control-plane-flags.md",
+        "insertions": 13,
+        "deletions": 13,
+        "operation": "deleted"
+      },
+      {
+        "hash": "1e554ef7250e1968f17e06155e068944162de093",
+        "date": "2018-07-18 15:49:37 -0700",
+        "author": "Jennifer Rondeau",
+        "message": "reorganize kubeadm files, part 1 (#9439)",
+        "path": "content/en/docs/setup/independent/control-plane-flags.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "deleted"
+      },
+      {
+        "hash": "bf23c87e52dfcc2a9b12035d5d2979bdd7a67717",
+        "date": "2018-06-25 23:10:22 +0300",
+        "author": "Lubomir I. Ivanov",
+        "message": "kubeadm-setup: add page about control plane flags (#9067)",
+        "path": "content/en/docs/setup/independent/control-plane-flags.md",
+        "insertions": 81,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md": {
+    "targetPath": "content/vi/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+    "englishPath": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2024-10-16T11:03:04+01:00",
+    "daysBehind": 246,
+    "commitsBehind": 121,
+    "totalChangeLines": 2889,
+    "insertionsBehindLines": 1755,
+    "deletionsBehindLines": 1134,
+    "status": "not_translated",
+    "severity": "critical",
+    "missingCommits": [
+      {
+        "hash": "5cc2a00a7ad0f2ba1cfbfcafa0958f9dfa7c93a0",
+        "date": "2024-10-16 11:03:04 +0100",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #48375 from windsonsea/creadm",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 32,
+        "deletions": 34,
+        "operation": "modified"
+      },
+      {
+        "hash": "4fc01b48d0caf449cbe537eca0df4e6d3f917f37",
+        "date": "2024-09-13 13:37:12 +0100",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #47888 from neolit123/1.32-add-linux-windows-task-pages",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 17,
+        "deletions": 81,
+        "operation": "modified"
+      },
+      {
+        "hash": "20d164c7a7d092ebc65eed06c855d2ec4f0f0e12",
+        "date": "2024-08-13 08:20:24 -0700",
+        "author": "Rey Lejano",
+        "message": "Merge pull request #47469 from kubernetes/dev-1.31",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 4,
+        "deletions": 4,
+        "operation": "modified"
+      },
+      {
+        "hash": "a172e8283065fbd358c81781a598c91c338cdc99",
+        "date": "2024-02-16 12:25:18 +0530",
+        "author": "Mohammed Affan",
+        "message": "Fix Kubelet skew version for the Kubeadm (#44815)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "3fab918274d4fd09d2b9546f65d8eb9ff0d14ed1",
+        "date": "2024-02-13 22:05:09 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #44990 from prashantrewar/amend-docs",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 30,
+        "deletions": 31,
+        "operation": "modified"
+      },
+      {
+        "hash": "95ca85963ce4e5294db525d25445fb1877d49e1b",
+        "date": "2024-02-09 14:50:09 +0000",
+        "author": "steve-hardman",
+        "message": "Mention 'exclude-from-external-load-balancers' in the kubeadm create cluster page (#45057)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 8,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "779ceebead0227957aeaa697aa6b731bcb898553",
+        "date": "2024-02-04 03:33:39 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #45011 from steve-hardman/add-cni-link",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 4,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "cca14eff625b6f3b909d8ac49f35bed383898184",
+        "date": "2024-01-07 23:15:35 +0100",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #44571 from hunshcn/fix/link",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "fd224a167fd41ef23303de20516813f7e4e77185",
+        "date": "2023-12-13 10:52:55 -0600",
+        "author": "Kat Cosgrove",
+        "message": "Merge pull request #43082 from kubernetes/dev-1.29",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 14,
+        "deletions": 6,
+        "operation": "modified"
+      },
+      {
+        "hash": "8d47bd16d7d7e97c2d55fb83adc22d09e910308d",
+        "date": "2023-11-30 14:36:05 +0100",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #44038 from neolit123/1.29-add-notes-about-network-setup-to-create-doc",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 15,
+        "deletions": 13,
+        "operation": "modified"
+      },
+      {
+        "hash": "91dbcc5736d00952762d81d1d89159caebdad0c7",
+        "date": "2023-11-22 17:47:18 +0100",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #43872 from neolit123/1.29-add-notes-about-network-setup-to-create-doc",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 57,
+        "deletions": 5,
+        "operation": "modified"
+      },
+      {
+        "hash": "0180cc4bf06b4253f3bdf0b66d49b6c1b5feb105",
+        "date": "2023-08-15 12:11:28 -0700",
+        "author": "Rey Lejano",
+        "message": "Merge pull request #41165 from kubernetes/dev-1.28",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 2,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "e111c4c3d65dff3cedd8b0f445106269637084d8",
+        "date": "2023-08-02 06:08:42 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #42128 from benileo/master",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "6513d88198edab967b48a9811f95596bdebfa3aa",
+        "date": "2022-11-13 22:53:56 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #37751 from kadtendulkar/kad48",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "c9c77d2bc52cdae63198ca3fe777e88f4069b8e3",
+        "date": "2022-09-08 04:00:06 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #36683 from aojea/ipv6_ietf",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "b79539d0d35927eb51976d1115db500419a6c6b9",
+        "date": "2022-08-23 14:53:20 -0700",
+        "author": "Kristin Martin",
+        "message": "Merge pull request #34290 from kubernetes/dev-1.25",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 5,
+        "deletions": 10,
+        "operation": "modified"
+      },
+      {
+        "hash": "e6868ba8d3c0aa62d1f9894dcfad0b4a973bb765",
+        "date": "2022-07-04 06:33:24 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #34721 from Sea-n/use-rel-links",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 5,
+        "deletions": 4,
+        "operation": "modified"
+      },
+      {
+        "hash": "78249f3ec9893165e94ec5dbf3d5344119997728",
+        "date": "2022-06-24 00:37:20 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #34378 from tengqm/fix-links-2",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 8,
+        "deletions": 4,
+        "operation": "modified"
+      },
+      {
+        "hash": "5c7ecd985fe45498d3ab96e25f3c8d2f9624cb4e",
+        "date": "2022-06-17 00:30:31 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #34352 from jihoon-seo/220617_Replace_skew_shortcode_parameters",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 9,
+        "deletions": 9,
+        "operation": "modified"
+      },
+      {
+        "hash": "2d869fc314ee41817120abc35bf1c8d69ab3d24a",
+        "date": "2022-06-13 20:55:49 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #34155 from Sea-n/design-proposals-archive",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "f6b4fedd70632144f25d661b63af2ff0f251e315",
+        "date": "2022-05-03 15:16:36 -0700",
+        "author": "Nate W",
+        "message": "Merge pull request #31225 from kubernetes/dev-1.24",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 16,
+        "deletions": 13,
+        "operation": "modified"
+      },
+      {
+        "hash": "fbd099a209d1d1c34bb5c9b3bf65e5f3589f164e",
+        "date": "2022-04-14 06:24:46 +0530",
+        "author": "Mitesh Jain",
+        "message": "Adding more information to Installing kubeadm step. (#32884)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 3,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "3b19dbf22fcf0ecd306fc40681bc3cb1b663419b",
+        "date": "2022-04-08 03:28:42 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #32764 from neolit123/1.24-add-steps-for-reconf",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 3,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "8134e9ca3e36bc8356ed39f7023fd713e3e378e6",
+        "date": "2022-03-30 09:42:25 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #32307 from PriyanshuAhlawat/version_skew_doc",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 47,
+        "deletions": 6,
+        "operation": "modified"
+      },
+      {
+        "hash": "3bcb656e0675f99ff516e9bcf5222889752be443",
+        "date": "2022-03-05 13:54:52 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #29847 from sftim/20210928_migrate_kubectl_overview",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "23f0c15b6ad76ca6204ba3896ee9551786030c3f",
+        "date": "2022-03-01 14:15:55 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #31986 from PriyanshuAhlawat/noteForNodeRestriction",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 9,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "71389e62931af42c03108a4cf775420bf2beaf98",
+        "date": "2022-02-08 20:24:17 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #31604 from neolit123/1.24-add-example-for-kubeconfig-user",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 4,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "819d7c8289b66236917c2a499d85ee70012d3499",
+        "date": "2021-12-01 04:21:14 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #30657 from SataQiu/fix-kubeadm-20211128",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 6,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "62f62f3828985664a934f323f4b82495512daa9e",
+        "date": "2021-10-27 16:29:03 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #30230 from neolit123/1.23-fix-link-to-custom-images",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "66d9eb730dd847d80bff6efe806135827c623264",
+        "date": "2021-10-21 22:42:37 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #29946 from neolit123/1.23-update-docs-about-image-repository",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 13,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "4b18015cd363b2c23a119258201dd274940cdc0f",
+        "date": "2021-09-09 01:00:12 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #29628 from yechs/patch-1",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "2948ff2fa362217a7dde3cda4878a223ef1a53f1",
+        "date": "2021-09-02 06:40:59 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #29127 from tengqm/amend-kubeadm-join",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 20,
+        "deletions": 10,
+        "operation": "modified"
+      },
+      {
+        "hash": "09903e156f8ce7da4399aa466e17c5c71769e991",
+        "date": "2021-07-26 04:20:33 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #29076 from xinydev/update-kubectl-flag",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "969a3db92326746a94e2eb4449fd60f25d9151b8",
+        "date": "2021-04-08 11:02:03 -0700",
+        "author": "Rey Lejano",
+        "message": "Merge pull request #26153 from kubernetes/dev-1.21",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 7,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "936e2c60cebadc4715ae131862af1b9a87eda9ed",
+        "date": "2021-03-31 17:41:21 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #27289 from SataQiu/update-create-cluster-kubeadm-20210329",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "6dd50320cb01bb8dbfc80ba362edc0666c49b579",
+        "date": "2021-03-09 17:55:14 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #26919 from oomichi/redirect-kubeadm",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "c24f62c16ab8252e202b770312bd0ffa5cc947d3",
+        "date": "2021-02-09 02:02:40 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #26389 from kbhawkey/fixup-simply-usage",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "c9b4e1314cb8eb332ae51f90f788ba9a3019da9a",
+        "date": "2021-02-01 04:01:49 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #26259 from ruxandrafed/patch-1",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "391eef6bda33f1b5721d4b80140016b5f025575b",
+        "date": "2020-12-08 15:11:00 -0600",
+        "author": "Anna",
+        "message": "Merge pull request #24138 from kubernetes/dev-1.20",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 50,
+        "operation": "modified"
+      },
+      {
+        "hash": "0661d65a18315007af7493905abb533753e62298",
+        "date": "2020-10-12 18:11:22 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #24076 from neolit123/1.20-add-link-in-kubeadm-config",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "70b75e16f06feb2af65276aaa1a6f4cc8ad5b087",
+        "date": "2020-08-26 14:55:02 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22981 from shuuji3/en/replace-special-quote-with-normal-ones",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "260a6288021b8304bd270f58e0dc87b8e94a8f04",
+        "date": "2020-08-13 05:44:13 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #23114 from RA489/kubeadmscp",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 4,
+        "deletions": 4,
+        "operation": "modified"
+      },
+      {
+        "hash": "15b1e62d414fe9c2ee31baf73d54e3f1988a5163",
+        "date": "2020-07-26 20:20:16 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22600 from neolit123/1.19-remove-cni-from-kubeadm-page",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 7,
+        "deletions": 80,
+        "operation": "modified"
+      },
+      {
+        "hash": "995e37a0fc1e3856c29ae8aeb5643eac71bfa80b",
+        "date": "2020-07-26 19:34:17 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22598 from tengqm/fix-setup-links",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "01ba60fec8a99e55335df03f770661a4c60914ed",
+        "date": "2020-07-05 19:02:50 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22376 from pjhwa/link-22372",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 2,
+        "deletions": 4,
+        "operation": "modified"
+      },
+      {
+        "hash": "9f1a05ce02834f0af32a9f89fbb77ad0b2b076af",
+        "date": "2020-06-26 16:44:14 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22070 from vinu2003/correct-node-cleanup-sequence",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 6,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "67d40bc666090a7b9f14ca85fe18a3b0cad02e53",
+        "date": "2020-06-19 22:38:39 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #21834 from abhi1604/patch-3",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "29f3c2858c6ee53e2b9a809701e7885b67b4942b",
+        "date": "2020-06-10 16:12:56 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #21591 from scottstout/master",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "b6f0eb6774c0159d1db13f3ede4e5f14e2b13328",
+        "date": "2020-06-10 11:40:52 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #21432 from aanm/update-cilium-docs",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "15f44cc421720cd14cc5b0e779a3c84e482e1733",
+        "date": "2020-06-10 02:30:09 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #21359 from kbhawkey/kb-migrate-capture-stmts",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 10,
+        "deletions": 9,
+        "operation": "modified"
+      },
+      {
+        "hash": "f800e5aa6691bc700aa699fc4e83d8692dd3e529",
+        "date": "2020-05-12 11:58:36 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #20900 from caseydavenport/casey-update-calico",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "b508743c95fc0c6feaa623ed0d52394902532356",
+        "date": "2020-04-27 11:57:26 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #20529 from neolit123/1.19-fix-create-cluster-ip-host",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "782634eeb7c6527cd8b4d1d682661bb0cfc85de3",
+        "date": "2020-04-21 19:31:53 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #20486 from neolit123/1.19-cleanup-flannel",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 6,
+        "deletions": 17,
+        "operation": "modified"
+      },
+      {
+        "hash": "8e2544f1902d61795e62db1125d0d5d4a8157664",
+        "date": "2020-04-17 01:17:07 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #20369 from jimangel/fix-version-skew",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 3,
+        "deletions": 6,
+        "operation": "modified"
+      },
+      {
+        "hash": "cbd296ac59b984c495c085efcd6fc6bf310a9983",
+        "date": "2020-04-13 14:47:11 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #20295 from suruaku/patch-1",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "6d37f8ccfc779aedda2b4c632823e83e4ba8fe55",
+        "date": "2020-03-16 11:20:35 +0530",
+        "author": "RA489",
+        "message": "improvements to the br_netfilter documentation for kubeadm (#19610)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 0,
+        "deletions": 10,
+        "operation": "modified"
+      },
+      {
+        "hash": "1242c008a810c363e4e90239c392c702df24c0f2",
+        "date": "2020-03-01 02:12:40 -0500",
+        "author": "Andrew Allbright",
+        "message": "Update some instances of latin abbreviation e.g. to alternative phrases (#19182)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "6a3c364706c49b1603f6f1ae56d8d2dae5af5921",
+        "date": "2020-02-19 20:49:45 +0000",
+        "author": "Tim Bannister",
+        "message": "Reword \u201cCreating a single control-plane cluster with kubeadm\u201d (#18939)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 156,
+        "deletions": 130,
+        "operation": "modified"
+      },
+      {
+        "hash": "09a8e814e599a50f5071e7bdc6b1866b11e28855",
+        "date": "2020-02-01 04:39:20 -0800",
+        "author": "Casey Davenport",
+        "message": "Update Calico section of kubeadm install guide (#18821)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 4,
+        "deletions": 5,
+        "operation": "modified"
+      },
+      {
+        "hash": "8de8d173bb78d46387ed623d0f74c870d89c5c66",
+        "date": "2020-01-17 13:46:56 +0200",
+        "author": "Lubomir I. Ivanov",
+        "message": "kubeadm: remove some CNI plugins from the kubeadm setup guide (#17694)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 21,
+        "deletions": 61,
+        "operation": "modified"
+      },
+      {
+        "hash": "5cb0e3d7b4708cf190ce27764bd7c0ed867b400b",
+        "date": "2020-01-13 13:35:36 +0100",
+        "author": "Andr\u00e9 Martins",
+        "message": "Update Cilium related docs (#18563)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 5,
+        "deletions": 12,
+        "operation": "modified"
+      },
+      {
+        "hash": "e48b8693aed86e3e6e0b000b97d88a0be6836738",
+        "date": "2019-11-05 13:12:38 +0800",
+        "author": "Luzhenxing",
+        "message": "fix error link of kubeadm init args (#17318)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "1524d24915c42592b16dbb310cbc81e813c0aa8f",
+        "date": "2019-09-26 22:00:35 +0200",
+        "author": "Rafael Fern\u00e1ndez L\u00f3pez",
+        "message": "Fix flannel revision for 1.16+ (#16575)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "7185f00801bd50294cc8cbc5c30971f36b9e1553",
+        "date": "2019-09-21 03:23:26 +0900",
+        "author": "Song Shukun",
+        "message": "Update url for flannel (#16442)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "edd2dd0dc20d4e681916fccc5f7bc40572f9191b",
+        "date": "2019-09-18 18:07:41 -0500",
+        "author": "simplytunde",
+        "message": "Merge pull request #15337 from kubernetes/dev-1.16",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 49,
+        "deletions": 41,
+        "operation": "modified"
+      },
+      {
+        "hash": "14c348819fc298be59532b3e9de93ccd8710db50",
+        "date": "2019-07-25 13:05:53 +0530",
+        "author": "Alex Punnen",
+        "message": "pod-network to be done only on master node (#15505)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "cb034f913836d484d817536e3de889aff92ef525",
+        "date": "2019-07-15 03:39:03 +0300",
+        "author": "Ismail Alidzhikov",
+        "message": "Upgrade calico canal to 3.8 (#15420)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "7e3f1789b2e9d67fada397e1685f4b09e8ef004a",
+        "date": "2019-07-07 12:00:34 +0300",
+        "author": "Lubomir I. Ivanov",
+        "message": "kubeadm: recommend installing calico 3.8 (#15090)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "0e1d280c569bef2abfc46a5e5143cfec5420cda7",
+        "date": "2019-06-24 08:35:55 +0200",
+        "author": "icheikhrouhou",
+        "message": "adopt new kubeadm logo #14741 (#15064)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "4fc772a0241e17f10b6fc798b67dc4e8905b1d7d",
+        "date": "2019-06-21 10:34:15 -0700",
+        "author": "Nate Taber",
+        "message": "Add AWS VPC CNI to Networking Docs (#15052)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 26,
+        "deletions": 19,
+        "operation": "modified"
+      },
+      {
+        "hash": "b7aa1ac0c1690b9855d559dc2a8ef27a7e1492c1",
+        "date": "2019-06-20 01:20:12 +0300",
+        "author": "Barnabas Makonda",
+        "message": "Merge pull request #14984 from kubernetes/dev-1.15",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 32,
+        "deletions": 32,
+        "operation": "modified"
+      },
+      {
+        "hash": "55ac801bc447ae185b6d0dd22ac5793e91f329fe",
+        "date": "2019-06-12 17:27:29 +0530",
+        "author": "Rajakavitha1",
+        "message": "Restructure the left navigation pane of setup (#14826)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md",
+        "insertions": 23,
+        "deletions": 24,
+        "operation": "renamed",
+        "oldPath": "content/en/docs/setup/independent/create-cluster-kubeadm.md"
+      },
+      {
+        "hash": "b3e3332739ca59377d84a178b6b27b2208b3f28a",
+        "date": "2019-06-10 19:42:16 -0700",
+        "author": "Jingfang Liu",
+        "message": "update kubectl \"$\" format (#13256)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 4,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "0e146f8df584eeba3ad500a9749cccd49ca4b285",
+        "date": "2019-06-06 07:56:10 +0200",
+        "author": "Andr\u00e9 Martins",
+        "message": "setup/independent: fix cilium installation guide for kubeadm (#14411)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 2,
+        "deletions": 0,
+        "operation": "deleted"
+      },
+      {
+        "hash": "6c85c9c478498544da36c945b0d62c4ca6fa81de",
+        "date": "2019-06-05 22:38:10 -0700",
+        "author": "Casey Davenport",
+        "message": "Update Calico to v3.7 (#14501)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 2,
+        "deletions": 4,
+        "operation": "deleted"
+      },
+      {
+        "hash": "bbc306108805c099cbac137cd270f8ab487c5670",
+        "date": "2019-05-27 18:37:52 +0530",
+        "author": "Harshvardhan Karn",
+        "message": "fix kubernetes certified logo url (#14511)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "39c37742d1c58611225c0a4a4c4ac96e89006033",
+        "date": "2019-05-16 15:28:28 -0700",
+        "author": "Boskey Savla",
+        "message": "Update create-cluster-kubeadm.md (#13801)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "54814e6e0f1e0e94bbc06e57c321369935ee22fd",
+        "date": "2019-05-07 10:03:41 +0200",
+        "author": "Martynas Pumputis",
+        "message": "Update Cilium version in installation guide (#14198)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "4029a7ab5ebcc939c99980128805c9b1ef2a08ee",
+        "date": "2019-04-25 16:40:47 +0000",
+        "author": "Danny Berger",
+        "message": "Normalize case: Github -> GitHub (#13828)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "db48944b5d34e91efb93aafef0b957e3ff8b90bb",
+        "date": "2019-04-15 06:12:00 +0300",
+        "author": "presto9292",
+        "message": "Flannel will not work unless UDP ports 8285 and 8472 are allowed for all hosts (#13789)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 4,
+        "deletions": 0,
+        "operation": "deleted"
+      },
+      {
+        "hash": "851ef58fa8413e47bb18a15de53d9556be8c53dd",
+        "date": "2019-03-25 17:06:16 -0500",
+        "author": "Jim Angel",
+        "message": "Official 1.14 Release Docs (#13174)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 4,
+        "deletions": 0,
+        "operation": "deleted"
+      },
+      {
+        "hash": "5a5f77db64f11a2935bb9a88fb32c3e1661335b9",
+        "date": "2019-03-20 19:05:05 -0400",
+        "author": "chenrui",
+        "message": "Fix relative links issue in English content (#13307)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 6,
+        "deletions": 10,
+        "operation": "deleted"
+      },
+      {
+        "hash": "3f5e14702c86c3063c8aa40f46c466d5aed10f3a",
+        "date": "2019-03-08 01:58:04 +0200",
+        "author": "Lubomir I. Ivanov",
+        "message": "Revert \"Add s390x platforms for calico\" (#12989)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "e17be7dcb3a271545288a2f9e800ba1fac297297",
+        "date": "2019-02-25 13:57:00 +0100",
+        "author": "Rastislav Szabo",
+        "message": "Add Contiv-VPP CNI instructions (#12822)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 10,
+        "deletions": 0,
+        "operation": "deleted"
+      },
+      {
+        "hash": "0a5ff4417d89e742b906ffcd5909921259b9cf31",
+        "date": "2019-02-15 06:50:21 +0100",
+        "author": "Andr\u00e9 Martins",
+        "message": "network-policy-provider: updating cilium documentation for v1.4.0 (#12627)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 15,
+        "deletions": 16,
+        "operation": "deleted"
+      },
+      {
+        "hash": "c533563bdc180d0711298675bc21e131720cd7b0",
+        "date": "2019-02-13 18:21:02 +0800",
+        "author": "PingWang",
+        "message": "Add s390x platforms for calico (#12616)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "e5886794dc867953c6ecf4f0542f3b5c7079b28b",
+        "date": "2019-02-13 11:42:42 +0200",
+        "author": "Lubomir I. Ivanov",
+        "message": "create-cluster-kubeadm: update flannel to 0.11.0 (#12493)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 3,
+        "deletions": 2,
+        "operation": "deleted"
+      },
+      {
+        "hash": "e6398d59dcae209e42aadeeb4634db470a1298d6",
+        "date": "2019-02-04 23:58:43 +0530",
+        "author": "Manjunath A Kumatagi",
+        "message": "Add arm64 and ppc64le platforms for calico (#12484)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "a7f0d9a71307561df7909cfb681bbc0cc7ba4a38",
+        "date": "2019-02-01 06:17:51 +0900",
+        "author": "atoato88",
+        "message": "Update `kubeadm init` output to latest (#12440)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 48,
+        "deletions": 31,
+        "operation": "deleted"
+      },
+      {
+        "hash": "2317f4c82b7f6cf0fd239eceb2294abdfa1cd973",
+        "date": "2019-01-07 17:09:14 +0800",
+        "author": "MengZeLee",
+        "message": "patch-reset (#11978)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 6,
+        "deletions": 0,
+        "operation": "deleted"
+      },
+      {
+        "hash": "a2919a91a87e0d9fb871915f83c0ed6561d5a8d0",
+        "date": "2018-12-15 16:06:27 +0800",
+        "author": "MengZeLee",
+        "message": "update kubeadm reset (#11734)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 6,
+        "deletions": 0,
+        "operation": "deleted"
+      },
+      {
+        "hash": "75ed07f7169f1b5e96e0684c86e6f4699eefd779",
+        "date": "2018-12-07 19:06:31 -0500",
+        "author": "Jordan Liggitt",
+        "message": "Add information on supported version skew and upgrade order (#11060)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 4,
+        "deletions": 2,
+        "operation": "deleted"
+      },
+      {
+        "hash": "27b7b453a9871bb3f1432cff0db365accafcbfbb",
+        "date": "2018-12-03 19:21:11 -0600",
+        "author": "Jim Angel",
+        "message": "Official 1.13 Release Docs (#11401)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 15,
+        "deletions": 13,
+        "operation": "deleted"
+      },
+      {
+        "hash": "4f675f30520898adfbd9d7db8f08e0903f6ba21b",
+        "date": "2018-11-24 18:05:36 +0200",
+        "author": "Rostislav M. Georgiev",
+        "message": "kubeadm: Warn about overlapping networks (#11225)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 3,
+        "deletions": 0,
+        "operation": "deleted"
+      },
+      {
+        "hash": "d65e1790ffc020129db5f5a583060d6fe318316a",
+        "date": "2018-11-06 11:33:04 -0800",
+        "author": "Luc Perkins",
+        "message": "Add admonition type to shortcode (#9482)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 4,
+        "deletions": 4,
+        "operation": "deleted"
+      },
+      {
+        "hash": "a9abd82512439fb9f1f1519fe95cc916f78e671e",
+        "date": "2018-11-01 15:35:01 -0700",
+        "author": "Casey Davenport",
+        "message": "Update version of Calico/Canal in kubeadm docs (#10802)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 4,
+        "deletions": 4,
+        "operation": "deleted"
+      },
+      {
+        "hash": "54861ba19cbfe9117f4fd05898adb12e220e72ba",
+        "date": "2018-10-11 10:04:52 +0900",
+        "author": "atoato88",
+        "message": "Update Flannel manifest URL (#10571)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 2,
+        "deletions": 6,
+        "operation": "deleted"
+      },
+      {
+        "hash": "075de6be40d321c01211ad33cb4e2df46defeb09",
+        "date": "2018-10-03 17:25:12 -0700",
+        "author": "Kevin Kelani",
+        "message": "Fixes typo (#10444)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "786d314da5351a0f18aebf5f65814dec321ead3f",
+        "date": "2018-09-27 18:41:39 -0500",
+        "author": "Jim Angel",
+        "message": "[Do Not Merge] Release 1.12 (#10292)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 0,
+        "operation": "deleted"
+      },
+      {
+        "hash": "1564ef769f8c5dc04c67455d4cf85183d38c88f9",
+        "date": "2018-09-24 23:19:00 +0200",
+        "author": "Tom\u00e1\u0161 Kukr\u00e1l",
+        "message": "update calico instructions (#10368)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "d329f9a12b9b2d00c8136bc5b375b1cef4b561b1",
+        "date": "2018-09-19 18:04:58 +0200",
+        "author": "Maciej Kwiek",
+        "message": "Cilium CNI docs for kubeadm quickstart guide (#9889)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 29,
+        "deletions": 0,
+        "operation": "deleted"
+      },
+      {
+        "hash": "c7d62b344bc4d5a6673f983b5426a864f4e8e715",
+        "date": "2018-08-20 19:04:13 +0300",
+        "author": "Lubomir I. Ivanov",
+        "message": "create-cluster-kubeadm: update notes about flannel (#9793)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 7,
+        "deletions": 2,
+        "operation": "deleted"
+      },
+      {
+        "hash": "20ac7e501c27d1873d1ec43158fb2426f61f03e2",
+        "date": "2018-07-28 10:00:57 +0800",
+        "author": "CaoShuFeng",
+        "message": "fix description about kubeadm (#9646)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "deleted"
+      },
+      {
+        "hash": "f9ce82e8403e3bd5850f6f24ed6b1c61a02ed940",
+        "date": "2018-07-19 06:16:01 +0800",
+        "author": "Yujun Zhang",
+        "message": "Add guide for getting token and discovery-token-ca-cert-hash (#9017)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 42,
+        "deletions": 0,
+        "operation": "deleted"
+      },
+      {
+        "hash": "78eafc7c228fb45b71465b17c817a76581406d4c",
+        "date": "2018-07-18 18:08:40 -0400",
+        "author": "Bob Killen",
+        "message": "update bootstrap-token links (#9456)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "1e554ef7250e1968f17e06155e068944162de093",
+        "date": "2018-07-18 15:49:37 -0700",
+        "author": "Jennifer Rondeau",
+        "message": "reorganize kubeadm files, part 1 (#9439)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 0,
+        "operation": "deleted"
+      },
+      {
+        "hash": "f9901e7a8f3f3e9e642de9db78bad36c1ae4344d",
+        "date": "2018-07-10 00:20:06 -0700",
+        "author": "dineshb-jnpr",
+        "message": "List JunperContrail CNI as Pod networking provider. (#9387)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 10,
+        "deletions": 0,
+        "operation": "deleted"
+      },
+      {
+        "hash": "47a44ab31e4556a3c2ef951968c2a1a527f58465",
+        "date": "2018-06-28 08:44:20 -0500",
+        "author": "Timothy St. Clair",
+        "message": "Add an optional step to prepull images in 1.11+ (#9001)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 2,
+        "deletions": 0,
+        "operation": "deleted"
+      },
+      {
+        "hash": "5f30e7d4c37cbd5649618b7f95b52197eadffb81",
+        "date": "2018-06-27 15:26:18 -0700",
+        "author": "Misty Linville",
+        "message": "Release docs for Kubernetes 1.11 (#9171)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 85,
+        "deletions": 11,
+        "operation": "deleted"
+      },
+      {
+        "hash": "5351252ce58750d0ed2e5addc9f6f1157e73d5fe",
+        "date": "2018-06-26 03:30:20 +0800",
+        "author": "Stewart-YU",
+        "message": "Update create-cluster-kubeadm.md (#9207)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "deleted"
+      },
+      {
+        "hash": "c09c48b2dc2cc881ebdca21cdc9c00b5620b21bd",
+        "date": "2018-06-13 13:23:29 -0500",
+        "author": "Timothy St. Clair",
+        "message": "Overall cleanup for kubeadm setup guide. (#8981)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 117,
+        "deletions": 211,
+        "operation": "deleted"
+      },
+      {
+        "hash": "071904cabf35036628ed7c98dd15559eb7f4ad3a",
+        "date": "2018-06-12 01:03:27 +0800",
+        "author": "Di Xu",
+        "message": "kubeadm: add a notice on architecture different nodes (#8910)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 3,
+        "deletions": 0,
+        "operation": "deleted"
+      },
+      {
+        "hash": "536271a03ad3519e44b9fa0d39077d2f7e104fdd",
+        "date": "2018-06-01 16:05:58 -0700",
+        "author": "Anubhav",
+        "message": "Mention this guide requires only 1 master node (#8376)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 9,
+        "deletions": 0,
+        "operation": "deleted"
+      },
+      {
+        "hash": "31241e8b72360ddc1739624d8e02e0becda87b71",
+        "date": "2018-06-01 15:54:55 -0700",
+        "author": "Anubhav",
+        "message": "Fix command to install weavenet plugin (#8375)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 3,
+        "operation": "deleted"
+      },
+      {
+        "hash": "9e8e670bcdbab80d2c203161c847a90de1263c29",
+        "date": "2018-05-24 13:21:31 +0200",
+        "author": "Mark Janssen",
+        "message": "Update Calico and Canal tabs in kubeadm docs (#8571)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 6,
+        "deletions": 5,
+        "operation": "deleted"
+      },
+      {
+        "hash": "c15ec0a4edd8cfaede95d5759050bb907cd0efe7",
+        "date": "2018-05-16 23:26:50 +0200",
+        "author": "Mark Janssen",
+        "message": "Remove step numbers in kubeadm create cluster docs (#8573)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 5,
+        "deletions": 5,
+        "operation": "deleted"
+      },
+      {
+        "hash": "6b1ac1285b91cc1e38cc12f073c978aa703a3a63",
+        "date": "2018-05-16 12:32:28 +0700",
+        "author": "nhanpc",
+        "message": "Update missing kubever on weave network (#8560)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "374ed9a90f4e73763a2c938b2f136015a7392c3d",
+        "date": "2018-05-15 14:42:28 -0700",
+        "author": "Chris Hiestand",
+        "message": "update link to kube-router documentation (#8406)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "23b4aba07c32b2c37c12dd5c2df3a3746516faf2",
+        "date": "2018-05-12 03:30:27 +0700",
+        "author": "Nate Bhurinat Wangsutthitham",
+        "message": "Update create-cluster-kubeadm.md (#8391)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "3b2781a70c94608390a505a31241ff37118e4f33",
+        "date": "2018-05-11 13:07:26 -0700",
+        "author": "Anubhav",
+        "message": "Users should choose network plugin before initializing cluster (#8373)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+        "date": "2018-05-05 18:00:51 +0200",
+        "author": "Bj\u00f8rn Erik Pedersen",
+        "message": "Convert site to Hugo (#8316)",
+        "path": "content/en/docs/setup/independent/create-cluster-kubeadm.md",
+        "insertions": 546,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/docs/setup/production-environment/tools/kubeadm/dual-stack-support.md": {
+    "targetPath": "content/vi/docs/setup/production-environment/tools/kubeadm/dual-stack-support.md",
+    "englishPath": "content/en/docs/setup/production-environment/tools/kubeadm/dual-stack-support.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2024-11-15T00:56:52+00:00",
+    "daysBehind": 216,
+    "commitsBehind": 11,
+    "totalChangeLines": 331,
+    "insertionsBehindLines": 261,
+    "deletionsBehindLines": 70,
+    "status": "not_translated",
+    "severity": "significant",
+    "missingCommits": [
+      {
+        "hash": "29da719dd450f6f29e5a168e23dcd3c86cd2c5e8",
+        "date": "2024-11-15 00:56:52 +0000",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #48572 from iheartNathan/48403-Update-command-to-enable-IPv6-forwarding-in-Dual-stack-support-with-kubeadm-documentation",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/dual-stack-support.md",
+        "insertions": 24,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "20d164c7a7d092ebc65eed06c855d2ec4f0f0e12",
+        "date": "2024-08-13 08:20:24 -0700",
+        "author": "Rey Lejano",
+        "message": "Merge pull request #47469 from kubernetes/dev-1.31",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/dual-stack-support.md",
+        "insertions": 16,
+        "deletions": 14,
+        "operation": "modified"
+      },
+      {
+        "hash": "f727fee544ad76f79eb982d3c55e29ebf7da827e",
+        "date": "2023-07-09 09:05:06 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #41942 from windsonsea/spray",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/dual-stack-support.md",
+        "insertions": 17,
+        "deletions": 6,
+        "operation": "modified"
+      },
+      {
+        "hash": "0af0de04f260b2d8d6f864759e07386f2df46834",
+        "date": "2022-11-01 10:54:44 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #37482 from cailynse/update-weight-setup",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/dual-stack-support.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "bef1768ff12f92a454c368bbf37bbc47afa38a8e",
+        "date": "2022-01-05 08:42:25 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #31207 from tengqm/tune-config-links",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/dual-stack-support.md",
+        "insertions": 11,
+        "deletions": 4,
+        "operation": "modified"
+      },
+      {
+        "hash": "f0bb277540aa9e23a0a7987cfb07612543590e1c",
+        "date": "2021-12-07 18:18:34 -0500",
+        "author": "Jesse Butler",
+        "message": "Merge pull request #29658 from kubernetes/dev-1.23",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/dual-stack-support.md",
+        "insertions": 6,
+        "deletions": 18,
+        "operation": "modified"
+      },
+      {
+        "hash": "239eb65bc2f53b9af1aaff063abc4c093a50b96d",
+        "date": "2021-10-13 09:27:49 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #30071 from chetak123/main",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/dual-stack-support.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "b7a6f0e5322c87a27eef44fc231221a773ff6107",
+        "date": "2021-10-09 13:24:35 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #29853 from EricWvi/main",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/dual-stack-support.md",
+        "insertions": 9,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "082116588c191f52de2003deb71ce7a304cc357d",
+        "date": "2021-08-05 00:01:50 +0200",
+        "author": "PI-Victor",
+        "message": "Merge pull request #27866 from kubernetes/dev-1.22",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/dual-stack-support.md",
+        "insertions": 12,
+        "deletions": 19,
+        "operation": "modified"
+      },
+      {
+        "hash": "506ee6ff68a6ed18e4035156bdc919eb6512a137",
+        "date": "2021-07-14 18:12:48 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #28876 from tengqm/kubeadm-config-ref",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/dual-stack-support.md",
+        "insertions": 12,
+        "deletions": 4,
+        "operation": "modified"
+      },
+      {
+        "hash": "969a3db92326746a94e2eb4449fd60f25d9151b8",
+        "date": "2021-04-08 11:02:03 -0700",
+        "author": "Rey Lejano",
+        "message": "Merge pull request #26153 from kubernetes/dev-1.21",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/dual-stack-support.md",
+        "insertions": 152,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/docs/setup/production-environment/tools/kubeadm/ha-topology.md": {
+    "targetPath": "content/vi/docs/setup/production-environment/tools/kubeadm/ha-topology.md",
+    "englishPath": "content/en/docs/setup/production-environment/tools/kubeadm/ha-topology.md",
+    "targetLatestDate": "2025-05-09T08:15:15-07:00",
+    "englishLatestDate": "2024-10-16T11:03:04+01:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/docs/setup/production-environment/tools/kubeadm/high-availability.md": {
+    "targetPath": "content/vi/docs/setup/production-environment/tools/kubeadm/high-availability.md",
+    "englishPath": "content/en/docs/setup/production-environment/tools/kubeadm/high-availability.md",
+    "targetLatestDate": "2025-05-09T08:15:15-07:00",
+    "englishLatestDate": "2025-03-12T10:13:47-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/docs/setup/production-environment/tools/kubeadm/install-kubeadm.md": {
+    "targetPath": "content/vi/docs/setup/production-environment/tools/kubeadm/install-kubeadm.md",
+    "englishPath": "content/en/docs/setup/production-environment/tools/kubeadm/install-kubeadm.md",
+    "targetLatestDate": "2025-05-09T08:15:15-07:00",
+    "englishLatestDate": "2025-04-15T20:01:05-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md": {
+    "targetPath": "content/vi/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md",
+    "englishPath": "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2024-03-14T13:14:30-07:00",
+    "daysBehind": 461,
+    "commitsBehind": 35,
+    "totalChangeLines": 423,
+    "insertionsBehindLines": 321,
+    "deletionsBehindLines": 102,
+    "status": "not_translated",
+    "severity": "significant",
+    "missingCommits": [
+      {
+        "hash": "652214f3c36812804deee1485ed318d5555eda27",
+        "date": "2024-03-14 13:14:30 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #45529 from matte21/fix_path_of_kubelet_systemd_unit_file",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md",
+        "insertions": 9,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "4440dba8c2c1085c5b8864243803ce30c59eec9b",
+        "date": "2023-10-11 04:27:22 +0200",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #43409 from saschagrunert/kubepkg",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md",
+        "insertions": 2,
+        "deletions": 4,
+        "operation": "modified"
+      },
+      {
+        "hash": "aa05b841abc3eb801d7a4f0f5994bb8277284cc2",
+        "date": "2023-06-02 00:56:52 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #41416 from windsonsea/setupy",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "1bbb3a61cda11eca8b970b550dea939dad0a5023",
+        "date": "2022-10-26 03:48:35 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #37411 from dminGod/patch-2",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "b79539d0d35927eb51976d1115db500419a6c6b9",
+        "date": "2022-08-23 14:53:20 -0700",
+        "author": "Kristin Martin",
+        "message": "Merge pull request #34290 from kubernetes/dev-1.25",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md",
+        "insertions": 7,
+        "deletions": 6,
+        "operation": "modified"
+      },
+      {
+        "hash": "f6b4fedd70632144f25d661b63af2ff0f251e315",
+        "date": "2022-05-03 15:16:36 -0700",
+        "author": "Nate W",
+        "message": "Merge pull request #31225 from kubernetes/dev-1.24",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md",
+        "insertions": 12,
+        "deletions": 13,
+        "operation": "modified"
+      },
+      {
+        "hash": "bad34de21d0d3f08db232dc08d6ca9e09d1de2c9",
+        "date": "2022-04-20 01:39:40 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #33045 from reylejano/revert-32941",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md",
+        "insertions": 0,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "6541860e6345af3e23e70eca963cda47c10e2019",
+        "date": "2022-04-18 17:17:50 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #32941 from chrisnegus/dockershim-shortcode-pages",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md",
+        "insertions": 2,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "451eb18dcf05802a604e6b640051d8ca398e2c42",
+        "date": "2022-03-23 06:37:59 +0530",
+        "author": "Priyanshu Ahlawat",
+        "message": "Update kubelet-integration.md (#32228)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md",
+        "insertions": 2,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "c33258a7bf293cc170c73533775273e563f2abec",
+        "date": "2022-03-07 14:32:25 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #31966 from PriyanshuAhlawat/updating_envVariable",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md",
+        "insertions": 8,
+        "deletions": 5,
+        "operation": "modified"
+      },
+      {
+        "hash": "5862d9155ef41f342a3d23a9ff21a119afb7fd2f",
+        "date": "2021-11-03 17:56:03 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #30147 from chirangaalwis/patch-5",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md",
+        "insertions": 4,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "710115899297f9c3ffa2d0ac054f16fe9abb5811",
+        "date": "2021-04-01 18:30:11 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #26590 from tengqm/kubelet-config",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md",
+        "insertions": 14,
+        "deletions": 11,
+        "operation": "modified"
+      },
+      {
+        "hash": "09f5c42d592d6c5efe1cbb2bbb41b14138505395",
+        "date": "2020-10-21 07:28:20 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #24619 from neha-viswanathan/24380-remove-k8s-incubator",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "972c689c6975fa750a0fee597ac87b1101f59d2a",
+        "date": "2020-06-21 07:28:38 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #21467 from ZhiFeng1993/Update-kubelet-and-kubernetes-cni-binary-installation-info",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md",
+        "insertions": 1,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "2fe9604f9971ce9b166e493ef40854e5ae866243",
+        "date": "2020-06-19 22:28:39 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #21869 from oomichi/nit-nodeRegistration",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "15f44cc421720cd14cc5b0e779a3c84e482e1733",
+        "date": "2020-06-10 02:30:09 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #21359 from kbhawkey/kb-migrate-capture-stmts",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md",
+        "insertions": 5,
+        "deletions": 5,
+        "operation": "modified"
+      },
+      {
+        "hash": "4f7477c844319ea07ff617814ba613c638d0f9ca",
+        "date": "2020-05-07 08:35:09 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #20778 from prasadkatti/kubelet_integration_doc",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md",
+        "insertions": 10,
+        "deletions": 10,
+        "operation": "modified"
+      },
+      {
+        "hash": "9654c61aba5f49875ab888c82bc06f18e827e6ab",
+        "date": "2020-04-09 10:29:44 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #20200 from liggitt/feature-state-typo",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "68e836b267a1ff3df330ed3b60ff55597145dd81",
+        "date": "2019-11-28 13:17:03 +0800",
+        "author": "bogard1203",
+        "message": "Fixed the incorrect parameter of specifying the CRI endpoint for kubelet and corrected Default CNs (#17839)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "da9db0b0c4ff9ea52c3cde967231f5880b415a86",
+        "date": "2019-08-06 02:09:54 +0200",
+        "author": "Michael Vorburger \u26d1\ufe0f",
+        "message": "porting some information from kubeadm-init.md to kubelet-integration.md (#15423)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md",
+        "insertions": 6,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "ce1753952ea709fa6925c8898ba7a603dda3603e",
+        "date": "2019-07-14 16:51:03 +0200",
+        "author": "Michael Vorburger \u26d1\ufe0f",
+        "message": "fix missing word \"to\" in kubeadm/kubelet-integration.md (#15419)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "55ac801bc447ae185b6d0dd22ac5793e91f329fe",
+        "date": "2019-06-12 17:27:29 +0530",
+        "author": "Rajakavitha1",
+        "message": "Restructure the left navigation pane of setup (#14826)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md",
+        "insertions": 0,
+        "deletions": 0,
+        "operation": "renamed",
+        "oldPath": "content/en/docs/setup/independent/kubelet-integration.md"
+      },
+      {
+        "hash": "8f5fbc0222f532ab05883606fd159248c041c976",
+        "date": "2019-04-09 03:07:04 +0200",
+        "author": "Manuel R\u00fcger",
+        "message": "kubelet-integration: Update kubeadm config command (#13636)",
+        "path": "content/en/docs/setup/independent/kubelet-integration.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "ab5e8c0d654dae115a7b32779582727caf6f88b7",
+        "date": "2019-02-27 19:49:13 +0000",
+        "author": "Dani Comnea",
+        "message": "Fix the borken link in kubelet-integration.md page (#12864)",
+        "path": "content/en/docs/setup/independent/kubelet-integration.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "deleted"
+      },
+      {
+        "hash": "1e9301ddb8549ff0a9f05308e31c1bfd17b91aa1",
+        "date": "2019-02-04 18:30:31 -0500",
+        "author": "garlicFrancium",
+        "message": "Fixed Wrong file path #12478 (#12479)",
+        "path": "content/en/docs/setup/independent/kubelet-integration.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "27b7b453a9871bb3f1432cff0db365accafcbfbb",
+        "date": "2018-12-03 19:21:11 -0600",
+        "author": "Jim Angel",
+        "message": "Official 1.13 Release Docs (#11401)",
+        "path": "content/en/docs/setup/independent/kubelet-integration.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "7ebdd661d7ca4ab0a868a176e287cc4be2a93f0c",
+        "date": "2018-11-03 19:37:07 +0800",
+        "author": "MengZeLee",
+        "message": "Modified into appropriate words (#10768)",
+        "path": "content/en/docs/setup/independent/kubelet-integration.md",
+        "insertions": 4,
+        "deletions": 4,
+        "operation": "deleted"
+      },
+      {
+        "hash": "da3fbcf3ed1a767901dd1e8fd8596a6f54953a98",
+        "date": "2018-10-24 05:25:19 +0200",
+        "author": "Martin Hoefling",
+        "message": "Fix incorrect naming of the flag (#10713)",
+        "path": "content/en/docs/setup/independent/kubelet-integration.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "786d314da5351a0f18aebf5f65814dec321ead3f",
+        "date": "2018-09-27 18:41:39 -0500",
+        "author": "Jim Angel",
+        "message": "[Do Not Merge] Release 1.12 (#10292)",
+        "path": "content/en/docs/setup/independent/kubelet-integration.md",
+        "insertions": 12,
+        "deletions": 10,
+        "operation": "deleted"
+      },
+      {
+        "hash": "c3f4f9433737b1a4ad3b794671a648c4c153bec9",
+        "date": "2018-09-19 21:02:39 -0500",
+        "author": "Jim Angel",
+        "message": "fixed link for godoc.org kublet componentconfig (#10339)",
+        "path": "content/en/docs/setup/independent/kubelet-integration.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "a936d465fbbf90ecfb2c8fd80dbcc6f878cc3997",
+        "date": "2018-08-30 01:26:33 +0800",
+        "author": "CaoShuFeng",
+        "message": "fix several misspelling (#10126)",
+        "path": "content/en/docs/setup/independent/kubelet-integration.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "a3db9fb85da049473ae2c2f23e918c89ea9725d8",
+        "date": "2018-08-22 02:49:27 +0800",
+        "author": "Li Zebang",
+        "message": "something wrong in kubelet-integration.md (#9974)",
+        "path": "content/en/docs/setup/independent/kubelet-integration.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "deleted"
+      },
+      {
+        "hash": "d971d236a42db0fb2d91ee7100fae8b8537e7fd8",
+        "date": "2018-08-16 19:14:09 -0400",
+        "author": "Jennifer Rondeau",
+        "message": "rebase certificates PR on Hugo master (#9842)",
+        "path": "content/en/docs/setup/independent/kubelet-integration.md",
+        "insertions": 1,
+        "deletions": 5,
+        "operation": "deleted"
+      },
+      {
+        "hash": "1cd9a98921d245c03627b7de337bf7987dc7b925",
+        "date": "2018-08-12 15:51:53 +0800",
+        "author": "MengZeLee",
+        "message": "fix feature state snippet code block (#9804)",
+        "path": "content/en/docs/setup/independent/kubelet-integration.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "3098e3741e9cae831f3ceeee2b7a2480e2097762",
+        "date": "2018-08-02 01:24:27 +0300",
+        "author": "Lubomir I. Ivanov",
+        "message": "Kubeadm kubelet integration doc (#9652)",
+        "path": "content/en/docs/setup/independent/kubelet-integration.md",
+        "insertions": 204,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/docs/setup/production-environment/tools/kubeadm/setup-ha-etcd-with-kubeadm.md": {
+    "targetPath": "content/vi/docs/setup/production-environment/tools/kubeadm/setup-ha-etcd-with-kubeadm.md",
+    "englishPath": "content/en/docs/setup/production-environment/tools/kubeadm/setup-ha-etcd-with-kubeadm.md",
+    "targetLatestDate": "2025-04-18T09:03:07-07:00",
+    "englishLatestDate": "2024-10-02T00:45:49+01:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md": {
+    "targetPath": "content/vi/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+    "englishPath": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2024-08-13T08:20:24-07:00",
+    "daysBehind": 309,
+    "commitsBehind": 65,
+    "totalChangeLines": 1276,
+    "insertionsBehindLines": 920,
+    "deletionsBehindLines": 356,
+    "status": "not_translated",
+    "severity": "critical",
+    "missingCommits": [
+      {
+        "hash": "20d164c7a7d092ebc65eed06c855d2ec4f0f0e12",
+        "date": "2024-08-13 08:20:24 -0700",
+        "author": "Rey Lejano",
+        "message": "Merge pull request #47469 from kubernetes/dev-1.31",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 12,
+        "deletions": 9,
+        "operation": "modified"
+      },
+      {
+        "hash": "4dd24fdd0db8580ee5d8415771bfa058ae1379aa",
+        "date": "2024-02-16 07:47:25 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #45169 from tamilselvan1102/k8s-doc-20240216",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "891a6893a38d860ff60062d8f3cde7d6c9be529a",
+        "date": "2023-11-30 05:40:13 +0100",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #44105 from windsonsea/shooty",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 82,
+        "deletions": 33,
+        "operation": "modified"
+      },
+      {
+        "hash": "14ac1b301f421e66b63d535554b3a57d84589d50",
+        "date": "2023-11-27 11:06:34 +0100",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #44058 from chendave/troubleshooting",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 79,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "9aa0e7fcd3c7bb51e321cf8b0faf09f458f9a035",
+        "date": "2022-11-18 00:42:31 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #37952 from windsonsea/trokub",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 35,
+        "deletions": 33,
+        "operation": "modified"
+      },
+      {
+        "hash": "b79539d0d35927eb51976d1115db500419a6c6b9",
+        "date": "2022-08-23 14:53:20 -0700",
+        "author": "Kristin Martin",
+        "message": "Merge pull request #34290 from kubernetes/dev-1.25",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "938c9ac1404df17b295847f5b8f455e94ef9757e",
+        "date": "2022-05-15 21:14:17 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #33688 from my-git9/mygit13",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "f6b4fedd70632144f25d661b63af2ff0f251e315",
+        "date": "2022-05-03 15:16:36 -0700",
+        "author": "Nate W",
+        "message": "Merge pull request #31225 from kubernetes/dev-1.24",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 6,
+        "deletions": 18,
+        "operation": "modified"
+      },
+      {
+        "hash": "41dfc834238ce67add6cdbd05aeea7d5e461187b",
+        "date": "2022-04-30 07:03:12 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #33339 from my-git9/debuglink4",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "20ce068d304cf10cb49bbb6dc81aad25b03073f8",
+        "date": "2022-04-30 05:35:13 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #33314 from my-git9/debug-cluster-crictl",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "f0bb277540aa9e23a0a7987cfb07612543590e1c",
+        "date": "2021-12-07 18:18:34 -0500",
+        "author": "Jesse Butler",
+        "message": "Merge pull request #29658 from kubernetes/dev-1.23",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 1,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "7a513e6dee793a9498d2c02ab0168e7a9599e939",
+        "date": "2021-11-12 21:32:28 +0530",
+        "author": "sandipanpanda",
+        "message": "Fix broken anchor link of #type-nodeport in service.md (#30388)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "0c04e2c54c0fb80ace9a72e9677275f6c3302ab1",
+        "date": "2021-11-03 18:28:03 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #30146 from neolit123/1.23-update-ts-guide-for-cert-rotation",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 10,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "239eb65bc2f53b9af1aaff063abc4c093a50b96d",
+        "date": "2021-10-13 09:27:49 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #30071 from chetak123/main",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "b125d095ea5694bb975bd85d5c039ff042e3510c",
+        "date": "2021-09-06 18:23:15 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #29621 from tengqm/fix-kubeadm-api-pointer",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "082116588c191f52de2003deb71ce7a304cc357d",
+        "date": "2021-08-05 00:01:50 +0200",
+        "author": "PI-Victor",
+        "message": "Merge pull request #27866 from kubernetes/dev-1.22",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 4,
+        "deletions": 21,
+        "operation": "modified"
+      },
+      {
+        "hash": "8d5b42e58087b6667c08c12ff7c1303079e300ce",
+        "date": "2021-07-22 23:51:16 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #29092 from xinydev/fix-anchor",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "506ee6ff68a6ed18e4035156bdc919eb6512a137",
+        "date": "2021-07-14 18:12:48 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #28876 from tengqm/kubeadm-config-ref",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 8,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "fb7bdd52db8bddf66346c72d9d5b1c5c81de9692",
+        "date": "2021-07-08 09:30:54 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #28852 from rayw000/fix-typo",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "3c7ed800d043c8ab5123f818670170d4383f2d9c",
+        "date": "2021-07-06 18:30:43 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #28359 from neolit123/1.22-remove-docker-autodetection-notes",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 5,
+        "deletions": 17,
+        "operation": "modified"
+      },
+      {
+        "hash": "3529fc6ebb1ae325959fcbe496daba25f7cd114a",
+        "date": "2021-06-14 22:08:00 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #28312 from antoinep92/patch-1",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 19,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "9b300a4f4f07aec83b56ca66c2eff2a87e920d5e",
+        "date": "2021-04-20 18:32:10 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #27071 from neolit123/1.21-add-kubelet-serving-cert-guide",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 18,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "969a3db92326746a94e2eb4449fd60f25d9151b8",
+        "date": "2021-04-08 11:02:03 -0700",
+        "author": "Rey Lejano",
+        "message": "Merge pull request #26153 from kubernetes/dev-1.21",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "710115899297f9c3ffa2d0ac054f16fe9abb5811",
+        "date": "2021-04-01 18:30:11 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #26590 from tengqm/kubelet-config",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 11,
+        "deletions": 6,
+        "operation": "modified"
+      },
+      {
+        "hash": "42baccaf974dbfd790a3d4e14e766323ea57a47f",
+        "date": "2021-03-01 12:53:26 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #26770 from neha-viswanathan/26722-network-addon",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 5,
+        "deletions": 5,
+        "operation": "modified"
+      },
+      {
+        "hash": "a3f619911147c56116421dfff7badacdbb54d5c2",
+        "date": "2021-02-01 03:55:50 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #26301 from surajssd/fix-back-ticks",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "253d6ab66db2972a0af21c27af77458fe3a841f9",
+        "date": "2021-01-07 18:55:55 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #25575 from timosmit/patch-1",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 1,
+        "deletions": 2,
+        "operation": "modified"
+      },
+      {
+        "hash": "ca7b287f1e2867c41f2bc557ebffd7ddb6817564",
+        "date": "2020-09-02 20:25:40 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #23658 from thtanaka/docs/kubeadm-reset",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 9,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "f7e8802ef776b0e3f5670304455f747892fa0f32",
+        "date": "2020-08-01 16:17:40 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22792 from ZhiFeng1993/add-kubeadm-troubleshooting-item",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 4,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "995e37a0fc1e3856c29ae8aeb5643eac71bfa80b",
+        "date": "2020-07-26 19:34:17 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #22598 from tengqm/fix-setup-links",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 2,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "49ac273969b007b6c469e00c0d11b67cd6963389",
+        "date": "2020-06-15 11:57:59 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #21781 from ZhiFeng1993/Fix-journalctl-cmd-on-kubeadmin-page",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "15f44cc421720cd14cc5b0e779a3c84e482e1733",
+        "date": "2020-06-10 02:30:09 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #21359 from kbhawkey/kb-migrate-capture-stmts",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 5,
+        "deletions": 5,
+        "operation": "modified"
+      },
+      {
+        "hash": "72130f77e119cf7ad4dffc6a016f071ec8ae2b66",
+        "date": "2020-05-11 09:01:51 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #20487 from adambkaplan/scheduling-eviction-2",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "e937a06616a2cc60dff1f0ba64fda72bcdb24f95",
+        "date": "2020-03-27 16:24:24 +0200",
+        "author": "Lubomir I. Ivanov",
+        "message": "kubeadm: add TS entry about joining 1.18 nodes to 1.17 cluster (#19868)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 43,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "c331ff47a7da09be0eb0705b1086033fbd24a6d2",
+        "date": "2020-03-11 10:13:37 -0500",
+        "author": "Marshall Ford",
+        "message": "fixes troubleshooting-kubeadm references to taint node-role.kubernetes.io/master (#19293)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "2d0bde0458d505bc6c2771544c5a5eea27dbf1c9",
+        "date": "2020-02-19 02:54:24 +0200",
+        "author": "Lubomir I. Ivanov",
+        "message": "kubeadm: add TS guide note about CoreOS read-only /usr (#19166)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 42,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "cdc590065cb493ca46b47afb0273b59d38e6317f",
+        "date": "2019-10-30 11:24:53 +1000",
+        "author": "Dr Nic Williams",
+        "message": "base64 --decode works across Linux and MacOS (#17240)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "d437e8c6bce23a5c11914eca17d48085450c905c",
+        "date": "2019-10-23 22:20:14 +0900",
+        "author": "Yuk, Yongsu",
+        "message": "en: Change the full link in the document to an inline link. (#17057)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "77d831c7eaead2ebfe1a9333cf434a30769ffc08",
+        "date": "2019-10-22 14:34:13 -0700",
+        "author": "Armando Migliaccio",
+        "message": "Replace Digital Ocean with DigitalOcean (#17033)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "modified"
+      },
+      {
+        "hash": "2928d6ac9ceba3ecfc8880bfe7ac8ed6a73bd4bb",
+        "date": "2019-08-07 06:34:51 +0700",
+        "author": "Tahmid Shakil",
+        "message": "Fix troubleshooting instruction at troubleshooting-kubeadm.md (#15234)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 1,
+        "deletions": 0,
+        "operation": "modified"
+      },
+      {
+        "hash": "55ac801bc447ae185b6d0dd22ac5793e91f329fe",
+        "date": "2019-06-12 17:27:29 +0530",
+        "author": "Rajakavitha1",
+        "message": "Restructure the left navigation pane of setup (#14826)",
+        "path": "content/en/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm.md",
+        "insertions": 7,
+        "deletions": 7,
+        "operation": "renamed",
+        "oldPath": "content/en/docs/setup/independent/troubleshooting-kubeadm.md"
+      },
+      {
+        "hash": "97630241293109e99543d54a93dadeadb3e6e0fe",
+        "date": "2019-05-05 09:09:37 +0800",
+        "author": "Quan Tian",
+        "message": "Fix docker installation links (#14154)",
+        "path": "content/en/docs/setup/independent/troubleshooting-kubeadm.md",
+        "insertions": 3,
+        "deletions": 3,
+        "operation": "deleted"
+      },
+      {
+        "hash": "783a2d5289b65f544c0a4ba162c880f034f671bf",
+        "date": "2019-04-09 22:14:12 -0700",
+        "author": "Daniel Lipovetsky",
+        "message": "Document workaround for kubeadm Taints field issue (#13343)",
+        "path": "content/en/docs/setup/independent/troubleshooting-kubeadm.md",
+        "insertions": 17,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "e119b41336a1d039b7a8654cea85058510f83134",
+        "date": "2019-04-08 21:30:26 +0800",
+        "author": "yanghaichao12",
+        "message": "Fix typos (#13376)",
+        "path": "content/en/docs/setup/independent/troubleshooting-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "6c41db7e622721515e1837eea583bf38bd6fd536",
+        "date": "2019-03-26 02:55:15 +0200",
+        "author": "Lubomir I. Ivanov",
+        "message": "kubeadm-ts: add entry about patching kube-proxy in CCM scenarios (#13033)",
+        "path": "content/en/docs/setup/independent/troubleshooting-kubeadm.md",
+        "insertions": 22,
+        "deletions": 0,
+        "operation": "deleted"
+      },
+      {
+        "hash": "5a5f77db64f11a2935bb9a88fb32c3e1661335b9",
+        "date": "2019-03-20 19:05:05 -0400",
+        "author": "chenrui",
+        "message": "Fix relative links issue in English content (#13307)",
+        "path": "content/en/docs/setup/independent/troubleshooting-kubeadm.md",
+        "insertions": 2,
+        "deletions": 2,
+        "operation": "deleted"
+      },
+      {
+        "hash": "a15d6ebed95cdf990991dcf7f8e055afd72ed991",
+        "date": "2019-03-13 01:56:38 +0200",
+        "author": "Lubomir I. Ivanov",
+        "message": "kubeadm-troubleshooting: add entry about multi-valued args (#12937)",
+        "path": "content/en/docs/setup/independent/troubleshooting-kubeadm.md",
+        "insertions": 19,
+        "deletions": 0,
+        "operation": "deleted"
+      },
+      {
+        "hash": "8598dc5fb7fe66593652c92ff5cc9a36314b4ccd",
+        "date": "2019-02-27 16:52:15 +0530",
+        "author": "Damini Satya",
+        "message": "Fix #12764 - Update troubleshooting-kubeadm doc (#12825)",
+        "path": "content/en/docs/setup/independent/troubleshooting-kubeadm.md",
+        "insertions": 13,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "84a840887a0a8d4a335dfd44a694f742a3eed00d",
+        "date": "2019-02-26 17:39:39 -0800",
+        "author": "Himanshu Pandey",
+        "message": "Removed the redundant text (#12868)",
+        "path": "content/en/docs/setup/independent/troubleshooting-kubeadm.md",
+        "insertions": 2,
+        "deletions": 3,
+        "operation": "deleted"
+      },
+      {
+        "hash": "1b5415d36a3e01f91dbffbdb36b48dee9bd2019d",
+        "date": "2018-12-06 00:36:15 +0200",
+        "author": "Lubomir I. Ivanov",
+        "message": "kubeadm-ts-guide: add entry about centos and docker 1.13.87 (#11534)",
+        "path": "content/en/docs/setup/independent/troubleshooting-kubeadm.md",
+        "insertions": 20,
+        "deletions": 0,
+        "operation": "deleted"
+      },
+      {
+        "hash": "c4f888efacafaf6d22d9dd3f0f984d3b6374027f",
+        "date": "2018-12-05 17:55:50 -0800",
+        "author": "Duffie Cooley",
+        "message": "fixed typo and clarified mitigation steps. (#11556)",
+        "path": "content/en/docs/setup/independent/troubleshooting-kubeadm.md",
+        "insertions": 6,
+        "deletions": 2,
+        "operation": "deleted"
+      },
+      {
+        "hash": "27b7b453a9871bb3f1432cff0db365accafcbfbb",
+        "date": "2018-12-03 19:21:11 -0600",
+        "author": "Jim Angel",
+        "message": "Official 1.13 Release Docs (#11401)",
+        "path": "content/en/docs/setup/independent/troubleshooting-kubeadm.md",
+        "insertions": 2,
+        "deletions": 42,
+        "operation": "deleted"
+      },
+      {
+        "hash": "6f3b8cbd9b62d1b1d2568d8075acbac005c2123a",
+        "date": "2018-11-16 15:35:38 -0500",
+        "author": "Sandeep Rajan",
+        "message": "Update documentation on CoreDNS (#10923)",
+        "path": "content/en/docs/setup/independent/troubleshooting-kubeadm.md",
+        "insertions": 3,
+        "deletions": 0,
+        "operation": "deleted"
+      },
+      {
+        "hash": "d65e1790ffc020129db5f5a583060d6fe318316a",
+        "date": "2018-11-06 11:33:04 -0800",
+        "author": "Luc Perkins",
+        "message": "Add admonition type to shortcode (#9482)",
+        "path": "content/en/docs/setup/independent/troubleshooting-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "7b183afad4b71f9087e31f8e2d4e3df2eff846de",
+        "date": "2018-10-30 10:25:23 +0800",
+        "author": "Yuexiao Wang",
+        "message": "add case with systemd MountFlags for kubeadm troubleshooting (#10742)",
+        "path": "content/en/docs/setup/independent/troubleshooting-kubeadm.md",
+        "insertions": 5,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "786d314da5351a0f18aebf5f65814dec321ead3f",
+        "date": "2018-09-27 18:41:39 -0500",
+        "author": "Jim Angel",
+        "message": "[Do Not Merge] Release 1.12 (#10292)",
+        "path": "content/en/docs/setup/independent/troubleshooting-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "f9080172767c5a62c92a453dd30e5de6909c02d8",
+        "date": "2018-08-27 22:04:42 +0800",
+        "author": "Paul",
+        "message": "add some hyperlink (#10070)",
+        "path": "content/en/docs/setup/independent/troubleshooting-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "02ac5b82413410ce34409c46f1030c64d77c4d6a",
+        "date": "2018-08-22 23:30:33 +0300",
+        "author": "Lubomir I. Ivanov",
+        "message": "troubleshooting-kubeadm: add guide for fixing stale CoreDNS pods (#9872)",
+        "path": "content/en/docs/setup/independent/troubleshooting-kubeadm.md",
+        "insertions": 22,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "5f19d7ced8c088bf79c97733de187156b4f0a71a",
+        "date": "2018-08-17 18:00:10 +0100",
+        "author": "Slava Semushin",
+        "message": "Fix broken links. (#9755)",
+        "path": "content/en/docs/setup/independent/troubleshooting-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "1e554ef7250e1968f17e06155e068944162de093",
+        "date": "2018-07-18 15:49:37 -0700",
+        "author": "Jennifer Rondeau",
+        "message": "reorganize kubeadm files, part 1 (#9439)",
+        "path": "content/en/docs/setup/independent/troubleshooting-kubeadm.md",
+        "insertions": 19,
+        "deletions": 19,
+        "operation": "deleted"
+      },
+      {
+        "hash": "5f30e7d4c37cbd5649618b7f95b52197eadffb81",
+        "date": "2018-06-27 15:26:18 -0700",
+        "author": "Misty Linville",
+        "message": "Release docs for Kubernetes 1.11 (#9171)",
+        "path": "content/en/docs/setup/independent/troubleshooting-kubeadm.md",
+        "insertions": 8,
+        "deletions": 5,
+        "operation": "deleted"
+      },
+      {
+        "hash": "939a083cc0ea4567f9c4d772b75156c3bfaa620f",
+        "date": "2018-06-14 12:33:28 +0800",
+        "author": "max8899",
+        "message": "fix typo (#9049)",
+        "path": "content/en/docs/setup/independent/troubleshooting-kubeadm.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "deleted"
+      },
+      {
+        "hash": "37284934cb1afd69060f139b585e8cd0dc579497",
+        "date": "2018-06-12 11:13:27 -0400",
+        "author": "Jason DeTiberus",
+        "message": "Update kubeadm troubleshooting guide (#9028)",
+        "path": "content/en/docs/setup/independent/troubleshooting-kubeadm.md",
+        "insertions": 111,
+        "deletions": 81,
+        "operation": "deleted"
+      },
+      {
+        "hash": "f845902087c7773b8580224ba71d1ce07f823cf6",
+        "date": "2018-05-18 20:15:53 +0300",
+        "author": "Lubomir I. Ivanov",
+        "message": "troubleshooting-kubeadm: add note about kubeadm-reset block (#8508)",
+        "path": "content/en/docs/setup/independent/troubleshooting-kubeadm.md",
+        "insertions": 18,
+        "deletions": 0,
+        "operation": "deleted"
+      },
+      {
+        "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+        "date": "2018-05-05 18:00:51 +0200",
+        "author": "Bj\u00f8rn Erik Pedersen",
+        "message": "Convert site to Hugo (#8316)",
+        "path": "content/en/docs/setup/independent/troubleshooting-kubeadm.md",
+        "insertions": 190,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
+  "content/en/docs/setup/production-environment/turnkey-solutions.md": {
+    "targetPath": "content/vi/docs/setup/production-environment/turnkey-solutions.md",
+    "englishPath": "content/en/docs/setup/production-environment/turnkey-solutions.md",
+    "targetLatestDate": null,
+    "englishLatestDate": "2024-01-19T01:49:32+01:00",
+    "daysBehind": 517,
+    "commitsBehind": 3,
+    "totalChangeLines": 18,
+    "insertionsBehindLines": 16,
+    "deletionsBehindLines": 2,
+    "status": "not_translated",
+    "severity": "minor",
+    "missingCommits": [
+      {
+        "hash": "06fb191b99a1a248cc8c697cd5170aea195412cd",
+        "date": "2024-01-19 01:49:32 +0100",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #44792 from cynthia-sg/cynthia-sg/landscape",
+        "path": "content/en/docs/setup/production-environment/turnkey-solutions.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "0af0de04f260b2d8d6f864759e07386f2df46834",
+        "date": "2022-11-01 10:54:44 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #37482 from cailynse/update-weight-setup",
+        "path": "content/en/docs/setup/production-environment/turnkey-solutions.md",
+        "insertions": 1,
+        "deletions": 1,
+        "operation": "modified"
+      },
+      {
+        "hash": "5199878fb216fd4fa965be5094f1c5ed33c330a2",
+        "date": "2020-11-04 00:46:04 -0800",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #24768 from kbhawkey/kb-content-third-party-cleanup-1",
+        "path": "content/en/docs/setup/production-environment/turnkey-solutions.md",
+        "insertions": 14,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  }
+}

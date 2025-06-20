@@ -1,152 +1,152 @@
 {
-  "last_updated": "2025-06-16T10:01:17.411358+00:00",
+  "lastUpdated": "2025-06-19T15:09:01.581631+00:00",
   "articles": [
     {
-      "english_path": "content/en/careers/_index.html",
+      "englishPath": "content/en/careers/_index.html",
       "translations": {
         "bn": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 10,
-          "commits_behind": 1,
-          "total_change_lines": 22,
-          "target_latest_date": null,
-          "english_latest_date": "2025-06-05T05:40:39-07:00"
+          "daysBehind": 14,
+          "commitsBehind": 1,
+          "totalChangeLines": 22,
+          "targetLatestDate": null,
+          "englishLatestDate": "2025-06-05T05:40:39-07:00"
         },
         "de": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 10,
-          "commits_behind": 1,
-          "total_change_lines": 22,
-          "target_latest_date": null,
-          "english_latest_date": "2025-06-05T05:40:39-07:00"
+          "daysBehind": 14,
+          "commitsBehind": 1,
+          "totalChangeLines": 22,
+          "targetLatestDate": null,
+          "englishLatestDate": "2025-06-05T05:40:39-07:00"
         },
         "en": {
           "status": "up_to_date",
           "severity": "current",
-          "days_behind": 0,
-          "commits_behind": 0,
-          "total_change_lines": 0,
-          "target_latest_date": "2025-06-05T05:40:39-07:00",
-          "english_latest_date": "2025-06-05T05:40:39-07:00"
+          "daysBehind": 0,
+          "commitsBehind": 0,
+          "totalChangeLines": 0,
+          "targetLatestDate": "2025-06-05T05:40:39-07:00",
+          "englishLatestDate": "2025-06-05T05:40:39-07:00"
         },
         "es": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 10,
-          "commits_behind": 1,
-          "total_change_lines": 22,
-          "target_latest_date": null,
-          "english_latest_date": "2025-06-05T05:40:39-07:00"
+          "daysBehind": 14,
+          "commitsBehind": 1,
+          "totalChangeLines": 22,
+          "targetLatestDate": null,
+          "englishLatestDate": "2025-06-05T05:40:39-07:00"
         },
         "fr": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 10,
-          "commits_behind": 1,
-          "total_change_lines": 22,
-          "target_latest_date": null,
-          "english_latest_date": "2025-06-05T05:40:39-07:00"
+          "daysBehind": 14,
+          "commitsBehind": 1,
+          "totalChangeLines": 22,
+          "targetLatestDate": null,
+          "englishLatestDate": "2025-06-05T05:40:39-07:00"
         },
         "hi": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 10,
-          "commits_behind": 1,
-          "total_change_lines": 22,
-          "target_latest_date": null,
-          "english_latest_date": "2025-06-05T05:40:39-07:00"
+          "daysBehind": 14,
+          "commitsBehind": 1,
+          "totalChangeLines": 22,
+          "targetLatestDate": null,
+          "englishLatestDate": "2025-06-05T05:40:39-07:00"
         },
         "id": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 10,
-          "commits_behind": 1,
-          "total_change_lines": 22,
-          "target_latest_date": null,
-          "english_latest_date": "2025-06-05T05:40:39-07:00"
+          "daysBehind": 14,
+          "commitsBehind": 1,
+          "totalChangeLines": 22,
+          "targetLatestDate": null,
+          "englishLatestDate": "2025-06-05T05:40:39-07:00"
         },
         "it": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 10,
-          "commits_behind": 1,
-          "total_change_lines": 22,
-          "target_latest_date": null,
-          "english_latest_date": "2025-06-05T05:40:39-07:00"
+          "daysBehind": 14,
+          "commitsBehind": 1,
+          "totalChangeLines": 22,
+          "targetLatestDate": null,
+          "englishLatestDate": "2025-06-05T05:40:39-07:00"
         },
         "ja": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 10,
-          "commits_behind": 1,
-          "total_change_lines": 22,
-          "target_latest_date": null,
-          "english_latest_date": "2025-06-05T05:40:39-07:00"
+          "daysBehind": 14,
+          "commitsBehind": 1,
+          "totalChangeLines": 22,
+          "targetLatestDate": null,
+          "englishLatestDate": "2025-06-05T05:40:39-07:00"
         },
         "ko": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 10,
-          "commits_behind": 1,
-          "total_change_lines": 22,
-          "target_latest_date": null,
-          "english_latest_date": "2025-06-05T05:40:39-07:00"
+          "daysBehind": 14,
+          "commitsBehind": 1,
+          "totalChangeLines": 22,
+          "targetLatestDate": null,
+          "englishLatestDate": "2025-06-05T05:40:39-07:00"
         },
         "pl": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 10,
-          "commits_behind": 1,
-          "total_change_lines": 22,
-          "target_latest_date": null,
-          "english_latest_date": "2025-06-05T05:40:39-07:00"
+          "daysBehind": 14,
+          "commitsBehind": 1,
+          "totalChangeLines": 22,
+          "targetLatestDate": null,
+          "englishLatestDate": "2025-06-05T05:40:39-07:00"
         },
         "pt-br": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 10,
-          "commits_behind": 1,
-          "total_change_lines": 22,
-          "target_latest_date": null,
-          "english_latest_date": "2025-06-05T05:40:39-07:00"
+          "daysBehind": 14,
+          "commitsBehind": 1,
+          "totalChangeLines": 22,
+          "targetLatestDate": null,
+          "englishLatestDate": "2025-06-05T05:40:39-07:00"
         },
         "ru": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 10,
-          "commits_behind": 1,
-          "total_change_lines": 22,
-          "target_latest_date": null,
-          "english_latest_date": "2025-06-05T05:40:39-07:00"
+          "daysBehind": 14,
+          "commitsBehind": 1,
+          "totalChangeLines": 22,
+          "targetLatestDate": null,
+          "englishLatestDate": "2025-06-05T05:40:39-07:00"
         },
         "uk": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 10,
-          "commits_behind": 1,
-          "total_change_lines": 22,
-          "target_latest_date": null,
-          "english_latest_date": "2025-06-05T05:40:39-07:00"
+          "daysBehind": 14,
+          "commitsBehind": 1,
+          "totalChangeLines": 22,
+          "targetLatestDate": null,
+          "englishLatestDate": "2025-06-05T05:40:39-07:00"
         },
         "vi": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 10,
-          "commits_behind": 1,
-          "total_change_lines": 22,
-          "target_latest_date": null,
-          "english_latest_date": "2025-06-05T05:40:39-07:00"
+          "daysBehind": 14,
+          "commitsBehind": 1,
+          "totalChangeLines": 22,
+          "targetLatestDate": null,
+          "englishLatestDate": "2025-06-05T05:40:39-07:00"
         },
         "zh-cn": {
           "status": "not_translated",
           "severity": "minor",
-          "days_behind": 10,
-          "commits_behind": 1,
-          "total_change_lines": 22,
-          "target_latest_date": null,
-          "english_latest_date": "2025-06-05T05:40:39-07:00"
+          "daysBehind": 14,
+          "commitsBehind": 1,
+          "totalChangeLines": 22,
+          "targetLatestDate": null,
+          "englishLatestDate": "2025-06-05T05:40:39-07:00"
         }
       }
     }

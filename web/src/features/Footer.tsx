@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <Box component="footer">
       <Container>
-        <Group pb={40} justify="center">
+        <Group py={40} justify="center">
           <Text c="dimmed" size="xs">
             © {currentYear} Kubernetes Website Translation Dashboard
           </Text>

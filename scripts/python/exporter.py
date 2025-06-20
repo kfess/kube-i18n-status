@@ -1,10 +1,12 @@
 import json
+import re
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path, PurePosixPath
 from typing import Any
 
 from translation_status import TranslationStatusResult
+from utils import convert_keys_to_camel_case, serialize_datetime
 
 
 def should_process(result: TranslationStatusResult) -> bool:
@@ -31,23 +33,69 @@ def should_process(result: TranslationStatusResult) -> bool:
     return is_supported_extension(path) and is_known_category(result["category"])
 
 
-def _serialize_datetime(obj: object) -> str:
-    """JSON serializer for datetime objects.
+def extract_blog_date_from_en_path(en_path: str) -> str:
+    """Extract date from blog post path.
 
     Args:
     ----
-        obj (Any): The object to serialize.
+        en_path (str): The English file path.
 
     Returns:
     -------
-        str: ISO format string if obj is a datetime, otherwise raises TypeError.
+        str: The extracted date in YYYY-MM-DD format.
+
+    Example:
+    -------
+        content/en/blog/_posts/2024-10-02-xxxx.md -> 2024-10-02
+        content/ja/blog/_posts/2025-03-26.md -> 2025-03-26
 
     """
-    if isinstance(obj, datetime):
-        return obj.isoformat()
+    match = re.search(r"content/en/blog/_posts/(\d{4}-\d{2}-\d{2})", en_path)
+    return match.group(1) if match else "0000-00-00"
 
-    msg = f"Object of type {type(obj)} is not JSON serializable"
-    raise TypeError(msg)
+
+def extract_docs_subcategory(en_path: str) -> str:
+    """Extract subcategory from docs path.
+
+    Args:
+    ----
+        en_path (str): The English file path.
+
+    Returns:
+    -------
+        str: The extracted subcategory, or empty string if not found.
+
+    Example:
+    -------
+        content/en/docs/getting-started/installation.md -> getting-started
+        content/en/docs/api/reference.md -> api
+        content/en/docs/tutorial/basic.md -> tutorial
+
+    """
+    match = re.search(r"content/[^/]+/docs/([^/]+)", en_path)
+    return match.group(1) if match else ""
+
+
+def build_category_name(original_category: str, english_path: str) -> str:
+    """Build the final category name, expanding docs with subcategories.
+
+    Args:
+    ----
+        original_category (str): The original category name.
+        english_path (str): The English file path.
+
+    Returns:
+    -------
+        str: The final category name (e.g., 'docs_getting-started' for docs).
+
+    """
+    if original_category == "docs":
+        subcategory = extract_docs_subcategory(english_path)
+        if subcategory:
+            return f"docs_{subcategory}"
+        else:
+            return "docs_misc"  # fallback for docs without clear subcategory
+    return original_category
 
 
 def create_matrix_data(
@@ -79,14 +127,24 @@ def create_matrix_data(
         articles_by_english_path[english_path][language] = translation_data
 
     for english_path, translations in articles_by_english_path.items():
-        category = next(
+        original_category = next(
             result["category"]
             for result in results.values()
             if result["english_path"] == english_path
         )
 
+        category_name = build_category_name(original_category, english_path)
+
         article_data = {"english_path": english_path, "translations": translations}
-        matrix_data[category]["articles"].append(article_data)
+        matrix_data[category_name]["articles"].append(article_data)
+
+    # Sort blog articles by date
+    for category, data in matrix_data.items():
+        if category == "blog":
+            data["articles"].sort(
+                key=lambda x: extract_blog_date_from_en_path(x["english_path"]),
+                reverse=True,
+            )
 
     return dict(matrix_data)
 
@@ -119,7 +177,12 @@ def save_matrix_files(
     for category, data in matrix_data.items():
         file_path = matrix_dir / f"{category}.json"
         with file_path.open("w", encoding="utf-8") as f:
-            json.dump(data, f, indent=2, default=_serialize_datetime)
+            json.dump(
+                convert_keys_to_camel_case(data),
+                f,
+                indent=2,
+                default=serialize_datetime,
+            )
 
 
 def save_detail_files(
@@ -145,9 +208,15 @@ def save_detail_files(
     for result in results.values():
         language = result["language"]
         english_path = result["english_path"]
-        category = result["category"]
+        original_category = result["category"]
+
+        # Get effective category (handles docs subcategories)
+        category_name = build_category_name(original_category, english_path)
+
         detail_data = create_detail_data(result)
-        details_by_language_category[language][category][english_path] = detail_data
+        details_by_language_category[language][category_name][english_path] = (
+            detail_data
+        )
 
     for language, categories in details_by_language_category.items():
         lang_dir = details_dir / language
@@ -156,7 +225,12 @@ def save_detail_files(
         for category, details in categories.items():
             file_path = lang_dir / f"{category}.json"
             with file_path.open("w", encoding="utf-8") as f:
-                json.dump(details, f, indent=2, default=_serialize_datetime)
+                json.dump(
+                    convert_keys_to_camel_case(details),
+                    f,
+                    indent=2,
+                    default=serialize_datetime,
+                )
 
 
 def process_translation_results(
@@ -174,6 +248,8 @@ def process_translation_results(
         None: The function saves JSON files to the specified output directory.
 
     """
+    results = dict(sorted(results.items(), key=lambda item: item[0].lower()))
+
     filtered_results = {
         target_path: result
         for target_path, result in results.items()

@@ -1,0 +1,30 @@
+{
+  "content/en/docs/home/Index.md": {
+    "targetPath": "content/hi/docs/home/_index.md",
+    "englishPath": "content/en/docs/home/_index.md",
+    "targetLatestDate": "2025-04-20T15:38:59+05:30",
+    "englishLatestDate": "2024-04-20T16:59:34-07:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  },
+  "content/en/docs/home/supported-doc-versions.md": {
+    "targetPath": "content/hi/docs/home/supported-doc-versions.md",
+    "englishPath": "content/en/docs/home/supported-doc-versions.md",
+    "targetLatestDate": "2025-04-20T15:38:59+05:30",
+    "englishLatestDate": "2024-04-12T10:34:54+01:00",
+    "daysBehind": 0,
+    "commitsBehind": 0,
+    "totalChangeLines": 0,
+    "insertionsBehindLines": 0,
+    "deletionsBehindLines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missingCommits": []
+  }
+}
