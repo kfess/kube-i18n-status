@@ -2,9 +2,9 @@
 
 A dashboard to visualize and track the translation status of Kubernetes website documentation across different languages. This tool helps contributors and maintainers monitor localization progress and identify areas requiring translation efforts.
 
-📍 **Live site**: [https://kfess.github.io/kube-i18n-status](https://kfess.github.io/kube-i18n-status) (Deployed on GitHub Pages)
+📍 **Live site**: [https://kfess.github.io/kubernetes-i18n-tracker](https://kfess.github.io/kubernetes-i18n-tracker) (Deployed on GitHub Pages)
 
-## [![Build and Deploy to GitHub Pages](https://github.com/kfess/kube-i18n-status/actions/workflows/build_deploy.yaml/badge.svg)](https://github.com/kfess/kube-i18n-status/actions/workflows/build_deploy.yaml)
+## [![Build and Deploy to GitHub Pages](https://github.com/kfess/kubernetes-i18n-tracker/actions/workflows/build_deploy.yaml/badge.svg)](https://github.com/kfess/kubernetes-i18n-tracker/actions/workflows/build_deploy.yaml)
 
 ## 🚀 Features
 
