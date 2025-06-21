@@ -103,12 +103,16 @@ def _build_blog_url(  # noqa: PLR0912, C901
                 url = f"{base_url}/{lang_prefix}blog/{year}/{month}/{day}/{slug}/"
             if url in existing_urls:
                 return url
+            elif url.lower() in existing_urls:
+                return url.lower()
 
     # Priority 2: explicit url
     if front_matter and "url" in front_matter:
         url = f"{base_url}/{lang_prefix}{front_matter['url'].strip('/')}/"
         if url in existing_urls:
             return url
+        elif url.lower() in existing_urls:
+            return url.lower()
 
     # Priority 3: filename
     if len(parts) >= 3 and parts[1] == "_posts":
@@ -124,6 +128,8 @@ def _build_blog_url(  # noqa: PLR0912, C901
             url = f"{base_url}/{lang_prefix}blog/{filename}/"
         if url in existing_urls:
             return url
+        elif url.lower() in existing_urls:
+            return url.lower()
 
     # Blog category
     blog_path = "/".join(parts[1:]).removesuffix(".md")
@@ -132,7 +138,12 @@ def _build_blog_url(  # noqa: PLR0912, C901
         if blog_path
         else f"{base_url}/{lang_prefix}blog/"
     )
-    return url if url in existing_urls else None
+    if url in existing_urls:
+        return url
+    elif url.lower() in existing_urls:
+        return url.lower()
+
+    return None
 
 
 def _parse_front_matter(file_path: str) -> dict | None:

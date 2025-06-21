@@ -108,19 +108,21 @@ const TranslationCell = ({
           <Text size="xs" c="dimmed">
             Updated at {new Date(targetLatestDate).toLocaleDateString()}
           </Text>
-          <ActionIcon
-            component="a"
-            href={article.translations[langCode].translationUrl || ''}
-            target="_blank"
-            rel="noopener noreferrer"
-            size="xs"
-            radius="xs"
-            c="gray"
-            variant="subtle"
-            title="Kubernetes documentation"
-          >
-            <IconExternalLink size={14} />
-          </ActionIcon>
+          {article.translations[langCode].translationUrl && (
+            <ActionIcon
+              component="a"
+              href={article.translations[langCode].translationUrl || ''}
+              target="_blank"
+              rel="noopener noreferrer"
+              size="xs"
+              radius="xs"
+              c="gray"
+              variant="subtle"
+              title="Kubernetes documentation"
+            >
+              <IconExternalLink size={14} />
+            </ActionIcon>
+          )}
         </Group>
       )}
     </Table.Td>
@@ -318,19 +320,21 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
                             article.translations.en?.englishLatestDate
                           ).toLocaleDateString()}
                         </Text>
-                        <ActionIcon
-                          component="a"
-                          href={article.englishUrl || ''}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          size="xs"
-                          radius="xs"
-                          variant="subtle"
-                          color="gray"
-                          title="View on Kubernetes site"
-                        >
-                          <IconExternalLink size={14} />
-                        </ActionIcon>
+                        {article.englishUrl && (
+                          <ActionIcon
+                            component="a"
+                            href={article.englishUrl || ''}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            size="xs"
+                            radius="xs"
+                            variant="subtle"
+                            color="gray"
+                            title="View on Kubernetes site"
+                          >
+                            <IconExternalLink size={14} />
+                          </ActionIcon>
+                        )}
                       </Group>
                     </Stack>
                   </Table.Td>
