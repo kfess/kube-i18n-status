@@ -5,7 +5,7 @@ ROOT_DIR = Path(__file__).resolve().parent.parent.parent
 KUBERNETES_DIR = ROOT_DIR / "k8s-repo" / "website"
 
 
-def build_url(
+def build_url(  # noqa: PLR0911
     english_path: str,
     language: str,
     existing_urls: set[str],
@@ -68,7 +68,7 @@ def build_url(
     return f"{base_url}/{lang_prefix}{other_path}/"
 
 
-def _build_blog_url(  # noqa: PLR0912, C901
+def _build_blog_url(  # noqa: PLR0911, PLR0912, C901
     file_path: str,
     parts: tuple,
     existing_urls: set,
