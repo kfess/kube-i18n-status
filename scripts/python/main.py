@@ -1,8 +1,12 @@
 import json
 import logging
 import re
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
+import requests
+
+from const import LANGUAGE_CODES
 from exporter import process_translation_results
 from history import GitFileHistoryTracker
 from models import GitCommitDict
@@ -100,6 +104,40 @@ def load_existing_paths() -> set[str]:
         return {line.strip() for line in f if line.strip()}
 
 
+def load_existing_urls() -> set[str]:
+    """Load existing URLs from sitemap.xml files.
+
+    Returns
+    -------
+        set[str]: A set of existing URLs from sitemap files.
+
+    Comments:
+    --------
+        This function fetches sitemap.xml files for each language and extracts URLs.
+        It handles both all localized sitemaps.
+        If a sitemap cannot be loaded, it logs an error but continues processing others.
+
+    """
+    urls: set[str] = set()
+
+    for lang in LANGUAGE_CODES:
+        sitemap_url = f"https://kubernetes.io/{lang}/sitemap.xml"
+        try:
+            response = requests.get(sitemap_url, timeout=10)
+            response.raise_for_status()
+
+            root = ET.fromstring(response.text)  # noqa: S314
+            for url_elem in root.findall(
+                ".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc"
+            ):
+                urls.add(url_elem.text.strip())
+
+        except Exception:
+            logger.exception("Error loading sitemap for %s", lang)
+
+    return urls
+
+
 def main() -> None:
     """Load JSONL file and save translation results to output directory."""
     try:
@@ -112,6 +150,7 @@ def main() -> None:
         return []
 
     existing_paths = load_existing_paths()
+    existing_urls = load_existing_urls()
     file_history_tracker = GitFileHistoryTracker(
         commits=records, current_files=existing_paths
     )
@@ -120,7 +159,7 @@ def main() -> None:
         existing_paths=existing_paths,
     )
     status_result = translation_tracker.analyze()
-    process_translation_results(status_result, output_dir=OUTPUT_DIR)
+    process_translation_results(status_result, existing_urls, output_dir=OUTPUT_DIR)
 
     return None
 

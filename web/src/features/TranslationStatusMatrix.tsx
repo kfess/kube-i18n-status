@@ -75,33 +75,20 @@ const TranslationCell = ({
         textAlign: 'center',
         whiteSpace: 'nowrap',
         backgroundColor: bgColor,
+        minWidth: rem(200),
       }}
     >
       <>
         {status !== 'not_translated' ? (
-          <Group gap="xs" justify="center" align="center">
-            <Anchor
-              href={`https://github.com/kubernetes/website/blob/main/${translationPath}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              underline="never"
-              title={`Edit ${langCode} translation on GitHub`}
-            >
-              <StatusBadge status={status} />
-            </Anchor>
-            <ActionIcon
-              component="a"
-              href={article.translations[langCode].translationUrl || ''}
-              target="_blank"
-              rel="noopener noreferrer"
-              size="sm"
-              color="gray"
-              variant="subtle"
-              title="Kubernetes documentation"
-            >
-              <IconExternalLink size={16} />
-            </ActionIcon>
-          </Group>
+          <Anchor
+            href={`https://github.com/kubernetes/website/blob/main/${translationPath}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            underline="never"
+            title={`Edit ${langCode} translation on GitHub`}
+          >
+            <StatusBadge status={status} />
+          </Anchor>
         ) : (
           <StatusBadge status={status} />
         )}
@@ -117,9 +104,24 @@ const TranslationCell = ({
         </Text>
       )}
       {(status === 'outdated' || status === 'up_to_date') && targetLatestDate && (
-        <Text size="xs" c="dimmed">
-          Last updated at {new Date(targetLatestDate).toLocaleDateString()}
-        </Text>
+        <Group gap="2" justify="center" align="center">
+          <Text size="xs" c="dimmed">
+            Updated at {new Date(targetLatestDate).toLocaleDateString()}
+          </Text>
+          <ActionIcon
+            component="a"
+            href={article.translations[langCode].translationUrl || ''}
+            target="_blank"
+            rel="noopener noreferrer"
+            size="xs"
+            radius="xs"
+            c="gray"
+            variant="subtle"
+            title="Kubernetes documentation"
+          >
+            <IconExternalLink size={14} />
+          </ActionIcon>
+        </Group>
       )}
     </Table.Td>
   );
@@ -257,7 +259,7 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
                 total={totalPages}
                 size="sm"
                 withEdges
-                radius="md"
+                radius="xs"
               />
             </Group>
           </Group>
@@ -321,7 +323,8 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
                           href={article.englishUrl || ''}
                           target="_blank"
                           rel="noopener noreferrer"
-                          size="sm"
+                          size="xs"
+                          radius="xs"
                           variant="subtle"
                           color="gray"
                           title="View on Kubernetes site"
@@ -329,10 +332,6 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
                           <IconExternalLink size={14} />
                         </ActionIcon>
                       </Group>
-                      {/* <Text size="xs" c="dimmed">
-                        Updated at{' '}
-                        {new Date(article.translations.en?.englishLatestDate).toLocaleDateString()}
-                      </Text> */}
                     </Stack>
                   </Table.Td>
                   {sortedLangCodes.map((code) => (

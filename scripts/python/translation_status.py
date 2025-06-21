@@ -4,6 +4,7 @@ from datetime import datetime, timezone
 from enum import Enum
 from typing import Literal, TypedDict
 
+from const import LANGUAGE_CODES
 from history import GitFileHistoryTracker, GitFileRevision
 
 type LANGUAGE_CODE = Literal[
@@ -23,32 +24,6 @@ type LANGUAGE_CODE = Literal[
     "uk",
     "vi",
     "zh-cn",
-]
-
-LANGUAGE_CODES = [
-    "bn",
-    "de",
-    "en",
-    "es",
-    "fr",
-    "hi",
-    "id",
-    "it",
-    "ja",
-    "ko",
-    "pl",
-    "pt-br",
-    "ru",
-    "uk",
-    "vi",
-    "zh-cn",
-]
-
-type DEPRECATED_LANGUAGE_CODE = Literal[
-    "cn",  # Chinese
-    "zh",  # Chinese
-    "pt",  # Portuguese
-    "no",  # Norwegian
 ]
 
 

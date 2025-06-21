@@ -12,6 +12,10 @@
 -e file:.
 asttokens==3.0.0
     # via stack-data
+certifi==2025.6.15
+    # via requests
+charset-normalizer==3.4.2
+    # via requests
 comm==0.2.2
     # via ipykernel
 debugpy==1.8.14
@@ -20,6 +24,8 @@ decorator==5.2.1
     # via ipython
 executing==2.2.0
     # via stack-data
+idna==3.10
+    # via requests
 ipykernel==6.29.5
     # via default
 ipython==9.1.0
@@ -69,6 +75,8 @@ pytz==2025.2
 pyzmq==26.4.0
     # via ipykernel
     # via jupyter-client
+requests==2.32.4
+    # via default
 six==1.17.0
     # via python-dateutil
 stack-data==0.6.3
@@ -87,5 +95,7 @@ traitlets==5.14.3
     # via matplotlib-inline
 tzdata==2025.2
     # via pandas
+urllib3==2.5.0
+    # via requests
 wcwidth==0.2.13
     # via prompt-toolkit
