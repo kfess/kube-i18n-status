@@ -60,6 +60,8 @@ def build_url(
         return _build_blog_url(
             english_path, parts, existing_urls, lang_prefix, base_url
         )
+    elif category == "includes":
+        return None
 
     # Other categories
     other_path = "/".join(parts).removesuffix(".md")
