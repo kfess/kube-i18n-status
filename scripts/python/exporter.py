@@ -164,6 +164,8 @@ def build_actual_url(  # noqa: PLR0911
             date_match = re.match(r"(\d{4})-(\d{2})-(\d{2})-(.+)", filename)
             if date_match:
                 year, month, day, title = date_match.groups()
+                if day == "00":
+                    return f"{base_url}/{lang_prefix}blog/{year}/{month}/{title}/"
                 return f"{base_url}/{lang_prefix}blog/{year}/{month}/{day}/{title}/"
             else:
                 # Fallback for non-standard filename format
