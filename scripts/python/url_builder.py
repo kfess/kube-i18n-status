@@ -33,7 +33,7 @@ def build_url(
 
     """
     path = PurePosixPath(english_path)
-    if not str(path).startswith("content/en/") or path.suffix != ".md":
+    if not str(path).startswith("content/en/") or path.suffix not in (".md", ".html"):
         return None
 
     try:
