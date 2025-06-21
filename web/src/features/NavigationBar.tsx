@@ -23,7 +23,13 @@ export const NavigationBar = ({ children }: { children: React.ReactNode }) => {
         <AppShell.Header>
           <Group h="100%" px="md" justify="space-between">
             <Group>
-              <Anchor href="/" component="a" size="lg" underline="never" c="dark">
+              <Anchor
+                href="/kubernetes-i18n-tracker"
+                component="a"
+                size="lg"
+                underline="never"
+                c="dark"
+              >
                 <Flex direction="row" gap={8}>
                   <Image src={kubernetesLogo} h={30} w="auto" alt="Kubernetes logo" />
                   <Text fw={700} size="lg">
@@ -35,7 +41,7 @@ export const NavigationBar = ({ children }: { children: React.ReactNode }) => {
             <Group gap={8}>
               <ActionIcon
                 component="a"
-                href="https://github.com/kfess/kube-website-i18n"
+                href="https://github.com/kfess/kubernetes-i18n-tracker"
                 target="_blank"
                 variant="default"
                 radius="md"
