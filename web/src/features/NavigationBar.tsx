@@ -1,22 +1,10 @@
-import { IconBrandGithubFilled, IconHeartFilled, IconMoon, IconSun } from '@tabler/icons-react';
-import {
-  ActionIcon,
-  Anchor,
-  AppShell,
-  Flex,
-  Group,
-  Image,
-  Text,
-  Tooltip,
-  useMantineColorScheme,
-} from '@mantine/core';
+import { IconBrandGithubFilled, IconHeartFilled } from '@tabler/icons-react';
+import { ActionIcon, Anchor, AppShell, Flex, Group, Image, Text, Tooltip } from '@mantine/core';
 import kubernetesLogo from '../assets/kubernetes.svg';
 import { Footer } from './Footer';
 import { LanguageSelector } from './LanguageSelector';
 
 export const NavigationBar = ({ children }: { children: React.ReactNode }) => {
-  const { colorScheme, toggleColorScheme } = useMantineColorScheme();
-
   return (
     <>
       <AppShell header={{ height: 60 }} padding="md">
@@ -69,22 +57,6 @@ export const NavigationBar = ({ children }: { children: React.ReactNode }) => {
                   offset={10}
                 >
                   <IconHeartFilled size={20} />
-                </Tooltip>
-              </ActionIcon>
-              <ActionIcon
-                variant="default"
-                radius="md"
-                size="lg"
-                onClick={() => toggleColorScheme()}
-                aria-label="Toggle color scheme"
-              >
-                <Tooltip
-                  label={colorScheme === 'dark' ? 'Light mode' : 'Dark mode'}
-                  position="bottom"
-                  withArrow
-                  offset={10}
-                >
-                  {colorScheme === 'dark' ? <IconSun size={20} /> : <IconMoon size={20} />}
                 </Tooltip>
               </ActionIcon>
               <LanguageSelector />

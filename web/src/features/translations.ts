@@ -31,10 +31,12 @@ interface TranslationInfo {
   totalChangeLines: number;
   targetLatestDate: string | null;
   englishLatestDate: string;
+  translationUrl: string | null;
 }
 
 export interface ArticleTranslation {
   englishPath: string;
+  englishUrl: string | null;
   translations: Record<LanguageCode, TranslationInfo>;
 }
 

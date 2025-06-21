@@ -1,5 +1,7 @@
 import { useState } from 'react';
+import { IconExternalLink } from '@tabler/icons-react';
 import {
+  ActionIcon,
   Anchor,
   Box,
   Card,
@@ -77,15 +79,29 @@ const TranslationCell = ({
     >
       <>
         {status !== 'not_translated' ? (
-          <Anchor
-            href={`https://github.com/kubernetes/website/blob/main/${translationPath}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            underline="never"
-            title={`View ${langCode} translation`}
-          >
-            <StatusBadge status={status} />
-          </Anchor>
+          <Group gap="xs" justify="center" align="center">
+            <Anchor
+              href={`https://github.com/kubernetes/website/blob/main/${translationPath}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              underline="never"
+              title={`Edit ${langCode} translation on GitHub`}
+            >
+              <StatusBadge status={status} />
+            </Anchor>
+            <ActionIcon
+              component="a"
+              href={article.translations[langCode].translationUrl || ''}
+              target="_blank"
+              rel="noopener noreferrer"
+              size="sm"
+              color="gray"
+              variant="subtle"
+              title="Kubernetes documentation"
+            >
+              <IconExternalLink size={16} />
+            </ActionIcon>
+          </Group>
         ) : (
           <StatusBadge status={status} />
         )}
@@ -179,7 +195,7 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
           <Group gap="md" wrap="wrap">
             <Group gap="xs" align="center">
               <Text size="sm" c="dimmed">
-                Filter by status:
+                Status:
               </Text>
               <Select
                 size="sm"
@@ -194,7 +210,7 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
             </Group>
             <Group gap="xs" align="center">
               <Text size="sm" c="dimmed">
-                Filter by language:
+                Language:
               </Text>
               <Select
                 size="sm"
@@ -293,10 +309,30 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
                           {article.englishPath.replace('content/en/', '')}
                         </Text>
                       </Anchor>
-                      <Text size="xs" c="dimmed">
+                      <Group gap="3" align="center" wrap="nowrap" c="dimmed">
+                        <Text size="xs">
+                          Updated at{' '}
+                          {new Date(
+                            article.translations.en?.englishLatestDate
+                          ).toLocaleDateString()}
+                        </Text>
+                        <ActionIcon
+                          component="a"
+                          href={article.englishUrl || ''}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          size="sm"
+                          variant="subtle"
+                          color="gray"
+                          title="View on Kubernetes site"
+                        >
+                          <IconExternalLink size={14} />
+                        </ActionIcon>
+                      </Group>
+                      {/* <Text size="xs" c="dimmed">
                         Updated at{' '}
                         {new Date(article.translations.en?.englishLatestDate).toLocaleDateString()}
-                      </Text>
+                      </Text> */}
                     </Stack>
                   </Table.Td>
                   {sortedLangCodes.map((code) => (

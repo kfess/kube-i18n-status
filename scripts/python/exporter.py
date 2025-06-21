@@ -54,7 +54,7 @@ def extract_blog_date_from_en_path(en_path: str) -> str:
     return match.group(1) if match else "0000-00-00"
 
 
-def extract_docs_subcategory(en_path: str) -> str:
+def extract_docs_subcategory(en_path: str) -> str | None:
     """Extract subcategory from docs path.
 
     Args:
@@ -63,17 +63,27 @@ def extract_docs_subcategory(en_path: str) -> str:
 
     Returns:
     -------
-        str: The extracted subcategory, or empty string if not found.
+        str | None: The extracted subcategory, or None if not found or if it's just a filename.
 
     Example:
     -------
         content/en/docs/getting-started/installation.md -> getting-started
         content/en/docs/api/reference.md -> api
         content/en/docs/tutorial/basic.md -> tutorial
+        content/en/docs/overview.md -> None  # Just a filename, not a subcategory
 
     """
     match = re.search(r"content/[^/]+/docs/([^/]+)", en_path)
-    return match.group(1) if match else ""
+    if not match:
+        return None
+
+    potential_subcategory = match.group(1)
+
+    # Check if this is just a filename (has .md extension)
+    if potential_subcategory.endswith(".md"):
+        return None
+
+    return potential_subcategory
 
 
 def build_category_name(original_category: str, english_path: str) -> str:
@@ -94,12 +104,86 @@ def build_category_name(original_category: str, english_path: str) -> str:
         if subcategory:
             return f"docs_{subcategory}"
         else:
-            return "docs_misc"  # fallback for docs without clear subcategory
+            return "docs_misc"
     return original_category
 
 
+def build_actual_url(  # noqa: PLR0911
+    english_path: str, language: str, base_url: str = "https://kubernetes.io"
+) -> str | None:
+    """Build the actual URL for a translation.
+
+    Args:
+    ----
+        english_path (str): The English file path.
+        language (str): The target language code.
+        base_url (str): The base URL for the site (default: "https://kubernetes.io").
+
+    Returns:
+    -------
+        str | None: The actual URL for the translation, or None if not a .md file.
+
+    Example:
+    -------
+        content/en/docs/api/reference.md -> https://kubernetes.io/docs/api/reference/
+        content/en/docs/api/reference.md -> https://kubernetes.io/ja/docs/api/reference/
+        content/en/blog/_posts/2024-10-02-xxxx.md -> https://kubernetes.io/blog/2024/10/02/xxxx/
+        content/en/blog/concepts/_index.md -> https://kubernetes.io/blog/concepts/ (en)
+
+    """
+    # Remove 'content/' prefix and extract path parts
+    if not english_path.startswith("content/en/"):
+        return None
+
+    # Remove 'content/en/' prefix
+    relative_path = english_path[len("content/en/") :]
+    path_parts = relative_path.split("/")
+
+    if len(path_parts) < 2:
+        return None
+
+    # Always remove _index.md completely
+    if path_parts[-1] == "_index.md" or path_parts[-1] == "_index.html":
+        path_parts = path_parts[:-1]
+
+    # Build language prefix (empty for English, language code for others)
+    lang_prefix = "" if language == "en" else f"{language}/"
+    category = path_parts[0]  # docs, blog, etc.
+
+    if category == "docs":
+        # For docs: content/en/docs/path/to/file.md -> docs/path/to/file/
+        file_path_without_extension = "/".join(path_parts[1:]).removesuffix(".md")
+        return f"{base_url}/{lang_prefix}docs/{file_path_without_extension}/"
+
+    elif category == "blog":
+        if len(path_parts) >= 3 and path_parts[1] == "_posts":
+            # Blog post: content/en/blog/_posts/2024-10-02-title.md -> blog/2024/10/02/title/
+            filename = path_parts[2].removesuffix(".md")
+
+            # Extract date and title from filename (format: YYYY-MM-DD-title)
+            date_match = re.match(r"(\d{4})-(\d{2})-(\d{2})-(.+)", filename)
+            if date_match:
+                year, month, day, title = date_match.groups()
+                return f"{base_url}/{lang_prefix}blog/{year}/{month}/{day}/{title}/"
+            else:
+                # Fallback for non-standard filename format
+                return f"{base_url}/{lang_prefix}blog/{filename}/"
+
+        else:
+            # Blog category or other: content/en/blog/concepts/ -> blog/concepts/
+            file_path_without_extension = "/".join(path_parts[1:]).removesuffix(".md")
+            if file_path_without_extension:
+                return f"{base_url}/{lang_prefix}blog/{file_path_without_extension}/"
+            else:
+                return f"{base_url}/{lang_prefix}blog/"
+
+    # For other categories, use simple path conversion
+    file_path_without_extension = "/".join(path_parts).removesuffix(".md")
+    return f"{base_url}/{lang_prefix}{file_path_without_extension}/"
+
+
 def create_matrix_data(
-    results: dict[str, dict[str, TranslationStatusResult]],
+    results: dict[str, TranslationStatusResult], base_url: str = "https://kubernetes.io"
 ) -> dict[str, dict[str, Any]]:
     """Create matrix data grouped by category."""
     matrix_data = defaultdict(
@@ -114,6 +198,9 @@ def create_matrix_data(
     for result in results.values():
         english_path = result["english_path"]
         language = result["language"]
+        english_url = build_actual_url(english_path, "en", base_url)
+        translation_url = build_actual_url(english_path, language, base_url)
+
         translation_data = {
             "status": result["status"],
             "severity": result["severity"],
@@ -122,6 +209,7 @@ def create_matrix_data(
             "total_change_lines": result["total_change_lines"],
             "target_latest_date": result["target_latest_date"],
             "english_latest_date": result["english_latest_date"],
+            "translation_url": translation_url,
         }
 
         articles_by_english_path[english_path][language] = translation_data
@@ -134,8 +222,13 @@ def create_matrix_data(
         )
 
         category_name = build_category_name(original_category, english_path)
+        english_url = build_actual_url(english_path, "en", base_url)
 
-        article_data = {"english_path": english_path, "translations": translations}
+        article_data = {
+            "english_path": english_path,
+            "english_url": english_url,
+            "translations": translations,
+        }
         matrix_data[category_name]["articles"].append(article_data)
 
     # Sort blog articles by date
@@ -149,11 +242,22 @@ def create_matrix_data(
     return dict(matrix_data)
 
 
-def create_detail_data(result: dict[str, TranslationStatusResult]) -> dict[str, Any]:
+def create_detail_data(
+    result: TranslationStatusResult, base_url: str = "https://kubernetes.io"
+) -> dict[str, Any]:
     """Create detail data for a single translation result."""
+    english_path = result["english_path"]
+    language = result["language"]
+
+    # Generate URLs
+    english_url = build_actual_url(english_path, "en", base_url)
+    translation_url = build_actual_url(english_path, language, base_url)
+
     return {
         "target_path": result["target_path"],
         "english_path": result["english_path"],
+        "english_url": english_url,
+        "translation_url": translation_url,
         "target_latest_date": result["target_latest_date"],
         "english_latest_date": result["english_latest_date"],
         "days_behind": result["days_behind"],
@@ -186,7 +290,9 @@ def save_matrix_files(
 
 
 def save_detail_files(
-    results: dict[str, TranslationStatusResult], output_dir: str = "data"
+    results: dict[str, TranslationStatusResult],
+    output_dir: str = "data",
+    base_url: str = "https://kubernetes.io",
 ) -> None:
     """Save detail data grouped by language and category.
 
@@ -194,6 +300,7 @@ def save_detail_files(
     ----
         results (dict[str, TranslationStatusResult]): The translation status results.
         output_dir (str): The directory where detail files will be saved.
+        base_url (str): The base URL for generating actual URLs.
 
     Returns:
     -------
@@ -210,10 +317,9 @@ def save_detail_files(
         english_path = result["english_path"]
         original_category = result["category"]
 
-        # Get effective category (handles docs subcategories)
         category_name = build_category_name(original_category, english_path)
 
-        detail_data = create_detail_data(result)
+        detail_data = create_detail_data(result, base_url)
         details_by_language_category[language][category_name][english_path] = (
             detail_data
         )
@@ -234,7 +340,9 @@ def save_detail_files(
 
 
 def process_translation_results(
-    results: dict[str, TranslationStatusResult], output_dir: str = "data"
+    results: dict[str, TranslationStatusResult],
+    output_dir: str = "data",
+    base_url: str = "https://kubernetes.io",
 ) -> None:
     """Process translation results and save them to JSON files.
 
@@ -242,6 +350,7 @@ def process_translation_results(
     ----
         results (dict[str, TranslationStatusResult]): The translation status results.
         output_dir (str): The directory where output files will be saved.
+        base_url (str): The base URL for generating actual URLs.
 
     Returns:
     -------
@@ -257,8 +366,8 @@ def process_translation_results(
     }
 
     # Create matrix data from results
-    matrix_data = create_matrix_data(filtered_results)
+    matrix_data = create_matrix_data(filtered_results, base_url)
     save_matrix_files(matrix_data, output_dir)
 
     # Save detailed translation results
-    save_detail_files(filtered_results, output_dir)
+    save_detail_files(filtered_results, output_dir, base_url)
