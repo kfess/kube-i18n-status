@@ -14,12 +14,8 @@ import {
   Text,
 } from '@mantine/core';
 import { useLocalStorage } from '@mantine/hooks';
-import {
-  ArticleTranslation,
-  languageCodes,
-  TranslationStatus,
-  type LanguageCode,
-} from './translations';
+import { languageCodes, type LanguageCode } from '@/features/language/languageCodes';
+import { ArticleTranslation, TranslationStatus } from '@/features/translations';
 
 const getSortedLangCodes = (
   preferredLang?: LanguageCode
@@ -30,6 +26,11 @@ const getSortedLangCodes = (
   }
   const rest = languageCodes.filter((l) => !head.includes(l.value));
   return [...head.map((code) => languageCodes.find((l) => l.value === code)!), ...rest];
+};
+
+const formatDateISO = (dateString: string): string => {
+  const date = new Date(dateString);
+  return date.toISOString().split('T')[0];
 };
 
 const StatusBadge = ({ status }: { status: TranslationStatus }) => {
@@ -56,7 +57,7 @@ const TranslationCell = ({
   langCode,
 }: {
   article: ArticleTranslation;
-  langCode: string;
+  langCode: LanguageCode;
 }) => {
   const { status, daysBehind, totalChangeLines, commitsBehind, targetLatestDate } =
     article.translations[langCode];
@@ -106,7 +107,7 @@ const TranslationCell = ({
       {(status === 'outdated' || status === 'up_to_date') && targetLatestDate && (
         <Group gap="2" justify="center" align="center">
           <Text size="xs" c="dimmed">
-            Updated at {new Date(targetLatestDate).toLocaleDateString()}
+            Updated at {formatDateISO(targetLatestDate)}
           </Text>
           {article.translations[langCode].translationUrl && (
             <ActionIcon
@@ -138,7 +139,7 @@ interface Props {
 export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }: Props) => {
   const [itemsPerPage, setItemsPerPage] = useState('30');
   const [statusFilter, setStatusFilter] = useState<string>('all');
-  const [languageFilter, setLanguageFilter] = useState<string>('all');
+  const [languageFilter, setLanguageFilter] = useState<LanguageCode | 'all'>('all');
 
   const [preferredLang, _] = useLocalStorage<LanguageCode>({
     key: 'preferred-language',
@@ -220,7 +221,7 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
                 size="sm"
                 value={languageFilter}
                 onChange={(value) => {
-                  setLanguageFilter(value || 'all');
+                  setLanguageFilter((value || 'all') as LanguageCode);
                   setActivePage(1);
                 }}
                 data={languageOptions}
@@ -315,10 +316,7 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
                       </Anchor>
                       <Group gap="3" align="center" wrap="nowrap" c="dimmed">
                         <Text size="xs">
-                          Updated at{' '}
-                          {new Date(
-                            article.translations.en?.englishLatestDate
-                          ).toLocaleDateString()}
+                          Updated at {formatDateISO(article.translations.en?.englishLatestDate)}
                         </Text>
                         {article.englishUrl && (
                           <ActionIcon

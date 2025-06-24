@@ -1,12 +1,33 @@
 import { IconCheck, IconTrash, IconWorld } from '@tabler/icons-react';
 import { ActionIcon, Divider, Group, Menu, Text, Tooltip } from '@mantine/core';
 import { useLocalStorage } from '@mantine/hooks';
-import { languageCodes, type LanguageCode } from './translations';
+import {
+  browserLanguageMap,
+  languageCodes,
+  type LanguageCode,
+} from '@/features/language/languageCodes';
+
+const detectBrowserLanguage = (): LanguageCode => {
+  const browserLanguages = navigator.languages || [navigator.language];
+  for (const browserLang of browserLanguages) {
+    if (browserLanguageMap[browserLang]) {
+      console.log(browserLanguageMap[browserLang])
+      return browserLanguageMap[browserLang];
+    }
+
+    const baseLanguage = browserLang.split('-')[0];
+    if (browserLanguageMap[baseLanguage]) {
+      return browserLanguageMap[baseLanguage];
+    }
+  }
+
+  return 'en';
+};
 
 export function LanguageSelector() {
   const [preferredLanguage, setPreferredLanguage] = useLocalStorage<LanguageCode | null>({
     key: 'preferred-language',
-    defaultValue: 'en',
+    defaultValue: detectBrowserLanguage(),
   });
 
   const handleLanguageSelect = (lang: LanguageCode) => {

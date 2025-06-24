@@ -8,7 +8,7 @@ export const Footer = () => {
       <Container>
         <Group py={40} justify="center">
           <Text c="dimmed" size="xs">
-            © {currentYear} Kubernetes Website Translation Dashboard
+            {currentYear} Kubernetes i18n Tracker
           </Text>
           <Text c="dimmed" size="xs">
             •

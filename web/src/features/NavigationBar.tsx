@@ -1,8 +1,8 @@
 import { IconBrandGithubFilled, IconHeartFilled } from '@tabler/icons-react';
 import { ActionIcon, Anchor, AppShell, Flex, Group, Image, Text, Tooltip } from '@mantine/core';
-import kubernetesLogo from '../assets/kubernetes.svg';
+import logo from '../assets/logo.svg';
 import { Footer } from './Footer';
-import { LanguageSelector } from './LanguageSelector';
+import { LanguageSelector } from './language/LanguageSelector';
 
 export const NavigationBar = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -19,7 +19,7 @@ export const NavigationBar = ({ children }: { children: React.ReactNode }) => {
                 c="dark"
               >
                 <Flex direction="row" gap={8}>
-                  <Image src={kubernetesLogo} h={30} w="auto" alt="Kubernetes logo" />
+                  <Image src={logo} h={30} w="auto" alt="Logo" />
                   <Text fw={700} size="lg">
                     Kubernetes i18n Tracker
                   </Text>
