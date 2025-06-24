@@ -14,7 +14,7 @@ export const Footer = () => {
             •
           </Text>
           <Anchor
-            href="https://github.com/kfess/kube-website-i18n"
+            href="https://github.com/kfess/kubernetes-i18n-tracker"
             target="_blank"
             rel="noopener noreferrer"
             c="dimmed"
@@ -25,14 +25,8 @@ export const Footer = () => {
           <Text c="dimmed" size="xs">
             •
           </Text>
-          <Anchor href="#" c="dimmed" size="xs">
-            Terms
-          </Anchor>
-          <Text c="dimmed" size="xs">
-            •
-          </Text>
           <Anchor
-            href="https://github.com/kfess/kube-website-i18n/issues"
+            href="https://github.com/kfess/kubernetes-i18n-tracker/issues"
             target="_blank"
             rel="noopener noreferrer"
             c="dimmed"

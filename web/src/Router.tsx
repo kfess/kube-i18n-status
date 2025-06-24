@@ -7,7 +7,6 @@ const basename = import.meta.env.MODE === 'production' ? '/kubernetes-i18n-track
 const router = createBrowserRouter(
   [
     { path: '/', element: <HomePage /> },
-    { path: '/terms', element: <TermsOfServicePage /> },
   ],
   { basename }
 );
