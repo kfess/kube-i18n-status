@@ -12,7 +12,7 @@ export const NavigationBar = ({ children }: { children: React.ReactNode }) => {
           <Group h="100%" px="md" justify="space-between">
             <Group>
               <Anchor
-                href="/"
+                href="/kubernetes-i18n-tracker/"
                 component="a"
                 size="lg"
                 underline="never"
