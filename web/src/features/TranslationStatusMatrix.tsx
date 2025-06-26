@@ -12,8 +12,9 @@ import {
   Stack,
   Table,
   Text,
+  TextInput,
 } from '@mantine/core';
-import { useLocalStorage } from '@mantine/hooks';
+import { useDebouncedCallback, useLocalStorage } from '@mantine/hooks';
 import { languageCodes, type LanguageCode } from '@/features/language/languageCodes';
 import { ArticleTranslation, TranslationStatus } from '@/features/translations';
 
@@ -136,15 +137,28 @@ interface Props {
   setActivePage: (page: number) => void;
 }
 
+interface Props {
+  articles: ArticleTranslation[];
+  activePage: number;
+  setActivePage: (page: number) => void;
+}
+
 export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }: Props) => {
   const [itemsPerPage, setItemsPerPage] = useState('30');
   const [statusFilter, setStatusFilter] = useState<string>('all');
   const [languageFilter, setLanguageFilter] = useState<LanguageCode | 'all'>('all');
+  const [searchQuery, setSearchQuery] = useState<string>('');
+  const [debouncedSearchQuery, setDebouncedSearchQuery] = useState<string>('');
 
   const [preferredLang, _] = useLocalStorage<LanguageCode>({
     key: 'preferred-language',
   });
   const sortedLangCodes = getSortedLangCodes(preferredLang);
+
+  const debouncedSearch = useDebouncedCallback((query: string) => {
+    setDebouncedSearchQuery(query);
+    setActivePage(1);
+  }, 500);
 
   const getFilteredArticles = () => {
     let filtered = articles;
@@ -167,6 +181,13 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
         const translation = article.translations[languageFilter];
         return translation !== undefined;
       });
+    }
+
+    if (debouncedSearchQuery) {
+      const lowerQuery = debouncedSearchQuery.toLowerCase();
+      filtered = filtered.filter((article) =>
+        article.englishPath.toLowerCase().includes(lowerQuery)
+      );
     }
 
     return filtered;
@@ -198,43 +219,50 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
         <Stack gap="md">
           {/* Filter Controls */}
           <Group gap="md" wrap="wrap">
-            <Group gap="xs" align="center">
-              <Text size="sm" c="dimmed">
-                Status:
-              </Text>
-              <Select
-                size="sm"
-                value={statusFilter}
-                onChange={(value) => {
-                  setStatusFilter(value || 'all');
-                  setActivePage(1);
-                }}
-                data={statusOptions}
-                style={{ minWidth: '150px' }}
-              />
-            </Group>
-            <Group gap="xs" align="center">
-              <Text size="sm" c="dimmed">
-                Language:
-              </Text>
-              <Select
-                size="sm"
-                value={languageFilter}
-                onChange={(value) => {
-                  setLanguageFilter((value || 'all') as LanguageCode);
-                  setActivePage(1);
-                }}
-                data={languageOptions}
-                style={{ minWidth: '150px' }}
-              />
-            </Group>
+            <Select
+              label="Status"
+              c="dimmed"
+              size="sm"
+              value={statusFilter}
+              onChange={(value) => {
+                setStatusFilter(value || 'all');
+                setActivePage(1);
+              }}
+              data={statusOptions}
+              w={180}
+            />
+            <Select
+              label="Language"
+              c="dimmed"
+              size="sm"
+              value={languageFilter}
+              onChange={(value) => {
+                setLanguageFilter((value || 'all') as LanguageCode);
+                setActivePage(1);
+              }}
+              data={languageOptions}
+              w={180}
+            />
+            <TextInput
+              label="Search"
+              c="dimmed"
+              value={searchQuery}
+              onChange={(e) => {
+                const newValue = e.target.value;
+                setSearchQuery(newValue);
+                debouncedSearch(newValue);
+              }}
+              placeholder="Search by article path ..."
+              style={{ flexGrow: 1 }}
+              maw={rem(300)}
+            />
           </Group>
 
           {/* Pagination Controls */}
           <Group justify="space-between" wrap="wrap">
             <Text size="sm" c="dimmed">
               Showing {startIndex + 1}-{endIndex} of {filteredArticles.length} articles
-              {(statusFilter !== 'all' || languageFilter !== 'all') && (
+              {(statusFilter !== 'all' || languageFilter !== 'all' || debouncedSearchQuery) && (
                 <Text span c="blue">
                   {' '}
                   (filtered from {articles.length} total)
@@ -254,6 +282,7 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
                     setActivePage(1);
                   }}
                   data={['30', '50', '100']}
+                  w={80}
                 />
               </Group>
               <Pagination
