@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { IconExternalLink } from '@tabler/icons-react';
+import { IconExternalLink, IconRefresh } from '@tabler/icons-react';
 import {
   ActionIcon,
   Anchor,
@@ -193,6 +193,14 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
     return filtered;
   };
 
+  const resetFilters = () => {
+    setStatusFilter('all');
+    setLanguageFilter('all');
+    setSearchQuery('');
+    setDebouncedSearchQuery('');
+    setActivePage(1);
+  };
+
   const filteredArticles = getFilteredArticles();
   const startIndex = (activePage - 1) * parseInt(itemsPerPage, 10);
   const endIndex = Math.min(startIndex + parseInt(itemsPerPage, 10), filteredArticles.length);
@@ -218,7 +226,7 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
       <Card withBorder radius="md" p="md">
         <Stack gap="md">
           {/* Filter Controls */}
-          <Group gap="md" wrap="wrap">
+          <Group gap="sm" wrap="wrap" align="end">
             <Select
               label="Status"
               c="dimmed"
@@ -256,6 +264,15 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
               style={{ flexGrow: 1 }}
               maw={rem(300)}
             />
+            <ActionIcon
+              variant="light"
+              color="orange"
+              size="lg"
+              onClick={resetFilters}
+              title="Reset filters"
+            >
+              <IconRefresh size={17} />
+            </ActionIcon>
           </Group>
 
           {/* Pagination Controls */}
