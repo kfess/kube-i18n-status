@@ -210,7 +210,7 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
                   setActivePage(1);
                 }}
                 data={statusOptions}
-                style={{ minWidth: '150px' }}
+                w={150}
               />
             </Group>
             <Group gap="xs" align="center">
@@ -225,7 +225,7 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
                   setActivePage(1);
                 }}
                 data={languageOptions}
-                style={{ minWidth: '150px' }}
+                w={150}
               />
             </Group>
           </Group>
@@ -254,6 +254,7 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
                     setActivePage(1);
                   }}
                   data={['30', '50', '100']}
+                  w={80}
                 />
               </Group>
               <Pagination
