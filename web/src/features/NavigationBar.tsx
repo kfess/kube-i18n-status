@@ -15,7 +15,7 @@ export const NavigationBar = ({ children }: { children: React.ReactNode }) => {
               <Anchor component={Link} to="/" size="lg" underline="never" c="dark">
                 <Flex direction="row" gap={8}>
                   <Image src={logo} h={30} w="auto" alt="Logo" />
-                  <Text fw={700} size="lg">
+                  <Text fw={700} size="lg" visibleFrom="xs">
                     Kubernetes i18n Tracker
                   </Text>
                 </Flex>
