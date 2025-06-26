@@ -18,7 +18,7 @@ export function HomePage() {
   };
 
   return (
-    <Container size="xl" mt="md">
+    <Container fluid px={{ base: 'xs', sm: 'md' }} mt={{ base: 'xs', sm: 'md' }}>
       <ArticleCategorySelector
         articleCategory={selectedArticleCategory}
         onArticleCategoryChange={onArticleCategoryChange}
