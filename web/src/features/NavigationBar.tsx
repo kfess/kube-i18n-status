@@ -1,4 +1,5 @@
 import { IconBrandGithubFilled, IconHeartFilled } from '@tabler/icons-react';
+import { Link } from 'react-router-dom';
 import { ActionIcon, Anchor, AppShell, Flex, Group, Image, Text, Tooltip } from '@mantine/core';
 import logo from '../assets/logo.svg';
 import { Footer } from './Footer';
@@ -11,13 +12,7 @@ export const NavigationBar = ({ children }: { children: React.ReactNode }) => {
         <AppShell.Header>
           <Group h="100%" px="md" justify="space-between">
             <Group>
-              <Anchor
-                href="/kubernetes-i18n-tracker/"
-                component="a"
-                size="lg"
-                underline="never"
-                c="dark"
-              >
+              <Anchor component={Link} to="/" size="lg" underline="never" c="dark">
                 <Flex direction="row" gap={8}>
                   <Image src={logo} h={30} w="auto" alt="Logo" />
                   <Text fw={700} size="lg">
