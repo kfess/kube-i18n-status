@@ -45,7 +45,7 @@ jobs:
           ./fetch.sh
           ./collect_all_files.sh
 
-      - name: Format data
+      - name: Run Data Processing Script
         working-directory: ./scripts/python
         run: |
           python main.py
