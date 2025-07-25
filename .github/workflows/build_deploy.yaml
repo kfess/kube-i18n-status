@@ -65,6 +65,7 @@ jobs:
         working-directory: ./web
         env:
           NODE_ENV: production
+          VITE_GA_MEASUREMENT_ID: G-TLZB1WBVE6
         run: yarn build
 
       - name: Setup Pages
