@@ -2,6 +2,7 @@ import '@mantine/core/styles.css';
 
 import { useEffect } from 'react';
 import { MantineProvider } from '@mantine/core';
+
 import { RouteChangeATracker } from '@/features/google/Analytics';
 import { initializeGA } from '@/lib/google_analytics';
 import { Router } from './Router';
