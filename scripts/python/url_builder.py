@@ -58,6 +58,9 @@ def build_url(  # noqa: PLR0911
     category = parts[0]
 
     if category == "docs":
+        if len(parts) >= 3 and parts[1] == "reference" and parts[2] == "glossary":
+            return _build_glossary_url(english_path, lang_prefix, base_url)
+
         doc_path = "/".join(parts[1:]).removesuffix(".md")
         return f"{base_url}/{lang_prefix}docs/{doc_path}/"
 
@@ -71,6 +74,66 @@ def build_url(  # noqa: PLR0911
     # Other categories
     other_path = "/".join(parts).removesuffix(".md")
     return f"{base_url}/{lang_prefix}{other_path}/"
+
+
+def _build_glossary_url(file_path: str, lang_prefix: str, base_url: str) -> str | None:
+    """Build glossary URL based on file path.
+
+    Args:
+    ----
+        file_path (str): Path to the markdown file.
+        parts (tuple): Parts of the path split by '/'.
+        lang_prefix (str): Language prefix for the URL.
+        base_url (str): Base URL for the site.
+
+    Returns:
+    -------
+        str | None: The URL or None if no valid URL found.
+
+    """
+
+    def parse_full_link(file_path: str) -> str | None:
+        """Parse the full link from the file path."""
+        try:
+            content = Path(KUBERNETES_DIR / file_path).read_text(encoding="utf-8")
+            match = re.match(r"^---\s*\n(.*?)\n---\s*\n", content, re.DOTALL)
+            if not match:
+                return None
+
+            fm_content = match.group(1)
+
+            try:
+                parsed = yaml.safe_load(fm_content)
+                if not isinstance(parsed, dict):
+                    return None
+            except yaml.YAMLError:
+                return None
+
+            url = parsed.get("full_link")
+            if url:
+                return str(url).strip()
+
+            return None
+
+        except (FileNotFoundError, UnicodeDecodeError):
+            return None
+
+    full_link = parse_full_link(file_path)
+
+    if not full_link:
+        return None
+
+    # For example, full_link starts with "https://"
+    if not full_link.startswith("/"):
+        return None
+
+    url = f"{base_url}/{lang_prefix}{full_link.strip('/')}/"
+
+    # If full_link is a fragment (starts with #), return the URL without trailing slash
+    if "#" in full_link:
+        return url.rstrip("/")
+
+    return url
 
 
 def _build_blog_url(  # noqa: PLR0911, PLR0912, C901

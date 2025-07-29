@@ -213,7 +213,7 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
           : bDate.getTime() - aDate.getTime();
       });
     } else {
-      filtered = articles; // No sorting
+      return sortDirection === 'asc' ? [...articles].reverse() : articles;
     }
 
     if (statusFilter !== 'all') {
@@ -330,7 +330,27 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
                 </ActionIcon>
               </Menu.Target>
               <Menu.Dropdown>
-                <Menu.Label>Sort by</Menu.Label>
+                <Menu.Label>Sort By</Menu.Label>
+                <Menu.Item
+                  leftSection={<IconHome size={14} />}
+                  onClick={() => {
+                    setSortMode(null);
+                    setSortDirection(
+                      sortMode === null ? (sortDirection === 'asc' ? 'desc' : 'asc') : 'desc'
+                    );
+                  }}
+                  rightSection={
+                    sortMode === null &&
+                    (sortDirection === 'desc' ? (
+                      <IconSortDescending size={14} />
+                    ) : (
+                      <IconSortAscending size={14} />
+                    ))
+                  }
+                  bg={sortMode === null ? 'var(--mantine-color-gray-1)' : undefined}
+                >
+                  Default
+                </Menu.Item>
                 <Menu.Item
                   leftSection={<IconEye size={14} />}
                   onClick={() => {
@@ -347,6 +367,7 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
                       <IconSortAscending size={14} />
                     ))
                   }
+                  bg={sortMode === 'views' ? 'var(--mantine-color-gray-1)' : undefined}
                 >
                   Views
                 </Menu.Item>
@@ -366,6 +387,7 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
                       <IconSortAscending size={14} />
                     ))
                   }
+                  bg={sortMode === 'newUsers' ? 'var(--mantine-color-gray-1)' : undefined}
                 >
                   New Users
                 </Menu.Item>
@@ -385,27 +407,9 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
                       <IconSortAscending size={14} />
                     ))
                   }
+                  bg={sortMode === 'updatedAt' ? 'var(--mantine-color-gray-1)' : undefined}
                 >
                   Updated At
-                </Menu.Item>
-                <Menu.Item
-                  leftSection={<IconHome size={14} />}
-                  onClick={() => {
-                    setSortMode(null);
-                    setSortDirection(
-                      sortMode === null ? (sortDirection === 'asc' ? 'desc' : 'asc') : 'desc'
-                    );
-                  }}
-                  rightSection={
-                    sortMode === null &&
-                    (sortDirection === 'desc' ? (
-                      <IconSortDescending size={14} />
-                    ) : (
-                      <IconSortAscending size={14} />
-                    ))
-                  }
-                >
-                  Default
                 </Menu.Item>
               </Menu.Dropdown>
             </Menu>
