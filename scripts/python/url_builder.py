@@ -7,7 +7,7 @@ ROOT_DIR = Path(__file__).resolve().parent.parent.parent
 KUBERNETES_DIR = ROOT_DIR / "k8s-repo" / "website"
 
 
-def build_url(  # noqa: PLR0911
+def build_url(  # noqa: PLR0911, C901
     english_path: str,
     language: str,
     existing_urls: set[str],
@@ -60,6 +60,10 @@ def build_url(  # noqa: PLR0911
     if category == "docs":
         if len(parts) >= 3 and parts[1] == "reference" and parts[2] == "glossary":
             return _build_glossary_url(english_path, lang_prefix, base_url)
+        elif len(parts) >= 3 and parts[1] == "contribute" and parts[2] == "blog":
+            return _build_contribute_blog_url(
+                english_path, parts, lang_prefix, base_url
+            )
 
         doc_path = "/".join(parts[1:]).removesuffix(".md")
         return f"{base_url}/{lang_prefix}docs/{doc_path}/"
@@ -74,6 +78,42 @@ def build_url(  # noqa: PLR0911
     # Other categories
     other_path = "/".join(parts).removesuffix(".md")
     return f"{base_url}/{lang_prefix}{other_path}/"
+
+
+def _build_contribute_blog_url(
+    file_path: str,
+    parts: tuple,
+    lang_prefix: str,
+    base_url: str = "https://kubernetes.io",
+) -> str | None:
+    """Build URL for a blog post in the contribute section.
+
+    Args:
+    ----
+        file_path (str): Path to the English markdown file.
+        parts (tuple): Parts of the path split by '/'.
+        lang_prefix (str): Language prefix for the URL.
+        base_url (str): Base URL for the site.
+
+    Returns:
+    -------
+        str | None: The constructed URL or None if the path is invalid or not found.
+
+    """
+    # has no extension (e.g., _index.md)
+    if file_path.endswith(("_index.md", "_index.html")):
+        return f"{base_url}/{lang_prefix}docs/contribute/blog/"
+
+    # Try to get front matter
+    front_matter = _parse_front_matter(file_path)
+
+    # Priority 1: slug
+    if front_matter and "slug" in front_matter:
+        slug = front_matter["slug"]
+        return f"{base_url}/{lang_prefix}docs/contribute/blog/{slug}/"
+
+    doc_path = "/".join(parts[1:]).removesuffix(".md")
+    return f"{base_url}/{lang_prefix}docs/{doc_path}/"
 
 
 def _build_glossary_url(file_path: str, lang_prefix: str, base_url: str) -> str | None:
@@ -134,6 +174,22 @@ def _build_glossary_url(file_path: str, lang_prefix: str, base_url: str) -> str 
         return url.rstrip("/")
 
     return url
+
+
+def _text_to_slug(text: str) -> str:
+    """Convert text to URL-friendly slug by removing symbols & replacing spaces with -.
+
+    Args:
+        text: Input text to convert
+
+    Returns:
+        Converted slug
+
+    """
+    cleaned = re.sub(r"[^a-zA-Z0-9\s\.\/\-]", "", text)
+    hyphenated = re.sub(r"\s+", "-", cleaned).lower()
+    normalized = re.sub(r"-+", "-", hyphenated)
+    return re.sub(r"^-+|-+$", "", normalized)
 
 
 def _build_blog_url(  # noqa: PLR0911, PLR0912, C901
@@ -201,6 +257,22 @@ def _build_blog_url(  # noqa: PLR0911, PLR0912, C901
         elif url.lower() in existing_urls:
             return url.lower()
 
+    # Priority 4: blog title with date
+    if front_matter and "title" in front_matter and "date" in front_matter:
+        title = front_matter["title"]
+        title = _text_to_slug(title)
+
+        date_match = re.match(r"(\d{4})-(\d{2})-(\d{2})", front_matter["date"])
+        if date_match:
+            year, month, day = date_match.groups()
+            if day == "00":
+                url = f"{base_url}/{lang_prefix}blog/{year}/{month}/{title}/"
+            else:
+                url = f"{base_url}/{lang_prefix}blog/{year}/{month}/{day}/{title}/"
+            if url in existing_urls:
+                return url
+            elif url.lower() in existing_urls:
+                return url.lower()
     # Blog category
     blog_path = "/".join(parts[1:]).removesuffix(".md")
     url = (
@@ -220,6 +292,9 @@ def _parse_front_matter(file_path: str) -> dict | None:
     """Parse front matter fields: url, slug, date."""
     try:
         content = Path(KUBERNETES_DIR / file_path).read_text(encoding="utf-8")
+        # some file has leading blank lines
+        # e.g., content/en/blog/_posts/2019-08-30-announcing-etcd-3.4.md
+        content = content.lstrip("\n\r\t ")
         match = re.match(r"^---\s*\n(.*?)\n---\s*\n", content, re.DOTALL)
         if not match:
             return None
@@ -227,9 +302,9 @@ def _parse_front_matter(file_path: str) -> dict | None:
         fm_content = match.group(1)
         result = {}
 
-        for field in ["url", "slug", "date"]:
+        for field in ["url", "slug", "date", "title"]:
             field_match = re.search(
-                rf'^{field}:\s*["\']?([^"\'\n]+)["\']?\s*$', fm_content, re.MULTILINE
+                rf'^{field}:\s*["\']?([^"\n]*?)["\']?\s*$', fm_content, re.MULTILINE
             )
             if field_match:
                 result[field] = field_match.group(1).strip()
