@@ -67,8 +67,10 @@ def build_url(  # noqa: PLR0911, C901
 
         doc_path = "/".join(parts[1:]).removesuffix(".md")
         url = f"{base_url}/{lang_prefix}docs/{doc_path}/"
-        if url in existing_urls or url.lower() in existing_urls:
+        if url in existing_urls:
             return url
+        elif url.lower() in existing_urls:
+            return url.lower()
         return None
 
     elif category == "blog":
@@ -81,8 +83,10 @@ def build_url(  # noqa: PLR0911, C901
     # Other categories
     other_path = "/".join(parts).removesuffix(".md")
     url = f"{base_url}/{lang_prefix}{other_path}/"
-    if url in existing_urls or url.lower() in existing_urls:
+    if url in existing_urls:
         return url
+    elif url.lower() in existing_urls:
+        return url.lower()
 
     return None
 
