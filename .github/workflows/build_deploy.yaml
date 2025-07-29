@@ -27,6 +27,17 @@ jobs:
         with:
           ref: develop
 
+      - name: SetUp Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "yarn"
+          cache-dependency-path: "scripts/scraper/yarn.lock"
+
+      - name: Install scraper dependencies
+        working-directory: ./scripts/scraper
+        run: yarn install --frozen-lockfile
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -44,6 +55,10 @@ jobs:
           chmod +x ./fetch.sh ./collect_all_files.sh
           ./fetch.sh
           ./collect_all_files.sh
+
+      - name: Run scraper
+        working-directory: ./scripts/scraper
+        run: yarn run scrape
 
       - name: Run Data Processing Script
         working-directory: ./scripts/python
