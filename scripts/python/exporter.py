@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 from pathlib import Path, PurePosixPath
 from typing import Any
 
+from page_view import PageView, summarize_view
 from translation_status import TranslationStatusResult
 from url_builder import build_url
 from utils import convert_keys_to_camel_case, serialize_datetime
@@ -121,6 +122,7 @@ def create_matrix_data(
             "articles": [],
         }
     )
+    page_views = summarize_view("../../data/master/page_view.csv", existing_urls)
 
     articles_by_english_path = defaultdict(dict)
 
@@ -129,6 +131,7 @@ def create_matrix_data(
         language = result["language"]
         english_url = build_url(english_path, "en", existing_urls)
         translation_url = build_url(english_path, language, existing_urls)
+        page_view = page_views.get(translation_url, PageView(views=0, new_users=0))
 
         translation_data = {
             "status": result["status"],
@@ -139,6 +142,8 @@ def create_matrix_data(
             "target_latest_date": result["target_latest_date"],
             "english_latest_date": result["english_latest_date"],
             "translation_url": translation_url,
+            "views": page_view.views,
+            "new_users": page_view.new_users,
         }
 
         articles_by_english_path[english_path][language] = translation_data

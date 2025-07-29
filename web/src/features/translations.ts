@@ -13,6 +13,8 @@ interface TranslationInfo {
   targetLatestDate: string | null;
   englishLatestDate: string;
   translationUrl: string | null;
+  views: number;
+  newUsers: number;
 }
 
 export interface ArticleTranslation {

@@ -1,11 +1,23 @@
 import { useState } from 'react';
-import { IconExternalLink, IconRefresh } from '@tabler/icons-react';
+import {
+  IconArrowsSort,
+  IconCalendar,
+  IconExternalLink,
+  IconEye,
+  IconHome,
+  IconRefresh,
+  IconSortAscending,
+  IconSortDescending,
+  IconUsers,
+} from '@tabler/icons-react';
 import {
   ActionIcon,
   Anchor,
+  Badge,
   Box,
   Card,
   Group,
+  Menu,
   Pagination,
   rem,
   Select,
@@ -20,11 +32,16 @@ import { ArticleTranslation, TranslationStatus } from '@/features/translations';
 import { trackExternalLink } from '@/lib/google_analytics';
 
 const getSortedLangCodes = (
-  preferredLang?: LanguageCode
+  selectedLanguages?: LanguageCode[]
 ): { value: LanguageCode; label: string }[] => {
   const head = ['en'];
-  if (preferredLang && preferredLang !== 'en') {
-    head.push(preferredLang);
+
+  if (selectedLanguages && Array.isArray(selectedLanguages)) {
+    selectedLanguages.forEach((lang) => {
+      if (lang !== 'en' && !head.includes(lang)) {
+        head.push(lang);
+      }
+    });
   }
   const rest = languageCodes.filter((l) => !head.includes(l.value));
   return [...head.map((code) => languageCodes.find((l) => l.value === code)!), ...rest];
@@ -159,18 +176,45 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [debouncedSearchQuery, setDebouncedSearchQuery] = useState<string>('');
 
-  const [preferredLang, _] = useLocalStorage<LanguageCode>({
-    key: 'preferred-language',
+  const [selectedLanguages, _] = useLocalStorage<LanguageCode[]>({
+    key: 'selected-languages',
   });
-  const sortedLangCodes = getSortedLangCodes(preferredLang);
+  const sortedLangCodes = getSortedLangCodes(selectedLanguages);
 
   const debouncedSearch = useDebouncedCallback((query: string) => {
     setDebouncedSearchQuery(query);
     setActivePage(1);
   }, 500);
 
+  const [sortMode, setSortMode] = useState<'views' | 'newUsers' | 'updatedAt' | null>(null);
+  const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('desc');
+
   const getFilteredArticles = () => {
     let filtered = articles;
+
+    if (sortMode === 'views') {
+      filtered = [...filtered].sort((a, b) => {
+        const aViews = a.translations.en.views || 0;
+        const bViews = b.translations.en.views || 0;
+        return sortDirection === 'asc' ? aViews - bViews : bViews - aViews;
+      });
+    } else if (sortMode === 'newUsers') {
+      filtered = [...filtered].sort((a, b) => {
+        const aUsers = a.translations.en.newUsers || 0;
+        const bUsers = b.translations.en.newUsers || 0;
+        return sortDirection === 'asc' ? aUsers - bUsers : bUsers - aUsers;
+      });
+    } else if (sortMode === 'updatedAt') {
+      filtered = [...filtered].sort((a, b) => {
+        const aDate = new Date(a.translations.en.englishLatestDate);
+        const bDate = new Date(b.translations.en.englishLatestDate);
+        return sortDirection === 'asc'
+          ? aDate.getTime() - bDate.getTime()
+          : bDate.getTime() - aDate.getTime();
+      });
+    } else {
+      filtered = articles; // No sorting
+    }
 
     if (statusFilter !== 'all') {
       filtered = filtered.filter((article) => {
@@ -207,6 +251,8 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
     setLanguageFilter('all');
     setSearchQuery('');
     setDebouncedSearchQuery('');
+    setSortMode(null);
+    setSortDirection('desc');
     setActivePage(1);
   };
 
@@ -269,10 +315,101 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
                 setSearchQuery(newValue);
                 debouncedSearch(newValue);
               }}
-              placeholder="Search by article path ..."
+              placeholder="Search by Article Path ..."
               style={{ flexGrow: 1 }}
               maw={rem(300)}
             />
+            <Menu shadow="md" width={200}>
+              <Menu.Target>
+                <ActionIcon
+                  variant="light"
+                  size="lg"
+                  title={`Sort by ${sortMode} (${sortDirection})`}
+                >
+                  <IconArrowsSort size={17} />
+                </ActionIcon>
+              </Menu.Target>
+              <Menu.Dropdown>
+                <Menu.Label>Sort by</Menu.Label>
+                <Menu.Item
+                  leftSection={<IconEye size={14} />}
+                  onClick={() => {
+                    setSortMode('views');
+                    setSortDirection(
+                      sortMode === 'views' ? (sortDirection === 'asc' ? 'desc' : 'asc') : 'desc'
+                    );
+                  }}
+                  rightSection={
+                    sortMode === 'views' &&
+                    (sortDirection === 'desc' ? (
+                      <IconSortDescending size={14} />
+                    ) : (
+                      <IconSortAscending size={14} />
+                    ))
+                  }
+                >
+                  Views
+                </Menu.Item>
+                <Menu.Item
+                  leftSection={<IconUsers size={14} />}
+                  onClick={() => {
+                    setSortMode('newUsers');
+                    setSortDirection(
+                      sortMode === 'newUsers' ? (sortDirection === 'asc' ? 'desc' : 'asc') : 'desc'
+                    );
+                  }}
+                  rightSection={
+                    sortMode === 'newUsers' &&
+                    (sortDirection === 'desc' ? (
+                      <IconSortDescending size={14} />
+                    ) : (
+                      <IconSortAscending size={14} />
+                    ))
+                  }
+                >
+                  New Users
+                </Menu.Item>
+                <Menu.Item
+                  leftSection={<IconCalendar size={14} />}
+                  onClick={() => {
+                    setSortMode('updatedAt');
+                    setSortDirection(
+                      sortMode === 'updatedAt' ? (sortDirection === 'asc' ? 'desc' : 'asc') : 'desc'
+                    );
+                  }}
+                  rightSection={
+                    sortMode === 'updatedAt' &&
+                    (sortDirection === 'desc' ? (
+                      <IconSortDescending size={14} />
+                    ) : (
+                      <IconSortAscending size={14} />
+                    ))
+                  }
+                >
+                  Updated At
+                </Menu.Item>
+                <Menu.Item
+                  leftSection={<IconHome size={14} />}
+                  onClick={() => {
+                    setSortMode(null);
+                    setSortDirection(
+                      sortMode === null ? (sortDirection === 'asc' ? 'desc' : 'asc') : 'desc'
+                    );
+                  }}
+                  rightSection={
+                    sortMode === null &&
+                    (sortDirection === 'desc' ? (
+                      <IconSortDescending size={14} />
+                    ) : (
+                      <IconSortAscending size={14} />
+                    ))
+                  }
+                >
+                  Default
+                </Menu.Item>
+              </Menu.Dropdown>
+            </Menu>
+
             <ActionIcon
               variant="light"
               color="orange"
@@ -396,6 +533,26 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
                             <IconExternalLink size={14} />
                           </ActionIcon>
                         )}
+                      </Group>
+                      <Group gap="xs" align="center">
+                        <Badge
+                          variant="light"
+                          color="blue"
+                          leftSection={<IconEye size={12} />}
+                          size="sm"
+                          style={{ textTransform: 'none' }}
+                        >
+                          {article.translations.en.views.toLocaleString()} Views
+                        </Badge>
+                        <Badge
+                          variant="light"
+                          color="green"
+                          leftSection={<IconUsers size={12} />}
+                          size="sm"
+                          style={{ textTransform: 'none' }}
+                        >
+                          {article.translations.en.newUsers.toLocaleString()} New users
+                        </Badge>
                       </Group>
                     </Stack>
                   </Table.Td>
