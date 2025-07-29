@@ -12,7 +12,10 @@ const savePath = path.resolve(__dirname, "../../data/master/page_view.csv");
 
 const scrape = async () => {
   const browser = await chromium.launch({ headless: true });
-  const context = await browser.newContext({ acceptDownloads: true });
+  const context = await browser.newContext({
+    acceptDownloads: true,
+    locale: "ja-JP",
+  });
   const page = await context.newPage();
 
   try {
