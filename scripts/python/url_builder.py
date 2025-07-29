@@ -66,7 +66,10 @@ def build_url(  # noqa: PLR0911, C901
             )
 
         doc_path = "/".join(parts[1:]).removesuffix(".md")
-        return f"{base_url}/{lang_prefix}docs/{doc_path}/"
+        url = f"{base_url}/{lang_prefix}docs/{doc_path}/"
+        if url in existing_urls or url.lower() in existing_urls:
+            return url
+        return None
 
     elif category == "blog":
         return _build_blog_url(
