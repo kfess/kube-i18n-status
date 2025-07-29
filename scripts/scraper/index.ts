@@ -11,10 +11,14 @@ const __dirname = path.dirname(__filename);
 const savePath = path.resolve(__dirname, "../../data/master/page_view.csv");
 
 const scrape = async () => {
-  const browser = await chromium.launch({ headless: true });
+  const browser = await chromium.launch({
+    headless: true,
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+  });
   const context = await browser.newContext({
     acceptDownloads: true,
     locale: "ja-JP",
+    viewport: { width: 1280, height: 800 },
   });
   const page = await context.newPage();
 
@@ -37,10 +41,10 @@ const scrape = async () => {
     await page.mouse.click(centerX, centerY, { button: "right" });
     console.log("Right-clicked");
 
-    await page.locator("text=エクスポート, text=Export").first().click();
+    await page.locator("text=エクスポート").first().click();
     console.log("Clicked context menu export");
 
-    await page.locator("text=エクスポート, text=Export").nth(1).click();
+    await page.locator("text=エクスポート").nth(1).click();
     console.log("Clicked submenu export");
 
     const [download] = await Promise.all([
