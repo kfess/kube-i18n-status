@@ -80,7 +80,11 @@ def build_url(  # noqa: PLR0911, C901
 
     # Other categories
     other_path = "/".join(parts).removesuffix(".md")
-    return f"{base_url}/{lang_prefix}{other_path}/"
+    url = f"{base_url}/{lang_prefix}{other_path}/"
+    if url in existing_urls or url.lower() in existing_urls:
+        return url
+
+    return None
 
 
 def _build_contribute_blog_url(
