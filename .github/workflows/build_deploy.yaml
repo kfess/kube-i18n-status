@@ -38,6 +38,9 @@ jobs:
         working-directory: ./scripts/scraper
         run: yarn install --frozen-lockfile
 
+      - name: Install Playwright Browsers
+        run: yarn playwright install --with-deps
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
