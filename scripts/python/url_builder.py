@@ -79,9 +79,22 @@ def build_url(  # noqa: PLR0911, C901
         )
     elif category == "includes":
         return None
+    elif category == "case-studies":
+        if len(parts) == 1:
+            url = f"{base_url}/{lang_prefix}case-studies/"
+            if url in existing_urls:
+                return url
+
+        case_study_path = "/".join(parts[1:-1])
+        url = f"{base_url}/{lang_prefix}case-studies/{case_study_path}/"
+        if url in existing_urls:
+            return url
+        elif url.lower() in existing_urls:
+            return url.lower()
+        return None
 
     # Other categories
-    other_path = "/".join(parts).removesuffix(".md").removesuffix(".html")
+    other_path = "/".join(parts).removesuffix(".md")
     url = f"{base_url}/{lang_prefix}{other_path}/"
     if url in existing_urls:
         return url
