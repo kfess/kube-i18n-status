@@ -47,7 +47,7 @@ def build_url(  # noqa: PLR0911
     if len(parts) < 2:
         return None
 
-    if not has_public_url(english_path):
+    if not is_public_url(english_path):
         return None
 
     # Remove _index files
@@ -176,7 +176,7 @@ def _parse_front_matter(file_path: str) -> dict | None:
         return None
 
 
-def has_public_url(file_path: str) -> bool:
+def is_public_url(file_path: str) -> bool:
     """Check if a file will have a public URL based on Hugo front matter settings.
 
     Returns False if:
