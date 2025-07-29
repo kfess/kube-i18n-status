@@ -1,6 +1,8 @@
 import re
 from pathlib import Path, PurePosixPath
 
+import yaml
+
 ROOT_DIR = Path(__file__).resolve().parent.parent.parent
 KUBERNETES_DIR = ROOT_DIR / "k8s-repo" / "website"
 
@@ -43,6 +45,9 @@ def build_url(  # noqa: PLR0911
         return None
 
     if len(parts) < 2:
+        return None
+
+    if not has_public_url(english_path):
         return None
 
     # Remove _index files
@@ -169,3 +174,43 @@ def _parse_front_matter(file_path: str) -> dict | None:
         return result if result else None
     except (FileNotFoundError, UnicodeDecodeError):
         return None
+
+
+def has_public_url(file_path: str) -> bool:
+    """Check if a file will have a public URL based on Hugo front matter settings.
+
+    Returns False if:
+    - _build.render: never
+
+    Args:
+        file_path: Path to the markdown file relative to KUBERNETES_DIR
+
+    Returns:
+        bool: True if the page will be publicly accessible, False otherwise
+
+    """
+    try:
+        content = Path(KUBERNETES_DIR / file_path).read_text(encoding="utf-8")
+        match = re.match(r"^---\s*\n(.*?)\n---\s*\n", content, re.DOTALL)
+        if not match:
+            return True
+
+        fm_content = match.group(1)
+
+        try:
+            parsed = yaml.safe_load(fm_content)
+            if not isinstance(parsed, dict):
+                return True
+        except yaml.YAMLError:
+            return True
+
+        build_settings = parsed.get("_build", {})
+        if isinstance(build_settings, dict):
+            render_value = build_settings.get("render")
+            if render_value in ("never", False):
+                return False
+
+        return True
+
+    except (FileNotFoundError, UnicodeDecodeError):
+        return False
