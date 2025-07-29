@@ -81,7 +81,7 @@ def build_url(  # noqa: PLR0911, C901
         return None
 
     # Other categories
-    other_path = "/".join(parts).removesuffix(".md")
+    other_path = "/".join(parts).removesuffix(".md").removesuffix(".html")
     url = f"{base_url}/{lang_prefix}{other_path}/"
     if url in existing_urls:
         return url
