@@ -34,15 +34,17 @@ const scrape = async () => {
     await page.mouse.click(centerX, centerY, { button: "right" });
     console.log("Right-clicked");
 
-    await page.locator("text=エクスポート").first().click();
+    await page.locator("text=エクスポート, text=Export").first().click();
     console.log("Clicked context menu export");
 
-    await page.locator("text=エクスポート").nth(1).click();
+    await page.locator("text=エクスポート, text=Export").nth(1).click();
     console.log("Clicked submenu export");
 
     const [download] = await Promise.all([
       page.waitForEvent("download", { timeout: 15000 }),
-      page.locator('button:has-text("エクスポート")').click(),
+      page
+        .locator('button:has-text("エクスポート"), button:has-text("Export")')
+        .click(),
     ]);
 
     await download.saveAs(savePath);
