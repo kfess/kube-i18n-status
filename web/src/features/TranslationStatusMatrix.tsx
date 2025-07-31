@@ -213,7 +213,10 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
           : bDate.getTime() - aDate.getTime();
       });
     } else {
-      return sortDirection === 'asc' ? [...articles].reverse() : articles;
+      // eslint-disable-next-line no-lonely-if
+      if (sortDirection === 'asc') {
+        filtered = [...filtered].reverse();
+      }
     }
 
     if (statusFilter !== 'all') {
