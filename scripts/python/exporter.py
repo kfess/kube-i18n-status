@@ -131,7 +131,10 @@ def create_matrix_data(
         language = result["language"]
         english_url = build_url(english_path, "en", existing_urls)
         translation_url = build_url(english_path, language, existing_urls)
-        page_view = page_views.get(translation_url, PageView(views=0, new_users=0))
+        page_view = page_views.get(
+            translation_url,
+            PageView(views=0, new_users=0, average_session_duration=0.0),
+        )
 
         translation_data = {
             "status": result["status"],
@@ -144,6 +147,7 @@ def create_matrix_data(
             "translation_url": translation_url,
             "views": page_view.views,
             "new_users": page_view.new_users,
+            "average_session_duration": page_view.average_session_duration,
         }
 
         articles_by_english_path[english_path][language] = translation_data

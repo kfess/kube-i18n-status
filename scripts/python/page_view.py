@@ -10,6 +10,7 @@ class PageView:
 
     views: int
     new_users: int
+    average_session_duration: float = 0.0  # seconds
 
 
 def build_url(
@@ -61,6 +62,7 @@ def summarize_view(csv_file: str, existing_urls: set[str]) -> dict[str, PageView
 
             view = int(row["Views"])
             new_users = int(row["New users"])
+            average_session_duration = float(row.get("Average session duration", 0.0))
 
             url = build_url(path, existing_urls)
 
@@ -69,5 +71,6 @@ def summarize_view(csv_file: str, existing_urls: set[str]) -> dict[str, PageView
 
             data[url].views += view
             data[url].new_users += new_users
+            data[url].average_session_duration += average_session_duration
 
     return data

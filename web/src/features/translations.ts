@@ -15,6 +15,7 @@ interface TranslationInfo {
   translationUrl: string | null;
   views: number;
   newUsers: number;
+  averageSessionDuration: number;
 }
 
 export interface ArticleTranslation {

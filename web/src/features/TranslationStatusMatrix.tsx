@@ -2,6 +2,7 @@ import { useState } from 'react';
 import {
   IconArrowsSort,
   IconCalendar,
+  IconClock,
   IconExternalLink,
   IconEye,
   IconHome,
@@ -25,6 +26,7 @@ import {
   Table,
   Text,
   TextInput,
+  Tooltip,
 } from '@mantine/core';
 import { useDebouncedCallback, useLocalStorage } from '@mantine/hooks';
 import { languageCodes, type LanguageCode } from '@/features/language/languageCodes';
@@ -50,6 +52,12 @@ const getSortedLangCodes = (
 const formatDateISO = (dateString: string): string => {
   const date = new Date(dateString);
   return date.toISOString().split('T')[0];
+};
+
+const formatSecondsToMMSS = (seconds: number): string => {
+  const mins = Math.floor(seconds / 60);
+  const secs = seconds % 60;
+  return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
 };
 
 const StatusBadge = ({ status }: { status: TranslationStatus }) => {
@@ -186,7 +194,9 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
     setActivePage(1);
   }, 500);
 
-  const [sortMode, setSortMode] = useState<'views' | 'newUsers' | 'updatedAt' | null>(null);
+  const [sortMode, setSortMode] = useState<
+    'views' | 'newUsers' | 'updatedAt' | 'averageSessionDuration' | null
+  >(null);
   const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('desc');
 
   const getFilteredArticles = () => {
@@ -211,6 +221,12 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
         return sortDirection === 'asc'
           ? aDate.getTime() - bDate.getTime()
           : bDate.getTime() - aDate.getTime();
+      });
+    } else if (sortMode === 'averageSessionDuration') {
+      filtered = [...filtered].sort((a, b) => {
+        const aDuration = a.translations.en.averageSessionDuration || 0;
+        const bDuration = b.translations.en.averageSessionDuration || 0;
+        return sortDirection === 'asc' ? aDuration - bDuration : bDuration - aDuration;
       });
     } else {
       // eslint-disable-next-line no-lonely-if
@@ -395,6 +411,34 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
                   New Users
                 </Menu.Item>
                 <Menu.Item
+                  leftSection={<IconClock size={14} />}
+                  onClick={() => {
+                    setSortMode('averageSessionDuration');
+                    setSortDirection(
+                      sortMode === 'averageSessionDuration'
+                        ? sortDirection === 'asc'
+                          ? 'desc'
+                          : 'asc'
+                        : 'desc'
+                    );
+                  }}
+                  rightSection={
+                    sortMode === 'averageSessionDuration' &&
+                    (sortDirection === 'desc' ? (
+                      <IconSortDescending size={14} />
+                    ) : (
+                      <IconSortAscending size={14} />
+                    ))
+                  }
+                  bg={
+                    sortMode === 'averageSessionDuration'
+                      ? 'var(--mantine-color-gray-1)'
+                      : undefined
+                  }
+                >
+                  Session Duration
+                </Menu.Item>
+                <Menu.Item
                   leftSection={<IconCalendar size={14} />}
                   onClick={() => {
                     setSortMode('updatedAt');
@@ -542,24 +586,41 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
                         )}
                       </Group>
                       <Group gap="xs" align="center">
-                        <Badge
-                          variant="light"
-                          color="blue"
-                          leftSection={<IconEye size={12} />}
-                          size="sm"
-                          style={{ textTransform: 'none' }}
-                        >
-                          {article.translations.en.views.toLocaleString()} Views
-                        </Badge>
-                        <Badge
-                          variant="light"
-                          color="green"
-                          leftSection={<IconUsers size={12} />}
-                          size="sm"
-                          style={{ textTransform: 'none' }}
-                        >
-                          {article.translations.en.newUsers.toLocaleString()} New users
-                        </Badge>
+                        <Tooltip label="Views" withArrow>
+                          <Badge
+                            variant="light"
+                            color="blue"
+                            leftSection={<IconEye size={12} />}
+                            size="sm"
+                            style={{ textTransform: 'none' }}
+                          >
+                            {article.translations.en.views.toLocaleString()}
+                          </Badge>
+                        </Tooltip>
+                        <Tooltip label="New Users" withArrow>
+                          <Badge
+                            variant="light"
+                            color="green"
+                            leftSection={<IconUsers size={12} />}
+                            size="sm"
+                            style={{ textTransform: 'none' }}
+                          >
+                            {article.translations.en.newUsers.toLocaleString()}
+                          </Badge>
+                        </Tooltip>
+                        <Tooltip label="Average Session Duration" withArrow>
+                          <Badge
+                            variant="light"
+                            color="indigo"
+                            leftSection={<IconClock size={12} />}
+                            size="sm"
+                            style={{ textTransform: 'none' }}
+                          >
+                            {formatSecondsToMMSS(
+                              Math.round(article.translations.en.averageSessionDuration) || 0
+                            )}
+                          </Badge>
+                        </Tooltip>
                       </Group>
                     </Stack>
                   </Table.Td>
