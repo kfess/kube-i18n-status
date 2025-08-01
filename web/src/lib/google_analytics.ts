@@ -6,12 +6,12 @@ interface GAEventParameters {
   [key: string]: string | number | boolean | undefined;
 }
 
-interface GAConfigParameters {
-  page_path?: string;
-  page_title?: string;
-  page_location?: string;
-  [key: string]: string | number | boolean | undefined;
-}
+// interface GAConfigParameters {
+//   page_path?: string;
+//   page_title?: string;
+//   page_location?: string;
+//   [key: string]: string | number | boolean | undefined;
+// }
 
 export const initializeGA = (): void => {
   const measurementId = import.meta.env.VITE_GA_MEASUREMENT_ID as string;
@@ -26,21 +26,28 @@ export const initializeGA = (): void => {
   document.head.appendChild(gtagScript);
 
   // gtagの初期化
-  window.dataLayer = window.dataLayer || [];
-  function gtag(
-    command: 'config' | 'event' | 'js',
-    targetId: string | Date,
-    config?: GAConfigParameters | GAEventParameters
-  ) {
-    window.dataLayer.push([command, targetId, config]);
-  }
-  window.gtag = gtag;
+  // window.dataLayer = window.dataLayer || [];
+  // function gtag(
+  //   command: 'config' | 'event' | 'js',
+  //   targetId: string | Date,
+  //   config?: GAConfigParameters | GAEventParameters
+  // ) {
+  //   window.dataLayer.push([command, targetId, config]);
+  // }
+  // window.gtag = gtag;
 
-  gtag('js', new Date());
-  gtag('config', measurementId, {
-    page_title: document.title,
-    page_location: window.location.href,
-  });
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function (...args: any[]) {
+    window.dataLayer.push(args);
+  };
+
+  gtagScript.onload = () => {
+    window.gtag('js', new Date());
+    window.gtag('config', measurementId, {
+      page_title: document.title,
+      page_location: window.location.href,
+    });
+  };
 };
 
 export const sendPageView = (path: string, title?: string): void => {
