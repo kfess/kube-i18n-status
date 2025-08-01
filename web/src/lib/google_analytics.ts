@@ -57,8 +57,6 @@ export const sendPageView = (path: string, title?: string): void => {
 
   const measurementId = import.meta.env.VITE_GA_MEASUREMENT_ID as string;
 
-  console.log('Sending page view:', path, title, measurementId);
-
   window.gtag('config', measurementId, {
     page_path: path,
     page_title: title || document.title,
