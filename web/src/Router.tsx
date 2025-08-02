@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { RouteChangeTracker } from '@/features/google/Analytics';
+// import { RouteChangeTracker } from '@/features/google/Analytics';
 import { NavigationBar } from '@/features/NavigationBar';
 import { HomePage } from './pages/Home.page';
 
@@ -11,7 +11,7 @@ const router = createBrowserRouter(
       path: '/',
       element: (
         <>
-          <RouteChangeTracker />
+          {/* <RouteChangeTracker /> */}
           <NavigationBar>
             <HomePage />
           </NavigationBar>
