@@ -31,7 +31,6 @@ import {
 import { useDebouncedCallback, useLocalStorage } from '@mantine/hooks';
 import { languageCodes, type LanguageCode } from '@/features/language/languageCodes';
 import { ArticleTranslation, TranslationStatus } from '@/features/translations';
-import { trackExternalLink } from '@/lib/google_analytics';
 
 const getSortedLangCodes = (
   selectedLanguages?: LanguageCode[]
@@ -114,11 +113,6 @@ const TranslationCell = ({
             rel="noopener noreferrer"
             underline="never"
             title={`Edit ${langCode} translation on GitHub`}
-            onClick={() => {
-              trackExternalLink(
-                `https://github.com/kubernetes/website/blob/main/${translationPath}`
-              );
-            }}
           >
             <StatusBadge status={status} />
           </Anchor>
@@ -152,9 +146,6 @@ const TranslationCell = ({
               c="gray"
               variant="subtle"
               title="Kubernetes documentation"
-              onClick={() => {
-                trackExternalLink(article.translations[langCode].translationUrl || '');
-              }}
             >
               <IconExternalLink size={14} />
             </ActionIcon>
@@ -542,11 +533,6 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
                         rel="noopener noreferrer"
                         underline="hover"
                         c="inherit"
-                        onClick={() => {
-                          trackExternalLink(
-                            `https://github.com/kubernetes/website/blob/main/${article.englishPath}`
-                          );
-                        }}
                       >
                         <Text
                           size="sm"
@@ -577,9 +563,6 @@ export const TranslationStatusMatrix = ({ articles, activePage, setActivePage }:
                             variant="subtle"
                             color="gray"
                             title="View on Kubernetes site"
-                            onClick={() => {
-                              trackExternalLink(article.englishPath || '');
-                            }}
                           >
                             <IconExternalLink size={14} />
                           </ActionIcon>
