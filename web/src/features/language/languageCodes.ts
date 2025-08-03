@@ -18,6 +18,7 @@ export const languageCodes = [
 ] as const;
 
 export type LanguageCode = (typeof languageCodes)[number]['value'];
+export type LanguageCodeWithAll = LanguageCode | 'all';
 
 // List of language map according to RFC 5646.
 // See <http://tools.ietf.org/html/rfc5646>
@@ -125,4 +126,20 @@ export const browserLanguageMap: Record<string, LanguageCode> = {
   // Vietnamese
   vi: 'vi',
   'vi-VN': 'vi',
+};
+
+export const getSortedLangCodes = (
+  selectedLanguages?: LanguageCode[]
+): { value: LanguageCode; label: string }[] => {
+  const head = ['en'];
+
+  if (selectedLanguages && Array.isArray(selectedLanguages)) {
+    selectedLanguages.forEach((lang) => {
+      if (lang !== 'en' && !head.includes(lang)) {
+        head.push(lang);
+      }
+    });
+  }
+  const rest = languageCodes.filter((l) => !head.includes(l.value));
+  return [...head.map((code) => languageCodes.find((l) => l.value === code)!), ...rest];
 };
