@@ -1,7 +1,28 @@
 import { IconClock, IconExternalLink, IconEye, IconUsers } from '@tabler/icons-react';
 import { ActionIcon, Anchor, Badge, Group, rem, Stack, Text, Tooltip } from '@mantine/core';
+import { type ArticleTranslation } from '@/features/translations';
 import { formatDateISO, formatSecondsToMMSS } from '@/utils/date';
-import { type ArticleTranslation } from './translations';
+
+interface MetricBadgeProps {
+  label: string;
+  color: string;
+  icon: React.ComponentType<{ size: number }>;
+  value: string;
+}
+
+const MetricBadge = ({ label, color, icon: Icon, value }: MetricBadgeProps) => (
+  <Tooltip label={label} withArrow>
+    <Badge
+      variant="light"
+      color={color}
+      leftSection={<Icon size={12} />}
+      size="sm"
+      style={{ textTransform: 'none' }}
+    >
+      {value}
+    </Badge>
+  </Tooltip>
+);
 
 interface Props {
   article: ArticleTranslation;
@@ -52,39 +73,26 @@ export const EnglishSourceInfo = ({ article }: Props) => {
         )}
       </Group>
       <Group gap="xs" align="center">
-        <Tooltip label="Views" withArrow>
-          <Badge
-            variant="light"
-            color="blue"
-            leftSection={<IconEye size={12} />}
-            size="sm"
-            style={{ textTransform: 'none' }}
-          >
-            {article.translations.en.views.toLocaleString()}
-          </Badge>
-        </Tooltip>
-        <Tooltip label="New Users" withArrow>
-          <Badge
-            variant="light"
-            color="green"
-            leftSection={<IconUsers size={12} />}
-            size="sm"
-            style={{ textTransform: 'none' }}
-          >
-            {article.translations.en.newUsers.toLocaleString()}
-          </Badge>
-        </Tooltip>
-        <Tooltip label="Average Session Duration" withArrow>
-          <Badge
-            variant="light"
-            color="indigo"
-            leftSection={<IconClock size={12} />}
-            size="sm"
-            style={{ textTransform: 'none' }}
-          >
-            {formatSecondsToMMSS(Math.round(article.translations.en.averageSessionDuration) || 0)}
-          </Badge>
-        </Tooltip>
+        <MetricBadge
+          label="Views"
+          color="blue"
+          icon={IconEye}
+          value={article.translations.en.views.toLocaleString()}
+        />
+        <MetricBadge
+          label="New Users"
+          color="green"
+          icon={IconUsers}
+          value={article.translations.en.newUsers.toLocaleString()}
+        />
+        <MetricBadge
+          label="Average Session Duration"
+          color="indigo"
+          icon={IconClock}
+          value={formatSecondsToMMSS(
+            Math.round(article.translations.en.averageSessionDuration) || 0
+          )}
+        />
       </Group>
     </Stack>
   );
