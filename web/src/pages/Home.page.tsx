@@ -5,7 +5,7 @@ import { ArticleCategorySelector } from '@/features/ArticleCategorySelector';
 import { ArticleListControl } from '@/features/ArticleListControl';
 import { useFetchTranslationArticles } from '@/features/hooks/useFetchTranslationArticles';
 import { type LanguageCode, type LanguageCodeWithAll } from '@/features/language/languageCodes';
-import { ArticleCategory, TranslationStatus } from '@/features/translations';
+import { type ArticleCategory, type TranslationStatus } from '@/features/translations';
 import { TranslationStatusMatrix } from '@/features/TranslationStatusMatrix';
 import { type SortDirection, type SortMode } from '@/features/types';
 

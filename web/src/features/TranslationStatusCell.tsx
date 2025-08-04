@@ -1,7 +1,7 @@
 import { IconExternalLink } from '@tabler/icons-react';
 import { ActionIcon, Anchor, Group, rem, Table, Text } from '@mantine/core';
 import { type LanguageCode } from '@/features/language/languageCodes';
-import { ArticleTranslation, type TranslationStatus } from '@/features/translations';
+import { type ArticleTranslation, type TranslationStatus } from '@/features/translations';
 import { formatDateISO } from '@/utils/date';
 
 const StatusBadge = ({ status }: { status: TranslationStatus }) => {

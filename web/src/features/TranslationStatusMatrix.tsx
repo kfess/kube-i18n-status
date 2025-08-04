@@ -5,7 +5,7 @@ import {
   type LanguageCode,
   type LanguageCodeWithAll,
 } from '@/features/language/languageCodes';
-import { ArticleTranslation } from '@/features/translations';
+import { type ArticleTranslation } from '@/features/translations';
 import { TranslationStatusCell } from '@/features/TranslationStatusCell';
 
 interface Props {

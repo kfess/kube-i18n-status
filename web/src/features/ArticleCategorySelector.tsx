@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Box, FloatingIndicator, Tabs } from '@mantine/core';
-import { articleCategories, ArticleCategory } from '@/features/translations';
+import { articleCategories, type ArticleCategory } from '@/features/translations';
 
 interface Props {
   articleCategory: ArticleCategory;

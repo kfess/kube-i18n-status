@@ -1,4 +1,4 @@
-import { LanguageCode } from '@/features/language/languageCodes';
+import { type LanguageCode } from '@/features/language/languageCodes';
 
 export type TranslationStatus = 'up_to_date' | 'outdated' | 'not_translated';
 
