@@ -143,3 +143,25 @@ export const getSortedLangCodes = (
   const rest = languageCodes.filter((l) => !head.includes(l.value));
   return [...head.map((code) => languageCodes.find((l) => l.value === code)!), ...rest];
 };
+
+export const getLanguageName = (langCode: LanguageCode): string => {
+  const languageMap = {
+    en: 'English',
+    bn: 'Bengali',
+    'zh-cn': 'Chinese',
+    fr: 'French',
+    de: 'German',
+    hi: 'Hindi',
+    id: 'Indonesian',
+    it: 'Italian',
+    ja: 'Japanese',
+    ko: 'Korean',
+    pl: 'Polish',
+    'pt-br': 'Portuguese',
+    ru: 'Russian',
+    es: 'Spanish',
+    uk: 'Ukrainian',
+    vi: 'Vietnamese',
+  };
+  return languageMap[langCode] || langCode;
+};

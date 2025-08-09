@@ -1,27 +1,9 @@
 import { IconExternalLink } from '@tabler/icons-react';
 import { ActionIcon, Anchor, Group, rem, Table, Text } from '@mantine/core';
 import { type LanguageCode } from '@/features/language/languageCodes';
-import { type ArticleTranslation, type TranslationStatus } from '@/features/translations';
+import { StatusBadge } from '@/features/StatusBadge';
+import { type ArticleTranslation } from '@/features/translations';
 import { formatDateISO } from '@/utils/date';
-
-const StatusBadge = ({ status }: { status: TranslationStatus }) => {
-  const getStatusConfig = (status: TranslationStatus) => {
-    switch (status) {
-      case 'up_to_date':
-        return { emoji: '✅', label: 'Up to date' };
-      case 'outdated':
-        return { emoji: '⚠️', label: 'Outdated' };
-      case 'not_translated':
-        return { emoji: '—', label: 'Not translated' };
-      default:
-        return { emoji: '-', label: 'Unknown' };
-    }
-  };
-
-  const statusConfig = getStatusConfig(status);
-
-  return <span title={statusConfig.label}>{statusConfig.emoji}</span>;
-};
 
 export const TranslationStatusCell = ({
   article,

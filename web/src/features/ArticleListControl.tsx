@@ -10,7 +10,7 @@ import {
   Text,
   TextInput,
 } from '@mantine/core';
-import { useDebouncedCallback } from '@mantine/hooks';
+import { useDebouncedCallback, useMediaQuery } from '@mantine/hooks';
 import {
   getSortedLangCodes,
   type LanguageCode,
@@ -67,6 +67,8 @@ export const ArticleListControl = ({
   startIndex,
   endIndex,
 }: Props) => {
+  const isMobile = useMediaQuery('(max-width: 768px)');
+
   const debouncedSearch = useDebouncedCallback((query: string) => {
     setDebouncedSearchQuery(query);
     setActivePage(1);
@@ -103,7 +105,7 @@ export const ArticleListControl = ({
     <Card withBorder radius="md" p="md">
       <Stack gap="md">
         {/* Filter Controls */}
-        <Group gap="sm" wrap="wrap" align="end">
+        <Group gap="xs" wrap="wrap" align="end">
           <Select
             label="Status"
             c="dimmed"
@@ -188,7 +190,7 @@ export const ArticleListControl = ({
               onChange={setActivePage}
               total={totalPages}
               size="sm"
-              withEdges
+              withEdges={!isMobile}
               radius="xs"
             />
           </Group>

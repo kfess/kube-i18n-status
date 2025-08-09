@@ -1,5 +1,6 @@
 import { IconClock, IconExternalLink, IconEye, IconUsers } from '@tabler/icons-react';
 import { ActionIcon, Anchor, Badge, Group, rem, Stack, Text, Tooltip } from '@mantine/core';
+import { useMediaQuery } from '@mantine/hooks';
 import { type ArticleTranslation } from '@/features/translations';
 import { formatDateISO, formatSecondsToMMSS } from '@/utils/date';
 
@@ -29,6 +30,8 @@ interface Props {
 }
 
 export const EnglishSourceInfo = ({ article }: Props) => {
+  const isMobile = useMediaQuery('(max-width: 768px)');
+
   return (
     <Stack gap={4}>
       <Anchor
@@ -43,7 +46,7 @@ export const EnglishSourceInfo = ({ article }: Props) => {
           fw={500}
           title={article.englishPath}
           style={{
-            maxWidth: rem(250),
+            maxWidth: isMobile ? '' : rem(250),
             whiteSpace: 'normal',
             overflowWrap: 'break-word',
             wordBreak: 'keep-all',

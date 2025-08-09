@@ -1,15 +1,18 @@
 import { useMemo, useState } from 'react';
 import { Container, Stack } from '@mantine/core';
-import { useLocalStorage } from '@mantine/hooks';
+import { useLocalStorage, useMediaQuery } from '@mantine/hooks';
 import { ArticleCategorySelector } from '@/features/ArticleCategorySelector';
 import { ArticleListControl } from '@/features/ArticleListControl';
 import { useFetchTranslationArticles } from '@/features/hooks/useFetchTranslationArticles';
 import { type LanguageCode, type LanguageCodeWithAll } from '@/features/language/languageCodes';
+import { MobileTranslationStatusMatrix } from '@/features/MobileTranslationStatusMatrix';
 import { type ArticleCategory, type TranslationStatus } from '@/features/translations';
 import { TranslationStatusMatrix } from '@/features/TranslationStatusMatrix';
 import { type SortDirection, type SortMode } from '@/features/types';
 
 export function HomePage() {
+  const isMobile = useMediaQuery('(max-width: 768px)');
+
   const [selectedArticleCategory, setSelectedArticleCategory] =
     useState<ArticleCategory>('docsConcept');
   const translationArticles = useFetchTranslationArticles(selectedArticleCategory);
@@ -150,11 +153,18 @@ export function HomePage() {
           startIndex={startIndex}
           endIndex={endIndex}
         />
-        <TranslationStatusMatrix
-          articles={currentArticles}
-          languageFilter={languageFilter}
-          selectedLanguages={selectedLanguages || []}
-        />
+        {!isMobile ? (
+          <TranslationStatusMatrix
+            articles={currentArticles}
+            languageFilter={languageFilter}
+            selectedLanguages={selectedLanguages || []}
+          />
+        ) : (
+          <MobileTranslationStatusMatrix
+            articles={currentArticles}
+            selectedLanguages={selectedLanguages || []}
+          />
+        )}
       </Stack>
     </Container>
   );

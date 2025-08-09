@@ -1,4 +1,4 @@
-import { IconCheck, IconTrash, IconWorld } from '@tabler/icons-react';
+import { IconCheck, IconLetterCase, IconTrash } from '@tabler/icons-react';
 import { ActionIcon, Divider, Group, Menu, Text, Tooltip } from '@mantine/core';
 import { useLocalStorage } from '@mantine/hooks';
 import {
@@ -26,7 +26,7 @@ const detectBrowserLanguage = (): LanguageCode => {
 export function LanguageSelector() {
   const [selectedLanguages, setSelectedLanguages] = useLocalStorage<LanguageCode[]>({
     key: 'selected-languages',
-    defaultValue: ['en', detectBrowserLanguage()].filter(
+    defaultValue: ['en', detectBrowserLanguage(), 'zh-cn', 'ko', 'ja'].filter(
       (lang, index, arr): lang is LanguageCode => arr.indexOf(lang) === index
     ),
   });
@@ -59,7 +59,7 @@ export function LanguageSelector() {
           offset={10}
         >
           <ActionIcon variant="default" radius="md" size="lg" style={{ position: 'relative' }}>
-            <IconWorld size={20} />
+            <IconLetterCase size={20} />
           </ActionIcon>
         </Tooltip>
       </Menu.Target>
