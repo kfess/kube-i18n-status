@@ -145,7 +145,7 @@ export const ArticleListControl = ({
               setActivePage(1);
             }}
             data={[
-              { value: 'all', label: 'All' },
+              { value: 'all', label: 'All Status' },
               { value: 'withPr', label: 'Pull Request' },
               { value: 'withoutPr', label: 'No Pull Request' },
             ]}
