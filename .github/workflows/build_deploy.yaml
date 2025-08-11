@@ -55,8 +55,6 @@ jobs:
 
       - name: Run data collection scripts
         working-directory: ./scripts/shell
-        env:
-          KUBERNETES_WEBSITE_READ_GITHUB_TOKEN: ${{ secrets.KUBERNETES_WEBSITE_READ_GITHUB_TOKEN }}
         run: |
           chmod +x ./fetch.sh ./collect_all_files.sh
           ./fetch.sh
@@ -68,6 +66,8 @@ jobs:
 
       - name: Run Data Processing Script
         working-directory: ./scripts/python
+        env:
+          KUBERNETES_WEBSITE_READ_GITHUB_TOKEN: ${{ secrets.KUBERNETES_WEBSITE_READ_GITHUB_TOKEN }}
         run: |
           python main.py
 
