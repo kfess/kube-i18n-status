@@ -124,7 +124,7 @@ export const ArticleListControl = ({
             w={180}
           />
           <Select
-            label="Status"
+            label="Translation Status"
             c="dimmed"
             size="sm"
             value={statusFilter}
