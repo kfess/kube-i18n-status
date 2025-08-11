@@ -8,7 +8,7 @@ import { type LanguageCode, type LanguageCodeWithAll } from '@/features/language
 import { MobileTranslationStatusMatrix } from '@/features/MobileTranslationStatusMatrix';
 import { type ArticleCategory, type TranslationStatus } from '@/features/translations';
 import { TranslationStatusMatrix } from '@/features/TranslationStatusMatrix';
-import { type SortDirection, type SortMode } from '@/features/types';
+import { PrStatus, type SortDirection, type SortMode } from '@/features/types';
 
 export function HomePage() {
   const isMobile = useMediaQuery('(max-width: 768px)');
@@ -22,8 +22,9 @@ export function HomePage() {
   const [itemsPerPage, setItemsPerPage] = useState('30');
 
   // Filter states
-  const [statusFilter, setStatusFilter] = useState<TranslationStatus | 'all'>('all');
   const [languageFilter, setLanguageFilter] = useState<LanguageCodeWithAll>('all');
+  const [statusFilter, setStatusFilter] = useState<TranslationStatus | 'all'>('all');
+  const [prFilter, setPrFilter] = useState<PrStatus>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [debouncedSearchQuery, setDebouncedSearchQuery] = useState<string>('');
 
@@ -92,6 +93,19 @@ export function HomePage() {
       });
     }
 
+    if (prFilter !== 'all') {
+      filtered = filtered.filter((article) => {
+        if (languageFilter === 'all') {
+          const hasPR = Object.values(article.translations).some(
+            (translation) => translation.prs.length > 0
+          );
+          return prFilter === 'withPr' ? hasPR : !hasPR;
+        }
+        const hasPR = article.translations[languageFilter]?.prs.length > 0;
+        return prFilter === 'withPr' ? hasPR : !hasPR;
+      });
+    }
+
     if (debouncedSearchQuery) {
       const lowerQuery = debouncedSearchQuery.toLowerCase();
       filtered = filtered.filter((article) =>
@@ -141,6 +155,8 @@ export function HomePage() {
           setStatusFilter={setStatusFilter}
           languageFilter={languageFilter}
           setLanguageFilter={setLanguageFilter}
+          prFilter={prFilter}
+          setPrFilter={setPrFilter}
           searchQuery={searchQuery}
           setSearchQuery={setSearchQuery}
           debouncedSearchQuery={debouncedSearchQuery}

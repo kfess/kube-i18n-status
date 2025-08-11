@@ -18,7 +18,7 @@ import {
 } from '@/features/language/languageCodes';
 import { SortMenu } from '@/features/SortMenu';
 import { type ArticleTranslation, type TranslationStatus } from '@/features/translations';
-import { type SortDirection, type SortMode } from '@/features/types';
+import { PrStatus, type SortDirection, type SortMode } from '@/features/types';
 
 interface Props {
   articles: ArticleTranslation[];
@@ -31,6 +31,8 @@ interface Props {
   setStatusFilter: (status: TranslationStatus | 'all') => void;
   languageFilter: LanguageCodeWithAll;
   setLanguageFilter: (lang: LanguageCodeWithAll) => void;
+  prFilter: PrStatus;
+  setPrFilter: (pr: PrStatus) => void;
   searchQuery: string;
   setSearchQuery: (query: string) => void;
   debouncedSearchQuery: string;
@@ -55,6 +57,8 @@ export const ArticleListControl = ({
   setStatusFilter,
   languageFilter,
   setLanguageFilter,
+  prFilter,
+  setPrFilter,
   searchQuery,
   setSearchQuery,
   debouncedSearchQuery,
@@ -77,6 +81,7 @@ export const ArticleListControl = ({
   const resetFilters = () => {
     setStatusFilter('all');
     setLanguageFilter('all');
+    setPrFilter('all');
     setSearchQuery('');
     setDebouncedSearchQuery('');
     setSortMode(null);
@@ -107,6 +112,18 @@ export const ArticleListControl = ({
         {/* Filter Controls */}
         <Group gap="xs" wrap="wrap" align="end">
           <Select
+            label="Language"
+            c="dimmed"
+            size="sm"
+            value={languageFilter}
+            onChange={(value) => {
+              setLanguageFilter((value || 'all') as LanguageCodeWithAll);
+              setActivePage(1);
+            }}
+            data={languageOptions}
+            w={180}
+          />
+          <Select
             label="Status"
             c="dimmed"
             size="sm"
@@ -119,15 +136,19 @@ export const ArticleListControl = ({
             w={180}
           />
           <Select
-            label="Language"
+            label="Pull Request"
             c="dimmed"
             size="sm"
-            value={languageFilter}
+            value={prFilter}
             onChange={(value) => {
-              setLanguageFilter((value || 'all') as LanguageCodeWithAll);
+              setPrFilter((value as PrStatus) || 'all');
               setActivePage(1);
             }}
-            data={languageOptions}
+            data={[
+              { value: 'all', label: 'All' },
+              { value: 'withPr', label: 'Pull Request' },
+              { value: 'withoutPr', label: 'No Pull Request' },
+            ]}
             w={180}
           />
           <TextInput
