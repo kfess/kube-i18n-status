@@ -1,27 +1,19 @@
 import json
-import logging
 import re
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
 import requests
-
 from const import LANGUAGE_CODES
 from exporter import process_translation_results
 from history import GitFileHistoryTracker
+from log import logger
 from models import GitCommitDict
 from translation_status import TranslationStatusTracker
 
 ROOT_DIR = Path(__file__).resolve().parent.parent.parent
 INPUT_FILE = ROOT_DIR / "data" / "master" / "git_history.jsonl"
 OUTPUT_DIR = ROOT_DIR / "data" / "output"
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[logging.StreamHandler()],
-)
-logger = logging.getLogger(__name__)
 
 
 def sanitize(line: str) -> str:

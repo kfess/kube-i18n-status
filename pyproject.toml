@@ -16,6 +16,8 @@ dependencies = [
     "tqdm>=4.67.1",
     "requests>=2.32.4",
     "pyyaml>=6.0.2",
+    "pygithub>=2.7.0",
+    "python-dotenv>=1.1.1",
 ]
 
 [tool.uv]

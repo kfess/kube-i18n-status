@@ -4,6 +4,13 @@ export type TranslationStatus = 'up_to_date' | 'outdated' | 'not_translated';
 
 type Severity = 'current' | 'minor' | 'moderate' | 'significant' | 'critical';
 
+interface PullRequest {
+  number: number;
+  title: string;
+  url: string;
+  files: string[];
+}
+
 interface TranslationInfo {
   status: TranslationStatus;
   severity: Severity;
@@ -16,6 +23,7 @@ interface TranslationInfo {
   views: number;
   newUsers: number;
   averageSessionDuration: number;
+  prs: PullRequest[];
 }
 
 export interface ArticleTranslation {

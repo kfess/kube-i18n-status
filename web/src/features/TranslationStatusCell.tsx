@@ -1,5 +1,5 @@
 import { IconExternalLink } from '@tabler/icons-react';
-import { ActionIcon, Anchor, Group, rem, Table, Text } from '@mantine/core';
+import { ActionIcon, Anchor, Group, rem, Table, Text, Tooltip } from '@mantine/core';
 import { type LanguageCode } from '@/features/language/languageCodes';
 import { StatusBadge } from '@/features/StatusBadge';
 import { type ArticleTranslation } from '@/features/translations';
@@ -78,6 +78,20 @@ export const TranslationStatusCell = ({
             </ActionIcon>
           )}
         </Group>
+      )}
+      {article.translations[langCode].prs.length > 0 && (
+        <Text size="xs" c="dimmed">
+          PR:{' '}
+          {article.translations[langCode].prs.map((pr) => (
+            <Tooltip key={pr.number} label={`PR #${pr.number} - ${pr.title}`}>
+              <Text key={pr.number} size="xs" c="dimmed" component="span">
+                <Anchor href={`${pr.url}`} target="_blank" rel="noopener noreferrer">
+                  #{pr.number}{' '}
+                </Anchor>
+              </Text>
+            </Tooltip>
+          ))}
+        </Text>
       )}
     </Table.Td>
   );

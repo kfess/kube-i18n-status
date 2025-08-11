@@ -1,5 +1,5 @@
 import { IconExternalLink } from '@tabler/icons-react';
-import { ActionIcon, Anchor, Box, Card, Divider, Group, Stack, Text } from '@mantine/core';
+import { ActionIcon, Anchor, Box, Card, Divider, Group, Stack, Text, Tooltip } from '@mantine/core';
 import { EnglishSourceInfo } from '@/features/EnglishSourceInfo';
 import {
   getLanguageName,
@@ -48,7 +48,6 @@ export const MobileTranslationStatusMatrix = ({ articles, selectedLanguages }: P
 
         return (
           <Card key={article.englishPath} withBorder radius="md" p="sm" shadow="sm">
-            {sortedLangCodes.length}
             <EnglishSourceInfo article={article} />
             <Divider my="md" />
             {sortedLangCodes.length === 1 ? (
@@ -114,6 +113,24 @@ export const MobileTranslationStatusMatrix = ({ articles, selectedLanguages }: P
                               )}
                             </Group>
                           </Group>
+                          {translation.prs.length > 0 && (
+                            <Text size="xs" c="dimmed" mt="xs">
+                              PR:{' '}
+                              {translation?.prs.map((pr) => (
+                                <Tooltip label={`PR #${pr.number} - ${pr.title}`} key={pr.number}>
+                                  <Text size="xs" c="dimmed" component="span">
+                                    <Anchor
+                                      href={`${pr.url}`}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                    >
+                                      #{pr.number}{' '}
+                                    </Anchor>
+                                  </Text>
+                                </Tooltip>
+                              ))}
+                            </Text>
+                          )}
                         </Box>
                       );
                     })}
@@ -189,6 +206,24 @@ export const MobileTranslationStatusMatrix = ({ articles, selectedLanguages }: P
                                 .filter(Boolean)
                                 .join(' • ')}
                             </Text>
+                            {translation.prs.length > 0 && (
+                              <Text size="xs" c="dimmed">
+                                PR:{' '}
+                                {translation?.prs.map((pr) => (
+                                  <Tooltip key={pr.number} label={`PR #${pr.number} - ${pr.title}`}>
+                                    <Text key={pr.number} size="xs" c="dimmed" component="span">
+                                      <Anchor
+                                        href={`${pr.url}`}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                      >
+                                        #{pr.number}{' '}
+                                      </Anchor>
+                                    </Text>
+                                  </Tooltip>
+                                ))}
+                              </Text>
+                            )}
                           </Stack>
                         </Box>
                       );
@@ -199,7 +234,7 @@ export const MobileTranslationStatusMatrix = ({ articles, selectedLanguages }: P
                 {/* Not translated languages */}
                 {notTranslatedLangs.length > 0 && (
                   <Box
-                    p="md"
+                    p="xs"
                     bg="#f8fafc"
                     style={{
                       borderRadius: 4,
@@ -212,23 +247,44 @@ export const MobileTranslationStatusMatrix = ({ articles, selectedLanguages }: P
                       </Text>
                     </Group>
                     <Group gap="xs">
-                      {notTranslatedLangs.map((code) => (
-                        <Box
-                          key={code.value}
-                          px="xs"
-                          py={4}
-                          bg="white"
-                          style={{
-                            borderRadius: 16,
-                            fontSize: 11,
-                            color: '#64748b',
-                            border: '1px solid #e2e8f0',
-                            fontWeight: 500,
-                          }}
-                        >
-                          {getLanguageName(code.value)}
-                        </Box>
-                      ))}
+                      {notTranslatedLangs.map((code) => {
+                        const translation = article.translations[code.value];
+                        return (
+                          <Box
+                            key={code.value}
+                            px="xs"
+                            py={4}
+                            bg="white"
+                            style={{
+                              borderRadius: 16,
+                              fontSize: 11,
+                              color: '#64748b',
+                              border: '1px solid #e2e8f0',
+                              fontWeight: 500,
+                            }}
+                          >
+                            {getLanguageName(code.value)}
+                            {translation?.prs.length > 0 && (
+                              <Text size="xs" c="dimmed" component="span">
+                                {' '}
+                                {translation?.prs.map((pr) => (
+                                  <Tooltip key={pr.number} label={`PR #${pr.number} - ${pr.title}`}>
+                                    <Text size="xs" c="dimmed" component="span">
+                                      <Anchor
+                                        href={`${pr.url}`}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                      >
+                                        #{pr.number}{' '}
+                                      </Anchor>
+                                    </Text>
+                                  </Tooltip>
+                                ))}
+                              </Text>
+                            )}
+                          </Box>
+                        );
+                      })}
                     </Group>
                   </Box>
                 )}

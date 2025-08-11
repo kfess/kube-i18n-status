@@ -124,7 +124,7 @@ export function HomePage() {
   };
 
   return (
-    <Container fluid px={{ base: 'xs', sm: 'md' }} mt={{ base: 'xs', sm: 'md' }}>
+    <Container fluid px={{ base: '0', sm: 'md' }} mt={{ base: 'xs', sm: 'md' }}>
       <Stack gap="sm">
         <ArticleCategorySelector
           articleCategory={selectedArticleCategory}
