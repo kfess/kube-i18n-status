@@ -122,6 +122,7 @@ export function HomePage() {
       translationArticles,
       statusFilter,
       languageFilter,
+      prFilter,
       debouncedSearchQuery,
       sortMode,
       sortDirection,
