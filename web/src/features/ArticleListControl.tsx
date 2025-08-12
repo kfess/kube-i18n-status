@@ -121,7 +121,7 @@ export const ArticleListControl = ({
               setActivePage(1);
             }}
             data={languageOptions}
-            w={180}
+            w={160}
           />
           <Select
             label="Translation Status"
@@ -133,7 +133,7 @@ export const ArticleListControl = ({
               setActivePage(1);
             }}
             data={statusOptions}
-            w={180}
+            w={160}
           />
           <Select
             label="Pull Request"
@@ -149,7 +149,7 @@ export const ArticleListControl = ({
               { value: 'withPr', label: 'Pull Request' },
               { value: 'withoutPr', label: 'No Pull Request' },
             ]}
-            w={180}
+            w={160}
           />
           <TextInput
             label="Search"
@@ -160,9 +160,9 @@ export const ArticleListControl = ({
               setSearchQuery(newValue);
               debouncedSearch(newValue);
             }}
-            placeholder="Search by Article Path ..."
+            placeholder="Article Path"
             style={{ flexGrow: 1 }}
-            maw={rem(300)}
+            maw={rem(180)}
           />
           <SortMenu
             sortMode={sortMode}
