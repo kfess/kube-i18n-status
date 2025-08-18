@@ -92,7 +92,7 @@ jobs:
         working-directory: ./web
         env:
           NODE_ENV: production
-          VITE_DEPLOY_TIMESTAMP: ${{ steps.datetime.outputs.datetime }}
+          VITE_DEPLOY_TIMESTAMP: ${{ steps.datetime.outputs.timestamp }}
           VITE_GIT_SHA: ${{ github.sha }}
         run: yarn build
 

@@ -6,6 +6,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 from github import Auth, Github
+from log import logger
 
 
 def load_existing_paths() -> set[str]:
@@ -273,25 +274,24 @@ def get_issues_by_file(
     repo_name: str = "kubernetes/website",
 ) -> dict[str, list[GitHubIssue]]:
     """Get issues by file from a GitHub repository."""
-    issues_by_file: dict[str, list[GitHubIssue]] = defaultdict(list)
+    logger.info(f"Fetching issues from {repo_name}...")
 
+    issues_by_file: dict[str, list[GitHubIssue]] = defaultdict(list)
     issues = _get_issues(repo_name=repo_name)
     for issue in issues:
         guessed_language = guess_language(issue)
         guessed_path = guess_path(issue, guessed_language) if guessed_language else None
 
+        logger.info(f"Issue #{issue.number}: {issue.title}")
+        logger.info(f"Guessed path for issue #{issue.number}: {guessed_path}")
+
         if guessed_path:
             issues_by_file[guessed_path].append(asdict(issue))
+
+    logger.info(f"Found {len(issues_by_file)} files with issues.")
 
     return dict(issues_by_file)
 
 
 if __name__ == "__main__":
-    # issues_by_file = get_issues_by_file()
-    # print(issues_by_file)
-
-    print(
-        gen_path_candidates(
-            "content/en/docs/tasks/cluster-management/manage-deployment.md", "ja"
-        )
-    )
+    get_issues_by_file()

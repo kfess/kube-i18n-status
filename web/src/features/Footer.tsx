@@ -1,9 +1,7 @@
 import { Anchor, Box, Container, Group, Text } from '@mantine/core';
-import { getDeploymentInfo } from '../utils/deploy';
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
-  const { deployedAt, gitCommit } = getDeploymentInfo();
 
   return (
     <Box component="footer">
@@ -36,16 +34,6 @@ export const Footer = () => {
           >
             Contact
           </Anchor>
-          {deployedAt && (
-            <>
-              <Text c="dimmed" size="xs">
-                •
-              </Text>
-              <Text c="dimmed" size="xs">
-                {deployedAt} ({gitCommit})
-              </Text>
-            </>
-          )}
         </Group>
       </Container>
     </Box>

@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { Container, Stack } from '@mantine/core';
+import { Container, Stack, Text } from '@mantine/core';
 import { useLocalStorage, useMediaQuery } from '@mantine/hooks';
 import { ArticleCategorySelector } from '@/features/ArticleCategorySelector';
 import { ArticleListControl } from '@/features/ArticleListControl';
@@ -9,9 +9,11 @@ import { MobileTranslationStatusMatrix } from '@/features/MobileTranslationStatu
 import { type ArticleCategory, type TranslationStatus } from '@/features/translations';
 import { TranslationStatusMatrix } from '@/features/TranslationStatusMatrix';
 import { IssueStatus, PrStatus, type SortDirection, type SortMode } from '@/features/types';
+import { getDeploymentInfo } from '@/utils/deploy';
 
 export function HomePage() {
   const isMobile = useMediaQuery('(max-width: 768px)');
+  const { deployedAt, gitCommit } = getDeploymentInfo();
 
   const [selectedArticleCategory, setSelectedArticleCategory] =
     useState<ArticleCategory>('docsConcept');
@@ -198,6 +200,11 @@ export function HomePage() {
             articles={currentArticles}
             selectedLanguages={selectedLanguages || []}
           />
+        )}
+        {deployedAt && (
+          <Text size="xs" c="dimmed" ta="right">
+            Last Updated at {deployedAt} ({gitCommit})
+          </Text>
         )}
       </Stack>
     </Container>
