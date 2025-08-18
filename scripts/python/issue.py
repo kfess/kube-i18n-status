@@ -151,7 +151,6 @@ def gen_path_candidates(path: str, language: str) -> list[str]:
     """Generate a list of paths candidates based on the given path and language."""
     path = path.strip().lower()
 
-    # 言語を置換する
     language_pattern = (
         r"\b(" + "|".join(re.escape(lang) for lang in LANGUAGE_ABBR_IN_TITLE) + r")\b"
     )

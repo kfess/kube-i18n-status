@@ -82,11 +82,18 @@ jobs:
         working-directory: ./web
         run: yarn install --frozen-lockfile
 
+      - name: Set deploy datetime
+        id: datetime
+        run: |
+          echo "datetime=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> $GITHUB_OUTPUT
+          echo "timestamp=$(date +%s)" >> $GITHUB_OUTPUT
+
       - name: Build frontend
         working-directory: ./web
         env:
           NODE_ENV: production
-          VITE_GA_MEASUREMENT_ID: G-Y9H9XK2P6Z
+          VITE_DEPLOY_TIMESTAMP: ${{ steps.datetime.outputs.datetime }}
+          VITE_GIT_SHA: ${{ github.sha }}
         run: yarn build
 
       - name: Setup Pages
