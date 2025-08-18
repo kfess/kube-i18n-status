@@ -109,9 +109,7 @@ export const ArticleListControl = ({
   const sortedLangCodes = getSortedLangCodes(selectedLanguages);
   const languageOptions = [
     { value: 'all', label: 'All Languages' },
-    ...sortedLangCodes
-      .filter((code) => code.value !== 'en')
-      .map((code) => ({ value: code.value, label: code.label })),
+    ...sortedLangCodes.map((code) => ({ value: code.value, label: code.label })),
   ];
 
   const totalPages = Math.ceil(filteredArticles.length / parseInt(itemsPerPage, 10));
