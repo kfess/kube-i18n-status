@@ -79,6 +79,20 @@ export const TranslationStatusCell = ({
           )}
         </Group>
       )}
+      {article.translations[langCode].issues.length > 0 && (
+        <Text size="xs" c="dimmed">
+          Issue:{' '}
+          {article.translations[langCode].issues.map((issue) => (
+            <Tooltip key={issue.number} label={`Issue #${issue.number} - ${issue.title}`}>
+              <Text key={issue.number} size="xs" c="dimmed" component="span">
+                <Anchor href={`${issue.url}`} target="_blank" rel="noopener noreferrer">
+                  #{issue.number}{' '}
+                </Anchor>
+              </Text>
+            </Tooltip>
+          ))}
+        </Text>
+      )}
       {article.translations[langCode].prs.length > 0 && (
         <Text size="xs" c="dimmed">
           PR:{' '}

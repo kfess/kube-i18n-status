@@ -8,7 +8,7 @@ import { type LanguageCode, type LanguageCodeWithAll } from '@/features/language
 import { MobileTranslationStatusMatrix } from '@/features/MobileTranslationStatusMatrix';
 import { type ArticleCategory, type TranslationStatus } from '@/features/translations';
 import { TranslationStatusMatrix } from '@/features/TranslationStatusMatrix';
-import { PrStatus, type SortDirection, type SortMode } from '@/features/types';
+import { IssueStatus, PrStatus, type SortDirection, type SortMode } from '@/features/types';
 
 export function HomePage() {
   const isMobile = useMediaQuery('(max-width: 768px)');
@@ -24,6 +24,7 @@ export function HomePage() {
   // Filter states
   const [languageFilter, setLanguageFilter] = useState<LanguageCodeWithAll>('all');
   const [statusFilter, setStatusFilter] = useState<TranslationStatus | 'all'>('all');
+  const [issueFilter, setIssueFilter] = useState<IssueStatus>('all');
   const [prFilter, setPrFilter] = useState<PrStatus>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [debouncedSearchQuery, setDebouncedSearchQuery] = useState<string>('');
@@ -93,6 +94,19 @@ export function HomePage() {
       });
     }
 
+    if (issueFilter !== 'all') {
+      filtered = filtered.filter((article) => {
+        if (languageFilter === 'all') {
+          const hasIssues = Object.values(article.translations).some(
+            (translation) => translation.issues.length > 0
+          );
+          return issueFilter === 'withIssues' ? hasIssues : !hasIssues;
+        }
+        const hasIssues = article.translations[languageFilter]?.issues.length > 0;
+        return issueFilter === 'withIssues' ? hasIssues : !hasIssues;
+      });
+    }
+
     if (prFilter !== 'all') {
       filtered = filtered.filter((article) => {
         if (languageFilter === 'all') {
@@ -156,6 +170,8 @@ export function HomePage() {
           setStatusFilter={setStatusFilter}
           languageFilter={languageFilter}
           setLanguageFilter={setLanguageFilter}
+          issueFilter={issueFilter}
+          setIssueFilter={setIssueFilter}
           prFilter={prFilter}
           setPrFilter={setPrFilter}
           searchQuery={searchQuery}

@@ -18,7 +18,12 @@ import {
 } from '@/features/language/languageCodes';
 import { SortMenu } from '@/features/SortMenu';
 import { type ArticleTranslation, type TranslationStatus } from '@/features/translations';
-import { PrStatus, type SortDirection, type SortMode } from '@/features/types';
+import {
+  type IssueStatus,
+  type PrStatus,
+  type SortDirection,
+  type SortMode,
+} from '@/features/types';
 
 interface Props {
   articles: ArticleTranslation[];
@@ -31,6 +36,8 @@ interface Props {
   setStatusFilter: (status: TranslationStatus | 'all') => void;
   languageFilter: LanguageCodeWithAll;
   setLanguageFilter: (lang: LanguageCodeWithAll) => void;
+  issueFilter: IssueStatus;
+  setIssueFilter: (issue: IssueStatus) => void;
   prFilter: PrStatus;
   setPrFilter: (pr: PrStatus) => void;
   searchQuery: string;
@@ -57,6 +64,8 @@ export const ArticleListControl = ({
   setStatusFilter,
   languageFilter,
   setLanguageFilter,
+  issueFilter,
+  setIssueFilter,
   prFilter,
   setPrFilter,
   searchQuery,
@@ -133,6 +142,22 @@ export const ArticleListControl = ({
               setActivePage(1);
             }}
             data={statusOptions}
+            w={160}
+          />
+          <Select
+            label="Issue"
+            c="dimmed"
+            size="sm"
+            value={issueFilter}
+            onChange={(value) => {
+              setIssueFilter((value as IssueStatus) || 'all');
+              setActivePage(1);
+            }}
+            data={[
+              { value: 'all', label: 'All Status' },
+              { value: 'withIssues', label: 'With Issues' },
+              { value: 'withoutIssues', label: 'No Issues' },
+            ]}
             w={160}
           />
           <Select

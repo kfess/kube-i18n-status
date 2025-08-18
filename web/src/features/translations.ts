@@ -11,6 +11,13 @@ interface PullRequest {
   files: string[];
 }
 
+interface Issue {
+  number: number;
+  title: string;
+  url: string;
+  labels: string[];
+}
+
 interface TranslationInfo {
   status: TranslationStatus;
   severity: Severity;
@@ -23,6 +30,7 @@ interface TranslationInfo {
   views: number;
   newUsers: number;
   averageSessionDuration: number;
+  issues: Issue[];
   prs: PullRequest[];
 }
 

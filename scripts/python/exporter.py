@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 from pathlib import Path, PurePosixPath
 from typing import Any
 
+from issue import GitHubIssue, get_issues_by_file
 from page_view import PageView, summarize_view
 from pull_requests import GitHubPullRequest, get_prs_by_file
 from translation_status import TranslationStatusResult
@@ -114,6 +115,7 @@ def build_category_name(original_category: str, english_path: str) -> str:
 
 def create_matrix_data(
     results: dict[str, TranslationStatusResult],
+    issues_by_file: dict[str, list[GitHubIssue]],
     prs_by_file: dict[str, list[GitHubPullRequest]],
     existing_urls: set[str],
 ) -> dict[str, dict[str, Any]]:
@@ -153,6 +155,7 @@ def create_matrix_data(
             "views": page_view.views,
             "new_users": page_view.new_users,
             "average_session_duration": page_view.average_session_duration,
+            "issues": issues_by_file.get(target_path, []),
             "prs": prs_by_file.get(target_path, []),
         }
 
@@ -189,6 +192,7 @@ def create_matrix_data(
 def create_detail_data(
     result: TranslationStatusResult,
     existing_urls: set[str],
+    issues_by_file: dict[str, list[GitHubIssue]],
     prs_by_file: dict[str, Any],
 ) -> dict[str, Any]:
     """Create detail data for a single translation result."""
@@ -214,6 +218,7 @@ def create_detail_data(
         "status": result["status"],
         "severity": result["severity"],
         "missing_commits": result["missing_commits"],
+        "issues": issues_by_file.get(result["target_path"], []),
         "prs": prs_by_file.get(result["target_path"], []),
     }
 
@@ -238,6 +243,7 @@ def save_matrix_files(
 
 def save_detail_files(
     results: dict[str, TranslationStatusResult],
+    issues_by_file: dict[str, list[GitHubIssue]],
     prs_by_file: dict[str, list[GitHubPullRequest]],
     existing_urls: set[str],
     output_dir: str = "data",
@@ -269,7 +275,12 @@ def save_detail_files(
 
         category_name = build_category_name(original_category, english_path)
 
-        detail_data = create_detail_data(result, existing_urls, prs_by_file)
+        detail_data = create_detail_data(
+            result,
+            existing_urls,
+            issues_by_file,
+            prs_by_file,
+        )
         details_by_language_category[language][category_name][english_path] = (
             detail_data
         )
@@ -315,12 +326,26 @@ def process_translation_results(
         if should_process(result)
     }
 
+    # issues
+    issues_by_file = get_issues_by_file()
+
     # prs
     prs_by_file = get_prs_by_file()
 
     # Create matrix data from results
-    matrix_data = create_matrix_data(filtered_results, prs_by_file, existing_urls)
+    matrix_data = create_matrix_data(
+        filtered_results,
+        issues_by_file,
+        prs_by_file,
+        existing_urls,
+    )
     save_matrix_files(matrix_data, output_dir)
 
     # Save detailed translation results
-    save_detail_files(filtered_results, prs_by_file, existing_urls, output_dir)
+    save_detail_files(
+        filtered_results,
+        issues_by_file,
+        prs_by_file,
+        existing_urls,
+        output_dir,
+    )

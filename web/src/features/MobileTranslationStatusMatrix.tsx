@@ -131,6 +131,27 @@ export const MobileTranslationStatusMatrix = ({ articles, selectedLanguages }: P
                               ))}
                             </Text>
                           )}
+                          {translation.issues.length > 0 && (
+                            <Text size="xs" c="dimmed">
+                              Issue:{' '}
+                              {translation.issues.map((issue) => (
+                                <Tooltip
+                                  label={`Issue #${issue.number} - ${issue.title}`}
+                                  key={issue.number}
+                                >
+                                  <Text size="xs" c="dimmed" component="span">
+                                    <Anchor
+                                      href={`${issue.url}`}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                    >
+                                      #{issue.number}{' '}
+                                    </Anchor>
+                                  </Text>
+                                </Tooltip>
+                              ))}
+                            </Text>
+                          )}
                         </Box>
                       );
                     })}
@@ -224,6 +245,27 @@ export const MobileTranslationStatusMatrix = ({ articles, selectedLanguages }: P
                                 ))}
                               </Text>
                             )}
+                            {translation.issues.length > 0 && (
+                              <Text size="xs" c="dimmed">
+                                Issue:{' '}
+                                {translation.issues.map((issue) => (
+                                  <Tooltip
+                                    label={`Issue #${issue.number} - ${issue.title}`}
+                                    key={issue.number}
+                                  >
+                                    <Text size="xs" c="dimmed" component="span">
+                                      <Anchor
+                                        href={`${issue.url}`}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                      >
+                                        #{issue.number}{' '}
+                                      </Anchor>
+                                    </Text>
+                                  </Tooltip>
+                                ))}
+                              </Text>
+                            )}
                           </Stack>
                         </Box>
                       );
@@ -264,9 +306,29 @@ export const MobileTranslationStatusMatrix = ({ articles, selectedLanguages }: P
                             }}
                           >
                             {getLanguageName(code.value)}
+                            {translation.issues.length > 0 && (
+                              <Text size="xs" c="dimmed" mt="xs" component="span">
+                                {' '}
+                                {translation.issues.map((issue) => (
+                                  <Tooltip
+                                    label={`Issue #${issue.number} - ${issue.title}`}
+                                    key={issue.number}
+                                  >
+                                    <Text size="xs" c="dimmed" component="span">
+                                      <Anchor
+                                        href={`${issue.url}`}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                      >
+                                        #{issue.number}{' '}
+                                      </Anchor>
+                                    </Text>
+                                  </Tooltip>
+                                ))}
+                              </Text>
+                            )}
                             {translation?.prs.length > 0 && (
                               <Text size="xs" c="dimmed" component="span">
-                                {' '}
                                 {translation?.prs.map((pr) => (
                                   <Tooltip key={pr.number} label={`PR #${pr.number} - ${pr.title}`}>
                                     <Text size="xs" c="dimmed" component="span">
