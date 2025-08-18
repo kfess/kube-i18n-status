@@ -90,6 +90,7 @@ export const ArticleListControl = ({
   const resetFilters = () => {
     setStatusFilter('all');
     setLanguageFilter('all');
+    setIssueFilter('all');
     setPrFilter('all');
     setSearchQuery('');
     setDebouncedSearchQuery('');
